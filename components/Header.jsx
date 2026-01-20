@@ -8,7 +8,7 @@ import { SiMedium } from "react-icons/si";
 import { CiSearch } from "react-icons/ci";
 import Link from "next/link";
 
-const Header = ({ allSearchItems }) => {
+const Header = ({ allSearchItems = [] }) => {
   const [query, setQuery] = useState("");
   const [results, setResults] = useState([]);
   const [isMenuOpen, setIsMenuOpen] = useState(false); // For toggling menu on mobile
