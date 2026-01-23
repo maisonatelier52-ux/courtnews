@@ -98,7 +98,7 @@ export default function Page({ params }) {
           <FaXTwitter />
         </button>
         <button className="hover:text-red-600">
-          <FaEnvelope />
+          
         </button>
       </div>
     </div>
