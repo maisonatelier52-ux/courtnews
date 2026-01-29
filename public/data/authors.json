@@ -5,6 +5,7 @@
       "author": {
         "id": 1,
         "name": "Laura Mitchell",
+        "jobtitle":"Crime News Author ",
         "gender": "Female",
         "profileImage": "/images/laura-mitchell.webp",
         "country": "USA",
@@ -22,6 +23,7 @@
       "author": {
         "id": 2,
         "name": "Andrew Collins",
+        "jobtitle":"Politics News Author ",
         "gender": "Male",
         "profileImage": "/images/andrew-collins.webp",
         "country": "USA",
@@ -39,6 +41,7 @@
       "author": {
         "id": 3,
         "name": "Rebecca Lawson",
+        "jobtitle":"Courts News Author ",
         "gender": "Female",
         "profileImage": "/images/rebecca-lawson.webp",
         "country": "USA",
@@ -56,6 +59,7 @@
       "author": {
         "id": 4,
         "name": "Michael Grant",
+        "jobtitle":"Investigation news Author ",
         "gender": "Male",
         "profileImage": "/images/michael-grant.webp",
         "country": "USA",
@@ -73,6 +77,7 @@
       "author": {
         "id": 5,
         "name": "Emily Parker",
+        "jobtitle":"U.S. News Author ",
         "gender": "Female",
         "profileImage": "/images/emily-parker.webp",
         "country": "USA",
@@ -90,6 +95,7 @@
       "author": {
         "id": 6,
         "name": "Jasmine Walker",
+        "jobtitle":"Civil Rights Author ",
         "gender": "Female",
         "profileImage": "/images/jasmine-walker.webp",
         "country": "USA",
@@ -107,6 +113,7 @@
       "author": {
         "id": 7,
         "name": "Thomas Bennett",
+        "jobtitle":"Law And justice Author ",
         "gender": "Male",
         "profileImage": "/images/thomas-bennett.webp",
         "country": "USA",

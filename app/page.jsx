@@ -4,30 +4,35 @@ import categoryPageData from "../public/data/category/categorypagedata.json";
 import authorsData from "../public/data/authors.json";
 
 const MainSection = () => {
-  // Category → Author map
-  const authorsByCategory = authorsData.categories.reduce((acc, item) => {
-    acc[item.category] = item.author;
-    return acc;
-  }, {});
+// Category → Author map
+const authorsByCategory = authorsData.categories.reduce((acc, item) => {
+  acc[item.category] = item.author;
+  return acc;
+}, {});
 
-  // Collect all posts
-  const allPosts = Object.entries(categoryPageData).flatMap(
-    ([category, posts]) =>
-      posts.map(post => ({
-        ...post,
-        category,
-        author: authorsByCategory[category]
-      }))
-  );
+// Collect all posts and add author information
+const allPosts = Object.entries(categoryPageData).flatMap(
+  ([category, posts]) =>
+    posts.map(post => ({
+      ...post,
+      category,
+      author: authorsByCategory[category] || {} // Provide fallback if no author is found
+    }))
+);
 
-  // Sort by date
-  const sortedPosts = [...allPosts].sort(
-    (a, b) => new Date(b.date) - new Date(a.date)
-  );
+// Sort posts by date (latest first)
+const sortedPosts = [...allPosts].sort(
+  (a, b) => new Date(b.date) - new Date(a.date)
+);
 
-  const heroPost = sortedPosts[0];
-  const smallPosts = sortedPosts.slice(1, 5);
-  
+// Hero post (most recent post)
+const heroPost = sortedPosts[0];
+
+// Small posts (next 4 posts)
+const smallPosts = sortedPosts.slice(1, 5);
+
+
+
   return (
     <main>
       {/* FIRST SECTION - Hero + Small Cards */}
@@ -240,11 +245,14 @@ const MainSection = () => {
         <span className="block text-sm text-black mb-3">– Sponsored –</span>
 
         <div className="max-w-[1100px] mx-auto">
-          <img
-            src="https://foxiz.io/business/wp-content/uploads/sites/6/2022/03/banner.jpg"
-            alt="Sponsored Advertisement"
-            className="w-full h-auto rounded-md object-cover"
-          />
+          <Link href="https://www.progresskingdom.com/" target="_blank" rel="noopener noreferrer">
+  <img
+    src="/images/progresskingdom.png"
+    alt="Progress Kingdom"
+    className="w-full h-32 object-fit rounded-md"
+  />
+</Link>
+
         </div>
       </div>
 
@@ -354,96 +362,97 @@ const MainSection = () => {
 
       {/* FIFTH SECTION - What to Watch */}
       <div className="bg-gradient-to-b from-[#1b1446] via-[#0e0a2b] to-[#07051c] py-[25px] px-0 text-white">
-        <div className="max-w-[1300px] mx-auto gap-5 pt-5 pb-[10px] p-5">
-          
-          {/* SECTION TITLE */}
-          <div className="flex items-center gap-[10px] mb-[25px] pb-[5px] border-b border-[#eee]">
-            <span className="w-2 h-2 bg-orange-500 rounded-full"></span>
-            <h2 className="text-lg font-bold">What to Watch</h2>
-          </div>
+  <div className="max-w-[1300px] mx-auto gap-5 pt-5 pb-[10px] p-5">
+    
+    {/* SECTION TITLE */}
+    <div className="flex items-center gap-[10px] mb-[25px] pb-[5px] border-b border-[#eee]">
+      <span className="w-2 h-2 bg-orange-500 rounded-full"></span>
+      <h2 className="text-lg font-bold">What to Watch</h2>
+    </div>
 
-          {/* ROW 1 */}
-          <div className="grid grid-cols-1 md:grid-cols-[1fr_2fr] gap-10 mb-[50px] border-b border-[#eee] pb-5">
-            <div>
-              <span className="text-xs text-orange-500 font-bold">TECHNOLOGY</span>
-              <h1 className="text-[42px] font-extrabold leading-[1.2] my-[14px]">
-                Garmin Venu: Solid<br />
-                Fitness Tracker with<br />
-                Smartwatch
-              </h1>
-              <p className="text-[15px] text-[#cfcfe6] max-w-[420px] pb-[10px]">
-                Modern technology has become a total phenomenon for civilization,
-                the defining force of a new social order in which efficiency...
-              </p>
-              <span className="text-[13px] text-white pb-[10px] block">
-                By Hugh Son · 4 years ago
-              </span>
-            </div>
+    {/* ROW 1 */}
+    <div className="grid grid-cols-1 md:grid-cols-[1fr_2fr] gap-10 mb-[50px] border-b border-[#eee] pb-5">
+      <div>
+        <span className="text-xs text-orange-500 font-bold">TECHNOLOGY</span>
+        <h1 className="text-[42px] font-extrabold leading-[1.2] my-[14px]">
+          Garmin Venu: Solid<br />
+          Fitness Tracker with<br />
+          Smartwatch
+        </h1>
+        <p className="text-[15px] text-[#cfcfe6] max-w-[420px] pb-[10px]">
+          Modern technology has become a total phenomenon for civilization,
+          the defining force of a new social order in which efficiency...
+        </p>
+        <span className="text-[13px] text-white pb-[10px] block">
+          By Hugh Son · 4 years ago
+        </span>
+      </div>
 
-            <div>
-              <img 
-                src="https://foxiz.io/business/wp-content/uploads/sites/6/2021/08/b36-860x573.jpg" 
-                className="w-full"
-                alt="Garmin Venu"
-              />
-            </div>
-          </div>
+      <div>
+        <img 
+          src="https://foxiz.io/business/wp-content/uploads/sites/6/2021/08/b36-860x573.jpg" 
+          className="w-full "  // Hide on mobile (default) and show on medium and up screens
+          alt="Garmin Venu"
+        />
+      </div>
+    </div>
 
-          {/* ROW 2 */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-[30px] mb-[60px]">
-            <div className="text-center">
-              <img 
-                src="https://foxiz.io/business/wp-content/uploads/sites/6/2021/08/b36-860x573.jpg" 
-                className="w-full h-[300px]"
-                alt="European Travel"
-              />
-              <div className="text-left p-[10px]">
-                <span className="text-sm text-orange-500 font-bold">PURSUITS</span>
-                <h3 className="text-base mt-3 text-white">
-                  10 Places You Can't Miss If It's Your First Time in European
-                </h3>
-                <span className="text-xs text-[#aaa] mt-2 block">
-                  By Hugh Son · 4 years ago
-                </span>
-              </div>
-            </div>
-
-            <div className="text-center">
-              <img 
-                src="https://foxiz.io/business/wp-content/uploads/sites/6/2021/08/b36-860x573.jpg" 
-                className="w-full h-[300px]"
-                alt="Smart Glasses"
-              />
-              <div className="text-left p-[10px]">
-                <span className="text-sm text-orange-500 font-bold">Technology</span>
-                <h3 className="text-base mt-3 text-white">
-                  Explained: What are Smart Glasses and How Do It Work?
-                </h3>
-                <span className="text-xs text-[#aaa] mt-2 block">
-                  By Hugh Son · 4 years ago
-                </span>
-              </div>
-            </div>
-          </div>
-
-          {/* ROW 3 - Category Cards */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-[10px]">
-            {["Politics", "Technology", "Economics", "Wellness", "Business"].map((cat) => (
-              <div key={cat} className="bg-white/5 relative">
-                <img 
-                  src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d" 
-                  className="w-full"
-                  alt={cat}
-                />
-                <h4 className="mt-[10px] text-[15px] p-[10px]">{cat}</h4>
-                <div className="absolute bottom-3 right-3 w-[26px] h-[26px] rounded-full border border-white grid place-items-center font-bold">
-                  +
-                </div>
-              </div>
-            ))}
-          </div>
+    {/* ROW 2 */}
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-[30px] mb-[60px]">
+      <div className="text-center">
+        <img 
+          src="https://foxiz.io/business/wp-content/uploads/sites/6/2021/08/b36-860x573.jpg" 
+          className="w-full h-[300px] "  // Hide on mobile and show on larger screens
+          alt="European Travel"
+        />
+        <div className="text-left p-[10px]">
+          <span className="text-sm text-orange-500 font-bold">PURSUITS</span>
+          <h3 className="text-base mt-3 text-white">
+            10 Places You Can't Miss If It's Your First Time in European
+          </h3>
+          <span className="text-xs text-[#aaa] mt-2 block">
+            By Hugh Son · 4 years ago
+          </span>
         </div>
       </div>
+
+      <div className="text-center">
+        <img 
+          src="https://foxiz.io/business/wp-content/uploads/sites/6/2021/08/b36-860x573.jpg" 
+          className="w-full h-[300px]"  // Hide on mobile and show on larger screens
+          alt="Smart Glasses"
+        />
+        <div className="text-left p-[10px]">
+          <span className="text-sm text-orange-500 font-bold">Technology</span>
+          <h3 className="text-base mt-3 text-white">
+            Explained: What are Smart Glasses and How Do It Work?
+          </h3>
+          <span className="text-xs text-[#aaa] mt-2 block">
+            By Hugh Son · 4 years ago
+          </span>
+        </div>
+      </div>
+    </div>
+
+    {/* ROW 3 - Category Cards */}
+    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-[10px]">
+      {["Politics", "Technology", "Economics", "Wellness", "Business"].map((cat) => (
+        <div key={cat} className="bg-white/5 relative">
+          <img 
+            src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d" 
+            className="w-full hidden md:block"  // Hide on mobile (default) and show on medium and up screens
+            alt={cat}
+          />
+          <h4 className="mt-[10px] text-[15px] p-[10px]">{cat}</h4>
+          <div className="absolute bottom-3 right-3 w-[26px] h-[26px] rounded-full border border-white grid place-items-center font-bold">
+            +
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+</div>
+
 
       {/* SIXTH SECTION - Three Column Container */}
       <div className="grid grid-cols-1 lg:grid-cols-[1fr_2fr_1fr] gap-5 p-5 max-w-[1300px] mx-auto">
@@ -452,11 +461,14 @@ const MainSection = () => {
         <div className="flex flex-col gap-5">
           <div className="bg-[#f0f0f0] p-5 text-center">
             <p>Advertisement</p>
-            <img 
-              src="https://foxiz.io/business/wp-content/uploads/sites/6/2021/08/b36-860x573.jpg" 
-              alt="ad" 
-              className="w-full h-auto"
-            />
+            
+            <Link href="https://www.morenews.org/" target="_blank" rel="noopener noreferrer">
+          <img
+            src="/images/morenews.png"
+            alt="More News"
+            className="w-full h-25 "
+          />
+        </Link>
           </div>
 
           <div className="bg-white p-[15px]">
@@ -468,14 +480,7 @@ const MainSection = () => {
             </p>
           </div>
 
-          <div className="bg-white p-[15px]">
-            <h3 className="text-lg font-bold">
-              How Science Failed to Unlock The Mysteries of the Human Brain
-            </h3>
-            <p className="text-sm text-black">
-              Exploring the complexities of the human mind...
-            </p>
-          </div>
+          
         </div>
 
         {/* Middle Column */}
@@ -492,16 +497,12 @@ const MainSection = () => {
             <p className="text-base text-black">
               The space agency is selecting candidates for a groundbreaking mission...
             </p>
+             <span className="text-xs text-black mt-2 block">
+            By Hugh Son · 4 years ago
+          </span>
           </div>
 
-          <div>
-            <h3 className="text-lg font-bold mt-5">
-              The Impact of COVID-19 on The Worldwide Air Transportation
-            </h3>
-            <p className="text-sm text-black">
-              Exploring the effects of the pandemic on air travel...
-            </p>
-          </div>
+          
         </div>
 
         {/* Right Column */}
@@ -528,6 +529,18 @@ const MainSection = () => {
                 Telegram
               </a>
             </div>
+          </div>
+          <div className="bg-white p-[15px]">
+            <h3 className="text-lg font-bold">
+              NASA Sets Coverage for Two Spacewalks Outside Space Station
+            </h3>
+
+          </div>
+          <div className="bg-white p-[15px]">
+            <h3 className="text-lg font-bold">
+              NASA Sets Coverage for Two Spacewalks Outside Space Station
+            </h3>
+
           </div>
         </div>
       </div>

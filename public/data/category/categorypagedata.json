@@ -1,5 +1,411 @@
 {
+  
   "crime": [
+    {
+  "id": 1,
+  "metaTitle": "Former Olympic Snowboarder Arrested in Mexico on FBI Most-Wanted List",
+  "metaDescription": "Former Canadian Olympian Ryan Wedding, accused of leading a massive cocaine trafficking ring and ordering murders, was arrested in Mexico and extradited to the U.S.",
+  "slug": "former-olympic-snowboarder-ryan-wedding-arrested-fbi",
+  "heading": "Former Olympic Snowboarder on FBI’s Most-Wanted List Arrested in Mexico, Faces Drug and Murder Charges",
+  "excerpt": "Ryan Wedding, a former Canadian Olympic snowboarder turned alleged drug kingpin, has been captured in Mexico after years on the run and is now facing serious federal charges in the U.S.",
+  "date": "24 Jan, 2026",
+  "image": "/images/former-olympic-snowboarder-ryan-wedding-arrested-fbi.webp",
+  "alt": "Ryan Wedding FBI wanted poster and arrest announcement",
+  "heroImage": "/images/former-olympic-snowboarder-ryan-wedding-arrested-fbi.webp",
+  "body": {
+    "dropcap": {
+      "letter": "A",
+      "text": " former Canadian Olympic snowboarder who topped the FBI's Most Wanted list has been arrested in Mexico after more than a decade in hiding. Ryan Wedding, accused of running a massive transnational cocaine trafficking operation and ordering several killings, surrendered at the U.S. Embassy in Mexico City and was quickly flown to California."
+    },
+    "paragraphs": [
+      "The 44-year-old Wedding, who competed for Canada in the 2002 Winter Olympics in Salt Lake City, turned himself in on Thursday. FBI Director Kash Patel announced the arrest Friday, calling Wedding the 'modern-day El Chapo' for his alleged role in moving around 60 tons of cocaine annually from Colombia through Mexico into the U.S. and Canada, often under the protection of the powerful Sinaloa Cartel.",
+      "Wedding faces federal charges including running a criminal enterprise, conspiracy to distribute massive quantities of cocaine, and multiple murder counts. Prosecutors say he orchestrated the 2023 killings of two Canadian family members over a stolen drug shipment, a 2024 murder tied to a drug debt, and the January 2025 assassination of a federal witness in Colombia to block extradition."
+    ],
+    "quote": {
+      "text": "When you go after a guy like Ryan Wedding, it takes a united front, and that’s what you’re seeing here.",
+      "author": "FBI Director Kash Patel"
+    },
+    "sections": [
+      {
+        "type": "imageWithText",
+        "text": [
+          "Wedding had been on the FBI's Ten Most Wanted Fugitives list since March 2025, with a $15 million reward offered for information leading to his capture and conviction.",
+          "The operation involved close cooperation among authorities in the U.S., Mexico, Canada, Colombia, and the Dominican Republic over more than a year, highlighting international efforts to dismantle violent drug networks."
+        ],
+        "image": {
+          "url": "/images/former-olympic-snowboarder-ryan-wedding-arrested-fbi-si.webp",
+          "alt": "U.S. Embassy in Mexico City where Wedding surrendered"
+        },
+        "additionalText": [
+          "Authorities also seized large amounts of drugs, weapons, cash, luxury vehicles, motorcycles, artwork, and jewelry linked to Wedding and his associates. So far, 36 people connected to the ring have been arrested."
+        ]
+      },
+      {
+        "type": "twoColumnLayout",
+        "title": "From Olympian to Alleged Drug Kingpin",
+        "mainContent": [
+          "Wedding, known by aliases like 'El Jefe' and 'Public Enemy,' previously served time in the U.S. after a 2010 conviction for cocaine conspiracy. He allegedly built a billion-dollar empire that became Canada's largest cocaine supplier, routing shipments via boats, planes, and semitrucks.",
+          "Canada has welcomed the arrest as a major blow against drug trafficking, with Public Safety Minister Gary Anandasangaree calling it a 'significant step forward' in the global fight against illegal drugs. Wedding also faces separate charges there dating back to 2015."
+        ],
+        "showMoreRead": true
+      },
+      {
+        "type": "fullWidth",
+        "title": "A Major Win in the Fight Against Transnational Crime",
+        "content": [
+          "The arrest comes amid heightened U.S.-Mexico cooperation on cartel threats, including recent extraditions and statements from U.S. officials about targeting drug operations south of the border. Wedding's case underscores how former athletes can become entangled in organized crime."
+        ],
+        "image": {
+          "url": "/images/former-olympic-snowboarder-ryan-wedding-arrested-fbi-ti.webp",
+          "alt": "FBI Ten Most Wanted poster featuring Ryan Wedding"
+        },
+        "subsections": [
+          {
+            "title": "Key Elements of the Case",
+            "text": [
+              "The charges paint a picture of extreme violence to protect the enterprise, including using a Canadian website to publicly identify and target a witness for assassination in Medellín, Colombia."
+            ],
+            "checklist": [
+              "Transnational cocaine trafficking from Colombia to Canada via Mexico and U.S.",
+              "Orchestrating multiple murders and witness killings",
+              "Alleged ties to the Sinaloa Cartel for protection",
+              "International manhunt involving multiple countries"
+            ],
+            "additionalText": [
+              "Wedding is expected to appear in federal court in California on Monday and has pleaded not guilty to the charges."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "finalSection",
+        "title": "What Happens Next for Ryan Wedding?",
+        "intro": [
+          "With Wedding now in U.S. custody, the focus shifts to his upcoming court proceedings and the potential unraveling of his alleged network. The case serves as a reminder of law enforcement's reach in pursuing high-profile fugitives across borders."
+        ],
+        "twoColumnContent": {
+          "left": [
+            "The successful capture demonstrates the power of global partnerships in combating organized crime and drug violence that crosses international lines."
+          ],
+          "rightQuote": {
+            "text": "He’s the modern-day El Chapo.",
+            "author": "FBI Director Kash Patel"
+          }
+        },
+        "conclusion": [
+          "As Wedding faces trial on serious federal charges, his story—from Olympic athlete to alleged violent drug lord—highlights the dark paths some lives can take and the ongoing battle against powerful cartels.",
+          "Authorities continue to investigate related suspects, with more arrests possible as the case unfolds."
+        ]
+      }
+    ]
+  }
+    }
+  ],
+
+  "politics": [   
+    {
+  "id": 1,
+  "metaTitle": "Shutdown Looms as ICE Shootings Fuel DHS Funding Clash",
+  "metaDescription": "Tensions boil over in Washington as Republicans and Democrats deadlock on DHS funding after federal agents fatally shot two U.S. citizens in Minneapolis, raising the threat of a partial government shutdown.",
+  "slug": "shutdown-looms-ice-shootings-partisan-fight-dhs-funding",
+  "heading": "Shutdown Looms as ICE Shootings Spark Fierce Partisan Battle Over DHS Funding",
+  "excerpt": "Democrats and Republicans are dug in over DHS funding after deadly shootings of U.S. citizens by federal agents in Minneapolis, pushing the government dangerously close to a partial shutdown.",
+  "date": "27 Jan, 2026",
+  "image": "/images/shutdown-looms-ice-shootings-partisan-fight-dhs-funding.webp",
+  "alt": "Federal agents near the scene of a shooting in Minneapolis",
+  "heroImage": "/images/shutdown-looms-ice-shootings-partisan-fight-dhs-funding.webp",
+  "body": {
+    "dropcap": {
+      "letter": "S",
+      "text": "enate Democrats and Republicans are in a heated standoff over funding for the Department of Homeland Security (DHS), and a partial government shutdown is looking more likely by the day. It all stems from the fatal shooting of U.S. citizen Alex Pretti by federal agents in Minneapolis on January 24, 2026. With outrage spreading nationwide, both sides are holding firm on their demands."
+    },
+    "paragraphs": [
+      "Democrats in the Senate are furious about the death of 37-year-old ICU nurse Alex Pretti—the second American killed by immigration agents in Minneapolis this month. They're refusing to back the DHS funding bill unless it comes with real reforms: tougher oversight, better accountability for agencies like ICE and CBP, full investigations into these shootings, and changes to stop excessive force. For them, more money without fixes isn't an option.",
+      "Republicans, meanwhile, want the full spending package passed quickly. It includes hefty funding for DHS to handle border security, cybersecurity, and disaster relief—things they say are too important to delay. The bill looked ready to sail through the Senate until Pretti's killing reignited massive protests and forced Democrats to dig in their heels."
+    ],
+    "quote": {
+      "text": "We need to have a real bipartisan discussion about the reforms necessary to prevent tragedies like Minneapolis from happening across the country.",
+      "author": "Senator Jeanne Shaheen"
+    },
+    "sections": [
+      {
+        "type": "imageWithText",
+        "text": [
+          "Alex Pretti's tragic death has thrown a wrench into the already tense budget talks. If lawmakers can't bridge the gap soon, we're staring down another partial shutdown.",
+          "The anger isn't staying in Minneapolis. Protests have erupted nationwide, with people demanding answers about how federal agents handle enforcement in charged urban settings like this."
+        ],
+        "image": {
+          "url": "/images/shutdown-looms-ice-shootings-partisan-fight-dhs-funding-si.webp",
+          "alt": "Protesters outside a government building after the Minneapolis shootings"
+        },
+        "additionalText": [
+          "A shutdown would hit hard—disrupting courts, national security work, and everyday government services at the worst possible time."
+        ]
+      },
+      {
+        "type": "twoColumnLayout",
+        "title": "The Deep Divide Over DHS Funding",
+        "mainContent": [
+          "Even some moderate Democrats who helped avoid a shutdown last year are now insisting on stronger protections and independent watchdogs for DHS. After these deaths, they say funding can only move forward if there's real change to tackle what's gone wrong.",
+          "Republicans push back hard: pass the whole package now, DHS included, to keep border security, national defense, and disaster aid flowing without interruption. Any holdup, they argue, puts the country at risk."
+        ],
+        "showMoreRead": true
+      },
+      {
+        "type": "fullWidth",
+        "title": "How These Shootings Are Reshaping National Policy",
+        "content": [
+          "The January 24 shooting of Alex Pretti by CBP agents—coming just weeks after Renée Good was killed—has put federal immigration tactics and use of force squarely in the spotlight. Protests are growing, especially in high-tension spots like Minneapolis, with calls for change coming from all sides."
+        ],
+        "image": {
+          "url": "/images/shutdown-looms-ice-shootings-partisan-fight-dhs-funding-ti.webp",
+          "alt": "Federal agents at a protest site in Minneapolis"
+        },
+        "subsections": [
+          {
+            "title": "Bipartisan Agreement on the Need for Oversight—But Little Else",
+            "text": [
+              "Both parties say federal agencies need more accountability, but that's about where the agreement ends. Democrats want reforms to prevent overreach and protect everyday people; Republicans stress keeping funds steady for border protection and keeping the country safe."
+            ],
+            "checklist": [
+              "Strengthen oversight of federal agencies",
+              "Ensure real accountability for agents' actions",
+              "Keep funding flowing for national security and disaster relief"
+            ],
+            "additionalText": [
+              "At its core, this fight reveals just how divided the country remains on immigration, law enforcement, and federal power."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "finalSection",
+        "title": "What's Next: Can They Avoid a Shutdown?",
+        "intro": [
+          "The clock is ticking toward the January 30 funding deadline. Lawmakers are scrambling for a breakthrough, but with positions so far apart, a partial shutdown feels increasingly possible—and it would only make an already chaotic situation worse."
+        ],
+        "twoColumnContent": {
+          "left": [
+            "This impasse is tough for everyone involved. The result will come down to whether cooler heads can prevail in the next couple of days, or if non-essential government operations grind to a halt."
+          ],
+          "rightQuote": {
+            "text": "We must find a way to come together and avoid another shutdown that will only hurt the American people.",
+            "author": "Senator Susan Collins"
+          }
+        },
+        "conclusion": [
+          "Negotiations are ongoing, but the path forward is anything but clear. With a potential shutdown hanging over everything and protests against aggressive immigration enforcement growing louder, these issues are set to shape politics for months—and likely play big in the next election cycle."
+        ]
+      }
+    ]
+  }
+    }
+  ],
+
+  "courts": [
+    {
+  "id": 1,
+  "metaTitle": "Appeals Court Rules Noem’s Termination of TPS for Venezuelans Illegal",
+  "metaDescription": "9th Circuit upholds ruling that DHS Secretary Kristi Noem exceeded authority in ending Temporary Protected Status for hundreds of thousands from Venezuela and Haiti.",
+  "slug": "appeals-court-noem-tps-venezuela-haiti-illegal",
+  "heading": "US Appeals Court: Noem’s Decision to End Protections for Venezuelans Was Illegal",
+  "excerpt": "A federal appeals court has ruled that Homeland Security Secretary Kristi Noem overstepped her authority by terminating Temporary Protected Status for Venezuelans, with implications for Haitians facing similar cuts.",
+  "date": "29 Jan, 2026",
+  "image": "/images/appeals-court-noem-tps-venezuela-haiti-illegal.webp",
+  "alt": "9th Circuit Court of Appeals building with immigration protest signs",
+  "heroImage": "/images/appeals-court-noem-tps-venezuela-haiti-illegal.webp",
+  "body": {
+    "dropcap": {
+      "letter": "A",
+      "text": " federal appeals court has said that the Trump administration's decision to take away Temporary Protected Status (TPS) from hundreds of thousands of Venezuelans was illegal because Homeland Security Secretary Kristi Noem went beyond what the law allowed her to do."
+    },
+    "paragraphs": [
+      "Late on Wednesday, a three-judge panel of the 9th U.S. Circuit Court of Appeals upheld a lower court's decision that Noem did not have the authority under federal law to end Venezuela's existing TPS designation. The panel also agreed that her partial ending of protections for Haitians went too far under the law.",
+      "The decision makes it clear that TPS, which Congress made in 1990, gives people from countries with problems like violence, disasters, or instability temporary protection from deportation and the right to work. It gives holders a sense of security, but it doesn't lead to citizenship. Noem said that things had gotten better in both countries and that extensions were not in the best interests of the country."
+    ],
+    "quote": {
+      "text": "The law has a lot of procedural protections that make sure that people with TPS can count on and feel safe during times of extraordinary and temporary conditions in their home country.",
+      "author": "Judge Kim Wardlaw wrote for the panel"
+    },
+    "sections": [
+      {
+        "type": "imageWithText",
+        "text": [
+          "The decision says that many TPS holders—hardworking parents, spouses of U.S. citizens, and taxpayers with clean records—could be deported or put in jail if they lost their status.",
+          "Venezuela is still in crisis, with political unrest, an economic collapse, and a mass exodus. Haiti's TPS started after the 2010 earthquake and is still in place despite gang violence and hunger."
+        ],
+        "image": {
+          "url": "/images/appeals-court-noem-tps-venezuela-haiti-illegal-si.webp",
+          "alt": "Immigrants and supporters protesting the end of TPS outside a courthouse"
+        },
+        "additionalText": [
+          "The ruling doesn't have any immediate effects because the Supreme Court let terminations go ahead in October 2025, pending final review. This will probably lead to another fight in the high court."
+        ]
+      },
+      {
+        "type": "twoColumnLayout",
+        "title": "Important Results from the 9th Circuit",
+        "mainContent": [
+          "Kim Wardlaw (a Clinton appointee), Salvador Mendoza Jr., and Anthony Johnstone (all Democratic nominees) were the judges. They said that Congress never gave the secretary the power to \"vacate\" previous TPS decisions, which was meant to protect stability.",
+          "Judge Mendoza agreed and said that there was evidence of racial and national-origin bias in Noem's actions, which he called \"preordained\" and based on stereotypes instead of policy differences."
+        ],
+        "showMoreRead": true
+      },
+      {
+        "type": "fullWidth",
+        "title": "A brief history of TPS and the countries that are part of it",
+        "content": [
+          "When it is not safe for people to go back to their home countries, TPS lets the DHS secretary choose those countries for 6 to 18 months (with the option to extend). Venezuela is in trouble because of hyperinflation, corruption, and unrest. Haiti is in trouble because of the aftermath of the 2010 earthquake and ongoing violence and famine."
+        ],
+        "image": {
+          "url": "/images/appeals-court-noem-tps-venezuela-haiti-illegal-ti.webp",
+          "alt": "DHS Secretary Kristi Noem exceeded authority"
+        },
+        "subsections": [
+          {
+            "title": "Main Points of the Ruling",
+            "text": [
+              "The government said that they had a lot of freedom and that their decisions couldn't be reviewed, so they weren't biased. The court disagreed, saying that the actions were random, unfair, and not allowed by law."
+            ],
+            "checklist": [
+              "No legal power to remove existing TPS designations",
+              "A lot of harm to TPS holders and their families",
+              "evidence that the reasoning was pretextual and that there was animus",
+              "The end of Haiti TPS is coming up on February 3, 2026, but there is still a separate challenge going on"
+            ],
+            "additionalText": [
+              "DHS did not respond right away to requests for comment on the ruling."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "finalSection",
+        "title": "What This Means for the Future",
+        "intro": [
+          "The appeals court ruled against the administration, but the Supreme Court's earlier stay means that current terminations will stay in place for now. The Supreme Court could decide the future of TPS for Haitians and Venezuelans."
+        ],
+        "twoColumnContent": {
+          "left": [
+            "The case shows how hard it is to balance humanitarian protections with claims of executive power and national interest in U.S. immigration policy."
+          ],
+          "rightQuote": {
+            "text": "Noem's illegal actions have had real and serious effects on Venezuelans and Haitians in the United States who depend on TPS.",
+            "author": "Judge Kim Wardlaw"
+          }
+        },
+        "conclusion": [
+          "As the lawsuit goes on, hundreds of thousands of people are stuck in limbo, facing possible deportation while their home countries are still in crisis. This decision shows that making changes to programs created by Congress on your own has its limits.",
+          "This article is based on reporting from the Associated Press and the official 9th Circuit opinion."
+        ]
+      }
+    ]
+  }
+    }
+  ],
+
+  "investigations": [
+    {
+  "id": 1,
+  "metaTitle": "Pentagon Contractor Indicted in Leak Case Tied to Washington Post Reporter Home Search",
+  "metaDescription": "A Pentagon contractor faces federal charges for allegedly leaking classified information to a journalist, linked to an FBI search of a Washington Post reporter's home.",
+  "slug": "pentagon-contractor-indicted-leak-washington-post-reporter",
+  "heading": "Pentagon Contractor Indicted in Leak Case Tied to Search of Washington Post Reporter’s Home",
+  "excerpt": "Aurelio Luis Perez-Lugones has been indicted on charges of unlawfully transmitting and retaining classified national defense information shared with a journalist, sparking controversy over an FBI raid on a reporter's residence.",
+  "date": "23 Jan, 2026",
+  "image": "/images/pentagon-contractor-indicted-leak-washington-post-reporter.webp",
+  "alt": "FBI agents and federal courthouse illustrating classified leak investigation",
+  "heroImage": "/images/pentagon-contractor-indicted-leak-washington-post-reporter.webp",
+  "body": {
+    "dropcap": {
+      "letter": "A",
+      "text": " Pentagon contractor was indicted Thursday on federal charges accusing him of illegally removing classified national defense information from his workplace and sharing it with a journalist, in a high-profile case connected to last week's FBI search of a Washington Post reporter's home."
+    },
+    "paragraphs": [
+      "Aurelio Luis Perez-Lugones, 61, of Laurel, Maryland, faces five counts of unlawfully transmitting classified information and one count of unlawfully retaining it, according to the Justice Department. The allegations stem from his role as a systems engineer and IT specialist with top-secret clearance at a government contractor, where he allegedly printed sensitive documents and took them home.",
+      "Authorities say Perez-Lugones passed the materials to a reporter who used them in at least five published articles. Investigators recovered phone messages discussing the transfers, including one where he wrote he was 'going quiet for a bit' after sending a document. Classified printouts marked 'SECRET' were found in his home and car, including one hidden in a lunchbox."
+    ],
+    "quote": {
+      "text": "Illegally disclosing classified defense information is a grave crime against America that puts both our national security and the lives of our military heroes at risk.",
+      "author": "Attorney General Pamela Bondi"
+    },
+    "sections": [
+      {
+        "type": "imageWithText",
+        "text": [
+          "The case gained national attention after FBI agents raided the Virginia home of Washington Post reporter Hannah Natanson on January 14, 2026, seizing her phone, laptops, recorder, hard drive, and smartwatch as part of the probe.",
+          "Press freedom advocates have criticized the search as overly aggressive, arguing it threatens journalistic protections. The Post called it an 'outrageous seizure' that 'chills speech' and harms reporting, and has sought the return of the devices."
+        ],
+        "image": {
+          "url": "/images/pentagon-contractor-indicted-leak-washington-post-reporter-si.webp",
+          "alt": "Federal agents outside a residence during a search warrant execution"
+        },
+        "additionalText": [
+          "A federal judge in Alexandria temporarily blocked the government from reviewing the seized materials and set a February 6 hearing on the newspaper's motion. Natanson was told she is not the target of the investigation."
+        ]
+      },
+      {
+        "type": "twoColumnLayout",
+        "title": "Details of the Alleged Leak",
+        "mainContent": [
+          "Perez-Lugones, arrested January 8 and jailed since, allegedly accessed classified reports—including one involving a foreign country in October—and printed them out. He has remained in custody, with no immediate comment from his attorneys.",
+          "FBI Director Kash Patel emphasized the risks to national security, while the Justice Department stressed accountability for mishandling sensitive information under 18 U.S.C. § 793(e)."
+        ],
+        "showMoreRead": true
+      },
+      {
+        "type": "fullWidth",
+        "title": "Broader Implications for Press and Leaks",
+        "content": [
+          "The incident has raised alarms about the Trump administration's approach to leak probes involving journalists, with critics viewing the home search as an escalation that could intimidate sources and reporters covering government matters."
+        ],
+        "image": {
+          "url": "/images/pentagon-contractor-indicted-leak-washington-post-reporter-ti.webp",
+          "alt": "Washington Post headquarters amid press freedom concerns"
+        },
+        "subsections": [
+          {
+            "title": "Key Elements of the Case",
+            "text": [
+              "The probe centers on unauthorized transmission of classified data, with evidence from messages and recovered documents. No charges have been filed against the reporter."
+            ],
+            "checklist": [
+              "Five counts of unlawful transmission of classified info",
+              "One count of unlawful retention of classified info",
+              "Documents printed from secure facility and shared",
+              "FBI search of reporter's home linked to investigation"
+            ],
+            "additionalText": [
+              "Natanson covers the Trump administration's federal workforce changes and recently described building extensive sources in government."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "finalSection",
+        "title": "What's Next in the Investigation",
+        "intro": [
+          "With Perez-Lugones indicted and in custody, the focus shifts to potential trial proceedings and the ongoing dispute over the seized devices from the reporter's home. The case highlights tensions between national security enforcement and press freedoms."
+        ],
+        "twoColumnContent": {
+          "left": [
+            "Press advocates continue to decry the tactics, while officials defend the actions as necessary to protect classified information and prevent harm to U.S. interests."
+          ],
+          "rightQuote": {
+            "text": "The outrageous seizure of our reporter’s confidential newsgathering materials chills speech, cripples reporting, and inflicts irreparable harm every day the government keeps its hands on these materials.",
+            "author": "The Washington Post statement"
+          }
+        },
+        "conclusion": [
+          "As the legal battles unfold, this incident underscores ongoing debates about leak prosecutions, journalist protections, and government transparency in the current administration."
+        ]
+      }
+    ]
+  }
+    }
+  ],
+
+  "us-news": [
     {
       "id": 1,
       "metaTitle": "Federal Agents Arrest Suspect in Multi-State Fraud Case",
@@ -10,7 +416,7 @@
       "date": "12 Dec, 2025",
       "image": "https://foxiz.io/business/wp-content/uploads/sites/6/2021/08/b22-420x280.jpg",
       "alt": "Federal agents outside courthouse",
-      "heroImage": "https://foxiz.io/business/wp-content/uploads/sites/6/2021/08/b35-860x561.jpg",
+      "heroImage": "https://foxiz.io/business/wp-content/uploads/sites/6/2021/08/b22-420x280.jpg",
       "body": {
         "dropcap": {
           "letter": "G",
@@ -82,8 +488,7 @@
             "type": "finalSection",
             "title": "Elements that can help website visual composition",
             "intro": [
-              "Nobody enjoys looking at an ugly web page. Garish colors, cluttered images and distracting animation can all turn customers \"off\" and send them shopping somewhere else.",
-              "Basic composition rules to create more effective:"
+              "Nobody enjoys looking at an ugly web page. Garish colors, cluttered images and distracting animation can all turn customers \"off\" and send them shopping somewhere else."
             ],
             "twoColumnContent": {
               "left": [
@@ -105,87 +510,210 @@
     }
   ],
 
-  "politics": [
-    {
-      "id": 1,
-      "metaTitle": "Lawmakers Clash Over Justice Department Oversight",
-      "metaDescription": "Congressional leaders debate oversight powers related to federal prosecutions.",
-      "slug": "lawmakers-clash-justice-department-oversight",
-      "image": "https://foxiz.io/business/wp-content/uploads/sites/6/2021/08/b22-420x280.jpg",
-      "alt": "US Capitol building",
-      "heading": "Lawmakers Clash Over Justice Department Oversight",
-      "date": "10 Dec, 2025",
-      "content": "Members of Congress debated the scope of legislative oversight over ongoing Justice Department investigations."
-    }
-  ],
-
-  "courts": [
-    {
-      "id": 1,
-      "metaTitle": "Federal Judge Delays High-Profile Corruption Trial",
-      "metaDescription": "A federal judge postpones a corruption trial citing procedural concerns.",
-      "slug": "federal-judge-delays-corruption-trial",
-      "image": "https://foxiz.io/business/wp-content/uploads/sites/6/2021/08/b22-420x280.jpg",
-      "alt": "Federal courthouse exterior",
-      "heading": "Federal Judge Delays High-Profile Corruption Trial",
-      "date": "09 Dec, 2025",
-      "content": "A federal judge has delayed a closely watched corruption trial after reviewing pretrial motions from both sides."
-    }
-  ],
-
-  "investigations": [
-    {
-      "id": 1,
-      "metaTitle": "Grand Jury Expands Investigation Into Campaign Financing",
-      "metaDescription": "Prosecutors widen a grand jury probe related to alleged campaign finance violations.",
-      "slug": "grand-jury-expands-campaign-finance-investigation",
-      "image": "https://foxiz.io/business/wp-content/uploads/sites/6/2021/08/b22-420x280.jpg",
-      "alt": "Grand jury investigation concept",
-      "heading": "Grand Jury Expands Investigation Into Campaign Financing",
-      "date": "07 Dec, 2025",
-      "content": "Federal prosecutors have expanded a grand jury investigation examining alleged violations of campaign finance laws."
-    }
-  ],
-
-  "us-news": [
-    {
-      "id": 1,
-      "metaTitle": "Justice Department Announces New Enforcement Priorities",
-      "metaDescription": "The DOJ outlines updated enforcement priorities for the coming year.",
-      "slug": "justice-department-new-enforcement-priorities",
-      "image": "https://foxiz.io/business/wp-content/uploads/sites/6/2021/08/b22-420x280.jpg",
-      "alt": "Department of Justice headquarters",
-      "heading": "Justice Department Announces New Enforcement Priorities",
-      "date": "05 Dec, 2025",
-      "content": "The Justice Department released new enforcement priorities focusing on financial crime and public corruption."
-    }
-  ],
-
   "civil-rights": [
     {
-      "id": 1,
-      "metaTitle": "Civil Rights Groups Challenge New Voting Restrictions",
-      "metaDescription": "Advocacy groups file lawsuits challenging new voting restrictions in multiple states.",
-      "slug": "civil-rights-groups-challenge-voting-restrictions",
-      "image": "https://foxiz.io/business/wp-content/uploads/sites/6/2021/08/b22-420x280.jpg",
-      "alt": "Voting rights protest",
-      "heading": "Civil Rights Groups Challenge New Voting Restrictions",
-      "date": "06 Dec, 2025",
-      "content": "Civil rights organizations have filed legal challenges against newly enacted voting restrictions, arguing they disproportionately impact minority voters."
+  "id": 1,
+  "metaTitle": "Federal Judge Dismisses Justice Department Lawsuit Seeking Oregon Voter Rolls",
+  "metaDescription": "U.S. District Judge Mustafa Kasubhai dismissed the DOJ's lawsuit against Oregon for unredacted voter data, citing failure to meet legal standards under federal law.",
+  "slug": "federal-judge-dismisses-doj-oregon-voter-rolls-lawsuit",
+  "heading": "Federal Judge Dismisses Justice Department Lawsuit Seeking Oregon’s Voter Rolls",
+  "excerpt": "In another setback to the Trump administration's push for state voter data, a federal judge in Oregon dismissed the DOJ's suit, ruling the government lacked proper authority and basis for the request.",
+  "date": "27 Jan, 2026",
+  "image": "/images/federal-judge-dismisses-doj-oregon-voter-rolls-lawsuit.webp",
+  "alt": "Federal courthouse with voter rights protest signs outside",
+  "heroImage": "/images/federal-judge-dismisses-doj-oregon-voter-rolls-lawsuit.webp",
+  "body": {
+    "dropcap": {
+      "letter": "O",
+      "text": "n Monday, a federal judge in Oregon threw out a lawsuit from the Justice Department that wanted the state's unredacted voter rolls. This was another loss for the Trump administration's broad effort to get detailed voter information from many states."
+    },
+    "paragraphs": [
+      "During a hearing, U.S. District Judge Mustafa Kasubhai agreed to Oregon's request to dismiss the case. He plans to write a full opinion soon. The ruling comes after the DOJ sued in September 2025 for private voter information, such as names, birth dates, addresses, driver's license numbers, and partial Social Security numbers, to make sure that federal election laws were being followed.",
+      "Oregon Attorney General Dan Rayfield praised the decision, saying that the federal government did not meet the legal requirements to get to these private records. He said, \"Oregonians need to know that voting laws can't be used to get their personal information.\" The Justice Department did not respond right away."
+    ],
+    "quote": {
+      "text": "The court threw out this case because the federal government never met the legal requirements to get these records in the first place.",
+      "author": "Dan Rayfield, Attorney General of Oregon"
+    },
+    "sections": [
+      {
+        "type": "imageWithText",
+        "text": [
+          "Judge Kasubhai said that the DOJ's August request didn't meet the requirements of the Civil Rights Act of 1960, which only allows access for certain written requests that explain the reason and basis for the request. These requests must be related to discrimination investigations, not general compliance checks.",
+          "The judge was worried about the department's motives because of a recent letter from Attorney General Pam Bondi to Minnesota Governor Tim Walz that linked access to the voter rolls to cooperation with immigration enforcement during protests over federal agent shootings in Minneapolis."
+        ],
+        "image": {
+          "url": "/images/federal-judge-dismisses-doj-oregon-voter-rolls-lawsuit-si.webp",
+          "alt": "Courtroom scene during hearing on DOJ lawsuit about voter data"
+        },
+        "additionalText": [
+          "Georgia (wrong venue) and California (unprecedented and illegal) have thrown out similar lawsuits, and at least 23 other states and D.C. are also facing lawsuits over the same demands."
+        ]
+      },
+      {
+        "type": "twoColumnLayout",
+        "title": "DOJ's Push for Voter Data Across the Country",
+        "mainContent": [
+          "The Justice Department says the data helps make sure that states follow federal laws and don't let people vote who aren't eligible (like noncitizens). States say that the requests go too far and violate privacy protections because elections are run by the states.",
+          "Oregon gave out data that was available to the public, but not files that weren't redacted. Many state officials say that sharing could lead to misuse for immigration enforcement or other purposes that aren't related to the election."
+        ],
+        "showMoreRead": true
+      },
+      {
+        "type": "fullWidth",
+        "title": "The Background of the Dismissal and Other Issues",
+        "content": [
+          "The Bondi letter to Walz, which was sent during a time of tension over ICE actions in Minnesota, asked for access to voter rolls, Medicaid and food assistance records, and the end of sanctuary policies. This raised questions about the real reason behind the requests for voter data."
+        ],
+        "image": {
+          "url": "/images/federal-judge-dismisses-doj-oregon-voter-rolls-lawsuit-ti.webp",
+          "alt": "People holding signs against the federal government's access to voter data"
+        },
+        "subsections": [
+          {
+            "title": "Main Reasons for Dismissal",
+            "text": [
+              "The judge looked at what Congress meant and decided that the 1960 Act's records provision was related to investigations into discrimination against voting rights, not general compliance audits."
+            ],
+            "checklist": [
+              "The DOJ request doesn't say why or how it should be done",
+              "There are worries about possible bad motives",
+              "Privacy laws protect individual voter data",
+              "The federal government doesn't have direct election authority"
+            ],
+            "additionalText": [
+              "Election officials all over the country have said no, saying that it could violate voters' privacy and the constitution's powers over elections."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "finalSection",
+        "title": "What this means for voter privacy and federal power",
+        "intro": [
+          "This dismissal shows that states are still against the federal government getting too involved with voter data, even though there are lawsuits going on in other states. It shows how hard it is to balance national security and immigration goals with protecting the privacy of voters and the integrity of elections."
+        ],
+        "twoColumnContent": {
+          "left": [
+            "As more cases move forward, the administration's strategy is getting more attention from the courts, which could make it harder to get sensitive voter information in the future."
+          ],
+          "rightQuote": {
+            "text": "The law is still important. Federal officials can't use voting laws as an excuse to get private citizens' data without a clear legal reason.",
+            "author": "Election privacy advocates (paraphrased from case commentary)"
+          }
+        },
+        "conclusion": [
+          "The ruling could have an effect on similar cases in other places if it is written down. Oregon's win protects voters' privacy and makes it clear that states, not the federal government, run elections."
+        ]
+      }
+    ]
+  }
     }
   ],
 
   "law-and-justice": [
     {
       "id": 1,
-      "metaTitle": "Supreme Court Weighs Limits of Federal Prosecutorial Power",
-      "metaDescription": "The Supreme Court hears arguments on the limits of federal prosecutorial authority.",
-      "slug": "supreme-court-federal-prosecutorial-power",
+      "metaTitle": "Federal Agents Arrest Suspect in Multi-State Fraud Case",
+      "metaDescription": "Federal authorities arrest a suspect linked to a large-scale financial fraud investigation.",
+      "slug": "federal-agents-arrest-suspect-multistate-fraud",
+      "heading": "Federal Agents Arrest Suspect in Multi-State Fraud Case",
+      "excerpt": "Federal authorities arrest a suspect linked to a large-scale financial fraud investigation.",
+      "date": "12 Dec, 2025",
       "image": "https://foxiz.io/business/wp-content/uploads/sites/6/2021/08/b22-420x280.jpg",
-      "alt": "Supreme Court building",
-      "heading": "Supreme Court Weighs Limits of Federal Prosecutorial Power",
-      "date": "04 Dec, 2025",
-      "content": "The Supreme Court heard arguments addressing how far federal prosecutors can go when bringing charges under broad criminal statutes."
+      "alt": "Federal agents outside courthouse",
+      "heroImage": "https://foxiz.io/business/wp-content/uploads/sites/6/2021/08/b22-420x280.jpg",
+      "body": {
+        "dropcap": {
+          "letter": "G",
+          "text": "ood web design has visual weight, is optimized for various devices, and has content that is prioritized for the medium. The most important elements of a web page should have more visual weight to \"naturally attract\" a visitor's attention."
+        },
+        "paragraphs": [
+          "Optimization for various types of devices and resolutions plays a fundamental role in modern website design. Web page layouts should be genuinely responsive and not rely on any fixed-size elements. Web designers using fluid grids and flexible images will guarantee that a web page will render well on a variety of devices, windows, and screen sizes."
+        ],
+        "quote": {
+          "text": "Good design is making something intelligible and memorable. Great design is making something memorable and meaningful.",
+          "author": "Dieter Rams"
+        },
+        "sections": [
+          {
+            "type": "imageWithText",
+            "text": [
+              "Not all websites are made equal. Some websites are simple, logical, and easy to use. Others are a messy hodgepodge of pages and links.",
+              "Not all websites are made equal. Some websites are simple, logical, and easy to use. Others are a messy hodgepodge of pages and links."
+            ],
+            "image": {
+              "url": "https://foxiz.io/business/wp-content/uploads/sites/6/2021/09/e41-1024x683.jpg",
+              "alt": "Illustrative Image"
+            },
+            "additionalText": [
+              "Without website navigation, your visitors can't figure out how to find your blog, your email signup page, your product listings, pricing, contact information, or help docs.",
+              "Without website navigation, your visitors can't figure out how to find your blog, your email signup page, your product listings, pricing, contact information, or help docs.",
+              "Without website navigation, your visitors can't figure out how to find your blog, your email signup page, your product listings, pricing, contact information, or help docs."
+            ]
+          },
+          {
+            "type": "twoColumnLayout",
+            "title": "A Good Website Should Be Easy to Navigate",
+            "mainContent": [
+              "Not all websites are made equal. Some websites are simple, logical, and easy to use. Others are a messy hodgepodge of pages and links.",
+              "Not all websites are made equal. Some websites are simple, logical, and easy to use. Others are a messy hodgepodge of pages and links.",
+              "Not all websites are made equal. Some websites are simple, logical, and easy to use. Others are a messy hodgepodge of pages and links."
+            ],
+            "showMoreRead": true
+          },
+          {
+            "type": "fullWidth",
+            "title": "How Website Navigation Improves User Experience",
+            "content": [
+              "Navigation is the backbone of a website. It provides users with easy access to content, enhances user experience, and helps build credibility for the site. Good navigation can lead to higher conversion rates and lower bounce rates. In contrast, bad navigation frustrates users and can make them abandon your website."
+            ],
+            "image": {
+              "url": "https://foxiz.io/business/wp-content/uploads/sites/6/2021/08/b35-860x561.jpg",
+              "alt": "Example Image"
+            },
+            "subsections": [
+              {
+                "title": "Elements that can help website visual composition",
+                "text": [
+                  "Nobody enjoys looking at an ugly web page. Garish colors, cluttered images and distracting animation can all turn customers \"off\" and send them shopping somewhere else."
+                ],
+                "checklist": [
+                  "Direct the Eye With Leading Lines",
+                  "Balance Out Your Elements",
+                  "Use Elements That Complement Each Other",
+                  "Be Clear About Your \"Focal Points\""
+                ],
+                "additionalText": [
+                  "Nobody enjoys looking at an ugly web page. Garish colors, cluttered images and distracting animation can all turn customers \"off\" and send them shopping somewhere else."
+                ]
+              }
+            ]
+          },
+          {
+            "type": "finalSection",
+            "title": "Elements that can help website visual composition",
+            "intro": [
+              "Nobody enjoys looking at an ugly web page. Garish colors, cluttered images and distracting animation can all turn customers \"off\" and send them shopping somewhere else."
+            ],
+            "twoColumnContent": {
+              "left": [
+                "UX design refers to the term \"user experience design\", while UI stands for \"user interface design\". Both elements are crucial to a product and work closely together. But despite their relationship, the roles themselves are quite different."
+              ],
+              "rightQuote": {
+                "text": "Styles come and go. Good design is a language, not a style.",
+                "author": "Massimo Vignelli"
+              }
+            },
+            "conclusion": [
+              "Nobody enjoys looking at an ugly web page. Garish colors, cluttered images and distracting animation can all turn customers \"off\" and send them shopping somewhere else.",
+              "Basic composition rules to create more effective:Nobody enjoys looking at an ugly web page. Garish colors, cluttered images and distracting animation can all turn customers \"off\" and send them shopping somewhere else.",
+              "Basic composition rules to create more effective:Nobody enjoys looking at an ugly web page. Garish colors, cluttered images and distracting animation can all turn customers \"off\" and send them shopping somewhere else."
+            ]
+          }
+        ]
+      }
     }
   ]
+
 }

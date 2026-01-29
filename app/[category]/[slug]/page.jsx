@@ -1,10 +1,8 @@
 import Link from "next/link";
 import { FaFacebookF, FaXTwitter, FaEnvelope, FaInstagram, FaRedditAlien, FaUserCircle } from "react-icons/fa6";
-import { FiShare2, FiMoreHorizontal } from "react-icons/fi";
-import { FaYoutube, FaTelegramPlane, FaPlus } from "react-icons/fa";
+import { FiShare2 } from "react-icons/fi";
 import RelatedNews from "../../../components/RelatedNews";
 import Sidecontent from "../../../components/Sidecontent";
-import MoreRead from "../../../components/MoreRead";
 
 import categoryPageData from "../../../public/data/category/categorypagedata.json";
 import authorsData from "../../../public/data/authors.json";
@@ -197,7 +195,7 @@ export default async function Page({ params }) {
                       // TWO COLUMN LAYOUT
                       if (section.type === 'twoColumnLayout') {
                         return (
-                          <div key={sectionIdx} className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+                          <div key={sectionIdx} className="grid grid-cols-1 lg:grid-cols-2 gap-8">
                             <div className="lg:col-span-2">
                               <h2 className="text-3xl font-bold mb-4">{section.title}</h2>
                               {section.mainContent?.map((text, idx) => (
@@ -207,7 +205,7 @@ export default async function Page({ params }) {
                               ))}
                             </div>
 
-                            {section.showMoreRead && <MoreRead />}
+                            
                           </div>
                         );
                       }
@@ -284,7 +282,7 @@ export default async function Page({ params }) {
                               {section.twoColumnContent?.rightQuote && (
                                 <div className="flex items-center justify-center">
                                   <blockquote className="text-center text-xl italic text-gray-800 font-semibold pl-4">
-                                    <span className="text-center text-orange-500 text-6xl block mb-4">"</span>
+                                    {/* <span className="text-center text-orange-500 text-6xl block mb-4">"</span> */}
                                     {section.twoColumnContent.rightQuote.text}
                                     <span className="text-center block mt-2 text-sm text-gray-500">
                                       — {section.twoColumnContent.rightQuote.author}
@@ -307,7 +305,13 @@ export default async function Page({ params }) {
                     })}
                   </section>
 
-                  <div className="article-container">
+                 
+
+                </article>
+                
+
+              </div>
+               <div className="article-container">
                     {/* Share Section */}
                     <div className="mt-10">
                       <hr className="border-t-2 border-dotted border-gray-400" />
@@ -352,7 +356,7 @@ export default async function Page({ params }) {
                               {author.name}
                             </a>
                             {/* Author Role */}
-                            <p className="text-gray-500 text-xs">{author.role || "Senior Editor"}</p>
+                            <p className="text-gray-800 text-xs">{author.jobtitle}</p>
                           </div>
                         </div>
                         <div className="flex flex-col sm:flex-row items-center gap-4">
@@ -407,10 +411,6 @@ export default async function Page({ params }) {
                       </div>
                     </div>
                   </div>
-
-                </article>
-
-              </div>
             </section>
 
           </div>
