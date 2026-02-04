@@ -215,7 +215,7 @@ const Header = () => {
           ></div>
 
           {/* Sidebar */}
-          <div className="fixed top-0 left-0 h-full w-[280px] bg-white z-50 shadow-xl overflow-y-auto md:hidden">
+          <div className="fixed top-0 right-0 h-full w-[280px] bg-white z-50 shadow-xl overflow-y-auto md:hidden">
             {/* Sidebar Header */}
             <div className="flex items-center justify-between p-4 border-b border-gray-200">
               <h2 className="text-lg font-bold text-gray-800">Menu</h2>
