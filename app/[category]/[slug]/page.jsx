@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { FaFacebookF, FaXTwitter, FaEnvelope, FaInstagram, FaRedditAlien, FaUserCircle } from "react-icons/fa6";
+import { FaFacebookF, FaXTwitter, FaEnvelope, FaInstagram, FaRedditAlien } from "react-icons/fa6";
 import { FiShare2 } from "react-icons/fi";
 import RelatedNews from "../../../components/RelatedNews";
 import Sidecontent from "../../../components/Sidecontent";
@@ -9,28 +9,73 @@ import authorsData from "../../../public/data/authors.json";
 
 
 export default async function Page({ params }) {
-  const { category, slug } = await params;
+            const { category, slug } = await params;
 
-  // 1️⃣ Find the post by category + slug
-  const post = categoryPageData[category]?.find(
-    (item) => item.slug === slug
-  );
+            // 1️⃣ Find the post by category + slug
+            const post = categoryPageData[category]?.find(
+              (item) => item.slug === slug
+            );
 
-  if (!post) {
-    return <div className="max-w-7xl mx-auto px-4 py-8">Post not found</div>;
-  }
+            if (!post) {
+              return <div className="max-w-7xl mx-auto px-4 py-8">Post not found</div>;
+            }
 
-  // 2️⃣ Build author lookup
-  const authorsByCategory = authorsData.categories.reduce((acc, item) => {
-    acc[item.category] = item.author;
-    return acc;
-  }, {});
+            // 2️⃣ Build author lookup
+            const authorsByCategory = authorsData.categories.reduce((acc, item) => {
+              acc[item.category] = item.author;
+              return acc;
+            }, {});
 
-  // 3️⃣ Get author by category
-  const author = authorsByCategory[category];
+            // 3️⃣ Get author by category
+            const author = authorsByCategory[category];
 
-  // 4️⃣ Get body data from post
-  const body = post.body;
+            // 4️⃣ Get body data from post
+            const body = post.body;
+
+            // RELATED NEWS SECTION
+          // Get posts from the current category only
+          const categoryPosts = categoryPageData[category] || [];
+
+          // Filter out the current article, add author information, and sort by date (newest first)
+          const relatedPosts = categoryPosts
+            .filter(post => post.slug !== slug) // Use slug from params
+            .map(post => ({
+              ...post,
+              category: category,              // Use category from params
+              author: authorsByCategory[category] || {}
+            }))
+            .sort((a, b) => new Date(b.date) - new Date(a.date)) // newest first
+            .slice(0, 4); // limit to 4 posts
+
+          // If no related posts, don't render the component
+          if (relatedPosts.length === 0) {
+            return null;
+          }
+
+          //SIDE CONTENT
+           // Collect all posts and add author information
+            const allPosts = Object.entries(categoryPageData).flatMap(
+              ([category, posts]) =>
+                posts.map(post => ({
+                  ...post,
+                  category,
+                  author: authorsByCategory[category] || {} // Provide fallback if no author is found
+                }))
+            );
+          
+            // Sort posts by date (latest first)
+            const sortedPosts = [...allPosts].sort(
+              (a, b) => new Date(b.date) - new Date(a.date)
+            );
+          
+            // Hero post (most recent post)
+            const heroPost = sortedPosts[0];
+          
+            // Small posts (next 4 posts)
+            const smallPosts = sortedPosts.slice(1, 5);
+
+
+
 
   return (
     <main>
@@ -38,7 +83,7 @@ export default async function Page({ params }) {
         <div className="max-w-7xl mx-auto px-4 py-8">
 
           {/* Breadcrumb */}
-          <nav className="text-sm text-black mb-4 hidden md:block">
+          {/* <nav className="text-sm text-black mb-4 hidden md:block">
             <Link href="/" className="hover:text-black">Home</Link> &gt;{" "}
             <Link href={`/${category}`} className="hover:text-black">
               {category}
@@ -47,7 +92,7 @@ export default async function Page({ params }) {
             <span className="text-black">
               {post.heading}
             </span>
-          </nav>
+          </nav> */}
 
           {/* Category */}
           <div className="flex items-center gap-2 mb-4">
@@ -107,8 +152,8 @@ export default async function Page({ params }) {
           {/* LEFT – ARTICLE IMAGE */}
           <div>
             <img
-              src={post.heroImage || "https://foxiz.io/business/wp-content/uploads/sites/6/2021/08/b35-860x561.jpg"}
-              alt="Article"
+              src={post.heroImage}
+              alt={post.alt}
               className="w-full h-auto object-cover"
             />
             
@@ -416,14 +461,14 @@ export default async function Page({ params }) {
           </div>
 
           {/* RIGHT – SIDEBAR */}
-          <Sidecontent />
+          <Sidecontent heroPost={heroPost} smallPosts={smallPosts}/>
 
         </div>
         
         {/* related news components */}
         <RelatedNews 
             currentCategory={category} 
-            currentSlug={slug}
+            relatedPosts={relatedPosts}
           />
 
       </section>

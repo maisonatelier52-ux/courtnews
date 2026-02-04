@@ -18,7 +18,7 @@ const DailyNews = ({heroPost,smallPosts}) => {
             <Image
                 className="w-full h-[400px] object-cover"
                 src={heroPost.image}
-                alt={heroPost.heading}
+                alt={heroPost.alt}
                 width={1600}  // Specify the width (adjust as needed based on your design)
                 height={400}  // Specify the height to match your original h-[400px]
             />

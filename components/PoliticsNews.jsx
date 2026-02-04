@@ -1,10 +1,13 @@
 import React from 'react';
 import Link from 'next/link';
 import Image from "next/image";
-import categoryPageData from "../public/data/category/categorypagedata.json";
-import authorsData from "../public/data/authors.json";
+
 
 const PoliticsNews = ({featuredPost, textPosts, imagePosts }) => {
+
+  //  console.log("Featuredpost:",featuredPost)
+  //   console.log("Textpost:",textPosts)
+  //    console.log("imagepost:",imagePosts)
 
   // Helper function to format date
   const formatDate = (dateStr) => {
@@ -82,9 +85,9 @@ const PoliticsNews = ({featuredPost, textPosts, imagePosts }) => {
               <h3 className="text-lg font-bold mb-[3px] group-hover:text-orange-500 transition">
                 {post.heading}
               </h3>
-              <p className="text-sm text-black line-clamp-2">
+              {/* <p className="text-sm text-black line-clamp-2">
                 {post.excerpt}
-              </p>
+              </p> */}
               <span className="text-[13px] text-black">
                 Politics · {formatDate(post.date)}
               </span>

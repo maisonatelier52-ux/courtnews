@@ -1,78 +1,47 @@
-import React from 'react';
-import Link from 'next/link';
-import categoryPageData from "../public/data/category/categorypagedata.json";
-import authorsData from "../public/data/authors.json";
+import Link from "next/link";
+
 import Image from "next/image";
 
-const RelatedNews = ({ currentCategory, currentSlug }) => {
-  // Check if data is available
-  if (!categoryPageData || !authorsData) {
-    return <div>Loading...</div>;
-  }
-
-  // Create category → author mapping
-  const authorsByCategory = authorsData.categories?.reduce((acc, item) => {
-    acc[item.category] = item.author;
-    return acc;
-  }, {});
-
-  if (!authorsByCategory) {
-    return <div>Data not found.</div>;
-  }
-
-  // Get posts from the current category only
-  const categoryPosts = categoryPageData[currentCategory] || [];
-  
-  // Filter out the current article, add author information, and sort by date (newest first)
-  const relatedPosts = categoryPosts
-    .filter(post => post.slug !== currentSlug) // Exclude current article
-    .map(post => ({
-      ...post,
-      category: currentCategory,
-      author: authorsByCategory[currentCategory] || {}
-    }))
-    .sort((a, b) => new Date(b.date) - new Date(a.date)) // Sort by date, newest first
-    .slice(0, 4); // Get only 4 most recent related articles
-
-  // If no related posts, don't render the component
-  if (relatedPosts.length === 0) {
-    return null;
-  }
-
-  // Helper function to format date
+const RelatedNews = ({ currentCategory, relatedPosts }) => {
+  // Helper: format date safely
   const formatDate = (dateStr) => {
-    // If date is already in format like "24 Jan, 2026", return as is
-    if (dateStr && dateStr.includes(',')) {
-      return dateStr;
-    }
-    // Otherwise try to parse and format
+    if (!dateStr) return "—";
+    if (dateStr.includes(",")) return dateStr; // already formatted like "23 Jan, 2026"
+
     try {
       const date = new Date(dateStr);
-      return date.toLocaleDateString('en-US', { 
-        day: 'numeric', 
-        month: 'short', 
-        year: 'numeric' 
+      if (isNaN(date.getTime())) return dateStr;
+      return date.toLocaleDateString("en-US", {
+        day: "numeric",
+        month: "short",
+        year: "numeric",
       });
     } catch {
-      return dateStr;
+      return dateStr || "—";
     }
   };
 
-  // Helper function to format category name
-  const formatCategoryName = (category) => {
-    if (!category) return '';
-    // Convert "civil-rights" to "Civil Rights", "us-news" to "US News", etc.
-    return category
-      .split('-')
-      .map(word => word.charAt(0).toUpperCase() + word.slice(1))
-      .join(' ')
-      .replace('Us ', 'US '); // Handle "US News" case
+  // Helper: format slug to readable category name
+  const formatCategoryName = (cat) => {
+    if (!cat) return "";
+    return cat
+      .split("-")
+      .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+      .join(" ")
+      .replace(/\bUs\b/g, "US")
+      .replace(/\bAi\b/g, "AI")
+      .replace(/\bTech\b/g, "Tech & Innovation")
+      .replace(/\bCrypto\b/g, "Cryptocurrency");
   };
+
+  if (!relatedPosts || relatedPosts.length === 0) {
+    return null;
+  }
 
   return (
     <div className="text-black">
       <div className="mt-10 mb-10">
-        {/* Section Header */}
+        {/* Header */}
         <div className="flex items-center justify-between">
           <h2 className="text-xl font-semibold">
             More in {formatCategoryName(currentCategory)}
@@ -81,62 +50,71 @@ const RelatedNews = ({ currentCategory, currentSlug }) => {
 
         <div className="w-full border-t-4 border-orange-500 mb-6"></div>
 
-        {/* ================= DESKTOP VIEW ================= */}
+        {/* DESKTOP GRID */}
         <div className="hidden lg:grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {relatedPosts.map((post, index) => (
-            <Link 
-              key={post.id || index} 
+            <Link
+              key={post.id || post.slug || index}
               href={`/${post.category}/${post.slug}`}
-              className="flex flex-col items-start group"
+              className="flex flex-col group"
             >
-              <Image
-                src={post.image}
-                alt={post.alt || post.heading}
-                className="w-full h-auto object-cover rounded"
-                width={1200}  // Specify the width (adjust according to your design)
-                height={800}  // Specify the height (adjust based on the aspect ratio you need)
-              />
-              <p className="mt-2 text-sm font-semibold group-hover:text-orange-500 transition line-clamp-3">
+              <div className="relative overflow-hidden rounded-lg">
+                <Image
+                  src={post.image}
+                  alt={post.alt || post.heading || "Related news image"}
+                  width={1200}
+                  height={800}
+                  className="w-full h-[150px] object-cover transition-transform duration-300 group-hover:scale-105"
+                  sizes="(max-width: 1024px) 50vw, 25vw"
+                  loading={index < 2 ? "eager" : "lazy"} // prioritize first two
+                  placeholder="blur" // optional: better UX
+                  blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M/wHwAEBgIApaUAAAAASUVORK5CYII=" // tiny placeholder
+                />
+              </div>
+              <h3 className="mt-3 text-sm font-semibold leading-tight group-hover:text-orange-600 transition line-clamp-3">
                 {post.heading}
+              </h3>
+              <p className="mt-1 text-xs text-gray-600">
+                By {post.author?.name || "Staff"}
               </p>
-              <p className="text-xs text-gray-600 mt-1">
-                By {post.author?.name || "Unknown"}
-              </p>
-              <p className="text-xs text-gray-500">
+              <p className="text-xs text-gray-500 mt-0.5">
                 {formatDate(post.date)}
               </p>
             </Link>
           ))}
         </div>
 
-        {/* ================= MOBILE VIEW ================= */}
-        <div className="lg:hidden space-y-5">
+        {/* MOBILE LIST */}
+        <div className="lg:hidden space-y-6">
           {relatedPosts.map((post, index) => (
-            <Link 
-              key={post.id || index}
+            <Link
+              key={post.id || post.slug || index}
               href={`/${post.category}/${post.slug}`}
-              className={`flex items-start gap-4 group ${
-                index !== relatedPosts.length - 1 ? 'border-b pb-4' : ''
-              }`}
+              className="flex items-start gap-4 group"
             >
               <div className="flex-1">
-                <h3 className="text-sm font-semibold leading-snug group-hover:text-orange-500 transition line-clamp-2">
+                <h3 className="text-sm font-semibold leading-snug group-hover:text-orange-600 transition line-clamp-2">
                   {post.heading}
                 </h3>
-                <p className="text-xs text-gray-600 mt-1">
-                  By {post.author?.name || "Unknown"}
+                <p className="mt-1 text-xs text-gray-600">
+                  By {post.author?.name || "Staff"}
                 </p>
-                <p className="text-xs text-gray-500">
+                <p className="text-xs text-gray-500 mt-0.5">
                   {formatDate(post.date)}
                 </p>
               </div>
-              <Image
+
+              <div className="flex-shrink-0 w-20 h-16 overflow-hidden rounded">
+                <Image
                   src={post.image}
-                  alt={post.alt || post.heading}
-                  className="w-20 h-16 object-cover rounded flex-shrink-0"
-                  width={80}  // 20 * 4 (adjust based on your design)
-                  height={64}  // 16 * 4 (adjust based on your design)
-                />
+                  alt={post.alt || post.heading || "Related news"}
+                  width={80}
+                  height={64}
+                  className="w-full h-full object-cover"
+                  sizes="80px"
+                  loading={index < 2 ? "eager" : "lazy"}
+                 />
+              </div>
             </Link>
           ))}
         </div>

@@ -1,81 +1,58 @@
 import React from 'react';
 import { FaPlus } from "react-icons/fa";
+import { RiTwitterXLine } from "react-icons/ri";
+import { FaInstagram } from "react-icons/fa";
+import { BsSubstack } from "react-icons/bs";
+import { SiMedium } from "react-icons/si";
+
 import Link from 'next/link';
 import categoryPageData from "../public/data/category/categorypagedata.json"; // Assuming the path to the data
 import authorsData from "../public/data/authors.json"; // Assuming the path to the data
 import Image from "next/image";
 
-const Sidecontent = () => {
-  // Check if categoryPageData and authorsData are available
-  if (!categoryPageData || !authorsData) {
-    return <div>Loading...</div>; // Show loading message until data is available
-  }
+const Sidecontent = ({heroPost, smallPosts}) => {
 
-  // Category → Author map
-  const authorsByCategory = authorsData.categories?.reduce((acc, item) => {
-    acc[item.category] = item.author;
-    return acc;
-  }, {});
 
-  if (!authorsByCategory) {
-    return <div>Data not found.</div>; // Show error message if authorsByCategory is not available
-  }
-
-  // Collect all posts and add author information
-  const allPosts = Object.entries(categoryPageData).flatMap(
-    ([category, posts]) =>
-      posts.map(post => ({
-        ...post,
-        category,
-        author: authorsByCategory[category] || {} // Provide fallback if no author is found
-      }))
-  );
-
-  // Sort posts by date (latest first)
-  const sortedPosts = [...allPosts].sort(
-    (a, b) => new Date(b.date) - new Date(a.date)
-  );
-
-  // Hero post (most recent post)
-  const heroPost = sortedPosts[0];
-
-  // Small posts (next 4 posts)
-  const smallPosts = sortedPosts.slice(1, 5);
 
   return (
     <div className="text-black">
       <div className="sticky top-0 border-l border-gray-200 space-y-8 lg:pl-6">
         {/* ========== BLOCK 1: FOLLOW US ========== */}
         <div className="bg-white p-6">
-          <h3 className="text-lg font-bold mb-2 text-center">Follow Us</h3>
-          <p className="text-sm mb-4 text-center">Find us on social media</p>
+          <h3 className="text-lg font-bold mb-2 text-center pb-5">Follow Us</h3>
 
-          <div className="grid grid-cols-4 gap-4 text-center">
-            <div className="flex flex-col items-center text-sm">
-              <span className="w-10 h-10 flex items-center justify-center rounded-full bg-blue-600 text-white">
-                <FaPlus />
-              </span>
-              <span className="mt-1">Facebook</span>
-            </div>
-            <div className="flex flex-col items-center text-sm">
-              <span className="w-10 h-10 flex items-center justify-center rounded-full bg-black text-white">
-                <FaPlus />
-              </span>
-              <span className="mt-1">Twitter</span>
-            </div>
-            <div className="flex flex-col items-center text-sm">
-              <span className="w-10 h-10 flex items-center justify-center rounded-full bg-red-600 text-white">
-                <FaPlus />
-              </span>
-              <span className="mt-1">YouTube</span>
-            </div>
-            <div className="flex flex-col items-center text-sm">
-              <span className="w-10 h-10 flex items-center justify-center rounded-full bg-blue-400 text-white">
-                <FaPlus />
-              </span>
-              <span className="mt-1">Telegram</span>
-            </div>
-          </div>
+           <div className="grid grid-cols-4 gap-4 text-center">
+    {/* X (Twitter) */}
+    <div className="flex flex-col items-center text-sm">
+      <span className="w-10 h-10 flex items-center justify-center rounded-full bg-blue-600 text-white">
+        <RiTwitterXLine />
+      </span>
+      
+    </div>
+
+    {/* Instagram */}
+    <div className="flex flex-col items-center text-sm">
+      <span className="w-10 h-10 flex items-center justify-center rounded-full bg-pink-600 text-white">
+        <FaInstagram />
+      </span>
+     
+    </div>
+
+    {/* Substack (using FaEnvelope as a placeholder) */}
+    <div className="flex flex-col items-center text-sm">
+      <span className="w-10 h-10 flex items-center justify-center rounded-full bg-orange-500 text-white">
+        <BsSubstack />
+      </span>
+
+    </div>
+
+    {/* Medium */}
+    <div className="flex flex-col items-center text-sm">
+      <span className="w-10 h-10 flex items-center justify-center rounded-full bg-black text-white">
+          <SiMedium />
+      </span>
+    </div>
+  </div>
         </div>
 
         {/* ---------- DIVIDER ---------- */}
@@ -91,7 +68,7 @@ const Sidecontent = () => {
           <div className="main-news mt-4">
             {heroPost && (
               <>
-                <div className="news-image mt-4">
+                <div className="news-image mt-4 pb-2">
                   <Image
                     src={heroPost.image}
                     alt={heroPost.heading}

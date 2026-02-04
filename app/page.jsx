@@ -6,6 +6,9 @@ import DailyNews from "../components/DailyNews"
 import CrimeNews from "../components/CrimeNews"
 import PoliticsNews from '../components/PoliticsNews';
 import CourtNews from '../components/CourtNews'
+import InvestigationNews from '../components/InvestigationNews'
+import CategoryCards from '../components/Categorycards'
+import CivilrightsNews from '../components/CivilrightsNews'
 import Image from "next/image";
 
 
@@ -102,18 +105,85 @@ const smallPosts = sortedPosts.slice(1, 5);
 
     // Take the first 4 most recent unique court posts
     const latestCourtPosts = uniqueCourtPosts.slice(0, 4);
+
+
+    //INVESTIAGTION NEWS SECTION
+    // Filter only investigations category posts
+  const investigationPosts = sortedPosts.filter(
+    (post) => post.category.toLowerCase() === 'investigations'
+  );
+
+  // Remove any that are already shown in hero or small posts
+  const uniqueInvestigationPosts = investigationPosts.filter((post) => {
+    // Skip if it's the hero post
+    if (heroPost && post.slug === heroPost.slug) return false;
+    // Skip if it's one of the small/latest posts
+    return !smallPosts.some((small) => small.slug === post.slug);
+  });
+
+  // Only render section if we have something to show
+  if (uniqueInvestigationPosts.length === 0) return null;
+
+  // Get posts for each row
+  const investiagtionPost = uniqueInvestigationPosts[0]; // Big featured post (Row 1)
+  const row2Posts = uniqueInvestigationPosts.slice(1, 3); // Row 2 posts
+
+  //CATEGORY
+  // Get all categories with their post counts and latest post image
+  const allCategories = Object.entries(categoryPageData).map(([category, posts]) => {
+    // Get the most recent post for this category
+    const sortedPosts = [...posts].sort(
+      (a, b) => new Date(b.date) - new Date(a.date)
+    );
+    const latestPost = sortedPosts[0];
+
+    return {
+      name: category,
+      postCount: posts.length,
+      image: latestPost?.image,
+      slug: category
+    };
+  });
+
+  // For desktop: show only first 5 categories
+  const desktopCategories = allCategories.slice(0, 5);
+
+  //CIVIL RIGHTS NEWS SECTION
+  // Filter only civil-rights category posts
+  const civilRightsPosts = sortedPosts.filter(
+    (post) => post.category.toLowerCase() === 'civil-rights'
+  );
+
+  // Remove any that are already shown in hero or small posts
+  const uniqueCivilRightsPosts = civilRightsPosts.filter((post) => {
+    // Skip if it's the hero post
+    if (heroPost && post.slug === heroPost.slug) return false;
+    // Skip if it's one of the small/latest posts
+    return !smallPosts.some((small) => small.slug === post.slug);
+  });
+
+  // Only render section if we have something to show
+  if (uniqueCivilRightsPosts.length === 0) return null;
+
+  // Get posts for each column
+  const leftPost = uniqueCivilRightsPosts[0]; // Left column post
+  const middlePost = uniqueCivilRightsPosts[1]; // Middle (main) post
+  const rightPosts = uniqueCivilRightsPosts.slice(2, 4); // Right column posts (2 posts)
+
+
+
   
 
 
   return (
     <main>
-      {/* FIRST SECTION - Hero + Small Cards */}
+      {/* FIRST SECTION - Daliy News */}
         <DailyNews heroPost={heroPost} smallPosts={smallPosts}/>
 
-      {/* SECOND SECTION - Four Cards */}
+      {/* SECOND SECTION - Crime News */}
        <CrimeNews latestCrimePosts={latestCrimePosts} />
 
-      {/* THIRD SECTION - Three Column News */}
+      {/* THIRD SECTION - Politics News */}
       <PoliticsNews featuredPost={featuredPost} textPosts={textPosts} imagePosts={imagePosts}/>
 
       {/* SPONSORED AD SECTION */}
@@ -133,7 +203,7 @@ const smallPosts = sortedPosts.slice(1, 5);
         </div>
       </div>
 
-      {/* FOURTH SECTION - Image List */}
+      {/* FOURTH SECTION - Court News */}
       {/* Court News Section */}
         {latestCourtPosts.length > 0 && (
           <section>
@@ -142,190 +212,25 @@ const smallPosts = sortedPosts.slice(1, 5);
         )}
     
 
-      {/* FIFTH SECTION - What to Watch */}
+      {/* FIFTH SECTION - Investigation News */}
       <div className="bg-gradient-to-b from-[#1b1446] via-[#0e0a2b] to-[#07051c] py-[25px] px-0 text-white">
-  <div className="max-w-[1300px] mx-auto gap-5 pt-5 pb-[10px] p-5">
-    
-    {/* SECTION TITLE */}
-    <div className="flex items-center gap-[10px] mb-[25px] pb-[5px] border-b border-[#eee]">
-      <span className="w-2 h-2 bg-orange-500 rounded-full"></span>
-      <h2 className="text-lg font-bold">What to Watch</h2>
-    </div>
-
-    {/* ROW 1 */}
-    <div className="grid grid-cols-1 md:grid-cols-[1fr_2fr] gap-10 mb-[50px] border-b border-[#eee] pb-5">
-      <div>
-        <span className="text-xs text-orange-500 font-bold">TECHNOLOGY</span>
-        <h1 className="text-[42px] font-extrabold leading-[1.2] my-[14px]">
-          Garmin Venu: Solid<br />
-          Fitness Tracker with<br />
-          Smartwatch
-        </h1>
-        <p className="text-[15px] text-[#cfcfe6] max-w-[420px] pb-[10px]">
-          Modern technology has become a total phenomenon for civilization,
-          the defining force of a new social order in which efficiency...
-        </p>
-        <span className="text-[13px] text-white pb-[10px] block">
-          By Hugh Son · 4 years ago
-        </span>
-      </div>
-
-      <div>
-        <img 
-          src="https://foxiz.io/business/wp-content/uploads/sites/6/2021/08/b36-860x573.jpg" 
-          className="w-full "  // Hide on mobile (default) and show on medium and up screens
-          alt="Garmin Venu"
-        />
-      </div>
-    </div>
-
-    {/* ROW 2 */}
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-[30px] mb-[60px]">
-      <div className="text-center">
-        <img 
-          src="https://foxiz.io/business/wp-content/uploads/sites/6/2021/08/b36-860x573.jpg" 
-          className="w-full h-[300px] "  // Hide on mobile and show on larger screens
-          alt="European Travel"
-        />
-        <div className="text-left p-[10px]">
-          <span className="text-sm text-orange-500 font-bold">PURSUITS</span>
-          <h3 className="text-base mt-3 text-white">
-            10 Places You Can't Miss If It's Your First Time in European
-          </h3>
-          <span className="text-xs text-[#aaa] mt-2 block">
-            By Hugh Son · 4 years ago
-          </span>
-        </div>
-      </div>
-
-      <div className="text-center">
-        <img 
-          src="https://foxiz.io/business/wp-content/uploads/sites/6/2021/08/b36-860x573.jpg" 
-          className="w-full h-[300px]"  // Hide on mobile and show on larger screens
-          alt="Smart Glasses"
-        />
-        <div className="text-left p-[10px]">
-          <span className="text-sm text-orange-500 font-bold">Technology</span>
-          <h3 className="text-base mt-3 text-white">
-            Explained: What are Smart Glasses and How Do It Work?
-          </h3>
-          <span className="text-xs text-[#aaa] mt-2 block">
-            By Hugh Son · 4 years ago
-          </span>
-        </div>
-      </div>
-    </div>
-
-    {/* ROW 3 - Category Cards */}
-    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-[10px]">
-      {["Politics", "Technology", "Economics", "Wellness", "Business"].map((cat) => (
-        <div key={cat} className="bg-white/5 relative">
-          <img 
-            src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d" 
-            className="w-full hidden md:block"  // Hide on mobile (default) and show on medium and up screens
-            alt={cat}
-          />
-          <h4 className="mt-[10px] text-[15px] p-[10px]">{cat}</h4>
-          <div className="absolute bottom-3 right-3 w-[26px] h-[26px] rounded-full border border-white grid place-items-center font-bold">
-            +
-          </div>
-        </div>
-      ))}
-    </div>
-  </div>
-</div>
-
-
-      {/* SIXTH SECTION - Three Column Container */}
-      <div className="grid grid-cols-1 lg:grid-cols-[1fr_2fr_1fr] gap-5 p-5 max-w-[1300px] mx-auto">
+      <InvestigationNews
+       heroPost={heroPost} 
+        smallPosts={smallPosts}  investiagtionPost={investiagtionPost} row2Posts={row2Posts}/>
         
-        {/* Left Column */}
-        <div className="flex flex-col gap-5 ">
-          <div className="bg-[#f0f0f0] p-5 text-center rounded-lg">
-            <p>-Advertisement-</p>
-            
-            <Link href="https://www.morenews.org/" target="_blank" rel="noopener noreferrer">
-          <img
-            src="/images/morenews.png"
-            alt="More News"
-            className="w-full h-25 rounded-md"
-          />
-        </Link>
-          </div>
-
-          <div className="bg-white p-[15px]">
-            <h3 className="text-lg font-bold">
-              NASA Sets Coverage for Two Spacewalks Outside Space Station
-            </h3>
-            <p className="text-sm text-black">
-              We are just an advanced breed of monkeys on a minor planet...
-            </p>
-          </div>
-
-          
-        </div>
-
-        {/* Middle Column */}
-        <div className="flex flex-col gap-5">
-          <div>
-            <img
-              src="https://foxiz.io/business/wp-content/uploads/sites/6/2021/08/b36-860x573.jpg"
-              alt="Mars Module"
-              className="w-full h-[300px] object-cover"
-            />
-            <h2 className="text-2xl font-bold mt-[15px]">
-              NASA is Looking for 4 People to Live Inside 3D-Printed Mars Module
-            </h2>
-            <p className="text-base text-black">
-              The space agency is selecting candidates for a groundbreaking mission...
-            </p>
-             <span className="text-xs text-black mt-2 block">
-            By Hugh Son · 4 years ago
-          </span>
-          </div>
-
-          
-        </div>
-
-        {/* Right Column */}
-        <div className="flex flex-col gap-5">
-          <div className="bg-[#f9f9f9] p-5">
-            <h3 className="text-xl font-bold mb-[15px] text-center">Follow Us</h3>
-            <div className="grid grid-cols-2 gap-[15px] justify-center p-[10px]">
-              <a href="https://facebook.com" className="text-base text-black no-underline hover:text-orange-500">
-                Facebook
-              </a>
-              <a href="https://twitter.com" className="text-base text-black no-underline hover:text-orange-500">
-                X
-              </a>
-              <a href="https://pinterest.com" className="text-base text-black no-underline hover:text-orange-500">
-                Pinterest
-              </a>
-              <a href="https://instagram.com" className="text-base text-black no-underline hover:text-orange-500">
-                Instagram
-              </a>
-              <a href="https://youtube.com" className="text-base text-black no-underline hover:text-orange-500">
-                YouTube
-              </a>
-              <a href="https://telegram.com" className="text-base text-black no-underline hover:text-orange-500">
-                Telegram
-              </a>
-            </div>
-          </div>
-          <div className="bg-white p-[15px]">
-            <h3 className="text-lg font-bold">
-              NASA Sets Coverage for Two Spacewalks Outside Space Station
-            </h3>
-
-          </div>
-          <div className="bg-white p-[15px]">
-            <h3 className="text-lg font-bold">
-              NASA Sets Coverage for Two Spacewalks Outside Space Station
-            </h3>
-
-          </div>
-        </div>
+        <CategoryCards allCategories={allCategories} desktopCategories={desktopCategories}/>
       </div>
+      
+
+
+
+      {/* SIXTH SECTION - CIVIL RIGHTS NEWS SECTION */}
+
+      <CivilrightsNews 
+          rightPosts={rightPosts} middlePost={middlePost} leftPost={leftPost}
+        />
+
+      
 
       {/* SEVENTH SECTION - Three Column with Separators */}
       <div className="bg-gradient-to-b from-[#1b1446] via-[#0e0a2b] to-[#07051c] py-[25px] px-[10px] text-white">
