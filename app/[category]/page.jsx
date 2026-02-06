@@ -150,7 +150,8 @@
 import React from "react";
 import categoryPageData from "../../public/data/category/categorypagedata.json";
 import authorsData from "../../public/data/authors.json";
-import Link from "next/link";
+import Link from "next/link"; 
+import Image from "next/image";
 
 const SITE_URL = "https://www.courtnews.org";
 
@@ -163,7 +164,7 @@ const categoryConfig = {
       "Stay updated with the latest crime news. Our experts bring you in-depth analysis, investigative reporting, and exclusive stories.",
     heroDescription:
       "crime section delivers original journalism focused on accuracy, accountability, and insight. Our editorial team covers breaking developments, law enforcement operations, criminal investigations, and public safety issues.",
-    heroImage: "/images/crime-hero.jpg",
+    heroImage: "/images/crime-hero.webp",
   },
   politics: {
     title: "Politics",
@@ -172,7 +173,7 @@ const categoryConfig = {
       "Stay updated with the latest political news. Our experts bring you in-depth analysis, investigative reporting, and exclusive stories.",
     heroDescription:
       "politics section delivers original journalism focused on accuracy, accountability, and insight. Our editorial team covers breaking political developments, congressional actions, White House policies, elections, and national policy debates.",
-    heroImage: "/images/politics-hero.jpg",
+    heroImage: "/images/politics-hero.webp",
   },
   courts: {
     title: "Courts",
@@ -181,7 +182,7 @@ const categoryConfig = {
       "Stay updated with the latest court news. Our experts bring you in-depth analysis, investigative reporting, and exclusive stories.",
     heroDescription:
       "courts section delivers original journalism focused on accuracy, accountability, and insight. Our editorial team covers federal courts, Supreme Court rulings, landmark cases, judicial appointments, and constitutional matters.",
-    heroImage: "/images/courts-hero.jpg",
+    heroImage: "/images/courts-hero.webp",
   },
   investigations: {
     title: "Investigations",
@@ -190,7 +191,7 @@ const categoryConfig = {
       "Stay updated with the latest investigative news. Our experts bring you in-depth analysis, investigative reporting, and exclusive stories.",
     heroDescription:
       "investigations section delivers original journalism focused on accuracy, accountability, and insight. Our editorial team covers corruption, government accountability, corporate misconduct, and data-driven reporting.",
-    heroImage: "/images/investigations-hero.jpg",
+    heroImage: "/images/investigations-hero.webp",
   },
   "us-news": {
     title: "U.S. News",
@@ -199,7 +200,7 @@ const categoryConfig = {
       "Stay updated with the latest U.S. news. Our experts bring you in-depth analysis, investigative reporting, and exclusive stories.",
     heroDescription:
       "U.S. news section delivers original journalism focused on accuracy, accountability, and insight. Our editorial team covers breaking national developments, federal agencies, disasters, major domestic events, and stories impacting Americans nationwide.",
-    heroImage: "/images/us-news-hero.jpg",
+    heroImage: "/images/us-news-hero.webp",
   },
   "civil-rights": {
     title: "Civil Rights",
@@ -208,7 +209,7 @@ const categoryConfig = {
       "Stay updated with the latest civil rights news. Our experts bring you in-depth analysis, investigative reporting, and exclusive stories.",
     heroDescription:
       "civil rights section delivers original journalism focused on accuracy, accountability, and insight. Our editorial team covers social justice movements, voting rights, policing reform, equality issues, and discrimination cases.",
-    heroImage: "/images/civil-rights-hero.jpg",
+    heroImage: "/images/civil-rights-hero.webp",
   },
   "law-and-justice": {
     title: "Law & Justice",
@@ -217,7 +218,7 @@ const categoryConfig = {
       "Stay updated with the latest law and justice news. Our experts bring you in-depth analysis, investigative reporting, and exclusive stories.",
     heroDescription:
       "law and justice section delivers original journalism focused on accuracy, accountability, and insight. Our editorial team covers criminal justice reform, federal law enforcement, legislation, legal policy, and judicial system developments.",
-    heroImage: "/images/law-justice-hero.jpg",
+    heroImage: "/images/law-justice-hero.webp",
   },
 };
 
@@ -352,13 +353,18 @@ export default async function CategoryPage({ params }) {
             </div>
 
             {/* Right: Image */}
-            <div className="lg:w-1/3 mt-8 lg:mt-0">
-              <img
-                src={config.heroImage}
-                alt={`${config.title} Category`}
-                className="w-full h-auto object-cover shadow-xl shadow-black/40"
-              />
-            </div>
+        <div className="hidden md:block lg:w-1/3 mt-8 lg:mt-0">
+          <div className="relative w-full h-[220px] overflow-hidden rounded-lg shadow-xl shadow-black/40">
+            <Image
+              src={config.heroImage}
+              alt={`${config.title} Category`}
+              fill
+              className="object-cover"
+              sizes="(max-width: 768px) 100vw, 33vw"
+              loading="lazy"
+            />
+          </div>
+        </div>
           </div>
         </div>
 

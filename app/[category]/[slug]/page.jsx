@@ -3,6 +3,8 @@ import { FaFacebookF, FaXTwitter, FaEnvelope, FaInstagram, FaRedditAlien } from 
 import { FiShare2 } from "react-icons/fi";
 import RelatedNews from "../../../components/RelatedNews";
 import Sidecontent from "../../../components/Sidecontent";
+import AuthorProfile from "../../../components/AuthorProfile";
+import PrevNextArticles from "../../../components/PrevNextArticles";
 
 import categoryPageData from "../../../public/data/category/categorypagedata.json";
 import authorsData from "../../../public/data/authors.json";
@@ -75,6 +77,25 @@ export default async function Page({ params }) {
             const smallPosts = sortedPosts.slice(1, 5);
 
 
+            // ──────────────────────────────────────────────
+            // PREV / NEXT ARTICLES – Fixed here
+            // ──────────────────────────────────────────────
+            // Sort articles in the SAME CATEGORY by date (newest first)
+            const categorySorted = [...categoryPosts].sort(
+              (a, b) => new Date(b.date) - new Date(a.date)
+            );
+
+            // Find current article index
+            const currentIndex = categorySorted.findIndex((p) => p.slug === slug);
+
+            // Previous and next posts
+            const prevPost = currentIndex > 0 ? categorySorted[currentIndex - 1] : null;
+            const nextPost =
+              currentIndex < categorySorted.length - 1
+                ? categorySorted[currentIndex + 1]
+                : null;
+
+            
 
 
   return (
@@ -386,75 +407,13 @@ export default async function Page({ params }) {
                     </div>
 
                     {/* Author Section */}
-                    <div className="mt-10">
-                      <div className="mt-6 flex justify-between items-center gap-6">
-                        <div className="flex items-center gap-4">
-                          {/* Author Image */}
-                          <img 
-                            src={author.profileImage} 
-                            alt={author.name} 
-                            className="w-16 h-16 object-cover rounded-full" 
-                          />
-                          <div>
-                            {/* Author Name */}
-                            <a href="#" title={author.name} className="font-semibold text-sm text-gray-900 hover:text-blue-600 hover:underline">
-                              {author.name}
-                            </a>
-                            {/* Author Role */}
-                            <p className="text-gray-800 text-xs">{author.jobtitle}</p>
-                          </div>
-                        </div>
-                        <div className="flex flex-col sm:flex-row items-center gap-4">
-                          <span className="text-sm text-gray-600 hidden sm:block">Follow:</span>
-                          <div className="flex items-center gap-3">
-                            {/* Social Media Icons */}
-                            <a href="#" target="_blank" className="text-gray-600 hover:text-blue-600">
-                              <FaXTwitter className="w-5 h-5" />
-                            </a>
-                            <a href="#" target="_blank" className="text-gray-600 hover:text-blue-600">
-                              <FaInstagram className="w-5 h-5" />
-                            </a>
-                          </div>
-                        </div>
-                      </div>
-                      {/* Author Bio */}
-                      <p className="mt-6 text-sm text-gray-600">
-                        {author.bio || "Inspiring the world through Personal Development and Entrepreneurship. Experimenter in life, productivity, and creativity. Work in Foxiz."}
-                      </p>
-                    </div>
-
-                    {/* Previous/Next Articles Section */}
-                    <div className="mt-10">
-                      <div className="mt-6 grid grid-cols-1 lg:grid-cols-2 gap-8">
-                        {/* Previous Article */}
-                        <div className="flex flex-col items-start gap-4 lg:block hidden">
-                          <span className="text-sm text-gray-600">Previous Article</span>
-                          <div className="flex items-center gap-4 mt-4 hover:text-blue-600 cursor-pointer transition">
-                            <a href="#" title="Previous Article Title">
-                              <div className="flex items-center gap-4">
-                                <img src="https://foxiz.io/business/wp-content/uploads/sites/6/2021/08/b35-860x561.jpg" alt="Previous Article" className="w-16 h-16 object-cover rounded-full" />
-                                <h3 className="text-sm font-semibold text-gray-900">Previous Article Title</h3>
-                              </div>
-                            </a>
-                          </div>
-                        </div>
-
-                        <hr className="my-6 border-t border-gray-300 lg:hidden" />
-
-                        {/* Next Article */}
-                        <div className="flex flex-col items-end gap-4 text-right lg:block hidden">
-                          <span className="text-sm text-gray-600">Next Article</span>
-                          <div className="flex items-center gap-4 mt-4 sm:flex-row-reverse hover:text-blue-600 cursor-pointer transition">
-                            <a href="#" title="Next Article Title">
-                              <div className="flex items-center gap-4">
-                                <img src="https://foxiz.io/business/wp-content/uploads/sites/6/2021/08/b35-860x561.jpg" alt="Next Article" className="w-16 h-16 object-cover rounded-full" />
-                                <h3 className="text-sm font-semibold text-gray-900">Next Article Title</h3>
-                              </div>
-                            </a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
+                    <AuthorProfile author={author} />
+                    <PrevNextArticles 
+                      prevPost={prevPost} 
+                      nextPost={nextPost} 
+                      category={category}
+                    />
+               
                   </div>
             </section>
 

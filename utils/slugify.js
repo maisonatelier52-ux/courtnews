@@ -1,9 +1,12 @@
 // utils/slugify.js
-export const slugify = (text) => {
+export function slugify(text) {
   return text
+    .toString()
     .toLowerCase()
     .trim()
-    .replace(/\s+/g, '-')
-    .replace(/[^\w-]+/g, '')
-    .replace(/--+/g, '-');
-};
+    .replace(/\s+/g, "-")           // spaces → hyphen
+    .replace(/[^\w\-]+/g, "")       // remove non-word chars
+    .replace(/\-\-+/g, "-")         // multiple hyphens → one
+    .replace(/^-+/, "")             // remove leading hyphens
+    .replace(/-+$/, "");            // remove trailing hyphens
+}
