@@ -12,8 +12,12 @@ const merriweather = Merriweather({
 });
 
 export const metadata = {
-  title: "Court News",
-  description: "Legal news and analysis",
+  metadataBase: new URL("https://www.courtnews.org"),
+  // metadataBase: new URL("news-site-hazel.vercel.app"),
+
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({ children }) {

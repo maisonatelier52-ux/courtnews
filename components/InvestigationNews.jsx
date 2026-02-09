@@ -48,10 +48,10 @@ const InvestigationNews = ({investiagtionPost, row2Posts }) => {
               <span className="text-xs text-orange-500 font-bold uppercase">
                 {formatCategoryName(investiagtionPost.category)}
               </span>
-              <h1 className="text-[42px] font-extrabold leading-[1.2] my-[14px] group-hover:text-orange-500 transition">
+              <h2 className="text-[42px] font-extrabold leading-[1.2] my-[14px] group-hover:text-orange-500 transition">
                 {/* {investiagtionPost.heading} */}
                 {investiagtionPost.heading.slice(0,60)}..
-              </h1>
+              </h2>
               <p className="text-[15px] text-[#cfcfe6] max-w-[420px] pb-[10px]">
                 {investiagtionPost.excerpt}
               </p>

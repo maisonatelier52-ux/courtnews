@@ -10,120 +10,276 @@ import categoryPageData from "../../../public/data/category/categorypagedata.jso
 import authorsData from "../../../public/data/authors.json";
 
 
+const SITE_URL = "https://courtnews.org";
+
+export async function generateMetadata({ params }) {
+  const { category, slug } = await params;
+
+  // Find the article
+  const post = categoryPageData[category]?.find((item) => item.slug === slug);
+
+  if (!post) {
+    return {
+      title: "Article Not Found | CourtNews",
+      description: "The requested article could not be found.",
+      robots: "noindex",
+    };
+  }
+
+  const fullImageUrl = post.heroImage.startsWith("http")
+    ? post.heroImage
+    : `${SITE_URL}${post.heroImage}`;
+
+  const canonicalUrl = `${SITE_URL}/${category}/${slug}`;
+
+  return {
+    title: `${post.heading} | CourtNews`,
+    description: post.metaDescription || post.excerpt || "CourtNews – Independent reporting on U.S. courts, justice and legal affairs.",
+    keywords: post.keywords || [category.replace(/-/g, " ")],
+    alternates: {
+      canonical: canonicalUrl,
+    },
+    openGraph: {
+      title: post.heading,
+      description: post.metaDescription || post.excerpt,
+      url: canonicalUrl,
+      type: "article",
+      siteName: "CourtNews",
+      images: [
+        {
+          url: fullImageUrl,
+          width: 1200,
+          height: 630,
+          alt: post.heading,
+        },
+      ],
+      publishedTime: new Date(post.date).toISOString(),
+      modifiedTime: new Date(post.modifiedDate || post.date).toISOString(),
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: post.heading,
+      description: post.metaDescription || post.excerpt,
+      images: [fullImageUrl],
+    },
+  };
+}
+
+
 export default async function Page({ params }) {
-            const { category, slug } = await params;
+  const { category, slug } = await params;
 
-            // 1️⃣ Find the post by category + slug
-            const post = categoryPageData[category]?.find(
-              (item) => item.slug === slug
-            );
+  // 1️⃣ Find the post by category + slug
+  const post = categoryPageData[category]?.find(
+    (item) => item.slug === slug
+  );
 
-            if (!post) {
-              return <div className="max-w-7xl mx-auto px-4 py-8">Post not found</div>;
-            }
+  if (!post) {
+    return <div className="max-w-7xl mx-auto px-4 py-8">Post not found</div>;
+  }
 
-            // 2️⃣ Build author lookup
-            const authorsByCategory = authorsData.categories.reduce((acc, item) => {
-              acc[item.category] = item.author;
-              return acc;
-            }, {});
+  // 2️⃣ Build author lookup
+  const authorsByCategory = authorsData.categories.reduce((acc, item) => {
+    acc[item.category] = item.author;
+    return acc;
+  }, {});
 
-            // 3️⃣ Get author by category
-            const author = authorsByCategory[category];
+  // 3️⃣ Get author by category
+  const author = authorsByCategory[category];
 
-            // 4️⃣ Get body data from post
-            const body = post.body;
+  // 4️⃣ Get body data from post
+  const body = post.body;
 
-            // RELATED NEWS SECTION
-          // Get posts from the current category only
-          const categoryPosts = categoryPageData[category] || [];
+  // 5️⃣ Calculate fullImageUrl (FIXED - was missing in Page function)
+  const fullImageUrl = post.heroImage.startsWith("http")
+    ? post.heroImage
+    : `${SITE_URL}${post.heroImage}`;
 
-          // Filter out the current article, add author information, and sort by date (newest first)
-          const relatedPosts = categoryPosts
-            .filter(post => post.slug !== slug) // Use slug from params
-            .map(post => ({
-              ...post,
-              category: category,              // Use category from params
-              author: authorsByCategory[category] || {}
-            }))
-            .sort((a, b) => new Date(b.date) - new Date(a.date)) // newest first
-            .slice(0, 4); // limit to 4 posts
+  const canonicalUrl = `${SITE_URL}/${category}/${slug}`;
 
-          // If no related posts, don't render the component
-          if (relatedPosts.length === 0) {
-            return null;
-          }
+  // RELATED NEWS SECTION
+  // Get posts from the current category only
+  const categoryPosts = categoryPageData[category] || [];
 
-          //SIDE CONTENT
-           // Collect all posts and add author information
-            const allPosts = Object.entries(categoryPageData).flatMap(
-              ([category, posts]) =>
-                posts.map(post => ({
-                  ...post,
-                  category,
-                  author: authorsByCategory[category] || {} // Provide fallback if no author is found
-                }))
-            );
-          
-            // Sort posts by date (latest first)
-            const sortedPosts = [...allPosts].sort(
-              (a, b) => new Date(b.date) - new Date(a.date)
-            );
-          
-            // Hero post (most recent post)
-            const heroPost = sortedPosts[0];
-          
-            // Small posts (next 4 posts)
-            const smallPosts = sortedPosts.slice(1, 5);
+  // Filter out the current article, add author information, and sort by date (newest first)
+  const relatedPosts = categoryPosts
+    .filter(post => post.slug !== slug) // Use slug from params
+    .map(post => ({
+      ...post,
+      category: category,              // Use category from params
+      author: authorsByCategory[category] || {}
+    }))
+    .sort((a, b) => new Date(b.date) - new Date(a.date)) // newest first
+    .slice(0, 4); // limit to 4 posts
+
+  // If no related posts, don't render the component
+  if (relatedPosts.length === 0) {
+    return null;
+  }
+
+  //SIDE CONTENT
+  // Collect all posts and add author information
+  const allPosts = Object.entries(categoryPageData).flatMap(
+    ([category, posts]) =>
+      posts.map(post => ({
+        ...post,
+        category,
+        author: authorsByCategory[category] || {} // Provide fallback if no author is found
+      }))
+  );
+
+  // Sort posts by date (latest first)
+  const sortedPosts = [...allPosts].sort(
+    (a, b) => new Date(b.date) - new Date(a.date)
+  );
+
+  // Hero post (most recent post)
+  const heroPost = sortedPosts[0];
+
+  // Small posts (next 4 posts)
+  const smallPosts = sortedPosts.slice(1, 5);
 
 
-            // ──────────────────────────────────────────────
-            // PREV / NEXT ARTICLES – Fixed here
-            // ──────────────────────────────────────────────
-            // Sort articles in the SAME CATEGORY by date (newest first)
-            const categorySorted = [...categoryPosts].sort(
-              (a, b) => new Date(b.date) - new Date(a.date)
-            );
+  // ──────────────────────────────────────────────
+  // PREV / NEXT ARTICLES
+  // ──────────────────────────────────────────────
+  // Sort articles in the SAME CATEGORY by date (newest first)
+  const categorySorted = [...categoryPosts].sort(
+    (a, b) => new Date(b.date) - new Date(a.date)
+  );
 
-            // Find current article index
-            const currentIndex = categorySorted.findIndex((p) => p.slug === slug);
+  // Find current article index
+  const currentIndex = categorySorted.findIndex((p) => p.slug === slug);
 
-            // Previous and next posts
-            const prevPost = currentIndex > 0 ? categorySorted[currentIndex - 1] : null;
-            const nextPost =
-              currentIndex < categorySorted.length - 1
-                ? categorySorted[currentIndex + 1]
-                : null;
+  // Previous and next posts
+  const prevPost = currentIndex > 0 ? categorySorted[currentIndex - 1] : null;
+  const nextPost =
+    currentIndex < categorySorted.length - 1
+      ? categorySorted[currentIndex + 1]
+      : null;
 
-            
+  // ──────────────────────────────────────────────
+  // JSON-LD – NewsArticle
+  // ──────────────────────────────────────────────
+  const articleJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "NewsArticle",
+    headline: post.heading,
+    description: post.metaDescription || post.excerpt || "",
+    image: [
+      {
+        "@type": "ImageObject",
+        url: fullImageUrl,
+        width: 1200,
+        height: 630,
+      }
+    ],
+    datePublished: new Date(post.date).toISOString(),
+    dateModified: new Date(post.modifiedDate || post.date).toISOString(),
+    author: author
+      ? {
+        "@type": "Person",
+        name: author.name,
+        url: author.profileUrl || `${SITE_URL}/authors/${author.id || author.name.toLowerCase()}`,
+      }
+      : { "@type": "Person", name: "CourtNews Staff" },
+    publisher: {
+      "@type": "Organization",
+      name: "CourtNews",
+      url: SITE_URL,
+      logo: {
+        "@type": "ImageObject",
+        url: `${SITE_URL}/images/logo.webp`,
+        width: 600,
+        height: 60,
+      },
+    },
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": canonicalUrl,
+    },
+    articleSection: category.replace(/-/g, " ").charAt(0).toUpperCase() + category.replace(/-/g, " ").slice(1),
+    keywords: post.keywords || category,
+  };
 
+  // ──────────────────────────────────────────────
+  // JSON-LD – BreadcrumbList
+  // ──────────────────────────────────────────────
+  const breadcrumbJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "Home",
+        item: SITE_URL,
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: category.replace(/-/g, " ").replace(/\b\w/g, (c) => c.toUpperCase()),
+        item: `${SITE_URL}/${category}`,
+      },
+      {
+        "@type": "ListItem",
+        position: 3,
+        name: post.heading,
+        item: canonicalUrl,
+      },
+    ],
+  };
+
+  // ──────────────────────────────────────────────
+  // JSON-LD – Organization (for better SEO)
+  // ──────────────────────────────────────────────
+  const organizationJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "NewsMediaOrganization",
+    name: "CourtNews",
+    url: SITE_URL,
+    logo: `${SITE_URL}/images/logo.webp`,
+    sameAs: [
+      "https://facebook.com/courtnews",
+      "https://twitter.com/courtnews",
+      "https://instagram.com/courtnews",
+    ],
+    contactPoint: {
+      "@type": "ContactPoint",
+      contactType: "Editorial",
+      url: SITE_URL,
+    },
+  };
 
   return (
     <main>
+      
+      {/* JSON-LD Scripts */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationJsonLd) }}
+      />
+
       <section className="w-full bg-white">
         <div className="max-w-7xl mx-auto px-4 py-8">
 
-          {/* Breadcrumb */}
-          {/* <nav className="text-sm text-black mb-4 hidden md:block">
-            <Link href="/" className="hover:text-black">Home</Link> &gt;{" "}
-            <Link href={`/${category}`} className="hover:text-black">
-              {category}
-            </Link>{" "}
-            &gt;{" "}
-            <span className="text-black">
-              {post.heading}
-            </span>
-          </nav> */}
-
-          {/* Category */}
+          {/* Category Badge */}
           <div className="flex items-center gap-2 mb-4">
             <span className="w-2 h-2 rounded-full bg-orange-500"></span>
             <span className="text-sm font-semibold uppercase tracking-wide text-black">
-              {category}
+              {category.replace(/-/g, " ")}
             </span>
           </div>
 
-          {/* Title */}
+          {/* Main Heading - Only H1 on page */}
           <h1 className="text-3xl md:text-5xl font-extrabold leading-tight text-black mb-4">
             {post.heading}
           </h1>
@@ -148,20 +304,20 @@ export default async function Page({ params }) {
                 <p className="font-semibold text-black">
                   {author.name}
                 </p>
-                <p className="text-black">
+                <time className="text-black" dateTime={new Date(post.date).toISOString()}>
                   {post.date}
-                </p>
+                </time>
               </div>
             </div>
 
             {/* Share Icons */}
             <div className="flex items-center gap-4 text-black">
-              <FiShare2 className="cursor-pointer hover:text-black" />
+              <FiShare2 className="cursor-pointer hover:text-orange-500" />
               <FaFacebookF className="cursor-pointer hover:text-blue-600" />
               <FaXTwitter className="cursor-pointer hover:text-black" />
               <FaEnvelope className="cursor-pointer hover:text-red-500" />
             </div>
-
+ 
           </div>
 
         </div>
@@ -174,7 +330,7 @@ export default async function Page({ params }) {
           <div>
             <img
               src={post.heroImage}
-              alt={post.alt}
+              alt={post.heading}
               className="w-full h-auto object-cover"
             />
             
@@ -184,13 +340,13 @@ export default async function Page({ params }) {
                 {/* LEFT – STICKY SHARE */}
                 <div className="hidden lg:block">
                   <div className="sticky top-10 flex flex-col items-center gap-4 text-gray-500">
-                    <button className="hover:text-blue-600">
+                    <button className="hover:text-blue-600" aria-label="Share on Facebook">
                       <FaFacebookF />
                     </button>
-                    <button className="hover:text-black">
+                    <button className="hover:text-black" aria-label="Share on X">
                       <FaXTwitter />
                     </button>
-                    <button className="hover:text-red-600">
+                    <button className="hover:text-red-600" aria-label="Share via Email">
                       <FaEnvelope />
                     </button>
                   </div>
@@ -217,7 +373,7 @@ export default async function Page({ params }) {
 
                   {/* QUOTE BLOCK */}
                   {body.quote && (
-                    <blockquote className="text-center max-w-2xl mx-auto my-16">
+                    <blockquote className="text-center max-w-2xl mx-auto my-16 border-l-4 border-orange-500 pl-6">
                       <span className="text-orange-500 text-6xl block mb-4">"</span>
                       <p className="text-xl font-semibold leading-relaxed mb-4">
                         {body.quote.text}
@@ -300,7 +456,8 @@ export default async function Page({ params }) {
 
                               {section.subsections?.map((subsection, subIdx) => (
                                 <div key={subIdx} className="flex flex-col justify-start mt-6">
-                                  <h2 className="text-3xl font-bold mb-4">{subsection.title}</h2>
+                                  {/* FIXED: Changed from h2 to h3 for proper hierarchy */}
+                                  <h3 className="text-2xl font-bold mb-4">{subsection.title}</h3>
                                   {subsection.text?.map((text, txtIdx) => (
                                     <p key={txtIdx} className="text-lg text-gray-700 mb-4">
                                       {text}
@@ -308,9 +465,9 @@ export default async function Page({ params }) {
                                   ))}
 
                                   {subsection.checklist?.map((item, itemIdx) => (
-                                    <h3 key={itemIdx} className="text-sm font-semibold mb-2">
+                                    <h4 key={itemIdx} className="text-sm font-semibold mb-2">
                                       <span className="text-orange-500">✓</span> {item}
-                                    </h3>
+                                    </h4>
                                   ))}
 
                                   {subsection.additionalText?.map((text, addIdx) => (
@@ -347,8 +504,7 @@ export default async function Page({ params }) {
 
                               {section.twoColumnContent?.rightQuote && (
                                 <div className="flex items-center justify-center">
-                                  <blockquote className="text-center text-xl italic text-gray-800 font-semibold pl-4">
-                                    {/* <span className="text-center text-orange-500 text-6xl block mb-4">"</span> */}
+                                  <blockquote className="text-center text-xl italic text-gray-800 font-semibold pl-4 border-l-4 border-orange-500">
                                     {section.twoColumnContent.rightQuote.text}
                                     <span className="text-center block mt-2 text-sm text-gray-500">
                                       — {section.twoColumnContent.rightQuote.author}
@@ -377,29 +533,29 @@ export default async function Page({ params }) {
                 
 
               </div>
-               <div className="article-container">
+              <div className="article-container">
                     {/* Share Section */}
                     <div className="mt-10">
                       <hr className="border-t-2 border-dotted border-gray-400" />
                       <div className="flex justify-between items-center mt-6">
                         <div className="flex items-center gap-2">
-                          <span className="text-sm font-semibold">Share</span>
+                          <span className="text-sm font-semibold">Share Article</span>
                         </div>
                         <div className="flex items-center gap-3">
                           {/* Facebook Icon */}
-                          <a href="#" target="_blank" title="Share on Facebook" className="w-9 h-9 flex items-center justify-center rounded-full border border-gray-400 text-gray-600 hover:bg-blue-600 hover:text-white hover:border-blue-600 transition">
+                          <a href={`https://facebook.com/sharer/sharer.php?u=${canonicalUrl}`} target="_blank" rel="noopener noreferrer" title="Share on Facebook" className="w-9 h-9 flex items-center justify-center rounded-full border border-gray-400 text-gray-600 hover:bg-blue-600 hover:text-white hover:border-blue-600 transition">
                             <FaFacebookF className="w-5 h-5" />
                           </a>
                           {/* Twitter Icon */}
-                          <a href="#" target="_blank" title="Share on X" className="w-9 h-9 flex items-center justify-center rounded-full border border-gray-400 text-gray-600 hover:bg-blue-500 hover:text-white hover:border-blue-500 transition">
+                          <a href={`https://twitter.com/intent/tweet?url=${canonicalUrl}&text=${post.heading}`} target="_blank" rel="noopener noreferrer" title="Share on X" className="w-9 h-9 flex items-center justify-center rounded-full border border-gray-400 text-gray-600 hover:bg-blue-500 hover:text-white hover:border-blue-500 transition">
                             <FaXTwitter className="w-5 h-5" />
                           </a>
                           {/* Reddit Icon */}
-                          <a href="#" target="_blank" title="Share on reddit" className="w-9 h-9 flex items-center justify-center rounded-full border border-gray-400 text-gray-600 hover:bg-blue-700 hover:text-white hover:border-blue-700 transition">
+                          <a href={`https://reddit.com/submit?url=${canonicalUrl}&title=${post.heading}`} target="_blank" rel="noopener noreferrer" title="Share on Reddit" className="w-9 h-9 flex items-center justify-center rounded-full border border-gray-400 text-gray-600 hover:bg-blue-700 hover:text-white hover:border-blue-700 transition">
                             <FaRedditAlien className="w-5 h-5" />
                           </a>
                           {/* Instagram Icon */}
-                          <a href="#" target="_blank" title="Share on Instagram" className="w-9 h-9 flex items-center justify-center rounded-full border border-gray-400 text-gray-600 hover:bg-black hover:text-white hover:border-black transition">
+                          <a href={`https://instagram.com`} target="_blank" rel="noopener noreferrer" title="Share on Instagram" className="w-9 h-9 flex items-center justify-center rounded-full border border-gray-400 text-gray-600 hover:bg-black hover:text-white hover:border-black transition">
                             <FaInstagram className="w-5 h-5" />
                           </a>
                         </div>
@@ -414,7 +570,7 @@ export default async function Page({ params }) {
                       category={category}
                     />
                
-                  </div>
+              </div>
             </section>
 
           </div>
@@ -428,7 +584,7 @@ export default async function Page({ params }) {
         <RelatedNews 
             currentCategory={category} 
             relatedPosts={relatedPosts}
-          />
+        />
 
       </section>
 

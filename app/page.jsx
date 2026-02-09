@@ -13,6 +13,46 @@ import LawandJusticeNews from "../components/LawandjusticeNews";
 import UsNews from "../components/UsNews";
 import Image from "next/image";
 
+
+const SITE_URL = "https://courtnews.org";
+// const SITE_URL = "news-site-hazel.vercel.app";
+
+export const metadata = {
+  title: "CourtNews — Independent U.S. Courts, Justice & Legal News",
+  description:
+    "CourtNews delivers fast, factual reporting on U.S. courts, criminal justice, civil rights, federal investigations, law, politics, and major national cases.",
+  alternates: {
+    canonical: SITE_URL,
+    languages: {
+      "en": SITE_URL,
+      "en-US": SITE_URL,
+    },
+  },
+  openGraph: {
+    title: "CourtNews — U.S. Courts, Justice & Legal Reporting",
+    description:
+      "Independent coverage of federal and state courts, landmark cases, civil rights, criminal justice, investigations, and legal accountability.",
+    url: SITE_URL,
+    type: "website",
+    siteName: "CourtNews",
+    images: [
+      {
+        url: `${SITE_URL}/images/courtnews-og.webp`,
+        width: 1200,
+        height: 630,
+        alt: "CourtNews — Justice & Legal News",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "CourtNews — Courts, Justice & Investigations",
+    description:
+      "Unfiltered reporting on U.S. courts, civil rights cases, criminal trials, federal probes, and legal developments.",
+    images: [`${SITE_URL}/images/courtnews-og.webp`],
+  },
+};
+
 const MainSection = async ({ searchParams }) => {
   // 1. Await searchParams (required in server components!)
   const params = await searchParams;
@@ -176,8 +216,44 @@ const MainSection = async ({ searchParams }) => {
   const lawsecondpsot = uniqueLawAndJusticePosts[1];
   const lawthirdpost = uniqueLawAndJusticePosts[2];
 
+
+  /* ---------- JSON-LD (Homepage) ---------- */
+  const websiteJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    name: "CourtNews",
+    url: SITE_URL,
+    description:
+      "Independent U.S. news platform focused on courts, criminal justice, civil rights, federal investigations, law, and legal accountability.",
+    publisher: {
+      "@type": "NewsMediaOrganization",
+      name: "CourtNews",
+      url: SITE_URL,
+      logo: {
+        "@type": "ImageObject",
+        url: `${SITE_URL}/images/logo.webp`,
+        width: 512,
+        height: 512,
+      },
+    },
+    potentialAction: {
+      "@type": "SearchAction",
+      target: `${SITE_URL}/search?q={search_term_string}`,
+      "query-input": "required name=search_term_string",
+    },
+  };
+
+
+
+
+
   return (
     <main>
+      <script
+        id="website-json-ld"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd) }}
+      />
       {/* FIRST SECTION - Daily News */}
       <DailyNews heroPost={heroPost} smallPosts={smallPosts} />
 
@@ -191,7 +267,7 @@ const MainSection = async ({ searchParams }) => {
       <div className="w-full bg-white py-[30px] pb-10 mx-auto text-center border-b border-[#414141] p-5 max-w-[1300px]">
         <span className="block text-sm text-black mb-3">– Sponsored –</span>
         <div className="max-w-[1100px] mx-auto">
-          <Link href="https://www.progresskingdom.com/" target="_blank" rel="noopener noreferrer">
+          <Link href="https://www.progresskingdom.com/" title="Progress Kingdom" target="_blank" rel="noopener noreferrer">
             <Image
               src="/images/progresskingdom.png"
               alt="Progress Kingdom"

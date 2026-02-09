@@ -168,8 +168,9 @@ const Footer = () => {
 
           {/* Extra links (optional) */}
           <div className="flex flex-col gap-2 text-sm text-gray-300">
-            <Link href="/about" className="hover:text-orange-500 transition-colors">About Us</Link>
+            <Link href="/about-us" className="hover:text-orange-500 transition-colors">About Us</Link>
             <Link href="/privacy-policy" className="hover:text-orange-500 transition-colors">Privacy Policy</Link>
+            <Link href="/terms-and-conditions" className="hover:text-orange-500 transition-colors">Terms & Conditions</Link>
           </div>
         </div>
       </div>

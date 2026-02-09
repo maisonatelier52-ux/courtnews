@@ -58,7 +58,7 @@ const RelatedNews = ({ currentCategory, relatedPosts }) => {
               href={`/${post.category}/${post.slug}`}
               className="flex flex-col group"
             >
-              <div className="relative overflow-hidden rounded-lg">
+              <div className="relative overflow-hidden ">
                 <Image
                   src={post.image}
                   alt={post.alt || post.heading || "Related news image"}
