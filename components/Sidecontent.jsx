@@ -86,7 +86,7 @@ const Sidecontent = ({heroPost, smallPosts}) => {
 
                 <div className="flex items-center gap-4 mt-2">
                   <Image
-                      src={heroPost.author?.profileImage || "https://foxiz.io/business/wp-content/uploads/sites/6/2021/08/b48-420x280.jpg"}
+                      src={heroPost.author?.profileImage }
                       alt={heroPost.author?.name || "Author"}
                       className="w-10 h-10 rounded-full"
                       width={40}  // 10 * 4 (adjust based on your design)
@@ -129,7 +129,7 @@ const Sidecontent = ({heroPost, smallPosts}) => {
             <p className="text-center text-sm mb-2">- Ads -</p>
             <Link href="https://www.morenews.org/" target="_blank" rel="noopener noreferrer">
               <Image
-                src="/images/morenews.png"
+                src="/images/morenews.webp"
                 alt="More News"
                 className="w-full h-25 rounded-lg"
                 width={1000}  // Adjust the width based on your design

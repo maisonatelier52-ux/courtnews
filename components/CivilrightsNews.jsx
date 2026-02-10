@@ -37,7 +37,7 @@ const CivilRightsNews = ({ rightPosts, middlePost, leftPost }) => {
           
           <Link href="https://www.morenews.org/" target="_blank" rel="noopener noreferrer">
              <Image
-                src="/images/morenews.png"
+                src="/images/morenews.webp"
                 alt="More News"
                 className="rounded-md"
                 width={500}  // You can adjust this width as needed
