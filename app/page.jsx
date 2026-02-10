@@ -15,7 +15,7 @@ import Image from "next/image";
 
 
 const SITE_URL = "https://courtnews.org";
-// const SITE_URL = "news-site-hazel.vercel.app";
+
 
 export const metadata = {
   title: "CourtNews — Independent U.S. Courts, Justice & Legal News",

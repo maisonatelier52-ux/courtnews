@@ -764,7 +764,7 @@ export default async function CategoryPage({ params }) {
                 {filteredArticles.slice(0, 2).map((article, idx) => (
                   <article 
                     key={article.id || idx} 
-                    className="relative lg:col-span-2 overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300"
+                    className="relative lg:col-span-2 overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300"
                   >
                     <Link href={`/${categorySlug}/${article.slug}`} className="block group">
                       <div className="relative w-full h-80 overflow-hidden">
@@ -798,7 +798,7 @@ export default async function CategoryPage({ params }) {
                 {filteredArticles.slice(2, 6).map((article, idx) => (
                   <article 
                     key={article.id || idx} 
-                    className="relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300"
+                    className="relative overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300"
                   >
                     <Link href={`/${categorySlug}/${article.slug}`} className="block group">
                       <div className="relative w-full h-64 overflow-hidden">
