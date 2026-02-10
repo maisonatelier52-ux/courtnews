@@ -1,9 +1,8 @@
 import React from 'react';
 import { FaPlus } from "react-icons/fa";
-import { RiTwitterXLine } from "react-icons/ri";
-import { FaInstagram } from "react-icons/fa";
+import { FaXTwitter,FaInstagram } from "react-icons/fa6";
+import { FaRedditAlien } from "react-icons/fa";
 import { BsSubstack } from "react-icons/bs";
-import { SiMedium } from "react-icons/si";
 
 import Link from 'next/link';
 import categoryPageData from "../public/data/category/categorypagedata.json"; // Assuming the path to the data
@@ -22,37 +21,40 @@ const Sidecontent = ({heroPost, smallPosts}) => {
           <h3 className="text-lg font-bold mb-2 text-center pb-5">Follow Us</h3>
 
            <div className="grid grid-cols-4 gap-4 text-center">
-    {/* X (Twitter) */}
-    <div className="flex flex-col items-center text-sm">
-      <span className="w-10 h-10 flex items-center justify-center rounded-full bg-blue-600 text-white">
-        <RiTwitterXLine />
-      </span>
-      
-    </div>
+            {/* X (Twitter) */}
+            <div className="flex flex-col items-center text-sm">
+              <span className="w-10 h-10 flex items-center justify-center rounded-full bg-black text-white transition hover:scale-110 hover:shadow-md hover:shadow-black/40">
+                <Link href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+                <FaXTwitter /></Link>
+              </span>
+            </div>
 
-    {/* Instagram */}
-    <div className="flex flex-col items-center text-sm">
-      <span className="w-10 h-10 flex items-center justify-center rounded-full bg-pink-600 text-white">
-        <FaInstagram />
-      </span>
-     
-    </div>
+            {/* Instagram */}
+            <div className="flex flex-col items-center text-sm">
+              <span className="w-10 h-10 flex items-center justify-center rounded-full bg-gradient-to-br from-[#E1306C] via-[#C13584] to-[#F56040] text-white transition hover:scale-110 hover:shadow-md hover:shadow-pink-500/40">
+                <Link href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+                  <FaInstagram /></Link>
+              </span>
+            </div>
 
-    {/* Substack (using FaEnvelope as a placeholder) */}
-    <div className="flex flex-col items-center text-sm">
-      <span className="w-10 h-10 flex items-center justify-center rounded-full bg-orange-500 text-white">
-        <BsSubstack />
-      </span>
+            {/* Reddit */}
+            <div className="flex flex-col items-center text-sm">
+              <span className="w-10 h-10 flex items-center justify-center rounded-full bg-[#FF4500] text-white transition hover:scale-110 hover:shadow-md hover:shadow-orange-700/50">
+                <Link href="https://reddit.com" target="_blank" rel="noopener noreferrer">
+                  <FaRedditAlien />
+                </Link>
+              </span>
+            </div>
 
-    </div>
-
-    {/* Medium */}
-    <div className="flex flex-col items-center text-sm">
-      <span className="w-10 h-10 flex items-center justify-center rounded-full bg-black text-white">
-          <SiMedium />
-      </span>
-    </div>
-  </div>
+            {/* Substack */}
+            <div className="flex flex-col items-center text-sm">
+              <span className="w-10 h-10 flex items-center justify-center rounded-full bg-[#FF6719] text-white transition hover:scale-110 hover:shadow-md hover:shadow-orange-600/40">
+                <Link href="https://substack.com" target="_blank" rel="noopener noreferrer">
+                  <BsSubstack />
+                </Link>
+              </span>
+            </div>
+          </div>
         </div>
 
         {/* ---------- DIVIDER ---------- */}

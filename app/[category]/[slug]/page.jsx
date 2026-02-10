@@ -1,6 +1,11 @@
 import Link from "next/link";
-import { FaFacebookF, FaXTwitter, FaEnvelope, FaInstagram, FaRedditAlien } from "react-icons/fa6";
-import { FiShare2 } from "react-icons/fi";
+import Image from "next/image";
+import { FaFacebookF } from "react-icons/fa6";
+import { FaXTwitter,FaInstagram } from "react-icons/fa6";
+import { FaRedditAlien, FaShareSquare } from "react-icons/fa";
+import { FaLinkedinIn } from "react-icons/fa";
+import { SiMedium } from "react-icons/si";
+import { BsSubstack } from "react-icons/bs";
 import RelatedNews from "../../../components/RelatedNews";
 import Sidecontent from "../../../components/Sidecontent";
 import AuthorProfile from "../../../components/AuthorProfile";
@@ -31,6 +36,8 @@ export async function generateMetadata({ params }) {
     : `${SITE_URL}${post.heroImage}`;
 
   const canonicalUrl = `${SITE_URL}/${category}/${slug}`;
+
+
 
   return {
     title: `${post.heading} | CourtNews`,
@@ -96,6 +103,13 @@ export default async function Page({ params }) {
     : `${SITE_URL}${post.heroImage}`;
 
   const canonicalUrl = `${SITE_URL}/${category}/${slug}`;
+
+    // ──────────────────────────────────────────────
+  // Share variables (add this block)
+  // ──────────────────────────────────────────────
+  const pageUrl = `${SITE_URL}/${category}/${slug}`;
+  const encodedUrl = encodeURIComponent(pageUrl);
+  const shareTitle = encodeURIComponent(post.heading.trim());
 
   // RELATED NEWS SECTION
   // Get posts from the current category only
@@ -294,9 +308,11 @@ export default async function Page({ params }) {
 
             {/* Author */}
             <div className="flex items-center gap-3">
-              <img
+              <Image
                 src={author.profileImage}
-                alt={author.name}
+                alt={author.name || "Author"}
+                width={48}                    // w-12 = 48px
+                height={48}                   // h-12 = 48px
                 className="w-12 h-12 rounded-full object-cover"
               />
 
@@ -312,10 +328,53 @@ export default async function Page({ params }) {
 
             {/* Share Icons */}
             <div className="flex items-center gap-4 text-black">
-              <FiShare2 className="cursor-pointer hover:text-orange-500" />
-              <FaFacebookF className="cursor-pointer hover:text-blue-600" />
-              <FaXTwitter className="cursor-pointer hover:text-black" />
-              <FaEnvelope className="cursor-pointer hover:text-red-500" />
+
+            {/* Social Media Icons */}
+            {author.social?.twitter && (
+              <Link
+ 
+                href={author.social.twitter}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-600 hover:text-blue-600 transition"
+                title="Follow on Twitter"
+              >
+                <FaXTwitter className="w-5 h-5" />
+              </Link>
+            )}
+            {author.social?.instagram && (
+              <Link
+                href={author.social.instagram}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-600 hover:text-blue-600 transition"
+                title="Follow on Instagram"
+              >
+                <FaInstagram className="w-5 h-5" />
+              </Link>
+            )}
+            {author.social?.reddit && (
+              <Link
+                href={author.social.reddit}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-600 hover:text-blue-600 transition"
+                title="Follow on Reddit"
+              >
+                <FaRedditAlien className="w-5 h-5" />
+              </Link>
+            )}
+            {author.social?.substack && (
+              <Link
+                href={author.social.substack}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-600 hover:text-blue-600 transition"
+                title="Follow on Substack"
+              >
+                <BsSubstack className="w-5 h-5" />
+              </Link>
+            )}
             </div>
  
           </div>
@@ -339,17 +398,56 @@ export default async function Page({ params }) {
 
                 {/* LEFT – STICKY SHARE */}
                 <div className="hidden lg:block">
-                  <div className="sticky top-10 flex flex-col items-center gap-4 text-gray-500">
-                    <button className="hover:text-blue-600" aria-label="Share on Facebook">
-                      <FaFacebookF />
-                    </button>
-                    <button className="hover:text-black" aria-label="Share on X">
-                      <FaXTwitter />
-                    </button>
-                    <button className="hover:text-red-600" aria-label="Share via Email">
-                      <FaEnvelope />
-                    </button>
+                <div className="sticky top-20 flex flex-col items-center gap-5 p-3 bg-white/80 backdrop-blur-sm rounded-xl border border-gray-200 shadow-sm">
+                  {/* Share Label */}
+                  <div className="flex items-center gap-2 text-sm text-gray-600 font-medium">
+                    <FaShareSquare className="text-lg" />
+
                   </div>
+
+                  {/* Social Icons */}
+                  <div className="flex flex-col gap-4">
+                    <Link
+                      href={`https://twitter.com/intent/tweet?url=${encodedUrl}&text=${shareTitle}`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-gray-600 hover:text-black transition-colors duration-200 text-2xl"
+                      aria-label="Share on X"
+                    >
+                      <FaXTwitter />
+                    </Link>
+
+                    <Link
+                      href={`https://www.facebook.com/sharer/sharer.php?u=${encodedUrl}`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-gray-600 hover:text-blue-600 transition-colors duration-200 text-2xl"
+                      aria-label="Share on Facebook"
+                    >
+                      <FaFacebookF />
+                    </Link>
+
+                    <Link
+                      href={`https://www.linkedin.com/sharing/share-offsite/?url=${encodedUrl}`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-gray-600 hover:text-[#0A66C2] transition-colors duration-200 text-2xl"
+                      aria-label="Share on LinkedIn"
+                    >
+                      <FaLinkedinIn />
+                    </Link>
+
+                    <Link
+                      href={`https://medium.com/new-story?url=${encodedUrl}`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-gray-600 hover:text-black transition-colors duration-200 text-2xl"
+                      aria-label="Share on Medium"
+                    >
+                      <SiMedium />
+                    </Link>
+                  </div>
+                </div>
                 </div>
 
                 {/* RIGHT – ARTICLE CONTENT */}
@@ -539,7 +637,8 @@ export default async function Page({ params }) {
                       <hr className="border-t-2 border-dotted border-gray-400" />
                       <div className="flex justify-between items-center mt-6">
                         <div className="flex items-center gap-2">
-                          <span className="text-sm font-semibold">Share Article</span>
+                          <FaShareSquare className="text-2xl" />   {/* ← bigger than text-xl */}
+                          <span className="text-sm font-semibold">Share</span>
                         </div>
                         <div className="flex items-center gap-3">
                           {/* Facebook Icon */}
@@ -561,6 +660,7 @@ export default async function Page({ params }) {
                         </div>
                       </div>
                     </div>
+                     <hr className="border-t-2 border-dotted border-gray-400 mt-6" />
 
                     {/* Author Section */}
                     <AuthorProfile author={author} />

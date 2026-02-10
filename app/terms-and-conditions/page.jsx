@@ -176,9 +176,9 @@ export default function TermsAndConditions() {
             legal@courtnews.org
           </p>
 
-          <div className="mt-16 pt-8 border-t border-gray-200 text-center text-gray-500 text-sm">
+          {/* <div className="mt-16 pt-8 border-t border-gray-200 text-center text-gray-500 text-sm">
             © {new Date().getFullYear()} CourtNews. All rights reserved.
-          </div>
+          </div> */}
         </div>
       </main>
     </>

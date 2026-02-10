@@ -15,10 +15,13 @@ export default function PrevNextArticles({ prevPost, nextPost, category }) {
                 title={prevPost.heading}
                 className="flex items-center gap-4"
               >
-                <img 
-                  src={prevPost.image} 
-                  alt={prevPost.alt}
-                  className="w-16 h-16 object-cover rounded-lg flex-shrink-0" 
+                <Image
+                  src={prevPost.image}
+                  alt={prevPost.alt || "Previous post image"}
+                  width={64}
+                  height={64}
+                  className="w-16 h-16 object-cover rounded-lg flex-shrink-0"
+                  sizes="64px"
                 />
                 <h3 className="text-sm font-semibold text-gray-900 line-clamp-2">
                   {prevPost.heading}
@@ -42,10 +45,13 @@ export default function PrevNextArticles({ prevPost, nextPost, category }) {
                 title={nextPost.heading}
                 className="flex items-center gap-4 sm:flex-row-reverse"
               >
-                <img 
-                  src={nextPost.image} 
-                  alt={nextPost.alt}
-                  className="w-16 h-16 object-cover rounded-lg flex-shrink-0" 
+                <Image
+                  src={nextPost.image}
+                  alt={nextPost.alt || "Next post image"}
+                  width={64}
+                  height={64}
+                  className="w-16 h-16 object-cover rounded-lg flex-shrink-0"
+                  sizes="64px"
                 />
                 <h3 className="text-sm font-semibold text-gray-900 line-clamp-2 text-right">
                   {nextPost.heading}

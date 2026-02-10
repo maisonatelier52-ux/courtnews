@@ -3,11 +3,12 @@
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import { HiMenu } from 'react-icons/hi';
-import { FaFacebookF } from "react-icons/fa6";
-import { FaXTwitter } from "react-icons/fa6";
-import { BsSubstack } from "react-icons/bs";
-import { SiMedium } from "react-icons/si";
 import { IoClose } from "react-icons/io5";
+import { FaXTwitter,FaInstagram } from "react-icons/fa6";
+import { FaRedditAlien } from "react-icons/fa";
+import { BsSubstack } from "react-icons/bs";
+import Image from "next/image";
+
 import categoryPageData from "../public/data/category/categorypagedata.json";
 
 const Header = () => {
@@ -97,10 +98,13 @@ const Header = () => {
 
         {/* LOGO */}
         <Link href="/" className="block">
-          <img
-            src="https://foxiz.io/business/wp-content/uploads/sites/6/2022/02/logo.png"
+          <Image
+            src="/images/logo.png"           // ← starts with /
             alt="CourtNews.org"
+            width={200}
+            height={60}
             className="h-[60px] w-auto"
+            priority
           />
         </Link>
 
@@ -109,18 +113,45 @@ const Header = () => {
 
           {/* SOCIAL ICONS */}
           <div className="flex items-center gap-4 text-gray-700 text-lg">
-            <a href="#" aria-label="Facebook" className="hover:text-orange-500">
-              <FaFacebookF />
-            </a>
-            <a href="#" aria-label="X" className="hover:text-orange-500">
+           <Link 
+              href="https://x.com/yourusername" 
+              aria-label="x" 
+              className="hover:text-orange-500"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <FaXTwitter />
-            </a>
-            <a href="#" aria-label="Substack" className="hover:text-orange-500">
+            </Link>
+
+            <Link 
+              href="https://instagram.com/yourusername" 
+              aria-label="Instagram" 
+              className="hover:text-orange-500"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaInstagram />
+            </Link>
+
+            <Link 
+              href="https://reddit.com/user/yourusername" 
+              aria-label="Reddit" 
+              className="hover:text-orange-500"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaRedditAlien />
+            </Link>
+
+            <Link 
+              href="https://yourname.substack.com" 
+              aria-label="Substack" 
+              className="hover:text-orange-500"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <BsSubstack />
-            </a>
-            <a href="#" aria-label="Medium" className="hover:text-orange-500">
-              <SiMedium />
-            </a>
+            </Link>
           </div>
 
           {/* SEARCH */}
@@ -218,8 +249,8 @@ const Header = () => {
             {/* Sidebar Header */}
             <div className="flex items-center justify-between p-4 pb-1 pt-6 border-b border-gray-200">
               <h2 className="text-2xl font-extrabold uppercase tracking-wider text-gray-800">
-  Court News
-</h2>
+                Court News
+              </h2>
 
               <button
                 onClick={() => setIsMenuOpen(false)}
@@ -299,18 +330,45 @@ const Header = () => {
             <div className="p-4 border-t border-gray-200">
               <h3 className="text-sm font-bold text-gray-800 mb-3">Follow Us</h3>
               <div className="flex items-center gap-4 text-gray-700 text-xl">
-                <a href="#" aria-label="Facebook" className="hover:text-orange-500">
-                  <FaFacebookF />
-                </a>
-                <a href="#" aria-label="X" className="hover:text-orange-500">
+                <Link
+                  href="https://x.com/yourusername"
+                  aria-label="x"
+                  className="hover:text-orange-500"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <FaXTwitter />
-                </a>
-                <a href="#" aria-label="Substack" className="hover:text-orange-500">
+                </Link>
+
+                <Link
+                  href="https://instagram.com/yourusername"
+                  aria-label="Instagram"
+                  className="hover:text-orange-500"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FaInstagram />
+                </Link>
+
+                <Link
+                  href="https://www.reddit.com/user/yourusername"
+                  aria-label="Reddit"
+                  className="hover:text-orange-500"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FaRedditAlien />
+                </Link>
+
+                <Link
+                  href="https://yourname.substack.com"
+                  aria-label="Substack"
+                  className="hover:text-orange-500"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <BsSubstack />
-                </a>
-                <a href="#" aria-label="Medium" className="hover:text-orange-500">
-                  <SiMedium />
-                </a>
+                </Link>
               </div>
             </div>
 

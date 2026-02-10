@@ -1,10 +1,10 @@
 import React from 'react';
 import Link from "next/link";
 import Image from "next/image";
-import { RiTwitterXLine } from "react-icons/ri";
-import { FaInstagram } from "react-icons/fa";
+import { FaXTwitter,FaInstagram } from "react-icons/fa6";
+import { FaRedditAlien } from "react-icons/fa";
 import { BsSubstack } from "react-icons/bs";
-import { SiMedium } from "react-icons/si";
+
 
 
 
@@ -95,48 +95,43 @@ const CivilRightsNews = ({ rightPosts, middlePost, leftPost }) => {
         <div className="bg-[#f9f9f9] p-5">
           <h3 className="text-xl font-bold mb-[15px] text-center">Follow Us</h3>
 
-          <div className="grid grid-cols-4 gap-4 text-center ">
-            {/* X (Twitter) */}
-            <div className="flex flex-col items-center text-sm">
-            <span className="w-10 h-10 flex items-center justify-center rounded-full bg-blue-600 text-white">
-                    <a href="https://facebook.com" className="text-base no-underline hover:text-orange-500 transition">
-                    <RiTwitterXLine />
-                    </a>
-            </span>
-            
-            </div>
-
-            {/* Instagram */}
-            <div className="flex flex-col items-center text-sm">
-            <span className="w-10 h-10 flex items-center justify-center rounded-full bg-pink-600 text-white">
-                <a href="https://facebook.com" className="text-base no-underline hover:text-orange-500 transition">
-                    <FaInstagram />
-                    </a>
-            </span>
-            
-            </div>
-
-            {/* Substack (using FaEnvelope as a placeholder) */}
-            <div className="flex flex-col items-center text-sm">
-            <span className="w-10 h-10 flex items-center justify-center rounded-full bg-orange-500 text-white">
-                <a href="https://facebook.com" className="text-base no-underline hover:text-white-500 transition">
-                    <BsSubstack />
-                    </a>
-            
-            </span>
-
-    </div>
-
-    {/* Medium */}
-    <div className="flex flex-col items-center text-sm">
-      <span className="w-10 h-10 flex items-center justify-center rounded-full bg-black text-white">
-        <a href="https://facebook.com" className="text-base no-underline hover:text-orange-500 transition">
-              <SiMedium />
-            </a>
-          
-      </span>
-    </div>
+          <div className="grid grid-cols-4 gap-4 text-center">
+  {/* X (Twitter) */}
+  <div className="flex flex-col items-center text-sm">
+    <span className="w-12 h-12 flex items-center justify-center rounded-full bg-black text-white transition-all duration-300 hover:scale-110 hover:shadow-lg hover:shadow-black/30">
+      <Link href="https://x.com" target="_blank" rel="noopener noreferrer">
+        <FaXTwitter className="text-xl" />
+      </Link>
+    </span>
   </div>
+
+  {/* Instagram */}
+  <div className="flex flex-col items-center text-sm">
+    <span className="w-12 h-12 flex items-center justify-center rounded-full bg-gradient-to-br from-[#E1306C] via-[#C13584] to-[#F56040] text-white transition-all duration-300 hover:scale-110 hover:shadow-lg hover:shadow-pink-500/40">
+      <Link href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+        <FaInstagram className="text-xl" />
+      </Link>
+    </span>
+  </div>
+
+  {/* Reddit */}
+  <div className="flex flex-col items-center text-sm">
+    <span className="w-12 h-12 flex items-center justify-center rounded-full bg-[#FF4500] text-white transition-all duration-300 hover:scale-110 hover:shadow-lg hover:shadow-orange-600/40">
+      <Link href="https://reddit.com" target="_blank" rel="noopener noreferrer">
+        <FaRedditAlien className="text-xl" />
+      </Link>
+    </span>
+  </div>
+
+  {/* Substack */}
+  <div className="flex flex-col items-center text-sm">
+    <span className="w-12 h-12 flex items-center justify-center rounded-full bg-[#FF6719] text-white transition-all duration-300 hover:scale-110 hover:shadow-lg hover:shadow-orange-600/40">
+      <Link href="https://substack.com" target="_blank" rel="noopener noreferrer">
+        <BsSubstack className="text-xl" />
+      </Link>
+    </span>
+  </div>
+</div>
         </div>
 
         {rightPosts.map((post, index) => (
