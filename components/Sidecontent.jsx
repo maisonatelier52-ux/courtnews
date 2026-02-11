@@ -22,34 +22,34 @@ const Sidecontent = ({heroPost, smallPosts}) => {
 
            <div className="grid grid-cols-4 gap-4 text-center">
             {/* X (Twitter) */}
-            <div className="flex flex-col items-center text-sm">
-              <span className="w-10 h-10 flex items-center justify-center rounded-full bg-black text-white transition hover:scale-110 hover:shadow-md hover:shadow-black/40">
-                <Link href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+            <div className="flex flex-col items-center text-lg">
+              <span className="w-12 h-12 flex items-center justify-center rounded-full bg-black text-white transition hover:scale-110 hover:shadow-md hover:shadow-black/40">
+                <Link href="https://twitter.com" title="Follow us on Twitter" target="_blank" rel="noopener noreferrer">
                 <FaXTwitter /></Link>
               </span>
             </div>
 
             {/* Instagram */}
-            <div className="flex flex-col items-center text-sm">
-              <span className="w-10 h-10 flex items-center justify-center rounded-full bg-gradient-to-br from-[#E1306C] via-[#C13584] to-[#F56040] text-white transition hover:scale-110 hover:shadow-md hover:shadow-pink-500/40">
-                <Link href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+            <div className="flex flex-col items-center text-lg">
+              <span className="w-12 h-12 flex items-center justify-center rounded-full bg-gradient-to-br from-[#E1306C] via-[#C13584] to-[#F56040] text-white transition hover:scale-110 hover:shadow-md hover:shadow-pink-500/40">
+                <Link href="https://instagram.com" title="Follow us on Instagram" target="_blank" rel="noopener noreferrer">
                   <FaInstagram /></Link>
               </span>
             </div>
 
             {/* Reddit */}
-            <div className="flex flex-col items-center text-sm">
-              <span className="w-10 h-10 flex items-center justify-center rounded-full bg-[#FF4500] text-white transition hover:scale-110 hover:shadow-md hover:shadow-orange-700/50">
-                <Link href="https://reddit.com" target="_blank" rel="noopener noreferrer">
+            <div className="flex flex-col items-center text-lg">
+              <span className="w-12 h-12 flex items-center justify-center rounded-full bg-[#FF4500] text-white transition hover:scale-110 hover:shadow-md hover:shadow-orange-700/50">
+                <Link href="https://reddit.com" title="Follow us on Reddit" target="_blank" rel="noopener noreferrer">
                   <FaRedditAlien />
                 </Link>
               </span>
             </div>
 
             {/* Substack */}
-            <div className="flex flex-col items-center text-sm">
-              <span className="w-10 h-10 flex items-center justify-center rounded-full bg-[#FF6719] text-white transition hover:scale-110 hover:shadow-md hover:shadow-orange-600/40">
-                <Link href="https://substack.com" target="_blank" rel="noopener noreferrer">
+            <div className="flex flex-col items-center text-lg">
+              <span className="w-12 h-12 flex items-center justify-center rounded-full bg-[#FF6719] text-white transition hover:scale-110 hover:shadow-md hover:shadow-orange-600/40">
+                <Link href="https://substack.com" title="Follow us on Substack" target="_blank" rel="noopener noreferrer">
                   <BsSubstack />
                 </Link>
               </span>
@@ -77,11 +77,12 @@ const Sidecontent = ({heroPost, smallPosts}) => {
                     className="w-full h-auto object-cover"
                     width={1200}  // Specify the width (adjust as needed based on your design)
                     height={800}  // Specify the height (adjust as needed based on your design)
+                    loading="lazy"
                   />
                 </div>
 
-                <h3 className="text-lg font-semibold hover:text-blue-600 cursor-pointer">
-                  <Link href={`/${heroPost.category}/${heroPost.slug}`}>
+                <h3 className="text-lg font-semibold hover:text-orange-600 cursor-pointer">
+                  <Link href={`/${heroPost.category}/${heroPost.slug}`} title={`View article: ${heroPost.heading}`}>
                     {heroPost.heading}
                   </Link>
                 </h3>
@@ -93,6 +94,7 @@ const Sidecontent = ({heroPost, smallPosts}) => {
                       className="w-10 h-10 rounded-full"
                       width={40}  // 10 * 4 (adjust based on your design)
                       height={40} // 10 * 4 (adjust based on your design)
+                      loading="lazy"
                     />
 
                   <div>
@@ -117,7 +119,7 @@ const Sidecontent = ({heroPost, smallPosts}) => {
               {smallPosts.map((post, index) => (
                 <li key={index} className="flex items-center gap-2">
                   <FaPlus />
-                  <Link href={`/${post.category}/${post.slug}`} className="text-sm hover:text-orange-500 hover:underline transition">
+                  <Link href={`/${post.category}/${post.slug}`} title={`View article: ${post.heading}`} className="text-sm hover:text-orange-500 hover:underline transition">
                     {post.heading.length > 60 ? post.heading.slice(0, 60) + "..." : post.heading}
                   </Link>
                 </li>
@@ -129,13 +131,14 @@ const Sidecontent = ({heroPost, smallPosts}) => {
           {/* Advertisement */}
           <div className="ad-image mt-8">
             <p className="text-center text-sm mb-2">- Ads -</p>
-            <Link href="https://www.morenews.org/" target="_blank" rel="noopener noreferrer">
+            <Link href="https://www.morenews.org/" title="Visit More News" target="_blank" rel="noopener noreferrer">
               <Image
                 src="/images/morenews.webp"
                 alt="More News"
                 className="w-full h-25 rounded-lg"
                 width={1000}  // Adjust the width based on your design
                 height={100}  // Adjust the height based on your design
+                loading="lazy"
               />
             </Link>
           </div>

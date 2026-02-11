@@ -18,17 +18,18 @@ const Footer = () => {
   const authors = authorsData?.categories?.slice(0, 5) || [];
 
   return (
-    <footer className="bg-[#111] text-white py-10 w-full mt-auto">
+    <footer className="bg-[#111] text-white pt-10 pb-5 w-full mt-auto">
       <div className="max-w-[1300px] mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 px-4">
 
         {/* Logo & Description */}
         <div className="space-y-4">
           <Image
-              src="/images/logo.png"           // ← starts with / (public folder root)
+              src="/images/logo-w.png"           // ← starts with / (public folder root)
               alt="Court News Logo"
               width={180}
               height={60}                      // ← change to match real proportions
               className="w-[180px] h-auto"
+              loading="lazy"
 
             />
           <p className="text-sm text-gray-300 leading-relaxed">
@@ -44,6 +45,7 @@ const Footer = () => {
               <Link
                 key={cat}
                 href={`/${cat}`}
+                title={`View ${cat.replace("-", " ")} news`}
                 className="hover:text-orange-500 transition-colors capitalize"
               >
                 {cat.replace("-", " ")}
@@ -63,6 +65,7 @@ const Footer = () => {
                   <Link
                     key={auth.id || auth.name}
                     href={`/authors/${auth.slug || slugify(auth.name)}`}
+                    title={`View articles by ${auth.name}`}
                     className="hover:text-orange-500 transition-colors"
                   >
                     {auth.name}
@@ -79,26 +82,26 @@ const Footer = () => {
         <div className="text-center md:text-left">
           <h4 className="mb-4 font-semibold text-lg text-white">Follow Us</h4>
           <div className="flex justify-center md:justify-start gap-5 text-2xl text-gray-300 mb-6">
-             <Link href="#" aria-label="x" className="hover:text-orange-500 transition-colors">
+             <Link href="#" aria-label="x" title="Follow us on X" className="hover:text-orange-500 transition-colors">
               <FaXTwitter />
             </Link>
-            <Link href="#" aria-label="Instagram" className="hover:text-orange-500 transition-colors">
+            <Link href="#" aria-label="Instagram" title="Follow us on Instagram" className="hover:text-orange-500 transition-colors">
               <FaInstagram />
             </Link>
            
-            <Link href="#" aria-label="Reddit" className="hover:text-orange-500 transition-colors">
+            <Link href="#" aria-label="Reddit" title="Follow us on Reddit" className="hover:text-orange-500 transition-colors">
               <FaRedditAlien />
             </Link>
-            <Link href="#" aria-label="substack" className="hover:text-orange-500 transition-colors">
+            <Link href="#" aria-label="substack" title="Follow us on Substack" className="hover:text-orange-500 transition-colors">
               <BsSubstack />
             </Link>
           </div>
 
           {/* Extra links (optional) */}
           <div className="flex flex-col gap-2 text-sm text-gray-300">
-            <Link href="/about-us" className="hover:text-orange-500 transition-colors">About Us</Link>
-            <Link href="/privacy-policy" className="hover:text-orange-500 transition-colors">Privacy Policy</Link>
-            <Link href="/terms-and-conditions" className="hover:text-orange-500 transition-colors">Terms & Conditions</Link>
+            <Link href="/about-us" title="Learn more about Court News" className="hover:text-orange-500 transition-colors">About Us</Link>
+            <Link href="/privacy-policy" title="View our privacy policy" className="hover:text-orange-500 transition-colors">Privacy Policy</Link>
+            <Link href="/terms-and-conditions" title="View our terms and conditions" className="hover:text-orange-500 transition-colors">Terms & Conditions</Link>
           </div>
         </div>
       </div>

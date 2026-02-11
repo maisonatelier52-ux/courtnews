@@ -282,7 +282,7 @@ export default async function AuthorPage({ params }) {
                 Covering:
               </span>
               <Link
-                href={`/${authorData.category}`}
+                href={`/${authorData.category}`} title={`View articles in ${authorData.category}`}
                 className="px-3 py-1 bg-orange-500 text-white text-sm font-semibold rounded hover:bg-orange-600 transition"
               >
                 {authorData.category.replace(/-/g, " ")}
@@ -310,8 +310,8 @@ export default async function AuthorPage({ params }) {
                     target="_blank"
                     rel="noopener noreferrer"
                     className="p-2 rounded-lg bg-gray-200 text-gray-700 hover:bg-red-700 hover:text-white transition"
-                    title="instagram"
-                    aria-label={`${authorData.name} on instagram`}
+                    title="Instagram"
+                    aria-label={`${authorData.name} on Instagram`}
                   >
                     <FaInstagram size={20} />
                   </Link>
@@ -373,6 +373,7 @@ export default async function AuthorPage({ params }) {
                 >
                   <Link
                     href={`/${authorData.category}/${article.slug}`}
+                    title={article.heading || article.metaTitle}
                     className="block group"
                   >
                     {/* Article Image */}

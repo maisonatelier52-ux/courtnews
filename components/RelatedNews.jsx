@@ -56,6 +56,7 @@ const RelatedNews = ({ currentCategory, relatedPosts }) => {
             <Link
               key={post.id || post.slug || index}
               href={`/${post.category}/${post.slug}`}
+              title={`View article: ${post.heading}`}
               className="flex flex-col group"
             >
               <div className="relative overflow-hidden ">
@@ -66,9 +67,10 @@ const RelatedNews = ({ currentCategory, relatedPosts }) => {
                   height={800}
                   className="w-full h-[150px] object-cover transition-transform duration-300 group-hover:scale-105"
                   sizes="(max-width: 1024px) 50vw, 25vw"
-                  loading={index < 2 ? "eager" : "lazy"} // prioritize first two
-                  placeholder="blur" // optional: better UX
-                  blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M/wHwAEBgIApaUAAAAASUVORK5CYII=" // tiny placeholder
+                  loading="lazy"
+                  // loading={index < 2 ? "eager" : "lazy"} // prioritize first two
+                  // placeholder="blur" // optional: better UX
+                  // blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M/wHwAEBgIApaUAAAAASUVORK5CYII=" // tiny placeholder
                 />
               </div>
               <h3 className="mt-3 text-sm font-semibold leading-tight group-hover:text-orange-600 transition line-clamp-3">
@@ -90,6 +92,7 @@ const RelatedNews = ({ currentCategory, relatedPosts }) => {
             <Link
               key={post.id || post.slug || index}
               href={`/${post.category}/${post.slug}`}
+              title={`View article: ${post.heading}`}
               className="flex items-start gap-4 group"
             >
               <div className="flex-1">
@@ -112,7 +115,8 @@ const RelatedNews = ({ currentCategory, relatedPosts }) => {
                   height={64}
                   className="w-full h-full object-cover"
                   sizes="80px"
-                  loading={index < 2 ? "eager" : "lazy"}
+                  loading="lazy"
+                  // loading={index < 2 ? "eager" : "lazy"}
                  />
               </div>
             </Link>

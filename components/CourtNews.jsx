@@ -41,6 +41,7 @@ const CourtNews = ({ latestCourtPosts }) => {
               className="w-full h-[200px] object-cover rounded mb-3"
               width={400}
               height={200}
+              loading="lazy"
             />
             
             {/* Content */}
@@ -50,6 +51,7 @@ const CourtNews = ({ latestCourtPosts }) => {
             <h3 className="text-xl font-extrabold leading-[1.35] my-3">
               <Link
                 href={`/${post.category}/${post.slug}`}
+                title={post.heading}
                 className="hover:text-orange-500 transition-colors"
               >
                 {post.heading}
@@ -69,6 +71,7 @@ const CourtNews = ({ latestCourtPosts }) => {
               <h3 className="text-xl font-extrabold leading-[1.35] my-3">
                 <Link
                   href={`/${post.category}/${post.slug}`}
+                  title={post.heading}
                   className="hover:text-orange-500 transition-colors"
                 >
                   {post.heading}
@@ -86,6 +89,7 @@ const CourtNews = ({ latestCourtPosts }) => {
                 className="w-full h-[150px] object-cover rounded"
                 width={400}
                 height={150}
+                loading="lazy"
               />
             </div>
           </div>

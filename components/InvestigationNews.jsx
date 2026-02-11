@@ -42,7 +42,7 @@ const InvestigationNews = ({investiagtionPost, row2Posts }) => {
 
       {/* ROW 1 - Featured Investigation */}
       {investiagtionPost && (
-        <Link href={`/${investiagtionPost.category}/${investiagtionPost.slug}`}>
+        <Link href={`/${investiagtionPost.category}/${investiagtionPost.slug}`} title={`View article: ${investiagtionPost.heading}`}>
           <div className="grid grid-cols-1 md:grid-cols-[1fr_2fr] gap-10 mb-[50px] border-b border-[#eee] pb-5 group cursor-pointer">
             <div>
               <span className="text-xs text-orange-500 font-bold uppercase">
@@ -67,6 +67,7 @@ const InvestigationNews = ({investiagtionPost, row2Posts }) => {
                 className="w-full h-auto object-cover"
                 width={500}  // You can adjust the width as needed
                 height={300} // You can adjust the height as needed
+                loading="lazy"
               />
             </div>
           </div>
@@ -79,6 +80,7 @@ const InvestigationNews = ({investiagtionPost, row2Posts }) => {
           <Link 
             key={post.id || index}
             href={`/${post.category}/${post.slug}`}
+            title={`View article: ${post.heading}`}
             className="group cursor-pointer block"
           >
             {/* MOBILE LAYOUT - Image first, text below */}
@@ -89,7 +91,7 @@ const InvestigationNews = ({investiagtionPost, row2Posts }) => {
                   className="w-full h-[200px] object-cover mb-3"
                   width={500} // Set the width for optimization (adjust as needed)
                   height={200} // Set the height to match your Tailwind class (200px)
-                  priority={true} // Optional: Use 'priority' if this image should load first (e.g., hero images)
+                  loading="lazy"
                 />
               <span className="text-xs text-orange-500 font-bold uppercase flex items-center gap-1">
                 <span className="w-1.5 h-1.5 bg-orange-500 rounded-full"></span>
@@ -139,6 +141,7 @@ const InvestigationNews = ({investiagtionPost, row2Posts }) => {
                   className="object-cover"
                   width={270}  // Set the width to match the Tailwind class w-[270px]
                   height={160} // Set the height to match the Tailwind class h-[160px]
+                  loading="lazy"
                 />
               </div>
             </div>

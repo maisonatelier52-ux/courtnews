@@ -319,7 +319,7 @@ export default async function CategoryPage({ params }) {
                     key={article.id || idx} 
                     className="relative lg:col-span-2 overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300"
                   >
-                    <Link href={`/${categorySlug}/${article.slug}`} className="block group">
+                    <Link href={`/${categorySlug}/${article.slug}`} title={article.heading || article.metaTitle} className="block group">
                       <div className="relative w-full h-80 overflow-hidden">
                         <Image
                           src={article.image || article.heroImage}
@@ -328,7 +328,7 @@ export default async function CategoryPage({ params }) {
                           height={675}                     // ← example aspect ratio ~16:9, change to match your images
                           className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 800px"
-                          loading="lazy"
+                          
                         />
                       </div>
                       
@@ -356,7 +356,7 @@ export default async function CategoryPage({ params }) {
                     key={article.id || idx} 
                     className="relative overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300"
                   >
-                    <Link href={`/${categorySlug}/${article.slug}`} className="block group">
+                    <Link href={`/${categorySlug}/${article.slug}`} title={article.heading || article.metaTitle} className="block group">
                       <div className="relative w-full h-64 overflow-hidden">
                         <Image
                           src={article.image || article.heroImage}

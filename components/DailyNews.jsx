@@ -20,12 +20,13 @@ const DailyNews = ({heroPost,smallPosts}) => {
                 src={heroPost.image}
                 alt={heroPost.alt}
                 width={1600}  // Specify the width (adjust as needed based on your design)
-                height={400}  // Specify the height to match your original h-[400px]
+                height={400}  // Specify the height to match your original h-[400px]  
             />
 
             <h1 className="text-[25px] font-black text-black p-[15px]">
               <Link 
                 href={`/${heroPost.category}/${heroPost.slug}`}
+                title={heroPost.heading}
                 className="no-underline text-inherit relative hover:text-orange-500 transition-colors"
               >
                 {heroPost.heading}
@@ -52,11 +53,13 @@ const DailyNews = ({heroPost,smallPosts}) => {
                 alt={post.heading}
                 width={1500}  // Specify the width (adjust as needed based on your design)
                 height={150}  // Specify the height to match your original h-[150px]
+                
             />
 
               <h2 className="text-lg font-bold text-black p-[15px]">
                 <Link 
                   href={`/${post.category}/${post.slug}`}
+                  title={post.heading}
                   className="no-underline text-inherit relative hover:text-orange-500 transition-colors"
                 >
                   {post.heading}

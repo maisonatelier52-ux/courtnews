@@ -26,6 +26,7 @@ const CrimeNews = ({latestCrimePosts}) => {
         <Link
           key={post.id || index}
           href={`/${post.category}/${post.slug}`}
+          title={post.heading}
           className="bg-white overflow-hidden group"
         > 
           <Image
@@ -34,6 +35,7 @@ const CrimeNews = ({latestCrimePosts}) => {
             className="w-full h-[190px] object-cover"
             width={1900}  // Adjust the width as needed (based on your design)
             height={190}  // Since h-[190px] is set, this should match the height
+            loading="lazy"
             />
           <h3 className="text-lg font-bold leading-[1.3] px-[14px] pt-3 pb-[6px] group-hover:text-orange-500 transition">
              {post.heading.slice(0,53)}..

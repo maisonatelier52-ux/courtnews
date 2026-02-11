@@ -21,6 +21,7 @@ export default function AuthorProfile({ author }) {
             height={64}
             className="w-16 h-16 object-cover rounded-full"
             sizes="64px"
+            loading="lazy"
           />
           <div>
             {/* Author Name – now uses imported slugify */}

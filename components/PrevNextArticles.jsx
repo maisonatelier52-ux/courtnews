@@ -22,6 +22,7 @@ export default function PrevNextArticles({ prevPost, nextPost, category }) {
                   height={64}
                   className="w-16 h-16 object-cover rounded-lg flex-shrink-0"
                   sizes="64px"
+                  loading="lazy"
                 />
                 <h3 className="text-sm font-semibold text-gray-900 line-clamp-2">
                   {prevPost.heading}
@@ -52,6 +53,7 @@ export default function PrevNextArticles({ prevPost, nextPost, category }) {
                   height={64}
                   className="w-16 h-16 object-cover rounded-lg flex-shrink-0"
                   sizes="64px"
+                  loading="lazy"
                 />
                 <h3 className="text-sm font-semibold text-gray-900 line-clamp-2 text-right">
                   {nextPost.heading}

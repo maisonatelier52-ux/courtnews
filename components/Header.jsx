@@ -97,10 +97,10 @@ const Header = () => {
       <div className="flex items-center justify-between px-4 md:px-[10%] py-3">
 
         {/* LOGO */}
-        <Link href="/" className="block">
+        <Link href="/" title="Court News Homepage" className="block">
           <Image
-            src="/images/logo.png"           // ← starts with /
-            alt="CourtNews.org"
+            src="/images/logo-b.png"           // ← starts with /
+            alt="CourtNews"
             width={200}
             height={60}
             className="h-[60px] w-auto"
@@ -116,6 +116,7 @@ const Header = () => {
            <Link 
               href="https://x.com/yourusername" 
               aria-label="x" 
+              title="Follow us on X"
               className="hover:text-orange-500"
               target="_blank"
               rel="noopener noreferrer"
@@ -126,6 +127,7 @@ const Header = () => {
             <Link 
               href="https://instagram.com/yourusername" 
               aria-label="Instagram" 
+              title="Follow us on Instagram"
               className="hover:text-orange-500"
               target="_blank"
               rel="noopener noreferrer"
@@ -136,6 +138,7 @@ const Header = () => {
             <Link 
               href="https://reddit.com/user/yourusername" 
               aria-label="Reddit" 
+              title="Follow us on Reddit"
               className="hover:text-orange-500"
               target="_blank"
               rel="noopener noreferrer"
@@ -146,6 +149,7 @@ const Header = () => {
             <Link 
               href="https://yourname.substack.com" 
               aria-label="Substack" 
+              title="Follow us on Substack"
               className="hover:text-orange-500"
               target="_blank"
               rel="noopener noreferrer"
@@ -171,6 +175,7 @@ const Header = () => {
                   <Link
                     key={`${item.category}-${item.slug}-${index}`}
                     href={`/${item.category}/${item.slug}`}
+                    title={`View article: ${item.heading}`}
                     className="block px-4 py-3 text-sm hover:bg-gray-100 border-b border-gray-100 last:border-b-0"
                     onClick={() => {
                       setResults([]);
@@ -194,7 +199,7 @@ const Header = () => {
         <button
           onClick={() => setIsMenuOpen(true)}
           className="md:hidden flex flex-col justify-between w-7 h-6"
-          aria-label="Menu"
+          aria-label="Menu" title="Open menu"
         >
           <HiMenu size={28} />
         </button>
@@ -208,7 +213,7 @@ const Header = () => {
             {/* HOME */}
             <li>
               <Link
-                href="/"
+                href="/" title="Court News Homepage"
                 className="block px-4 py-2 font-semibold text-gray-700 rounded hover:bg-gray-100 hover:text-orange-500"
               >
                 Home
@@ -219,7 +224,7 @@ const Header = () => {
             {categories.map((cat) => (
               <li key={cat.slug}>
                 <Link
-                  href={cat.slug}
+                  href={cat.slug} title={`${cat.name} News`}
                   className="block px-4 py-2 font-semibold text-gray-700 rounded hover:bg-gray-100 hover:text-orange-500"
                 >
                   {cat.name}
@@ -255,7 +260,7 @@ const Header = () => {
               <button
                 onClick={() => setIsMenuOpen(false)}
                 className="text-gray-600 hover:text-orange-500"
-                aria-label="Close menu"
+                aria-label="Close menu" title="Close menu"
               >
                 <IoClose size={28} />
               </button>
@@ -278,6 +283,7 @@ const Header = () => {
                     <Link
                       key={`${item.category}-${item.slug}-${index}`}
                       href={`/${item.category}/${item.slug}`}
+                      title={`View article: ${item.heading}`}
                       className="block px-3 py-2 text-sm hover:bg-gray-100 border-b border-gray-100 last:border-b-0"
                       onClick={() => {
                         setResults([]);
@@ -304,6 +310,7 @@ const Header = () => {
                 <li>
                   <Link
                     href="/"
+                    title="Court News Homepage"
                     onClick={() => setIsMenuOpen(false)}
                     className="block px-4 py-3 font-semibold text-gray-700 rounded hover:bg-gray-100 hover:text-orange-500"
                   >
@@ -316,6 +323,7 @@ const Header = () => {
                   <li key={cat.slug}>
                     <Link
                       href={cat.slug}
+                      title={`${cat.name} News`}
                       onClick={() => setIsMenuOpen(false)}
                       className="block px-4 py-3 font-semibold text-gray-700 rounded hover:bg-gray-100 hover:text-orange-500"
                     >
@@ -336,6 +344,7 @@ const Header = () => {
                   className="hover:text-orange-500"
                   target="_blank"
                   rel="noopener noreferrer"
+                  title="Follow us on X"
                 >
                   <FaXTwitter />
                 </Link>
@@ -346,6 +355,7 @@ const Header = () => {
                   className="hover:text-orange-500"
                   target="_blank"
                   rel="noopener noreferrer"
+                  title="Follow us on Instagram"
                 >
                   <FaInstagram />
                 </Link>
@@ -356,6 +366,7 @@ const Header = () => {
                   className="hover:text-orange-500"
                   target="_blank"
                   rel="noopener noreferrer"
+                  title="Follow us on Reddit"
                 >
                   <FaRedditAlien />
                 </Link>
@@ -366,6 +377,7 @@ const Header = () => {
                   className="hover:text-orange-500"
                   target="_blank"
                   rel="noopener noreferrer"
+                  title="Follow us on Substack"
                 >
                   <BsSubstack />
                 </Link>

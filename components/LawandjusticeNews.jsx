@@ -26,7 +26,7 @@ const LawAndJusticeNews = ({ lawfirstpost, lawsecondpsot, lawthirdpost }) => {
         
         {/* Left Column */}
         {lawfirstpost && (
-          <Link href={`/${lawfirstpost.category}/${lawfirstpost.slug}`}>
+          <Link href={`/${lawfirstpost.category}/${lawfirstpost.slug}`} title={`View article: ${lawfirstpost.heading}`}>
             <div className="text-white group cursor-pointer">
               <div className="mb-[15px]">
                 <Image
@@ -35,6 +35,7 @@ const LawAndJusticeNews = ({ lawfirstpost, lawsecondpsot, lawthirdpost }) => {
                     width={1200}
                     height={200}
                     className="w-full h-[200px] object-cover"
+                    loading="lazy"
                     />
               </div>
               <div className="text-[1.2em] font-bold mb-[10px] text-orange-500 group-hover:text-orange-400 transition">
@@ -56,7 +57,7 @@ const LawAndJusticeNews = ({ lawfirstpost, lawsecondpsot, lawthirdpost }) => {
 
         {/* Middle Column */}
         {lawsecondpsot && (
-          <Link href={`/${lawsecondpsot.category}/${lawsecondpsot.slug}`}>
+          <Link href={`/${lawsecondpsot.category}/${lawsecondpsot.slug}`} title={`View article: ${lawsecondpsot.heading}`}>
             <div className="text-white group cursor-pointer">
               <div className="mb-[15px]">
                 <Image
@@ -65,6 +66,7 @@ const LawAndJusticeNews = ({ lawfirstpost, lawsecondpsot, lawthirdpost }) => {
                     width={1200}
                     height={200}
                     className="w-full h-[200px] object-cover"
+                    loading="lazy"
                     />
               </div>
               <div className="text-[1.2em] font-bold mb-[10px] text-orange-500 group-hover:text-orange-400 transition">
@@ -87,7 +89,7 @@ const LawAndJusticeNews = ({ lawfirstpost, lawsecondpsot, lawthirdpost }) => {
 
         {/* Right Column */}
         {lawthirdpost && (
-          <Link href={`/${lawthirdpost.category}/${lawthirdpost.slug}`}>
+          <Link href={`/${lawthirdpost.category}/${lawthirdpost.slug}`} title={`View article: ${lawthirdpost.heading}`}>
             <div className="text-white group cursor-pointer">
               <div className="mb-[15px]">
               <Image
@@ -96,6 +98,7 @@ const LawAndJusticeNews = ({ lawfirstpost, lawsecondpsot, lawthirdpost }) => {
                 width={1200}
                 height={200}
                 className="w-full h-[200px] object-cover"
+                loading="lazy"
                 />
               </div>
               <div className="text-[1.2em] font-bold mb-[10px] text-orange-500 group-hover:text-orange-400 transition">

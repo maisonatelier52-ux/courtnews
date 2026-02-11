@@ -33,7 +33,7 @@ const PoliticsNews = ({featuredPost, textPosts, imagePosts }) => {
       {/* COLUMN 1 – BIG FEATURED */}
       <div>
         {featuredPost && (
-          <Link href={`/${featuredPost.category}/${featuredPost.slug}`}>
+          <Link href={`/${featuredPost.category}/${featuredPost.slug}`} title={`View article: ${featuredPost.heading}`}>
             <article className="group cursor-pointer">
               <Image
                 src={featuredPost.image}
@@ -41,6 +41,7 @@ const PoliticsNews = ({featuredPost, textPosts, imagePosts }) => {
                 className="w-full h-[380px] object-cover"
                 width={1920}  // Adjust the width as needed (based on your design)
                 height={380}  // Since h-[380px] is set, this should match the height
+                loading="lazy"
                 />
               <h2 className="text-[32px] font-extrabold group-hover:text-orange-500 transition">
                 {featuredPost.heading}
@@ -64,13 +65,14 @@ const PoliticsNews = ({featuredPost, textPosts, imagePosts }) => {
             -Advertisement-
           </span>
           
-          <Link href="https://www.morenews.org/" target="_blank" rel="noopener noreferrer">
+          <Link href="https://www.morenews.org/" title='More News Website' target="_blank" rel="noopener noreferrer">
             <Image
                 src="/images/morenews.webp"
                 alt="More News"
                 className="w-full h-[300px] rounded-lg"
                 width={1000}  // Specify the width (adjust based on your design)
                 height={300}  // h-25 corresponds to 100px in height
+                loading="lazy"
                 />
           </Link>
         </div>
@@ -80,6 +82,7 @@ const PoliticsNews = ({featuredPost, textPosts, imagePosts }) => {
           <Link 
             key={post.id || index}
             href={`/${post.category}/${post.slug}`}
+            title={`View article: ${post.heading}`}
           >
             <article className="bg-white p-[10px] group cursor-pointer">
               <h3 className="text-lg font-bold mb-[3px] group-hover:text-orange-500 transition">
@@ -102,6 +105,7 @@ const PoliticsNews = ({featuredPost, textPosts, imagePosts }) => {
           <Link 
             key={post.id || index}
             href={`/${post.category}/${post.slug}`}
+            title={`View article: ${post.heading}`}
           >
             <article className="group cursor-pointer">
               <Image
@@ -110,6 +114,7 @@ const PoliticsNews = ({featuredPost, textPosts, imagePosts }) => {
                 className="w-full h-[150px] object-cover"
                 width={1000}  // Adjust the width based on your design
                 height={150}  // Since h-[200px] is set, this should match the height
+                loading="lazy"
                 />
               <h3 className="text-lg font-bold mt-[10px] group-hover:text-orange-500 transition">
                 {post.heading}

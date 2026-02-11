@@ -35,20 +35,21 @@ const CivilRightsNews = ({ rightPosts, middlePost, leftPost }) => {
         <div className="bg-[#f0f0f0] p-5 text-center ">
           <p className="text-sm mb-2">-Advertisement-</p>
           
-          <Link href="https://www.morenews.org/" target="_blank" rel="noopener noreferrer">
+          <Link href="https://www.morenews.org/" title="More News" target="_blank" rel="noopener noreferrer">
              <Image
                 src="/images/morenews.webp"
                 alt="More News"
                 className="rounded-md"
                 width={500}  // You can adjust this width as needed
                 height={100} // You can adjust this height as needed
+                loading="lazy"
                 />
           </Link>
         </div>
         
 
         {leftPost && (
-          <Link href={`/${leftPost.category}/${leftPost.slug}`}>
+          <Link href={`/${leftPost.category}/${leftPost.slug}`} title={leftPost.heading}>
             <div className="bg-white p-[15px] group cursor-pointer">
               <h3 className="text-lg font-bold group-hover:text-orange-500 transition">
                 {leftPost.heading}
@@ -67,7 +68,7 @@ const CivilRightsNews = ({ rightPosts, middlePost, leftPost }) => {
       {/* Middle Column */}
       <div className="flex flex-col gap-5">
         {middlePost && (
-          <Link href={`/${middlePost.category}/${middlePost.slug}`}>
+          <Link href={`/${middlePost.category}/${middlePost.slug}`} title={middlePost.heading}>
             <div className="group cursor-pointer">
               <Image
                 src={middlePost.image}
@@ -75,6 +76,7 @@ const CivilRightsNews = ({ rightPosts, middlePost, leftPost }) => {
                 className="object-cover"
                 width={700} // Adjust width as needed
                 height={200} // Adjust height as needed
+                loading="lazy"
                 />
               <h2 className="text-2xl font-bold mt-[15px] group-hover:text-orange-500 transition">
                 {middlePost.heading}
@@ -96,48 +98,49 @@ const CivilRightsNews = ({ rightPosts, middlePost, leftPost }) => {
           <h3 className="text-xl font-bold mb-[15px] text-center">Follow Us</h3>
 
           <div className="grid grid-cols-4 gap-4 text-center">
-  {/* X (Twitter) */}
-  <div className="flex flex-col items-center text-sm">
-    <span className="w-12 h-12 flex items-center justify-center rounded-full bg-black text-white transition-all duration-300 hover:scale-110 hover:shadow-lg hover:shadow-black/30">
-      <Link href="https://x.com" target="_blank" rel="noopener noreferrer">
-        <FaXTwitter className="text-xl" />
-      </Link>
-    </span>
-  </div>
+            {/* X (Twitter) */}
+            <div className="flex flex-col items-center text-sm">
+              <span className="w-12 h-12 flex items-center justify-center rounded-full bg-black text-white transition-all duration-300 hover:scale-110 hover:shadow-lg hover:shadow-black/30">
+                <Link href="https://x.com" title="Follow us on X (Twitter)" target="_blank" rel="noopener noreferrer">
+                  <FaXTwitter className="text-xl" />
+                </Link> 
+              </span>
+            </div>
 
-  {/* Instagram */}
-  <div className="flex flex-col items-center text-sm">
-    <span className="w-12 h-12 flex items-center justify-center rounded-full bg-gradient-to-br from-[#E1306C] via-[#C13584] to-[#F56040] text-white transition-all duration-300 hover:scale-110 hover:shadow-lg hover:shadow-pink-500/40">
-      <Link href="https://instagram.com" target="_blank" rel="noopener noreferrer">
-        <FaInstagram className="text-xl" />
-      </Link>
-    </span>
-  </div>
+            {/* Instagram */}
+            <div className="flex flex-col items-center text-sm">
+              <span className="w-12 h-12 flex items-center justify-center rounded-full bg-gradient-to-br from-[#E1306C] via-[#C13584] to-[#F56040] text-white transition-all duration-300 hover:scale-110 hover:shadow-lg hover:shadow-pink-500/40">
+                <Link href="https://instagram.com" title="Follow us on Instagram" target="_blank" rel="noopener noreferrer">
+                  <FaInstagram className="text-xl" />
+                </Link>
+              </span>
+            </div>
 
-  {/* Reddit */}
-  <div className="flex flex-col items-center text-sm">
-    <span className="w-12 h-12 flex items-center justify-center rounded-full bg-[#FF4500] text-white transition-all duration-300 hover:scale-110 hover:shadow-lg hover:shadow-orange-600/40">
-      <Link href="https://reddit.com" target="_blank" rel="noopener noreferrer">
-        <FaRedditAlien className="text-xl" />
-      </Link>
-    </span>
-  </div>
+            {/* Reddit */}
+            <div className="flex flex-col items-center text-sm">
+              <span className="w-12 h-12 flex items-center justify-center rounded-full bg-[#FF4500] text-white transition-all duration-300 hover:scale-110 hover:shadow-lg hover:shadow-orange-600/40">
+                <Link href="https://reddit.com" title="Follow us on Reddit" target="_blank" rel="noopener noreferrer">
+                  <FaRedditAlien className="text-xl" />
+                </Link>
+              </span>
+            </div>
 
-  {/* Substack */}
-  <div className="flex flex-col items-center text-sm">
-    <span className="w-12 h-12 flex items-center justify-center rounded-full bg-[#FF6719] text-white transition-all duration-300 hover:scale-110 hover:shadow-lg hover:shadow-orange-600/40">
-      <Link href="https://substack.com" target="_blank" rel="noopener noreferrer">
-        <BsSubstack className="text-xl" />
-      </Link>
-    </span>
-  </div>
-</div>
+            {/* Substack */}
+            <div className="flex flex-col items-center text-sm">
+              <span className="w-12 h-12 flex items-center justify-center rounded-full bg-[#FF6719] text-white transition-all duration-300 hover:scale-110 hover:shadow-lg hover:shadow-orange-600/40">
+                <Link href="https://substack.com" title="Follow us on Substack" target="_blank" rel="noopener noreferrer">
+                  <BsSubstack className="text-xl" />
+                </Link>
+              </span>
+            </div>
+          </div>
         </div>
 
         {rightPosts.map((post, index) => (
           <Link 
             key={post.id || index}
             href={`/${post.category}/${post.slug}`}
+            title={post.heading}
           >
             <div className="bg-white p-[10px] group cursor-pointer">
               <h3 className="text-lg font-bold group-hover:text-orange-500 transition">

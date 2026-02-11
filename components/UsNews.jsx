@@ -36,7 +36,7 @@ const UsNews = ({ posts }) => {
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
         {postsToShow.map((post, index) => (
-          <Link key={post.id || index} href={`/${post.category}/${post.slug}`}>
+          <Link key={post.id || index} href={`/${post.category}/${post.slug}`} title={`View article: ${post.heading}`} className="hover:shadow-lg transition-shadow duration-300">
             <div className="bg-white p-[15px] hover:shadow cursor-pointer">
               <Image
                 src={post.image}
@@ -44,6 +44,7 @@ const UsNews = ({ posts }) => {
                 className="w-full h-[150px] object-cover mb-[15px]"
                 width={800}    // required - choose a reasonable intrinsic width
                 height={150}   // required - matches the display height
+                loading="lazy"
               />
               <h3 className="text-base font-bold text-black mb-[10px] line-clamp-2 hover:text-orange-500">
                 {post.heading}
@@ -62,6 +63,7 @@ const UsNews = ({ posts }) => {
           <button
             onClick={() => setShowAll(!showAll)}
             className="px-8 py-3 bg-orange-500 text-white font-semibold rounded-full hover:bg-orange-600 transition-colors duration-300"
+            title={showAll ? "Show fewer posts" : "Show more posts"}
           >
             {showAll ? "Show Less" : "More"}
           </button>

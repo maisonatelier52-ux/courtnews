@@ -37,7 +37,7 @@ export const metadata = {
     siteName: "CourtNews",
     images: [
       {
-        url: `${SITE_URL}/images/courtnews-og.webp`,
+        url: `${SITE_URL}/images/logo-og.png`,
         width: 1200,
         height: 630,
         alt: "CourtNews — Justice & Legal News",
@@ -49,7 +49,7 @@ export const metadata = {
     title: "CourtNews — Courts, Justice & Investigations",
     description:
       "Unfiltered reporting on U.S. courts, civil rights cases, criminal trials, federal probes, and legal developments.",
-    images: [`${SITE_URL}/images/courtnews-og.webp`],
+    images: [`${SITE_URL}/images/logo-og.png`],
   },
 };
 
@@ -231,7 +231,7 @@ const MainSection = async ({ searchParams }) => {
       url: SITE_URL,
       logo: {
         "@type": "ImageObject",
-        url: `${SITE_URL}/images/logo.webp`,
+        url: `${SITE_URL}/images/logo-og.png`,
         width: 512,
         height: 512,
       },

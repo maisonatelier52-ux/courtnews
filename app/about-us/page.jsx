@@ -18,7 +18,7 @@ export const metadata = {
     siteName: "CourtNews",
     images: [
       {
-        url: `${SITE_URL}/images/courtnews-logo.webp`,
+        url: `${SITE_URL}/images/logo-og.png`,
         width: 1200,
         height: 630,
         alt: "CourtNews – Justice & Legal Reporting",

@@ -53,7 +53,7 @@ export async function generateMetadata({ params }) {
       type: "article",
       siteName: "CourtNews",
       images: [
-        {
+        { 
           url: fullImageUrl,
           width: 1200,
           height: 630,
@@ -313,7 +313,8 @@ export default async function Page({ params }) {
                 alt={author.name || "Author"}
                 width={48}                    // w-12 = 48px
                 height={48}                   // h-12 = 48px
-                className="w-12 h-12 rounded-full object-cover"
+                className="w-12 h-12 rounded-full object-cover" 
+                priority
               />
 
               <div className="text-sm">
@@ -332,7 +333,6 @@ export default async function Page({ params }) {
             {/* Social Media Icons */}
             {author.social?.twitter && (
               <Link
- 
                 href={author.social.twitter}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -387,10 +387,13 @@ export default async function Page({ params }) {
 
           {/* LEFT – ARTICLE IMAGE */}
           <div>
-            <img
+            <Image
               src={post.heroImage}
               alt={post.heading}
+              width={1200}
+              height={630}
               className="w-full h-auto object-cover"
+              priority
             />
             
             <section className="max-w-7xl mx-auto px-4 mt-10">
@@ -413,6 +416,7 @@ export default async function Page({ params }) {
                       rel="noopener noreferrer"
                       className="text-gray-600 hover:text-black transition-colors duration-200 text-2xl"
                       aria-label="Share on X"
+                      title="Share on X"
                     >
                       <FaXTwitter />
                     </Link>
@@ -423,6 +427,7 @@ export default async function Page({ params }) {
                       rel="noopener noreferrer"
                       className="text-gray-600 hover:text-blue-600 transition-colors duration-200 text-2xl"
                       aria-label="Share on Facebook"
+                      title="Share on Facebook"
                     >
                       <FaFacebookF />
                     </Link>
@@ -433,6 +438,7 @@ export default async function Page({ params }) {
                       rel="noopener noreferrer"
                       className="text-gray-600 hover:text-[#0A66C2] transition-colors duration-200 text-2xl"
                       aria-label="Share on LinkedIn"
+                      title="Share on LinkedIn"
                     >
                       <FaLinkedinIn />
                     </Link>
@@ -443,6 +449,7 @@ export default async function Page({ params }) {
                       rel="noopener noreferrer"
                       className="text-gray-600 hover:text-black transition-colors duration-200 text-2xl"
                       aria-label="Share on Medium"
+                      title="Share on Medium"
                     >
                       <SiMedium />
                     </Link>
@@ -495,10 +502,13 @@ export default async function Page({ params }) {
 
                             {section.image && (
                               <div className="w-full mb-6">
-                                <img
+                                <Image
                                   src={section.image.url}
                                   alt={section.image.alt}
+                                  width={1200}
+                                  height={800}
                                   className="w-full h-auto object-cover"
+                                  loading="lazy"
                                 />
                               </div>
                             )}
@@ -544,10 +554,14 @@ export default async function Page({ params }) {
 
                               {section.image && (
                                 <div>
-                                  <img
+                                 <Image
                                     src={section.image.url}
                                     alt={section.image.alt}
+                                    width={1200}
+                                    height={800}
+                                    sizes="100vw"
                                     className="object-cover w-full h-auto"
+                                    loading="lazy"
                                   />
                                 </div>
                               )}
