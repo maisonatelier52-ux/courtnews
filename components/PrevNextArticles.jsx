@@ -3,12 +3,12 @@ import Link from 'next/link';
 
 export default function PrevNextArticles({ prevPost, nextPost, category }) {
   return (
-    <div className="mt-10">
-      <div className="mt-6 grid grid-cols-1 lg:grid-cols-2 gap-8">
+    <div className="mt-5">
+      <div className="mt-5 grid grid-cols-1 lg:grid-cols-2 gap-8">
         {/* Previous Article */}
         <div className="flex flex-col items-start gap-4 lg:block hidden">
           <span className="text-sm text-gray-600">Previous Article</span>
-          <div className="flex items-center gap-4 mt-4 hover:text-blue-600 cursor-pointer transition">
+          <div className="flex items-center gap-4 mt-2 hover:text-blue-600 cursor-pointer transition">
             {prevPost ? (
               <Link 
                 href={`/${category}/${prevPost.slug}`}
@@ -39,7 +39,7 @@ export default function PrevNextArticles({ prevPost, nextPost, category }) {
         {/* Next Article */}
         <div className="flex flex-col items-end gap-4 text-right lg:block hidden">
           <span className="text-sm text-gray-600">Next Article</span>
-          <div className="flex items-center gap-4 mt-4 sm:flex-row-reverse hover:text-blue-600 cursor-pointer transition">
+          <div className="flex items-center gap-4 mt-2 sm:flex-row-reverse hover:text-blue-600 cursor-pointer transition">
             {nextPost ? (
               <Link 
                 href={`/${category}/${nextPost.slug}`}

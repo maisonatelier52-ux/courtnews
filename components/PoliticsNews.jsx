@@ -44,10 +44,10 @@ const PoliticsNews = ({featuredPost, textPosts, imagePosts }) => {
                 loading="lazy"
                 />
               <h2 className="text-[32px] font-extrabold group-hover:text-orange-500 transition">
-                {featuredPost.heading}
+                {featuredPost.heading.slice(0,70)}...
               </h2>
               <p className="text-base text-black leading-[1.6]">
-                {featuredPost.excerpt}
+                {featuredPost.excerpt.slice(0,150)}...
               </p>
               <span className="text-[13px] text-black">
                 By {featuredPost.author?.name || "Unknown"} · {formatDate(featuredPost.date)}

@@ -292,12 +292,12 @@ export default async function CategoryPage({ params }) {
         </section>
 
         {/* Articles Section */}
-        <section className="max-w-7xl mx-auto px-4 py-12" aria-label="Latest articles">
+        <section className="max-w-7xl mx-auto px-4 pt-1 pb-10" aria-label="Latest articles">
           <div className="mb-10">
             {/* Section Header */}
-            <div className="flex items-center justify-between mb-4">
+            <div className="flex items-center justify-between mb-1">
               <h2 className="text-2xl lg:text-3xl font-bold text-gray-900">
-                Latest News
+                Latest {categoryTitleFormatted} News
               </h2>
             </div>
             

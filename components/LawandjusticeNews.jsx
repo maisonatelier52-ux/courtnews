@@ -113,7 +113,7 @@ const LawAndJusticeNews = ({ lawfirstpost, lawsecondpsot, lawthirdpost }) => {
               </div>
             </div>
           </Link>
-        )}
+        )} 
       </div>
     </div>
   );

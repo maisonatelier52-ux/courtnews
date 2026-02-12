@@ -85,7 +85,7 @@ export default function About() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
       />
 
-      <main className="mx-auto max-w-7xl px-4 sm:px-6 py-16 md:py-24 font-serif bg-white min-h-screen">
+      <main className="mx-auto max-w-7xl px-4 sm:px-6 py-16 md:py-15  bg-white min-h-screen">
         <div className="max-w-4xl mx-auto">
           {/* Header */}
           <div className="text-center mb-16">

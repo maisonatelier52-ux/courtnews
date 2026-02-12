@@ -382,7 +382,7 @@ export default async function Page({ params }) {
         </div>
       </section>
 
-      <section className="max-w-7xl mx-auto px-4 mt-5">
+      <section className="max-w-7xl mx-auto px-4 mt-1">
         <div className="grid grid-cols-1 lg:grid-cols-[2fr_1fr] gap-8">
 
           {/* LEFT – ARTICLE IMAGE */}
@@ -396,7 +396,7 @@ export default async function Page({ params }) {
               priority
             />
             
-            <section className="max-w-7xl mx-auto px-4 mt-10">
+            <section className="max-w-7xl mx-auto px-4 mt-4">
               <div className="grid grid-cols-1 lg:grid-cols-[60px_1fr] gap-6">
 
                 {/* LEFT – STICKY SHARE */}
@@ -461,7 +461,7 @@ export default async function Page({ params }) {
                 <article className="max-w-3xl">
                   {/* DROP CAP PARAGRAPH */}
                   {body.dropcap && (
-                    <p className="text-gray-700 leading-7 text-lg mb-6">
+                    <p className="text-gray-700 leading-7 text-lg mb-4">
                       <span className="float-left text-8xl font-bold mr-3 leading-none text-black">
                         {body.dropcap.letter}
                       </span>
@@ -471,14 +471,14 @@ export default async function Page({ params }) {
 
                   {/* PARAGRAPHS */}
                   {body.paragraphs?.map((paragraph, idx) => (
-                    <p key={idx} className="text-gray-700 leading-7 mb-10">
+                    <p key={idx} className="text-gray-700 leading-7 mb-4">
                       {paragraph}
                     </p>
                   ))}
 
                   {/* QUOTE BLOCK */}
                   {body.quote && (
-                    <blockquote className="text-center max-w-2xl mx-auto my-16 border-l-4 border-orange-500 pl-6">
+                    <blockquote className="text-center max-w-2xl mx-auto my-10 border-l-4 border-orange-500 pl-6">
                       <span className="text-orange-500 text-6xl block mb-4">"</span>
                       <p className="text-xl font-semibold leading-relaxed mb-4">
                         {body.quote.text}
@@ -501,7 +501,7 @@ export default async function Page({ params }) {
                             ))}
 
                             {section.image && (
-                              <div className="w-full mb-6">
+                              <div className="w-full mb-5">
                                 <Image
                                   src={section.image.url}
                                   alt={section.image.alt}
@@ -543,7 +543,7 @@ export default async function Page({ params }) {
                       // FULL WIDTH SECTION
                       if (section.type === 'fullWidth') {
                         return (
-                          <div key={sectionIdx} className="mt-8">
+                          <div key={sectionIdx} className="mt-5">
                             <div className="bg-white">
                               <h2 className="text-2xl font-bold mb-4">{section.title}</h2>
                               {section.content?.map((text, idx) => (
@@ -567,7 +567,7 @@ export default async function Page({ params }) {
                               )}
 
                               {section.subsections?.map((subsection, subIdx) => (
-                                <div key={subIdx} className="flex flex-col justify-start mt-6">
+                                <div key={subIdx} className="flex flex-col justify-start mt-5">
                                   {/* FIXED: Changed from h2 to h3 for proper hierarchy */}
                                   <h3 className="text-2xl font-bold mb-4">{subsection.title}</h3>
                                   {subsection.text?.map((text, txtIdx) => (
@@ -605,7 +605,7 @@ export default async function Page({ params }) {
                               </p>
                             ))}
 
-                            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                            <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
                               <div>
                                 {section.twoColumnContent?.left?.map((text, idx) => (
                                   <p key={idx} className="text-lg text-gray-700 mb-4">
@@ -627,7 +627,7 @@ export default async function Page({ params }) {
                             </div>
 
                             {section.conclusion?.map((text, idx) => (
-                              <p key={`conclusion-${idx}`} className="text-lg text-gray-700 mb-4">
+                              <p key={`conclusion-${idx}`} className="text-lg text-gray-700 mt-4 mb-4">
                                 {text}
                               </p>
                             ))}
@@ -647,7 +647,7 @@ export default async function Page({ params }) {
               </div>
               <div className="article-container">
                     {/* Share Section */}
-                    <div className="mt-10">
+                    <div className="mt-5">
                       <hr className="border-t-2 border-dotted border-gray-400" />
                       <div className="flex justify-between items-center mt-6">
                         <div className="flex items-center gap-2">

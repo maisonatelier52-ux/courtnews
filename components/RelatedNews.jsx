@@ -74,7 +74,7 @@ const RelatedNews = ({ currentCategory, relatedPosts }) => {
                 />
               </div>
               <h3 className="mt-3 text-sm font-semibold leading-tight group-hover:text-orange-600 transition line-clamp-3">
-                {post.heading}
+                {post.heading.slice(0,80)}..
               </h3>
               <p className="mt-1 text-xs text-gray-600">
                 By {post.author?.name || "Staff"}
@@ -97,7 +97,7 @@ const RelatedNews = ({ currentCategory, relatedPosts }) => {
             >
               <div className="flex-1">
                 <h3 className="text-sm font-semibold leading-snug group-hover:text-orange-600 transition line-clamp-2">
-                  {post.heading}
+                  {post.heading.slice(0,50)}...
                 </h3>
                 <p className="mt-1 text-xs text-gray-600">
                   By {post.author?.name || "Staff"}

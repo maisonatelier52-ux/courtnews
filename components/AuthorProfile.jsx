@@ -10,7 +10,7 @@ export default function AuthorProfile({ author }) {
   if (!author) return null;
 
   return (
-    <div className="mt-10">
+    <div className="mt-5">
       <div className="mt-6 flex justify-between items-center gap-6">
         <div className="flex items-center gap-4">
           {/* Author Image */}
@@ -92,7 +92,7 @@ export default function AuthorProfile({ author }) {
       </div>
 
       {/* Author Bio */}
-      <p className="mt-6 text-sm text-gray-600">
+      <p className="mt-4 text-sm text-gray-600">
         {author.bio}
       </p>
     </div>

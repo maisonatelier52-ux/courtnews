@@ -62,7 +62,7 @@ export default function sitemap() {
   const authorPages = authorsData.categories.map((item) => {
     const author = item.author;
     return {
-      url: `${SITE_URL}/author/${author.slug}`,
+      url: `${SITE_URL}/authors/${author.slug}`,
       lastModified: now,
       changeFrequency: "weekly",
       priority: 0.6,

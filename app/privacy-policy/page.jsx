@@ -82,7 +82,7 @@ export default function PrivacyPolicy() {
         }}
       />
 
-      <main className="mx-auto max-w-7xl px-4 sm:px-6 py-16 md:py-24 font-serif bg-white min-h-screen">
+      <main className="mx-auto max-w-7xl px-4 sm:px-6 py-16 md:py-15  bg-white min-h-screen">
         <div className="max-w-4xl mx-auto prose prose-lg prose-indigo">
           <div className="text-center mb-16">
             <h1 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-4">

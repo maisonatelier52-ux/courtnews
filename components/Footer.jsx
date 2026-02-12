@@ -19,7 +19,7 @@ const Footer = () => {
 
   return (
     <footer className="bg-[#111] text-white pt-10 pb-5 w-full mt-auto">
-      <div className="max-w-[1300px] mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 px-4">
+      <div className="max-w-[1250px] mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 px-4">
 
         {/* Logo & Description */}
         <div className="space-y-4">
@@ -107,7 +107,7 @@ const Footer = () => {
       </div>
 
       {/* Copyright */}
-      <div className="text-center text-xs text-gray-500 mt-10 border-t border-gray-700 pt-6 px-4">
+      <div className="text-center text-xs text-gray-100 mt-10 border-t border-gray-800 pt-6 px-4">
         Copyright © Court News {new Date().getFullYear()}. All rights reserved.
       </div>
     </footer>

@@ -53,7 +53,7 @@ export async function generateMetadata({ params }) {
     ? authorData.profileImage
     : `${SITE_URL}${authorData.profileImage}`;
 
-  const canonicalUrl = `${SITE_URL}/author/${authorSlug}`;
+  const canonicalUrl = `${SITE_URL}/authors/${authorSlug}`;
 
   return {
     title: `${authorData.name} — CourtNews Journalist`,
@@ -137,7 +137,7 @@ export default async function AuthorPage({ params }) {
   );
   const latestArticles = sortedArticles.slice(0, 6);
 
-  const canonicalUrl = `${SITE_URL}/author/${authorSlug}`;
+  const canonicalUrl = `${SITE_URL}/authors/${authorSlug}`;
   const profileImageUrl = authorData.profileImage.startsWith("http")
     ? authorData.profileImage
     : `${SITE_URL}${authorData.profileImage}`;
@@ -242,7 +242,7 @@ export default async function AuthorPage({ params }) {
         ></div>
 
         {/* Content Container */}
-        <div className="relative z-10 px-6 py-12 max-w-7xl mx-auto flex flex-col items-center gap-8 lg:flex-row">
+        <div className="relative z-10 px-6 py-7 max-w-7xl mx-auto flex flex-col items-center gap-8 lg:flex-row">
           {/* Author Profile Image */}
           <div className="w-40 h-40 rounded-full overflow-hidden shadow-xl flex-shrink-0">
             <Image
@@ -348,10 +348,10 @@ export default async function AuthorPage({ params }) {
 
       {/* ===== ARTICLES SECTION ===== */}
       <section className="flex-grow" aria-label="Articles by author">
-        <div className="max-w-7xl mx-auto px-6 py-12">
+        <div className="max-w-7xl mx-auto px-6 pt-5 pb-10">
           {/* Section Header */}
           <div className="mb-10">
-            <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
+            <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-1">
               Latest Articles
             </h2>
             <div className="w-full border-t-4 border-orange-500"></div>
