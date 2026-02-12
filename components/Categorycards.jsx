@@ -15,7 +15,7 @@ const CategoryCards = ({allCategories, desktopCategories}) => {
   };
 
   return (
-    <div className="max-w-[1300px] mx-auto px-5 pb-10">
+    <div className="max-w-[1300px] mx-auto px-5 pb-5">
       {/* ROW 3 - Category Cards */}
       
       {/* DESKTOP VIEW - Only 5 categories */}

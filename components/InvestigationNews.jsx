@@ -75,7 +75,7 @@ const InvestigationNews = ({investiagtionPost, row2Posts }) => {
       )}
 
       {/* ROW 2 - Two Medium Posts */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-[30px] mb-[60px]">
+      <div className="grid grid-cols-1 border-b border-[#eee] pb-5 md:grid-cols-2 gap-[30px] mb-[20px]">
         {row2Posts.map((post, index) => (
           <Link 
             key={post.id || index}
