@@ -29,14 +29,15 @@ const CrimeNews = ({latestCrimePosts}) => {
           title={post.heading}
           className="bg-white overflow-hidden group"
         > 
-          <Image
-            src={post.image}
-            alt={post.alt || post.heading}
-            className="w-full h-[190px] object-cover"
-            width={1900}  // Adjust the width as needed (based on your design)
-            height={190}  // Since h-[190px] is set, this should match the height
-            loading="lazy"
-            />
+            <Image
+                src={post.image}
+                alt={post.heading}
+                width={700}
+                height={400}
+                sizes="(max-width: 768px) 100vw, 650px"
+                className="w-full h-[190px] object-cover"
+                loading="lazy"
+              />
           <h3 className="text-lg font-bold leading-[1.3] px-[14px] pt-3 pb-[6px] group-hover:text-orange-500 transition">
              {post.heading.slice(0,53)}..
           </h3>

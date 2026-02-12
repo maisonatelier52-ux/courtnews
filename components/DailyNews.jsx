@@ -19,10 +19,10 @@ const DailyNews = ({heroPost,smallPosts}) => {
               src={heroPost.image}
               alt={heroPost.alt}
               width={1600}
-              height={400}
+              height={900}
               priority
               sizes="100vw"
-              className="w-full h-[400px] object-cover"
+              className="w-full h-auto object-cover"
             />
 
 
@@ -36,9 +36,13 @@ const DailyNews = ({heroPost,smallPosts}) => {
               </Link>
             </h1>
 
-            <p className="text-sm text-black px-[15px] pb-[15px]">
+            {/* <p className="text-sm text-black px-[15px] pb-[15px]">
+              {heroPost.metaDescription}
+            </p> */}
+            <p className="hidden md:block text-sm text-black px-[15px] pb-[15px]">
               {heroPost.metaDescription}
             </p>
+
 
             <span className="text-xs text-black px-[15px] pb-[15px] block">
               By {heroPost.author?.name} | {heroPost.date}
