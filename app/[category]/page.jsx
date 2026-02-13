@@ -51,7 +51,7 @@ const categoryConfig = {
     keywords: "investigative journalism, corruption, accountability, government, data journalism"
   },
   "us-news": {
-    title: "U.S. News",
+    title: "U.S.",
     metaTitle: "U.S. News & Analysis — CourtNews",
     metaDescription:
       "Stay updated with the latest U.S. news. Breaking national developments, federal agencies, major events impacting Americans from CourtNews.",
