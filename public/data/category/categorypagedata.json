@@ -3,8 +3,8 @@
   "crime": [
     {
   "id": 1,
-  "metaTitle": "Former Olympic Snowboarder Arrested in Mexico on FBI Most-Wanted List",
-  "metaDescription": "Former Canadian Olympian Ryan Wedding, accused of leading a massive cocaine trafficking ring and ordering murders, was arrested in Mexico and extradited to the U.S.",
+  "metaTitle": "Ryan Wedding Arrested in Mexico, FBI Most Wanted",
+  "metaDescription": "Former Olympian Ryan Wedding was arrested in Mexico on FBI’s Most Wanted list for alleged cocaine trafficking and murder charges, U.S. officials said.",
   "slug": "former-olympic-snowboarder-ryan-wedding-arrested-fbi",
   "heading": "Former Olympic Snowboarder on FBI’s Most-Wanted List Arrested in Mexico, Faces Drug and Murder Charges",
   "excerpt": "Ryan Wedding, a former Canadian Olympic snowboarder turned alleged drug kingpin, has been captured in Mexico after years on the run and is now facing serious federal charges in the U.S.",
@@ -12,6 +12,16 @@
   "image": "/images/former-olympic-snowboarder-ryan-wedding-arrested-fbi.webp",
   "alt": "Ryan Wedding FBI wanted poster and arrest announcement",
   "heroImage": "/images/former-olympic-snowboarder-ryan-wedding-arrested-fbi.webp",
+  "caseInformation": {
+      "countryState": "United States / Federal (Central District of California)",
+      "caseNumber": "Federal indictment filed in the U.S. District Court for the Central District of California (case number not publicly released in initial reports)",
+      "status": {
+        "accusation": "Federal prosecutors allege that Ryan Wedding led a transnational cocaine trafficking organization and ordered multiple murders and attempted murders connected to the drug operation.",
+        "onTrial": "The defendant was arrested in Mexico and is undergoing extradition proceedings to face federal charges in the United States.",
+        "currentStatus": "Federal charges are pending. Court proceedings will begin in U.S. federal court following extradition and initial appearances.",
+        "outcome": "Pending. No conviction has been reached, and the defendant is presumed innocent unless proven guilty in court."
+        }
+      },
   "body": {
     "dropcap": {
       "letter": "A",
@@ -111,6 +121,16 @@
   "image": "/images/doj-antitrust-first-1m-whistleblower-reward-eblock.webp",
   "alt": "U.S. Department of Justice Antitrust Division whistleblower reward announcement",
   "heroImage": "/images/doj-antitrust-first-1m-whistleblower-reward-eblock.webp",
+  "caseInformation": {
+  "countryState": "United States / Federal",
+  "caseNumber": "Not publicly specified (DOJ Antitrust criminal enforcement action)",
+  "status": {
+    "accusation": "The Department of Justice accused EBLOCK and associated parties of participating in a bid-rigging conspiracy in the used-car auction market, violating federal antitrust laws.",
+    "onTrial": "Criminal antitrust investigation by the DOJ Antitrust Division based on a whistleblower tip.",
+    "currentStatus": "The company entered into a deferred prosecution agreement and agreed to cooperate with ongoing investigations.",
+    "outcome": "EBLOCK agreed to pay a $3.28 million criminal penalty. The DOJ awarded a $1 million whistleblower reward for information that led to the enforcement action."
+  }
+},
   "body": {
     "dropcap": {
       "letter": "T",
@@ -209,6 +229,16 @@
   "image": "/images/luigi-mangione-death-penalty-ruling-judge-decision.webp",
   "alt": "Federal courthouse where Luigi Mangione death penalty decision will be made",
   "heroImage": "/images/luigi-mangione-death-penalty-ruling-judge-decision.webp",
+  "caseInformation": {
+  "countryState": "United States / New York",
+  "caseNumber": " 1:25-CR-00176",
+  "status": {
+    "accusation": "Federal and state prosecutors allege that Luigi Mangione fatally shot UnitedHealthcare executive Brian Thompson in New York City.",
+    "onTrial": "Federal court proceedings to determine whether the death penalty will be pursued; a separate New York state criminal trial is scheduled for July 2026.",
+    "currentStatus": "The defendant has been charged and is awaiting trial. Pretrial motions and capital punishment eligibility are under judicial review.",
+    "outcome": "Pending. No verdict has been reached. The defendant is presumed innocent unless and until proven guilty in court."
+  }
+},
   "body": {
     "dropcap": {
       "letter": "O",
@@ -308,6 +338,16 @@
   "image": "/images/wisconsin-man-guilty-forged-trump-threat-deport-victim.webp",
   "alt": "Milwaukee County courtroom where Demetric Scott was convicted",
   "heroImage": "/images/wisconsin-man-guilty-forged-trump-threat-deport-victim.webp",
+  "caseInformation": {
+      "countryState": "United States / Wisconsin",
+      "caseNumber": "Milwaukee County criminal case – official docket number not publicly released in initial news summaries",
+      "status": {
+        "accusation": "Prosecutors alleged that Demetric Scott impersonated robbery victim Ramon Morales-Reyes and sent fabricated threatening messages in the victim’s name in an effort to trigger law enforcement and immigration action against him.",
+        "onTrial": "The case was tried before a jury in Milwaukee County Circuit Court.",
+        "currentStatus": "The jury found the defendant guilty on multiple felony counts, including identity theft and witness intimidation. Sentencing is pending.",
+        "outcome": "Convicted. The defendant faces a potential maximum sentence of approximately 26 years in prison, with final sentencing to be determined by the court."
+      }
+    },
   "body": {
     "dropcap": {
       "letter": "A",
@@ -407,6 +447,17 @@
   "image": "/images/two-kansans-indicted-threatening-federal-officials.webp",
   "alt": "Federal courthouse in Wichita where grand jury returned indictments",
   "heroImage": "/images/two-kansans-indicted-threatening-federal-officials.webp",
+  "caseInformation": {
+  "countryState": "United States / Federal (District of Kansas)",
+  "caseNumber": "Separate federal indictments returned by a grand jury in Wichita; individual docket numbers not specified",
+  "status": {
+    "accusation": "Two Kansas men were charged in separate cases with making interstate threats against federal officials, including U.S. Rep. Ilhan Omar and ICE agents.",
+    "onTrial": "Federal criminal cases following grand jury indictments.",
+    "currentStatus": "Both defendants face pending proceedings in U.S. District Court for the District of Kansas.",
+    "outcome": "Pending. Defendants are presumed innocent unless proven guilty."
+  }
+},
+
   "body": {
     "dropcap": {
       "letter": "A",
@@ -506,6 +557,16 @@
       "image": "/images/louisiana-742-arrested-gang-drug-crackdown-operation.webp",
       "alt": "Law enforcement officers during Louisiana gang and drug crackdown operation",
       "heroImage": "/images/louisiana-742-arrested-gang-drug-crackdown-operation.webp",
+      "caseInformation": {
+      "countryState": "United States / Louisiana",
+      "caseNumber": "Multiple cases filed across federal and state courts; no single consolidated case number",
+      "status": {
+        "accusation": "Authorities allege that individuals arrested during the operation were involved in gang activity, drug trafficking, firearms offenses, and related violent crimes, including the distribution of fentanyl and other controlled substances.",
+        "onTrial": "Following a multi-agency investigation and coordinated arrests, defendants face separate prosecutions in federal and state courts.",
+        "currentStatus": "Charges have been filed in multiple jurisdictions. Many cases remain in pretrial proceedings, with additional investigations ongoing.",
+        "outcome": "Pending. Most cases have not yet reached trial or final disposition, and all defendants are presumed innocent unless proven guilty."
+      }
+    },
       "body": {
         "dropcap": {
           "letter": "A",
@@ -807,6 +868,16 @@
   "image": "/images/doj-massive-epstein-files-release-2026.webp",
   "alt": "U.S. Department of Justice building with Epstein files release announcement",
   "heroImage": "/images/doj-massive-epstein-files-release-2026.webp",
+  "caseInformation": {
+  "countryState": "United States / Federal (Southern District of New York)",
+  "caseNumber": "United States v. Jeffrey Epstein, 19-cr-490 (S.D.N.Y.)",
+  "status": {
+    "accusation": "Federal prosecutors charged Jeffrey Epstein with sex trafficking and conspiracy involving minor victims.",
+    "onTrial": "Criminal prosecution initiated in 2019 in federal court.",
+    "currentStatus": "The case was closed after Epstein’s death in custody in August 2019. Related document disclosures and civil matters continue.",
+    "outcome": "Criminal case terminated; ongoing public release of investigative materials and related civil proceedings."
+  }
+},
   "body": {
     "dropcap": {
       "letter": "T",
@@ -904,6 +975,16 @@
   "image": "/images/fbi-searches-fulton-county-election-office-2020-records.webp",
   "alt": "FBI agents at Fulton County Election Hub during search warrant execution",
   "heroImage": "/images/fbi-searches-fulton-county-election-office-2020-records.webp",
+  "caseInformation": {
+  "countryState": "United States / Georgia (Federal Investigation)",
+  "caseNumber": "Not publicly released – federal investigation",
+  "status": {
+    "accusation": "The FBI is investigating potential election-related offenses involving the handling of 2020 ballots and records.",
+    "onTrial": "No charges filed; evidence seized under a federal search warrant.",
+    "currentStatus": "Investigation ongoing following the execution of a search at a local election office.",
+    "outcome": "Pending; no criminal charges or findings have been announced."
+  }
+},
   "body": {
     "dropcap": {
       "letter": "F",
@@ -1323,6 +1404,17 @@
   "image": "/images/appeals-court-noem-tps-venezuela-haiti-illegal.webp",
   "alt": "9th Circuit Court of Appeals building with immigration protest signs",
   "heroImage": "/images/appeals-court-noem-tps-venezuela-haiti-illegal.webp",
+  "caseInformation": {
+  "countryState": "United States / Federal (U.S. District Court, Northern District of California)",
+  "caseNumber": "3:25-cv-01766 (N.D. Cal.)",
+  "status": {
+    "accusation": "Plaintiffs challenged the Department of Homeland Security’s decision to terminate Temporary Protected Status (TPS) for Venezuelan nationals, arguing the action violated federal law and administrative procedures.",
+    "onTrial": "Federal civil case reviewing the legality of the DHS policy decision.",
+    "currentStatus": "A federal court ruled that the termination of protections was unlawful and blocked the policy change.",
+    "outcome": "TPS protections for affected Venezuelans remain in effect pending further court proceedings or government action."
+  }
+}
+,
   "body": {
     "dropcap": {
       "letter": "A",
@@ -1422,6 +1514,16 @@
       "image": "/images/appeals-court-dismisses-doj-misconduct-judge-boasberg-deportation.webp",
       "alt": "Federal courthouse exterior with American flag and columns",
       "heroImage": "/images/appeals-court-dismisses-doj-misconduct-judge-boasberg-deportation.webp",
+      "caseInformation": {
+      "countryState": "United States / Federal (Judicial Misconduct Review)",
+      "caseNumber": "Judicial misconduct complaint against U.S. District Judge James E. Boasberg; no standard civil docket number",
+      "status": {
+        "accusation": "The Department of Justice filed a misconduct complaint over Judge Boasberg’s statements and rulings in litigation involving Venezuelan deportations.",
+        "onTrial": "Judicial misconduct review handled by the U.S. Court of Appeals.",
+        "currentStatus": "On December 19, 2025, Chief Judge Jeffrey S. Sutton dismissed the complaint for lack of evidence.",
+        "outcome": "Complaint dismissed; underlying deportation litigation and related contempt proceedings remain ongoing."
+      }
+    },
       "body": {
         "dropcap": {
           "letter": "A",
@@ -1522,6 +1624,16 @@
   "image": "/images/judge-denies-injunction-immigration-surge-minnesota-operation-metro.webp",
   "alt": "Minneapolis federal courthouse with protest signs outside",
   "heroImage": "/images/judge-denies-injunction-immigration-surge-minnesota-operation-metro.webp",
+"caseInformation": {
+  "countryState": "United States / Federal (District of Minnesota)",
+  "caseNumber": "Federal civil case; docket number not specified in initial reports",
+  "status": {
+    "accusation": "Minnesota officials claim DHS’s immigration enforcement surge violates state sovereignty and the Tenth Amendment.",
+    "onTrial": "Federal lawsuit challenging DHS’s 'Operation Metro Surge.'",
+    "currentStatus": "Judge Katherine M. Menendez denied a preliminary injunction, allowing the operation to continue.",
+    "outcome": "Pending; case remains active."
+  }
+},
   "body": {
     "dropcap": {
       "letter": "A",
@@ -1621,6 +1733,16 @@
   "image": "/images/judge-blocks-trump-administration-haitian-tps-termination.webp",
   "alt": "Federal courthouse in Washington D.C. with Haitian community support signs",
   "heroImage": "/images/judge-blocks-trump-administration-haitian-tps-termination.webp",
+  "caseInformation": {
+  "countryState": "United States / Federal (U.S. District Court, District of Columbia)",
+  "caseNumber": "25-cv-02471-ACR (D.D.C.)",
+  "status": {
+    "accusation": "Plaintiffs challenged the Trump administration’s decision to terminate Temporary Protected Status (TPS) for Haitian nationals, alleging the action violated federal administrative law and was arbitrary and capricious.",
+    "onTrial": "Federal civil case reviewing the legality of the Department of Homeland Security’s TPS termination decision.",
+    "currentStatus": "On February 2, 2026, U.S. District Judge Ana Reyes issued a preliminary injunction blocking the termination while the case proceeds.",
+    "outcome": "TPS protections remain in place for approximately 350,000 Haitian nationals pending further court proceedings."
+  }
+},
   "body": {
     "dropcap": {
       "letter": "A",
@@ -1722,6 +1844,16 @@
   "image": "/images/appeals-court-teacher-must-use-trans-pronouns-maryland.webp",
   "alt": "Federal courthouse with rainbow flag and education rights protest signs",
   "heroImage": "/images/appeals-court-teacher-must-use-trans-pronouns-maryland.webp",
+  "caseInformation": {
+  "countryState": "United States / Federal (U.S. Court of Appeals, Fourth Circuit)",
+  "caseNumber": "Polk v. Montgomery County Public Schools, No. 25-01136",
+  "status": {
+    "accusation": "A substitute teacher challenged a school policy requiring the use of students’ preferred pronouns, claiming it violated her First Amendment rights.",
+    "onTrial": "Federal civil appeal reviewing the dismissal of the teacher’s lawsuit and request for an injunction.",
+    "currentStatus": "On January 28, 2026, the Fourth Circuit affirmed the lower court’s dismissal in a 2–1 decision.",
+    "outcome": "School policy upheld; case dismissed."
+  }
+},
   "body": {
     "dropcap": {
       "letter": "A",
@@ -1826,6 +1958,16 @@
   "image": "/images/pentagon-contractor-indicted-leak-washington-post-reporter.webp",
   "alt": "FBI agents and federal courthouse illustrating classified leak investigation",
   "heroImage": "/images/pentagon-contractor-indicted-leak-washington-post-reporter.webp",
+  "caseInformation": {
+  "countryState": "United States / Federal (U.S. District Court, District of Maryland)",
+  "caseNumber": "Federal criminal indictment; docket number not publicly released in initial DOJ and court summaries",
+  "status": {
+    "accusation": "A Pentagon contractor was charged with unauthorized retention and transmission of national defense information related to a leak investigation involving a journalist.",
+    "onTrial": "Federal criminal prosecution following a grand jury indictment.",
+    "currentStatus": "The defendant has been indicted and faces pending proceedings in federal court.",
+    "outcome": "Pending. The defendant is presumed innocent unless proven guilty."
+  }
+},
   "body": {
     "dropcap": {
       "letter": "A",
@@ -1924,6 +2066,16 @@
       "image": "/images/judge-blocks-ice-7-day-notice-congress-oversight-visits-again.webp",
       "alt": "Federal judge ruling on ICE detention oversight and congressional access",
       "heroImage": "/images/judge-blocks-ice-7-day-notice-congress-oversight-visits-again.webp",
+      "caseInformation": {
+      "countryState": "United States / Federal",
+      "caseNumber": "Federal civil case challenging ICE oversight policy; docket number not specified in initial public reports",
+      "status": {
+        "accusation": "Members of Congress challenged an ICE policy requiring seven days’ notice before oversight visits, arguing it unlawfully restricted congressional authority.",
+        "onTrial": "Federal civil lawsuit reviewing the legality of the ICE policy.",
+        "currentStatus": "A federal judge again blocked enforcement of the notice requirement while the case proceeds.",
+        "outcome": "Pending; policy remains blocked during ongoing litigation."
+      }
+    },
       "body": {
         "dropcap": {
           "letter": "A",
@@ -2024,6 +2176,16 @@
   "image": "/images/wave-digital-requests-doj-investigation-usms-cryptocurrency.webp",
   "alt": "Digital cryptocurrency wallet security concept with DOJ and US Marshals Service oversight symbols",
   "heroImage": "/images/wave-digital-requests-doj-investigation-usms-cryptocurrency.webp",
+  "caseInformation": {
+  "countryState": "United States / Federal (DOJ Office of Inspector General)",
+  "caseNumber": "Not applicable – request for Inspector General investigation",
+  "status": {
+    "accusation": "Wave Digital Assets requested a DOJ Inspector General review of the U.S. Marshals Service’s management and handling of seized cryptocurrency.",
+    "onTrial": "No court case; administrative oversight request for a federal investigation.",
+    "currentStatus": "The Inspector General has been asked to review the matter; no formal findings or enforcement action announced.",
+    "outcome": "Pending; investigation status not yet determined."
+  }
+},
   "body": {
     "dropcap": {
       "letter": "W",
@@ -2328,6 +2490,16 @@
   "image": "/images/federal-judge-dismisses-doj-oregon-voter-rolls-lawsuit.webp",
   "alt": "Federal courthouse with voter rights protest signs outside",
   "heroImage": "/images/federal-judge-dismisses-doj-oregon-voter-rolls-lawsuit.webp",
+  "caseInformation": {
+  "countryState": "United States / Federal (U.S. District Court, District of Oregon)",
+  "caseNumber": "U.S. Department of Justice v. State of Oregon; docket number not specified in initial public reports",
+  "status": {
+    "accusation": "The Department of Justice sued Oregon, alleging the state failed to provide voter registration records in violation of federal election law.",
+    "onTrial": "Federal civil lawsuit seeking access to Oregon’s voter roll maintenance records.",
+    "currentStatus": "A federal judge dismissed the Justice Department’s lawsuit.",
+    "outcome": "Case dismissed by the district court."
+  }
+},
   "body": {
     "dropcap": {
       "letter": "O",
@@ -2426,6 +2598,16 @@
   "image": "/images/judge-weighs-limits-federal-force-portland-ice-protests.webp",
   "alt": "Portland ICE protest scene with tear gas clouds and federal agents",
   "heroImage": "/images/judge-weighs-limits-federal-force-portland-ice-protests.webp",
+  "caseInformation": {
+  "countryState": "United States / Federal (U.S. District Court, District of Oregon)",
+  "caseNumber": "3:20-cv-01035-SI",
+  "status": {
+    "accusation": "Plaintiffs allege that federal agents used excessive force against journalists, legal observers, and protesters during federal law enforcement operations in Portland.",
+    "onTrial": "Federal civil rights litigation challenging the legality of federal crowd-control and use-of-force tactics.",
+    "currentStatus": "The court continues to review and weigh limits on federal agents’ use of force during ongoing proceedings.",
+    "outcome": "Pending; the case remains active with prior injunctions and oversight measures in place."
+  }
+},
   "body": {
     "dropcap": {
       "letter": "A",
@@ -2933,6 +3115,16 @@
   "image": "/images/supreme-court-approves-california-democratic-favoring-map.webp",
   "alt": "Supreme Court building with California congressional map and voting symbols",
   "heroImage": "/images/supreme-court-approves-california-democratic-favoring-map.webp",
+  "caseInformation": {
+  "countryState": "United States / Federal (U.S. Supreme Court)",
+  "caseNumber": "Supreme Court redistricting case; docket number not specified in initial reports",
+  "status": {
+    "accusation": "Plaintiffs challenged California’s congressional map, arguing it violated federal constitutional and election law standards.",
+    "onTrial": "Appeal to the U.S. Supreme Court reviewing the legality of the state’s redistricting plan.",
+    "currentStatus": "The Supreme Court allowed the California map to take effect.",
+    "outcome": "Map upheld for use in upcoming elections."
+  }
+},
   "body": {
     "dropcap": {
       "letter": "T",
@@ -3034,6 +3226,16 @@
       "image": "/images/court-rules-trump-illegally-ended-venezuelan-tps.webp",
       "alt": "Federal courthouse with Venezuelan flag and TPS documentation symbols",
       "heroImage": "/images/court-rules-trump-illegally-ended-venezuelan-tps.webp",
+      "caseInformation": {
+  "countryState": "United States / Federal (9th Circuit; N.D. California)",
+  "caseNumber": "NTPSA v. Noem, No. 3:25-cv-01766 (N.D. Cal.)",
+  "status": {
+    "accusation": "The National TPS Alliance challenged DHS’s termination of Temporary Protected Status (TPS) for Venezuelan nationals as unlawful.",
+    "onTrial": "Federal civil appeal reviewing the legality of the TPS revocation.",
+    "currentStatus": "On January 29, 2026, the Ninth Circuit affirmed a lower court ruling that the termination exceeded DHS authority and was arbitrary and capricious.",
+    "outcome": "TPS protections remain in place pending further legal or administrative action."
+  }
+},
       "body": {
         "dropcap": {
           "letter": "A",
@@ -3327,7 +3529,6 @@
       "image": "/images/epstein-survivors-bondi-refused-face-hearing.webp",
       "alt": "Epstein survivors raising hands during congressional hearing with Pam Bondi testifying",
       "heroImage": "/images/epstein-survivors-bondi-refused-face-hearing.webp",
-
         "caseInformation": {
         "countryState": "United States / Federal (NY & FL)",
         "caseNumber": "1:15-cv-07433-LAP",
