@@ -119,8 +119,6 @@
 //     </section>
 //   );
 // }
-
-
 "use client";
 
 import { useState, useEffect } from "react";
@@ -130,29 +128,37 @@ export default function CaseInformation({ caseInfo }) {
   const [isDesktop, setIsDesktop] = useState(false);
 
   useEffect(() => {
-    const checkScreen = () => {
-      const desktop = window.innerWidth >= 768;
-      setIsDesktop(desktop);
+    const desktop = window.innerWidth >= 768;
+    setIsDesktop(desktop);
 
-      // Desktop always open
-      if (desktop) {
+    // Set initial state only once
+    if (desktop) {
+      setIsOpen(true);
+    } else {
+      setIsOpen(false);
+    }
+
+    // Resize handler (do NOT reset mobile state)
+    const handleResize = () => {
+      const nowDesktop = window.innerWidth >= 768;
+      setIsDesktop(nowDesktop);
+
+      // If switching to desktop, force open
+      if (nowDesktop) {
         setIsOpen(true);
-      } else {
-        // Mobile closed by default
-        setIsOpen(false);
       }
+      // If switching to mobile, keep current state (do nothing)
     };
 
-    checkScreen();
-    window.addEventListener("resize", checkScreen);
-    return () => window.removeEventListener("resize", checkScreen);
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
   }, []);
 
   if (!caseInfo) return null;
 
   const toggleOpen = () => {
     if (!isDesktop) {
-      setIsOpen((prev) => !prev);
+      setIsOpen(prev => !prev);
     }
   };
 
@@ -188,7 +194,6 @@ export default function CaseInformation({ caseInfo }) {
 
         {/* Content */}
         <div className={`${isOpen ? "block" : "hidden"} mt-3`}>
-          {/* Case Meta */}
           <div className="grid md:grid-cols-2 gap-3 mb-3">
             <div>
               <span className="text-sm font-semibold text-gray-600">
@@ -207,7 +212,6 @@ export default function CaseInformation({ caseInfo }) {
 
           <hr className="my-3 border-gray-200" />
 
-          {/* Status */}
           <h3 className="text-base font-bold mb-2">Case Status</h3>
 
           <div className="grid md:grid-cols-2 gap-3">
