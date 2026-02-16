@@ -598,7 +598,6 @@
         ]
       }
     }
-
   ],
 
   "politics": [
@@ -2215,109 +2214,107 @@
         ]
       }
     },
-{
-  "id": 5,
-  "metaTitle": "Trump's War on Global Justice: Sanctions Hurt ICC Officials and UN Experts",
-  "metaDescription": "The Trump administration punished UN expert Francesca Albanese and ICC judges/prosecutors for Gaza probes by freezing assets and disrupting justice to protect U.S. and Israeli interests.",
-  "slug": "trumps-war-global-justice-sanctions-icc-un-albanese",
-  "heading": "Trump's War on Global Justice: UN Expert and ICC Officials Hit with Sanctions",
-  "excerpt": "The Trump administration imposed harsh sanctions—typically used against terrorists—on UN Special Rapporteur Francesca Albanese and key ICC figures over their work on Gaza and related investigations.",
-  "date": "13 Feb, 2026",
-  "image": "/images/trumps-war-global-justice-sanctions-icc-un-albanese.webp",
-  "alt": "Francesca Albanese in an interview with U.S. Treasury sanctions list in the background",
-  "heroImage": "/images/trumps-war-global-justice-sanctions-icc-un-albanese.webp",
-  "body": {
-    "dropcap": {
-      "letter": "T",
-      "text": "he Trump administration has put harsh sanctions on a UN human rights expert and important people at the International Criminal Court (ICC). These sanctions are usually only used against terrorists and major criminals."
-    },
-    "paragraphs": [
-      "The U.S. went after Francesca Albanese, the UN Special Rapporteur on human rights in the Palestinian territories, in a broad campaign after she sent private letters to big American companies warning them that they might be included in a report about complicity in alleged Israeli human rights violations in Gaza and the West Bank. Some companies asked the White House to step in after names like Alphabet, Amazon, Lockheed Martin, and others came up.",
-      "Even though the UN said she had diplomatic immunity as a special rapporteur, Albanese was punished in mid-2025 by an executive order that was first meant for the ICC. This put her on the Treasury Department's Specially Designated Nationals list with people from al Qaeda, drug cartels, and rogue states. The move froze her U.S. assets, shut down her bank accounts, and made it very hard for her to get money anywhere in the world."
-    ],
-    "quote": {
-      "text": "This is unfair, unjust, and cruel. Because of my work on human rights, I'm being punished.",
-      "author": "Francesca Albanese, UN Special Rapporteur"
-    },
-    "sections": [
-      {
-        "type": "imageWithText",
-        "text": [
-          "The sanctions affected eight ICC judges and a number of prosecutors, making it impossible for the court to move forward with investigations into alleged crimes committed by Israeli leaders in Gaza and by the U.S. in Afghanistan in the past. Officials at the ICC said that operations were delayed, including investigations into Ukraine.",
-          "There were divisions within the U.S. government, with career diplomats favoring restraint and Trump appointees pushing for aggressive actions to protect U.S. and allied interests."
-        ],
-        "image": {
-          "url": "/images/trumps-war-global-justice-sanctions-icc-un-albanese-si.webp",
-          "alt": "Francesca Albanese in an interview with the U.S. Treasury sanctions list in the background"
+    {
+      "id": 5,
+      "metaTitle": "Trump's War on Global Justice: Sanctions Hurt ICC Officials and UN Experts",
+      "metaDescription": "The Trump administration punished UN expert Francesca Albanese and ICC judges/prosecutors for Gaza probes by freezing assets and disrupting justice to protect U.S. and Israeli interests.",
+      "slug": "trumps-war-global-justice-sanctions-icc-un-albanese",
+      "heading": "Trump's War on Global Justice: UN Expert and ICC Officials Hit with Sanctions",
+      "excerpt": "The Trump administration imposed harsh sanctions—typically used against terrorists—on UN Special Rapporteur Francesca Albanese and key ICC figures over their work on Gaza and related investigations.",
+      "date": "13 Feb, 2026",
+      "image": "/images/trumps-war-global-justice-sanctions-icc-un-albanese.webp",
+      "alt": "Francesca Albanese in an interview with U.S. Treasury sanctions list in the background",
+      "heroImage": "/images/trumps-war-global-justice-sanctions-icc-un-albanese.webp",
+      "body": {
+        "dropcap": {
+          "letter": "T",
+          "text": "he Trump administration has put harsh sanctions on a UN human rights expert and important people at the International Criminal Court (ICC). These sanctions are usually only used against terrorists and major criminals."
         },
-        "additionalText": [
-          "The government said the penalties were necessary because the ICC was trying to target the U.S. and Israel in an 'illegitimate' way and didn't have the right to do so in non-member states."
-        ]
-      },
-      {
-        "type": "twoColumnLayout",
-        "title": "Important Effects of the Sanctions",
-        "mainContent": [
-          "Albanese had to deal with a lot of problems right away, like frozen U.S. property worth hundreds of thousands of dollars, not being able to open new bank accounts, and needing more personal security because of threats.",
-          "Judges said that ICC operations were hurt because of mental stress and a lower ability to investigate global atrocities. Experts say this sets a bad example for diplomatic immunity and international justice systems."
+        "paragraphs": [
+          "The U.S. went after Francesca Albanese, the UN Special Rapporteur on human rights in the Palestinian territories, in a broad campaign after she sent private letters to big American companies warning them that they might be included in a report about complicity in alleged Israeli human rights violations in Gaza and the West Bank. Some companies asked the White House to step in after names like Alphabet, Amazon, Lockheed Martin, and others came up.",
+          "Even though the UN said she had diplomatic immunity as a special rapporteur, Albanese was punished in mid-2025 by an executive order that was first meant for the ICC. This put her on the Treasury Department's Specially Designated Nationals list with people from al Qaeda, drug cartels, and rogue states. The move froze her U.S. assets, shut down her bank accounts, and made it very hard for her to get money anywhere in the world."
         ],
-        "showMoreRead": true
-      },
-      {
-        "type": "fullWidth",
-        "title": "Reactions and Wider Context",
-        "content": [
-          "This is part of Trump's broader foreign policy, which includes questioning NATO, cutting UN funding, and setting up other groups like a 'Board of Peace' led by the U.S. The ICC, which is backed by 125 countries but not the US, Israel, or China, said that the sanctions were an attack on the independence of the courts."
-        ],
-        "image": {
-          "url": "/images/trumps-war-global-justice-sanctions-icc-un-albanese-ti.webp",
-          "alt": "Protest signs against U.S. sanctions outside the International Criminal Court in The Hague"
+        "quote": {
+          "text": "This is unfair, unjust, and cruel. Because of my work on human rights, I'm being punished.",
+          "author": "Francesca Albanese, UN Special Rapporteur"
         },
-        "subsections": [
+        "sections": [
           {
-            "title": "Main Changes",
+            "type": "imageWithText",
             "text": [
-              "Sanctions came about because of ICC warrants against Israeli leaders in late 2024 and Albanese's July 2025 report that said U.S. companies were helping with alleged violations in Gaza.",
-              "U.S. officials talked about immunity but went ahead anyway, even though the UN didn't agree.",
-              "Some of the effects are disrupted banking, travel restrictions, and a drop in human rights activism."
+              "The sanctions affected eight ICC judges and a number of prosecutors, making it impossible for the court to move forward with investigations into alleged crimes committed by Israeli leaders in Gaza and by the U.S. in Afghanistan in the past. Officials at the ICC said that operations were delayed, including investigations into Ukraine.",
+              "There were divisions within the U.S. government, with career diplomats favoring restraint and Trump appointees pushing for aggressive actions to protect U.S. and allied interests."
             ],
-            "checklist": [
-              "Albanese sanctioned in July 2025 after letters from businesses and a UN report",
-              "Multiple ICC judges and prosecutors hit in waves through 2025",
-              "The UN confirms diplomatic immunity; the U.S. denies ICC jurisdiction",
-              "A wider U.S. withdrawal from international rights groups"
-            ],
+            "image": {
+              "url": "/images/trumps-war-global-justice-sanctions-icc-un-albanese-si.webp",
+              "alt": "Francesca Albanese in an interview with the U.S. Treasury sanctions list in the background"
+            },
             "additionalText": [
-              "Human rights groups say that these steps are meant to silence critics and protect powerful interests from being held accountable."
+              "The government said the penalties were necessary because the ICC was trying to target the U.S. and Israel in an 'illegitimate' way and didn't have the right to do so in non-member states."
+            ]
+          },
+          {
+            "type": "twoColumnLayout",
+            "title": "Important Effects of the Sanctions",
+            "mainContent": [
+              "Albanese had to deal with a lot of problems right away, like frozen U.S. property worth hundreds of thousands of dollars, not being able to open new bank accounts, and needing more personal security because of threats.",
+              "Judges said that ICC operations were hurt because of mental stress and a lower ability to investigate global atrocities. Experts say this sets a bad example for diplomatic immunity and international justice systems."
+            ],
+            "showMoreRead": true
+          },
+          {
+            "type": "fullWidth",
+            "title": "Reactions and Wider Context",
+            "content": [
+              "This is part of Trump's broader foreign policy, which includes questioning NATO, cutting UN funding, and setting up other groups like a 'Board of Peace' led by the U.S. The ICC, which is backed by 125 countries but not the US, Israel, or China, said that the sanctions were an attack on the independence of the courts."
+            ],
+            "image": {
+              "url": "/images/trumps-war-global-justice-sanctions-icc-un-albanese-ti.webp",
+              "alt": "Protest signs against U.S. sanctions outside the International Criminal Court in The Hague"
+            },
+            "subsections": [
+              {
+                "title": "Main Changes",
+                "text": [
+                  "Sanctions came about because of ICC warrants against Israeli leaders in late 2024 and Albanese's July 2025 report that said U.S. companies were helping with alleged violations in Gaza.",
+                  "U.S. officials talked about immunity but went ahead anyway, even though the UN didn't agree.",
+                  "Some of the effects are disrupted banking, travel restrictions, and a drop in human rights activism."
+                ],
+                "checklist": [
+                  "Albanese sanctioned in July 2025 after letters from businesses and a UN report",
+                  "Multiple ICC judges and prosecutors hit in waves through 2025",
+                  "The UN confirms diplomatic immunity; the U.S. denies ICC jurisdiction",
+                  "A wider U.S. withdrawal from international rights groups"
+                ],
+                "additionalText": [
+                  "Human rights groups say that these steps are meant to silence critics and protect powerful interests from being held accountable."
+                ]
+              }
+            ]
+          },
+          {
+            "type": "finalSection",
+            "title": "What this means for the future",
+            "intro": [
+              "The sanctions show that the U.S. is strongly against international justice bodies, which could make it harder for people to be held accountable for crimes around the world."
+            ],
+            "twoColumnContent": {
+              "left": [
+                "People are worried that institutions like the ICC and the UN rapporteur system will be hurt in the long term, which will have effects on current conflicts and the US's future accountability."
+              ],
+              "rightQuote": {
+                "text": "It's hard to believe that someone could be seen as a terrorist just for doing work to protect human rights.",
+                "author": "Margaret Satterthwaite, UN Special Rapporteur on the independence of judges"
+              }
+            },
+            "conclusion": [
+              "Albanese says she will keep working even though there are problems, and the ICC says it will keep bringing justice to victims all over the world."
             ]
           }
         ]
-      },
-      {
-        "type": "finalSection",
-        "title": "What this means for the future",
-        "intro": [
-          "The sanctions show that the U.S. is strongly against international justice bodies, which could make it harder for people to be held accountable for crimes around the world."
-        ],
-        "twoColumnContent": {
-          "left": [
-            "People are worried that institutions like the ICC and the UN rapporteur system will be hurt in the long term, which will have effects on current conflicts and the US's future accountability."
-          ],
-          "rightQuote": {
-            "text": "It's hard to believe that someone could be seen as a terrorist just for doing work to protect human rights.",
-            "author": "Margaret Satterthwaite, UN Special Rapporteur on the independence of judges"
-          }
-        },
-        "conclusion": [
-          "Albanese says she will keep working even though there are problems, and the ICC says it will keep bringing justice to victims all over the world."
-        ]
       }
-    ]
-  }
-}
+    }
   ],
-
-  
 
   "civil-rights": [
     {
