@@ -41,14 +41,14 @@ export async function generateMetadata({ params }) {
 
 
   return {
-    title: `${post.heading} | CourtNews`,
+    title: `${post.metaTitle}`,
     description: post.metaDescription || post.excerpt || "CourtNews – Independent reporting on U.S. courts, justice and legal affairs.",
     keywords: post.keywords || [category.replace(/-/g, " ")],
     alternates: {
       canonical: canonicalUrl,
     },
     openGraph: {
-      title: post.heading,
+      title: post.metaTitle,
       description: post.metaDescription || post.excerpt,
       url: canonicalUrl,
       type: "article",
@@ -66,7 +66,7 @@ export async function generateMetadata({ params }) {
     },
     twitter: {
       card: "summary_large_image",
-      title: post.heading,
+      title: post.metaTitle,
       description: post.metaDescription || post.excerpt,
       images: [fullImageUrl],
     },
