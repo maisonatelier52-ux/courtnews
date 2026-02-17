@@ -59,7 +59,7 @@ export async function generateMetadata({ params }) {
     title: `${authorData.name} — CourtNews Journalist`,
     description:
       authorData.bio ||
-      `Read articles and investigative journalism written by ${authorData.name} on CourtNews.`,
+      `Read articles written by ${authorData.name} on CourtNews.`,
     keywords: `${authorData.name}, journalist, author, ${authorData.category}, news reporter`,
     robots: "index, follow",
     viewport: "width=device-width, initial-scale=1",
@@ -203,7 +203,7 @@ export default async function AuthorPage({ params }) {
     itemListElement: latestArticles.map((article, index) => ({
       "@type": "ListItem",
       position: index + 1,
-      name: article.heading || article.metaTitle,
+      name:  article.metaTitle,
       url: `${SITE_URL}/${authorData.category}/${article.slug}`,
       image: article.image || article.heroImage,
       datePublished: new Date(article.date).toISOString(),

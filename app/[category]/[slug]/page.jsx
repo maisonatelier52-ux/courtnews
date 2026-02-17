@@ -42,14 +42,14 @@ export async function generateMetadata({ params }) {
 
   return {
     title: `${post.metaTitle}`,
-    description: post.metaDescription || post.excerpt || "CourtNews – Independent reporting on U.S. courts, justice and legal affairs.",
+    description: post.metaDescription ,
     keywords: post.keywords || [category.replace(/-/g, " ")],
     alternates: {
       canonical: canonicalUrl,
     },
     openGraph: {
       title: post.metaTitle,
-      description: post.metaDescription || post.excerpt,
+      description: post.metaDescription ,
       url: canonicalUrl,
       type: "article",
       siteName: "CourtNews",
@@ -67,7 +67,7 @@ export async function generateMetadata({ params }) {
     twitter: {
       card: "summary_large_image",
       title: post.metaTitle,
-      description: post.metaDescription || post.excerpt,
+      description: post.metaDescription,
       images: [fullImageUrl],
     },
   };
@@ -179,8 +179,8 @@ export default async function Page({ params }) {
   const articleJsonLd = {
     "@context": "https://schema.org",
     "@type": "NewsArticle",
-    headline: post.heading,
-    description: post.metaDescription || post.excerpt || "",
+    headline: post.metaTitle,
+    description: post.metaDescription,
     image: [
       {
         "@type": "ImageObject",

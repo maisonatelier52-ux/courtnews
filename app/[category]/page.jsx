@@ -164,7 +164,7 @@ export default async function CategoryPage({ params }) {
         "@type": "ListItem",
         position: index + 1,
         url: `${SITE_URL}/${categorySlug}/${article.slug}`,
-        name: article.heading || article.metaTitle,
+        name:  article.metaTitle,
         image: article.image || article.heroImage,
         datePublished: new Date(article.date).toISOString(),
         author: {
@@ -175,7 +175,7 @@ export default async function CategoryPage({ params }) {
     },
     hasPart: filteredArticles.map((article) => ({
       "@type": "NewsArticle",
-      headline: article.heading || article.metaTitle,
+      headline: article.metaTitle,
       url: `${SITE_URL}/${categorySlug}/${article.slug}`,
       datePublished: new Date(article.date).toISOString(),
       image: article.image || article.heroImage,
