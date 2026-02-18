@@ -1944,118 +1944,118 @@
     ]
   }
     },
-{
-  "id": 6,
-  "metaTitle": "Appeals Court Upholds USPTO Rule, Loss for Apple, Google",
-  "metaDescription": "Federal Circuit upholds USPTO policy allowing PTAB to deny patent reviews, handing Apple and Google a major legal setback.",
-  "slug": "tech-giants-lose-latest-fight-uspto-patent-rule",
-  "heading": "Tech Giants Lose Latest Fight Over USPTO Patent Review Rule",
-  "excerpt": "The Federal Circuit has once again backed the U.S. Patent Office, turning down a fresh appeal by Apple, Google, Intel, Cisco and others against a policy that makes inter partes review harder to obtain.",
-  "date": "17 Feb, 2026",
-  "image": "/images/tech-giants-lose-latest-fight-uspto-patent-rule.webp",
-  "alt": "Federal Circuit courthouse with USPTO seal, patent files and logos of Apple, Google, Intel in foreground",
-  "heroImage": "/images/tech-giants-lose-latest-fight-uspto-patent-rule.webp",
-  "caseInformation": {
-    "countryState": "United States / Federal (U.S. Court of Appeals for the Federal Circuit)",
-    "caseNumber": "Apple Inc. v. Squires, No. 24-1864",
-    "status": {
-      "accusation": "Leading tech firms claimed a USPTO internal policy unlawfully cut access to inter partes review and skipped required public notice-and-comment procedures.",
-      "onTrial": "Appeal of district court dismissal challenging the Patent Office’s guidance on discretionary denial of IPR petitions.",
-      "currentStatus": "On February 13, 2026, a unanimous three-judge Federal Circuit panel affirmed the lower court’s decision upholding the USPTO policy.",
-      "outcome": "Challenge dismissed; USPTO guidance ruled a non-binding policy statement not subject to APA notice-and-comment requirements."
-    }
-  },
-  "body": {
-    "dropcap": {
-      "letter": "O",
-      "text": "nce again, the U.S. Court of Appeals for the Federal Circuit has handed major technology companies a tough loss in their years-long push to scrap a U.S. Patent and Trademark Office policy that has made a key patent-challenge tool much harder to use."
-    },
-    "paragraphs": [
-      "On February 13, 2026, the court rejected an appeal from Apple, Google (Alphabet), Intel, Cisco Systems, and medical-device maker Edwards Lifesciences. The group was trying to kill an internal USPTO rule that gives judges on the Patent Trial and Appeal Board (PTAB) wider latitude to turn down requests for inter partes review (IPR).",
-      "IPR is a streamlined administrative process at the USPTO that lets third parties—usually big companies facing patent-infringement lawsuits—ask the agency to review and potentially throw out patents they believe are invalid. It’s become a go-to defense against aggressive patent claims, especially from entities that don’t actually make or sell products."
-    ],
-    "quote": {
-      "text": "The rule dramatically reduced access to inter partes review, undermining its role in protecting a strong patent system.",
-      "author": "Argument from the companies' appeal brief"
-    },
-    "sections": [
-      {
-        "type": "imageWithText",
-        "text": [
-          "The policy at issue, rolled out a few years back, tells PTAB panels to be more cautious and selective before deciding to start an IPR proceeding. Industry critics and companies that frequently get sued say the change has sharply cut the number of reviews that actually move forward, leaving more patents—including some seen as weak or overly broad—safe from quick administrative challenges.",
-          "The fight started in 2020 when the companies sued in California federal court. They argued the USPTO violated the Administrative Procedure Act by putting the policy in place without giving the public a chance to comment. They also said it went against what Congress intended when it created the IPR system under the America Invents Act of 2011."
-        ],
-        "image": {
-          "url": "/images/tech-giants-lose-latest-fight-uspto-patent-rule-si.webp",
-          "alt": "PTAB hearing room with USPTO seal and stacks of patent-related legal documents"
-        },
-        "additionalText": [
-          "A district judge dismissed the case in 2021, pointing to Supreme Court rulings that generally block appeals of PTAB decisions on whether to start a review. In 2023, though, the Federal Circuit revived the lawsuit, agreeing the companies had a reasonable argument that the agency skipped proper rulemaking steps."
-        ]
+    {
+      "id": 6,
+      "metaTitle": "Appeals Court Upholds USPTO Rule, Loss for Apple, Google",
+      "metaDescription": "Federal Circuit upholds USPTO policy allowing PTAB to deny patent reviews, handing Apple and Google a major legal setback.",
+      "slug": "tech-giants-lose-latest-fight-uspto-patent-rule",
+      "heading": "Tech Giants Lose Latest Fight Over USPTO Patent Review Rule",
+      "excerpt": "The Federal Circuit has once again backed the U.S. Patent Office, turning down a fresh appeal by Apple, Google, Intel, Cisco and others against a policy that makes inter partes review harder to obtain.",
+      "date": "17 Feb, 2026",
+      "image": "/images/tech-giants-lose-latest-fight-uspto-patent-rule.webp",
+      "alt": "Federal Circuit courthouse with USPTO seal, patent files and logos of Apple, Google, Intel in foreground",
+      "heroImage": "/images/tech-giants-lose-latest-fight-uspto-patent-rule.webp",
+      "caseInformation": {
+        "countryState": "United States / Federal (U.S. Court of Appeals for the Federal Circuit)",
+        "caseNumber": "Apple Inc. v. Squires, No. 24-1864",
+        "status": {
+          "accusation": "Leading tech firms claimed a USPTO internal policy unlawfully cut access to inter partes review and skipped required public notice-and-comment procedures.",
+          "onTrial": "Appeal of district court dismissal challenging the Patent Office’s guidance on discretionary denial of IPR petitions.",
+          "currentStatus": "On February 13, 2026, a unanimous three-judge Federal Circuit panel affirmed the lower court’s decision upholding the USPTO policy.",
+          "outcome": "Challenge dismissed; USPTO guidance ruled a non-binding policy statement not subject to APA notice-and-comment requirements."
+        }
       },
-      {
-        "type": "twoColumnLayout",
-        "title": "How the Legal Fight Unfolded",
-        "mainContent": [
-          "After more rounds of briefing and arguments, the California court dismissed the case again in 2024. The judge decided the USPTO guidance was just a non-binding 'general statement of policy' rather than a formal rule that needed public input under the APA.",
-          "On February 13, 2026, a three-judge Federal Circuit panel unanimously backed that view. They concluded the directive didn’t carry the force of law and therefore didn’t require notice-and-comment procedures."
-        ],
-        "showMoreRead": true
-      },
-      {
-        "type": "fullWidth",
-        "title": "What This Means for Patent Fights and Innovation",
-        "content": [
-          "By keeping the USPTO’s internal policy in place, the ruling lets the agency continue controlling how often IPR cases get started. Since the guidance kicked in, the PTAB has approved far fewer reviews, pushing more patent disputes into expensive, drawn-out federal court battles.",
-          "Tech companies have warned repeatedly that making IPR harder to access allows shaky or overly broad patents to survive longer, driving up litigation costs and potentially hurting innovation. On the other side, patent owners argue the extra discretion protects real inventions from repeated, resource-draining attacks."
-        ],
-        "image": {
-          "url": "/images/tech-giants-lose-latest-fight-uspto-patent-rule-ti.webp",
-          "alt": "Courtroom illustration with Apple, Google, and Intel logos alongside patent certificates and a judge’s gavel"
+      "body": {
+        "dropcap": {
+          "letter": "O",
+          "text": "nce again, the U.S. Court of Appeals for the Federal Circuit has handed major technology companies a tough loss in their years-long push to scrap a U.S. Patent and Trademark Office policy that has made a key patent-challenge tool much harder to use."
         },
-        "subsections": [
+        "paragraphs": [
+          "On February 13, 2026, the court rejected an appeal from Apple, Google (Alphabet), Intel, Cisco Systems, and medical-device maker Edwards Lifesciences. The group was trying to kill an internal USPTO rule that gives judges on the Patent Trial and Appeal Board (PTAB) wider latitude to turn down requests for inter partes review (IPR).",
+          "IPR is a streamlined administrative process at the USPTO that lets third parties—usually big companies facing patent-infringement lawsuits—ask the agency to review and potentially throw out patents they believe are invalid. It’s become a go-to defense against aggressive patent claims, especially from entities that don’t actually make or sell products."
+        ],
+        "quote": {
+          "text": "The rule dramatically reduced access to inter partes review, undermining its role in protecting a strong patent system.",
+          "author": "Argument from the companies' appeal brief"
+        },
+        "sections": [
           {
-            "title": "Key Points from the Ruling",
+            "type": "imageWithText",
             "text": [
-              "PTAB judges keep broad power to reject IPR petitions without needing to follow formal rulemaking steps.",
-              "The IPR system created by the America Invents Act can still be shaped by agency policy changes that are tough to fight in court.",
-              "Companies accused of infringement may find it harder to use the administrative path to knock out patents, relying more on district-court fights.",
-              "Supreme Court precedent continues to shield most PTAB institution decisions from appellate review."
+              "The policy at issue, rolled out a few years back, tells PTAB panels to be more cautious and selective before deciding to start an IPR proceeding. Industry critics and companies that frequently get sued say the change has sharply cut the number of reviews that actually move forward, leaving more patents—including some seen as weak or overly broad—safe from quick administrative challenges.",
+              "The fight started in 2020 when the companies sued in California federal court. They argued the USPTO violated the Administrative Procedure Act by putting the policy in place without giving the public a chance to comment. They also said it went against what Congress intended when it created the IPR system under the America Invents Act of 2011."
             ],
-            "checklist": [
-              "Federal Circuit unanimously upholds dismissal",
-              "USPTO guidance treated as non-binding policy statement",
-              "No APA notice-and-comment violation found",
-              "Latest challenge from tech companies fails"
-            ],
+            "image": {
+              "url": "/images/tech-giants-lose-latest-fight-uspto-patent-rule-si.webp",
+              "alt": "PTAB hearing room with USPTO seal and stacks of patent-related legal documents"
+            },
             "additionalText": [
-              "Neither the USPTO nor the companies issued immediate public comments after the ruling."
+              "A district judge dismissed the case in 2021, pointing to Supreme Court rulings that generally block appeals of PTAB decisions on whether to start a review. In 2023, though, the Federal Circuit revived the lawsuit, agreeing the companies had a reasonable argument that the agency skipped proper rulemaking steps."
+            ]
+          },
+          {
+            "type": "twoColumnLayout",
+            "title": "How the Legal Fight Unfolded",
+            "mainContent": [
+              "After more rounds of briefing and arguments, the California court dismissed the case again in 2024. The judge decided the USPTO guidance was just a non-binding 'general statement of policy' rather than a formal rule that needed public input under the APA.",
+              "On February 13, 2026, a three-judge Federal Circuit panel unanimously backed that view. They concluded the directive didn’t carry the force of law and therefore didn’t require notice-and-comment procedures."
+            ],
+            "showMoreRead": true
+          },
+          {
+            "type": "fullWidth",
+            "title": "What This Means for Patent Fights and Innovation",
+            "content": [
+              "By keeping the USPTO’s internal policy in place, the ruling lets the agency continue controlling how often IPR cases get started. Since the guidance kicked in, the PTAB has approved far fewer reviews, pushing more patent disputes into expensive, drawn-out federal court battles.",
+              "Tech companies have warned repeatedly that making IPR harder to access allows shaky or overly broad patents to survive longer, driving up litigation costs and potentially hurting innovation. On the other side, patent owners argue the extra discretion protects real inventions from repeated, resource-draining attacks."
+            ],
+            "image": {
+              "url": "/images/tech-giants-lose-latest-fight-uspto-patent-rule-ti.webp",
+              "alt": "Courtroom illustration with Apple, Google, and Intel logos alongside patent certificates and a judge’s gavel"
+            },
+            "subsections": [
+              {
+                "title": "Key Points from the Ruling",
+                "text": [
+                  "PTAB judges keep broad power to reject IPR petitions without needing to follow formal rulemaking steps.",
+                  "The IPR system created by the America Invents Act can still be shaped by agency policy changes that are tough to fight in court.",
+                  "Companies accused of infringement may find it harder to use the administrative path to knock out patents, relying more on district-court fights.",
+                  "Supreme Court precedent continues to shield most PTAB institution decisions from appellate review."
+                ],
+                "checklist": [
+                  "Federal Circuit unanimously upholds dismissal",
+                  "USPTO guidance treated as non-binding policy statement",
+                  "No APA notice-and-comment violation found",
+                  "Latest challenge from tech companies fails"
+                ],
+                "additionalText": [
+                  "Neither the USPTO nor the companies issued immediate public comments after the ruling."
+                ]
+              }
+            ]
+          },
+          {
+            "type": "finalSection",
+            "title": "What Happens Next in the Patent Policy Debate",
+            "intro": [
+              "The decision gives the USPTO more room to manage its review workload and offers patent holders greater certainty when facing potential IPR threats."
+            ],
+            "twoColumnContent": {
+              "left": [
+                "Big tech players may now put more effort into district-court invalidity challenges, settlement deals, or pushing Congress for new laws that would make IPR easier to access again."
+              ],
+              "rightQuote": {
+                "text": "The guidance is only a general statement of policy, not a binding rule requiring notice and comment.",
+                "author": "Federal Circuit panel opinion"
+              }
+            },
+            "conclusion": [
+              "This is another tough loss for the challengers, but the bigger fight over how easy it should be to challenge patents—and how strongly they should be protected—is far from finished. Future administrations, Congress, or shifts in court thinking could still tip the scales."
             ]
           }
         ]
-      },
-      {
-        "type": "finalSection",
-        "title": "What Happens Next in the Patent Policy Debate",
-        "intro": [
-          "The decision gives the USPTO more room to manage its review workload and offers patent holders greater certainty when facing potential IPR threats."
-        ],
-        "twoColumnContent": {
-          "left": [
-            "Big tech players may now put more effort into district-court invalidity challenges, settlement deals, or pushing Congress for new laws that would make IPR easier to access again."
-          ],
-          "rightQuote": {
-            "text": "The guidance is only a general statement of policy, not a binding rule requiring notice and comment.",
-            "author": "Federal Circuit panel opinion"
-          }
-        },
-        "conclusion": [
-          "This is another tough loss for the challengers, but the bigger fight over how easy it should be to challenge patents—and how strongly they should be protected—is far from finished. Future administrations, Congress, or shifts in court thinking could still tip the scales."
-        ]
       }
-    ]
-  }
-}
+    }
   ],
 
   "investigations": [
