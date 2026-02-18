@@ -197,8 +197,9 @@ const MainSection = async ({ searchParams }) => {
   });
 
   const leftPost = uniqueCivilRightsPosts[0];
-  const middlePost = uniqueCivilRightsPosts[1];
-  const rightPosts = uniqueCivilRightsPosts.slice(2, 5);
+  const leftPost2 = uniqueCivilRightsPosts[1];
+  const middlePost = uniqueCivilRightsPosts[2];
+  const rightPosts = uniqueCivilRightsPosts.slice(3, 6);
 
   // ──────────────────────────────────────────────
   // LAW AND JUSTICE NEWS SECTION
@@ -264,7 +265,7 @@ const MainSection = async ({ searchParams }) => {
       <PoliticsNews featuredPost={featuredPost} textPosts={textPosts} imagePosts={imagePosts} />
 
       {/* SPONSORED AD SECTION */}
-      <div className="w-full bg-white py-[30px] pb-10 mx-auto text-center border-b border-[#414141] p-5 max-w-[1300px]">
+      {/* <div className="w-full bg-white py-[30px] pb-10 mx-auto text-center border-b border-[#414141] p-5 max-w-[1300px]">
         <span className="block text-sm text-black mb-3">– Sponsored –</span>
         <div className="max-w-[1100px] mx-auto">
           <Link href="https://www.progresskingdom.com/" title="Progress Kingdom" target="_blank" rel="noopener noreferrer">
@@ -277,7 +278,7 @@ const MainSection = async ({ searchParams }) => {
               />
           </Link>
         </div>
-      </div>
+      </div> */}
 
       {/* FOURTH SECTION - Court News */}
       {latestCourtPosts.length > 0 && (
@@ -302,6 +303,7 @@ const MainSection = async ({ searchParams }) => {
         rightPosts={rightPosts}
         middlePost={middlePost}
         leftPost={leftPost}
+        leftPost2={leftPost2}
       />
 
       {/* SEVENTH SECTION - LAW AND JUSTICE */}

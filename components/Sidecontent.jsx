@@ -131,7 +131,7 @@ const Sidecontent = ({heroPost, smallPosts}) => {
         </div>
 
           {/* Advertisement */}
-          <div className="ad-image mt-8">
+          {/* <div className="ad-image mt-8">
             <p className="text-center text-sm mb-2">- Ads -</p>
             <Link href="https://www.morenews.org/" title="Visit More News" target="_blank" rel="noopener noreferrer">
               <Image
@@ -143,7 +143,7 @@ const Sidecontent = ({heroPost, smallPosts}) => {
                 loading="lazy"
               />
             </Link>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

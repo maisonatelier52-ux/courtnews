@@ -9,7 +9,7 @@ import { BsSubstack } from "react-icons/bs";
 
 
 
-const CivilRightsNews = ({ rightPosts, middlePost, leftPost }) => {
+const CivilRightsNews = ({ rightPosts, middlePost, leftPost, leftPost2 }) => {
 
   // Helper function to format date
   const formatDate = (dateStr) => {
@@ -32,7 +32,7 @@ const CivilRightsNews = ({ rightPosts, middlePost, leftPost }) => {
       
       {/* Left Column */}
       <div className="flex flex-col gap-5">
-        <div className="bg-[#f0f0f0] p-5 text-center ">
+        {/* <div className="bg-[#f0f0f0] p-5 text-center ">
           <p className="text-sm mb-2">-Advertisement-</p>
           
           <Link href="https://www.morenews.org/" title="More News" target="_blank" rel="noopener noreferrer">
@@ -45,20 +45,53 @@ const CivilRightsNews = ({ rightPosts, middlePost, leftPost }) => {
                 loading="lazy"
                 />
           </Link>
-        </div>
+        </div> */}
         
 
         {leftPost && (
           <Link href={`/${leftPost.category}/${leftPost.slug}`} title={leftPost.heading}>
-            <div className="bg-white p-[15px] group cursor-pointer">
-              <h3 className="text-lg font-bold group-hover:text-orange-500 transition">
+           
+            <div className="bg-white group cursor-pointer">
+               <Image
+                src={leftPost.image}
+                alt={leftPost.alt || leftPost.heading}
+                className="w-full h-[150px] object-cover"
+                width={500}  // You can adjust this width as needed
+                height={100} // You can adjust this height as needed
+                loading="lazy"
+                />
+              <h3 className="text-lg font-bold pt-2 group-hover:text-orange-500 transition">
                 {leftPost.heading}
               </h3>
-              <p className="text-sm text-black mt-2 line-clamp-3">
+              {/* <p className="text-sm text-black mt-2 line-clamp-3">
                 {leftPost.excerpt}
-              </p>
+              </p> */}
               <span className="text-xs text-gray-600 mt-2 block">
                 By {leftPost.author?.name || "Unknown"} · {formatDate(leftPost.date)}
+              </span>
+            </div>
+          </Link>
+        )}
+        {leftPost2 && (
+          <Link href={`/${leftPost2.category}/${leftPost2.slug}`} title={leftPost2.heading}>
+           
+            <div className="bg-white group cursor-pointer">
+               <Image
+                src={leftPost2.image}
+                alt={leftPost2.alt || leftPost2.heading}
+                className="w-full h-[150px] object-cover"
+                width={500}  // You can adjust this width as needed
+                height={100} // You can adjust this height as needed
+                loading="lazy"
+                />
+              <h3 className="text-lg font-bold pt-2 group-hover:text-orange-500 transition">
+                {leftPost2.heading}
+              </h3>
+              {/* <p className="text-sm text-black mt-2 line-clamp-3">
+                {leftPost.excerpt}
+              </p> */}
+              <span className="text-xs text-gray-600 mt-2 block">
+                By {leftPost2.author?.name || "Unknown"} · {formatDate(leftPost2.date)}
               </span>
             </div>
           </Link>

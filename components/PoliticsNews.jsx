@@ -44,11 +44,11 @@ const PoliticsNews = ({featuredPost, textPosts, imagePosts }) => {
                 loading="lazy"
                 />
               <h2 className="text-[32px] font-extrabold group-hover:text-orange-500 transition">
-                {featuredPost.heading.slice(0,70)}...
+                {featuredPost.heading.slice(0,85)}...
               </h2>
-              <p className="text-base text-black leading-[1.6]">
+              {/* <p className="text-base text-black leading-[1.6]">
                 {featuredPost.excerpt.slice(0,150)}...
-              </p>
+              </p> */}
               <span className="text-[13px] text-black">
                 By {featuredPost.author?.name || "Unknown"} · {formatDate(featuredPost.date)}
               </span>
@@ -57,48 +57,34 @@ const PoliticsNews = ({featuredPost, textPosts, imagePosts }) => {
         )}
       </div>
 
-      {/* COLUMN 2 – ADS + TEXT NEWS */}
-      <div className="flex flex-col gap-3">
-        {/* ADVERTISEMENT */}
-        <div>
-          <span className="block text-xs text-[#1c1c1c] text-center mb-[3px]">
-            -Advertisement-
-          </span>
-          
-          <Link href="https://www.morenews.org/" title='More News Website' target="_blank" rel="noopener noreferrer">
-            <Image
-              src="/images/morenews.webp"
-              alt="More News"
-              width={850}
-              height={801}
-              sizes="100vw"
-              className="w-full h-auto rounded-lg"
-              loading="lazy"
-            />
-          </Link>
-        </div>
-
-        {/* TEXT-ONLY NEWS */}
+      {/* COLUMN 2 – Image News */}
+      <div className="flex flex-col gap-6">
         {textPosts.map((post, index) => (
           <Link 
             key={post.id || index}
             href={`/${post.category}/${post.slug}`}
             title={`View article: ${post.heading}`}
           >
-            <article className="bg-white p-[10px] group cursor-pointer">
-              <h3 className="text-lg font-bold mb-[3px] group-hover:text-orange-500 transition">
-                {post.heading}
+            <article className="group cursor-pointer">
+              <Image
+                src={post.image}
+                alt={post.alt || post.heading}
+                className="w-full h-[150px] object-cover"
+                width={1000}  // Adjust the width based on your design
+                height={150}  // Since h-[200px] is set, this should match the height
+                loading="lazy"
+                />
+              <h3 className="text-lg font-bold mt-[10px] group-hover:text-orange-500 transition">
+                 {post.heading.slice(0,70)}...
               </h3>
-              {/* <p className="text-sm text-black line-clamp-2">
-                {post.excerpt}
-              </p> */}
               <span className="text-[13px] text-black">
-                Political · {formatDate(post.date)}
+                Politics · {formatDate(post.date)}
               </span>
             </article>
           </Link>
         ))}
       </div>
+
 
       {/* COLUMN 3 – IMAGE NEWS */}
       <div className="flex flex-col gap-6">
@@ -118,7 +104,7 @@ const PoliticsNews = ({featuredPost, textPosts, imagePosts }) => {
                 loading="lazy"
                 />
               <h3 className="text-lg font-bold mt-[10px] group-hover:text-orange-500 transition">
-                {post.heading}
+                {post.heading.slice(0,70)}...
               </h3>
               <span className="text-[13px] text-black">
                 Politics · {formatDate(post.date)}
