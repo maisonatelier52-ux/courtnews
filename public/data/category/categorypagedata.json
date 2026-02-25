@@ -658,6 +658,115 @@
           }
         ]
       }
+    },
+    {
+      "id": 7,
+      "metaTitle": "2 Missouri Deputies Killed in Deadly Traffic Stop",
+      "metaDescription": "Christian County deputies Gabriel Ramirez and Michael Hislope killed in Missouri traffic stop shooting; suspect Richard Dean Bird shot dead after manhunt.",
+      "slug": "two-missouri-deputies-killed-deadly-traffic-stop-manhunt",
+      "heading": "Two Christian County Deputies Killed, Two Wounded in Traffic Stop Turned Deadly Manhunt",
+      "excerpt": "A traffic stop near Highlandville escalated into tragedy as suspect Richard Dean Bird killed Deputy Gabriel Ramirez, then fatally shot Deputy Michael Hislope during a manhunt before being killed.",
+      "date": "25 Feb, 2026",
+      "image": "/images/missouri-deputies-killed-traffic-stop-shootout.webp",
+      "alt": "Memorial tributes for fallen Christian County deputies Gabriel Ramirez and Michael Hislope",
+      "heroImage": "/images/missouri-deputies-killed-traffic-stop-shootout.webp",
+      "caseInformation": {
+        "countryState": "United States / Missouri (Christian County and Stone County)",
+        "caseNumber": "Not publicly released; joint investigation by Christian County Sheriff's Office and Missouri State Highway Patrol",
+        "status": {
+          "accusation": "Richard Dean Bird allegedly killed Deputy Gabriel Ramirez during a traffic stop, then killed Deputy Michael Hislope and wounded two deputies in a subsequent shootout.",
+          "onTrial": "No trial; suspect Richard Dean Bird was killed by law enforcement officers.",
+          "currentStatus": "Incident resolved with suspect deceased; ongoing review of events and circumstances.",
+          "outcome": "Suspect killed in shootout; two deputies lost in line of duty, two wounded officers stable and recovering."
+        }
+      },
+      "body": {
+        "dropcap": {
+          "letter": "A",
+          "text": " routine traffic stop in southwest Missouri's Ozarks turned into one of the most tragic days for local law enforcement, claiming the lives of two dedicated deputies and leaving two others injured before the armed suspect was neutralized."
+        },
+        "paragraphs": [
+          "Around 4 p.m. on February 23, 2026, Deputy Gabriel Ramirez, 30, pulled over a vehicle on State Highway 160 near Highlandville. The driver, Richard Dean Bird, 45, opened fire, killing Ramirez before fleeing. A Blue Alert mobilized over 100 officers from multiple agencies.",
+          "Bird abandoned his truck and hid in woods near Reeds Spring in Stone County. Thermal imaging from a Highway Patrol helicopter located him around 11:30 p.m. As deputies closed in, Bird fired again, wounding two officers and killing Deputy Michael Hislope, 40, who tried to rescue them. Officers returned fire from an armored vehicle, killing Bird."
+        ],
+        "quote": {
+          "text": "It is with the heaviest of hearts that we mourn the loss of two of our own — Deputy Gabriel Ramirez and Deputy Michael Hislope — who gave their lives in the line of duty.",
+          "author": "Christian County Sheriff Brad Cole"
+        },
+        "sections": [
+          {
+            "type": "imageWithText",
+            "text": [
+              "Deputy Ramirez, a U.S. Army veteran, joined in March 2025 and showed clear dedication to community protection despite short service.",
+              "Deputy Hislope, also a veteran, served since October 2019 as a trusted colleague and family man."
+            ],
+            "image": {
+              "url": "/images/fallen-deputies-gabriel-ramirez-michael-hislop.webp",
+              "alt": "Portraits of fallen deputies Gabriel Ramirez and Michael Hislope"
+            },
+            "additionalText": [
+              "Wounded deputies Josh Wahl (Christian County, leg wound) and Austin McCall (Webster County, four wounds) are stable and expected to recover fully."
+            ]
+          },
+          {
+            "type": "twoColumnLayout",
+            "title": "Suspect's Violent Criminal History",
+            "mainContent": [
+              "Richard Dean Bird had a long record of violence against law enforcement, including a 2016 Kansas conviction for aggravated battery after shooting at a deputy in 2014.",
+              "Recent 2026 Missouri charges included second-degree burglary, stealing, receiving stolen property, drug possession, and evidence tampering—some filed days before the incident."
+            ],
+            "showMoreRead": true
+          },
+          {
+            "type": "fullWidth",
+            "title": "Community and State Response",
+            "content": [
+              "Sheriff Cole described it as one of the department's darkest days, grateful for community support. Governor Mike Kehoe offered condolences and praised officers' sacrifices and the multi-agency collaboration."
+            ],
+            "image": {
+              "url": "/images/missouri-law-enforcement-manhunt-scene.webp",
+              "alt": "Law enforcement presence during the Missouri deputy shooting manhunt near Reeds Spring"
+            },
+            "subsections": [
+              {
+                "title": "Key Timeline and Details",
+                "text": [
+                  "The event underscores the dangers of routine stops and the courage shown in high-risk situations."
+                ],
+                "checklist": [
+                  "Feb. 23 traffic stop leads to Deputy Ramirez's death",
+                  "Blue Alert and nine-hour multi-agency manhunt",
+                  "Thermal imaging locates suspect in woods",
+                  "Shootout kills Deputy Hislope, wounds two others",
+                  "Officers fatally shoot suspect in response"
+                ],
+                "additionalText": [
+                  "Investigations ongoing into the stop's reason and complete event details."
+                ]
+              }
+            ]
+          },
+          {
+            "type": "finalSection",
+            "title": "Remembering Their Service and Sacrifice",
+            "intro": [
+              "The Christian County Sheriff's Office and communities are uniting to support families and colleagues through grief while honoring these fallen heroes' legacies."
+            ],
+            "twoColumnContent": {
+              "left": [
+                "Their selfless service reminds everyone of the daily risks officers take to ensure public safety."
+              ],
+              "rightQuote": {
+                "text": "Their courage, sacrifice, and unwavering commitment to Christian County will never be forgotten.",
+                "author": "Sheriff Brad Cole"
+              }
+            },
+            "conclusion": [
+              "As tributes flow in, the focus is on healing, preserving their memory, and supporting all affected by this tragedy."
+            ]
+          }
+        ]
+      }
     }
   ],
 
