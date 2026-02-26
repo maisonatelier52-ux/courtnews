@@ -2387,118 +2387,229 @@
       }
     },
     {
-  "id": 7,
-  "metaTitle": "Supreme Court Deploys Software to Help Spot Conflicts",
-  "metaDescription": "U.S. Supreme Court launches new software to flag potential conflicts of interest, strengthening ethics compliance as justices retain recusal control.",
-  "slug": "supreme-court-software-helps-spot-conflicts-of-interest",
-  "heading": "Supreme Court Rolls Out Software to Help Flag Conflicts",
-  "excerpt": "The U.S. Supreme Court announced Tuesday it is now using new in-house software to assist justices in screening cases for potential conflicts of interest, supplementing existing self-review procedures.",
-  "date": "18 Feb, 2026",
-  "image": "/images/supreme-court-software-helps-spot-conflicts-of-interest.webp",
-  "alt": "U.S. Supreme Court building with digital conflict-screening interface overlay",
-  "heroImage": "/images/supreme-court-software-helps-spot-conflicts-of-interest.webp",
-  "caseInformation": {
-    "countryState": "United States / Federal (U.S. Supreme Court)",
-    "caseNumber": "No docket number – internal administrative policy update (no litigation)",
-    "status": {
-      "accusation": "No accusation or lawsuit. Voluntary adoption of software to aid conflict screening under the 2023 Supreme Court Code of Conduct.",
-      "onTrial": "Not a trial. Internal court tool to support justices’ self-assessment of recusal obligations.",
-      "currentStatus": "Software deployed and in active use as of February 17, 2026. Publicly announced by the court the same day.",
-      "outcome": "Ongoing implementation. Justices retain final authority on recusal; no external enforcement mechanism."
-    }
-  },
-  "body": {
-    "dropcap": {
-      "letter": "T",
-      "text": "he U.S. Supreme Court has begun using new internal software to help its nine justices identify potential conflicts of interest before hearing cases, the court announced Tuesday."
-    },
-    "paragraphs": [
-      "Developed by the court’s own IT team and support staff, the tool automatically cross-checks information about lawyers, parties, and corporate entities involved in a case against financial and professional disclosures submitted by each justice.",
-      "The Supreme Court emphasized that the software is designed to enhance — not replace — the traditional process in which justices personally review cases for possible conflicts and decide whether to recuse themselves.",
-      "Under the Code of Conduct the justices adopted in November 2023, a justice must step aside in any proceeding where their 'impartiality might reasonably be questioned' — a standard each justice applies individually."
-    ],
-    "quote": {
-      "text": "These automated recusal checks will complement the procedures justices already follow to review potential conflicts.",
-      "author": "Supreme Court spokesperson"
-    },
-    "sections": [
-      {
-        "type": "imageWithText",
-        "text": [
-          "The announcement comes after years of public and congressional scrutiny over ethics at the high court, including undisclosed luxury travel, gifts, and real-estate transactions involving several justices.",
-          "The 2023 ethics code was introduced amid growing pressure for formal rules, but critics have pointed out that it lacks any external enforcement mechanism and continues to leave recusal decisions entirely in the hands of the justices themselves."
-        ],
-        "image": {
-          "url": "/images/supreme-court-software-helps-spot-conflicts-of-interest-si.webp",
-          "alt": "Supreme Court bench with digital conflict-check interface overlay"
-        },
-        "additionalText": [
-          "To support the software’s effectiveness, the court is also updating certain filing requirements. Beginning March 16, 2026, parties must submit more detailed lists of involved entities, including relevant stock ticker symbols, to improve the accuracy of automated screening."
-        ]
+      "id": 7,
+      "metaTitle": "Supreme Court Deploys Software to Help Spot Conflicts",
+      "metaDescription": "U.S. Supreme Court launches new software to flag potential conflicts of interest, strengthening ethics compliance as justices retain recusal control.",
+      "slug": "supreme-court-software-helps-spot-conflicts-of-interest",
+      "heading": "Supreme Court Rolls Out Software to Help Flag Conflicts",
+      "excerpt": "The U.S. Supreme Court announced Tuesday it is now using new in-house software to assist justices in screening cases for potential conflicts of interest, supplementing existing self-review procedures.",
+      "date": "18 Feb, 2026",
+      "image": "/images/supreme-court-software-helps-spot-conflicts-of-interest.webp",
+      "alt": "U.S. Supreme Court building with digital conflict-screening interface overlay",
+      "heroImage": "/images/supreme-court-software-helps-spot-conflicts-of-interest.webp",
+      "caseInformation": {
+        "countryState": "United States / Federal (U.S. Supreme Court)",
+        "caseNumber": "No docket number – internal administrative policy update (no litigation)",
+        "status": {
+          "accusation": "No accusation or lawsuit. Voluntary adoption of software to aid conflict screening under the 2023 Supreme Court Code of Conduct.",
+          "onTrial": "Not a trial. Internal court tool to support justices’ self-assessment of recusal obligations.",
+          "currentStatus": "Software deployed and in active use as of February 17, 2026. Publicly announced by the court the same day.",
+          "outcome": "Ongoing implementation. Justices retain final authority on recusal; no external enforcement mechanism."
+        }
       },
-      {
-        "type": "twoColumnLayout",
-        "title": "How the New System Operates",
-        "mainContent": [
-          "The software scans incoming cases against the justices’ annual financial disclosure forms and other provided information, flagging potential matches — such as ownership of stock in a litigant company or prior professional ties — for closer review.",
-          "While lower federal courts have relied on similar automated conflict-detection tools for years, this marks the first time the Supreme Court has implemented such technology at its level."
-        ],
-        "showMoreRead": true
-      },
-      {
-        "type": "fullWidth",
-        "title": "Broader Context and Continued Scrutiny",
-        "content": [
-          "The move follows persistent criticism of ethical practices at the Supreme Court, particularly after reports of undisclosed luxury travel, private jet flights, and real-estate deals involving justices.",
-          "The 2023 code was the court’s first formal written ethics framework, but it has faced skepticism because it includes no outside oversight or enforcement body. Justices remain solely responsible for deciding when to step aside from a case."
-        ],
-        "image": {
-          "url": "/images/supreme-court-software-helps-spot-conflicts-of-interest-ti.webp",
-          "alt": "Supreme Court press release on adoption of 2023 ethics code"
+      "body": {
+        "dropcap": {
+          "letter": "T",
+          "text": "he U.S. Supreme Court has begun using new internal software to help its nine justices identify potential conflicts of interest before hearing cases, the court announced Tuesday."
         },
-        "subsections": [
+        "paragraphs": [
+          "Developed by the court’s own IT team and support staff, the tool automatically cross-checks information about lawyers, parties, and corporate entities involved in a case against financial and professional disclosures submitted by each justice.",
+          "The Supreme Court emphasized that the software is designed to enhance — not replace — the traditional process in which justices personally review cases for possible conflicts and decide whether to recuse themselves.",
+          "Under the Code of Conduct the justices adopted in November 2023, a justice must step aside in any proceeding where their 'impartiality might reasonably be questioned' — a standard each justice applies individually."
+        ],
+        "quote": {
+          "text": "These automated recusal checks will complement the procedures justices already follow to review potential conflicts.",
+          "author": "Supreme Court spokesperson"
+        },
+        "sections": [
           {
-            "title": "Main Points from the Announcement",
+            "type": "imageWithText",
             "text": [
-              "Software created entirely in-house by Supreme Court IT and support staff.",
-              "Designed to supplement, not replace, justices’ personal conflict reviews.",
-              "New filing rules requiring more detailed party and stock information take effect March 16, 2026.",
-              "Automated screening already standard practice in many lower federal courts."
+              "The announcement comes after years of public and congressional scrutiny over ethics at the high court, including undisclosed luxury travel, gifts, and real-estate transactions involving several justices.",
+              "The 2023 ethics code was introduced amid growing pressure for formal rules, but critics have pointed out that it lacks any external enforcement mechanism and continues to leave recusal decisions entirely in the hands of the justices themselves."
             ],
-            "checklist": [
-              "Announced February 17, 2026",
-              "No external enforcement of recusal decisions",
-              "Justices retain sole authority to recuse",
-              "Part of ongoing effort to strengthen internal ethics procedures"
-            ],
+            "image": {
+              "url": "/images/supreme-court-software-helps-spot-conflicts-of-interest-si.webp",
+              "alt": "Supreme Court bench with digital conflict-check interface overlay"
+            },
             "additionalText": [
-              "Advocacy groups such as Fix the Court called the change 'somewhat positive' but continued to argue that justices should be barred from owning individual stocks while serving."
+              "To support the software’s effectiveness, the court is also updating certain filing requirements. Beginning March 16, 2026, parties must submit more detailed lists of involved entities, including relevant stock ticker symbols, to improve the accuracy of automated screening."
+            ]
+          },
+          {
+            "type": "twoColumnLayout",
+            "title": "How the New System Operates",
+            "mainContent": [
+              "The software scans incoming cases against the justices’ annual financial disclosure forms and other provided information, flagging potential matches — such as ownership of stock in a litigant company or prior professional ties — for closer review.",
+              "While lower federal courts have relied on similar automated conflict-detection tools for years, this marks the first time the Supreme Court has implemented such technology at its level."
+            ],
+            "showMoreRead": true
+          },
+          {
+            "type": "fullWidth",
+            "title": "Broader Context and Continued Scrutiny",
+            "content": [
+              "The move follows persistent criticism of ethical practices at the Supreme Court, particularly after reports of undisclosed luxury travel, private jet flights, and real-estate deals involving justices.",
+              "The 2023 code was the court’s first formal written ethics framework, but it has faced skepticism because it includes no outside oversight or enforcement body. Justices remain solely responsible for deciding when to step aside from a case."
+            ],
+            "image": {
+              "url": "/images/supreme-court-software-helps-spot-conflicts-of-interest-ti.webp",
+              "alt": "Supreme Court press release on adoption of 2023 ethics code"
+            },
+            "subsections": [
+              {
+                "title": "Main Points from the Announcement",
+                "text": [
+                  "Software created entirely in-house by Supreme Court IT and support staff.",
+                  "Designed to supplement, not replace, justices’ personal conflict reviews.",
+                  "New filing rules requiring more detailed party and stock information take effect March 16, 2026.",
+                  "Automated screening already standard practice in many lower federal courts."
+                ],
+                "checklist": [
+                  "Announced February 17, 2026",
+                  "No external enforcement of recusal decisions",
+                  "Justices retain sole authority to recuse",
+                  "Part of ongoing effort to strengthen internal ethics procedures"
+                ],
+                "additionalText": [
+                  "Advocacy groups such as Fix the Court called the change 'somewhat positive' but continued to argue that justices should be barred from owning individual stocks while serving."
+                ]
+              }
+            ]
+          },
+          {
+            "type": "finalSection",
+            "title": "Implications for the Future",
+            "intro": [
+              "The adoption of automated conflict screening represents a practical, incremental step toward greater transparency at the nation’s highest court."
+            ],
+            "twoColumnContent": {
+              "left": [
+                "While the tool may reduce the chance of overlooked conflicts, it does not address the central criticism that recusal decisions remain entirely self-regulated, with no binding external review."
+              ],
+              "rightQuote": {
+                "text": "Any step that helps justices avoid even the appearance of bias is a step in the right direction.",
+                "author": "Gabe Roth, Executive Director, Fix the Court"
+              }
+            },
+            "conclusion": [
+              "Whether this technological improvement — combined with the 2023 ethics code — will satisfy calls for more robust, externally enforceable rules remains an open question. For now, the court continues to emphasize internal self-regulation while quietly adopting tools to strengthen its processes."
             ]
           }
         ]
+      }
+    },
+    {
+      "id": 8,
+      "metaTitle": "Supreme Court Kills Trump IEEPA Tariffs in 6-3 Vote",
+      "metaDescription": "The Supreme Court ruled 6-3 on Feb 20, 2026 that IEEPA gives no president power to levy tariffs, wiping out Trump emergency duties worth billions.",
+      "slug": "supreme-court-ieepa-tariffs-unconstitutional-ruling-2026",
+      "heading": "Supreme Court: Trump Had No Legal Basis to Impose IEEPA Tariffs",
+      "excerpt": "A divided Supreme Court shut down one of Trump's most aggressive trade tools, ruling that a Cold War-era emergency law never gave any president the right to slap tariffs on imports — and demanding billions in contested duties be challenged through a separate court.",
+      "date": "26 Feb, 2026",
+      "image": "/images/supreme-court-trump-tariffs-ieepa-ruling.webp",
+      "alt": "U.S. Supreme Court building with flags and tariff-related protest signage",
+      "heroImage": "/images/supreme-court-trump-tariffs-ieepa-ruling.webp",
+      "caseInformation": {
+        "countryState": "United States / Federal (U.S. Supreme Court)",
+        "caseNumber": "No. 24-1287 (Learning Resources, Inc. v. Trump) and No. 25-250 (Trump v. V.O.S. Selections)",
+        "status": {
+          "accusation": "Business groups and importers contended that President Trump stretched a national-security statute far beyond its intended purpose when he used it to impose blanket tariffs, arguing the move violated the constitutional principle that only Congress may levy taxes.",
+          "onTrial": "Two consolidated cases asking whether IEEPA's emergency trade powers include the authority to set import tariffs.",
+          "currentStatus": "The Court ruled 6-3 that IEEPA cannot be used as a tariff vehicle; lower court decisions were partly affirmed and partly vacated on jurisdictional grounds.",
+          "outcome": "All tariffs issued under IEEPA are now void. Importers seeking refunds must file claims before the Court of International Trade."
+        }
       },
-      {
-        "type": "finalSection",
-        "title": "Implications for the Future",
-        "intro": [
-          "The adoption of automated conflict screening represents a practical, incremental step toward greater transparency at the nation’s highest court."
-        ],
-        "twoColumnContent": {
-          "left": [
-            "While the tool may reduce the chance of overlooked conflicts, it does not address the central criticism that recusal decisions remain entirely self-regulated, with no binding external review."
-          ],
-          "rightQuote": {
-            "text": "Any step that helps justices avoid even the appearance of bias is a step in the right direction.",
-            "author": "Gabe Roth, Executive Director, Fix the Court"
-          }
+      "body": {
+        "dropcap": {
+          "letter": "T",
+          "text": "he U.S. Supreme Court told President Trump on Thursday that a 1977 emergency-powers law does not give the White House a back door to rewrite American trade policy — and that the duties he imposed under it were never legal to begin with."
         },
-        "conclusion": [
-          "Whether this technological improvement — combined with the 2023 ethics code — will satisfy calls for more robust, externally enforceable rules remains an open question. For now, the court continues to emphasize internal self-regulation while quietly adopting tools to strengthen its processes."
+        "paragraphs": [
+          "The February 20, 2026 decision, reached by a 6-3 margin, centered on a deceptively simple question: does IEEPA's phrase 'regulate the importation' of goods during a national emergency cover the act of taxing those goods? Chief Justice John Roberts, writing for the majority, said no — and made clear the Court would not fill gaps left by Congress just because the White House wanted a quick fix for politically sensitive trade problems.",
+          "The tariffs that triggered the lawsuits were rolled out between February and April 2025. Trump's executive orders cited two separate emergencies — one tied to fentanyl smuggled across borders, another linked to what the administration called chronic trade imbalances with key partners. The resulting duties varied widely in rate and scope, hitting everything from consumer electronics to wine imports. Businesses immediately pushed back, filing challenges in federal district courts and the Court of International Trade."
+        ],
+        "quote": {
+          "text": "Those words cannot bear such weight.",
+          "author": "Chief Justice John Roberts, on IEEPA's 'regulate' and 'importation' language"
+        },
+        "sections": [
+          {
+            "type": "imageWithText",
+            "text": [
+              "Roberts grounded the ruling in a basic civics principle: tariffs are taxes, and the Constitution assigns taxing power to Congress, not the president. For that power to shift — even temporarily — Congress must hand it over in language that leaves no room for doubt. IEEPA, the majority found, contains no such handover. The statute lets a president freeze assets, block transactions, and restrict the movement of foreign property during a crisis. It does not, the Court held, let him write a tax bill by declaring an emergency.",
+              "Within hours of the ruling, trade attorneys began fielding calls from importers who had been quietly accumulating documentation for exactly this moment. The path for refund claims now runs through the Court of International Trade, which the majority said holds exclusive jurisdiction over tariff disputes — a point that will shape the pace and logistics of what could become one of the largest import-duty refund processes in U.S. history."
+            ],
+            "image": {
+              "url": "/images/supreme-court-ieepa-tariffs-decision-image.webp",
+              "alt": "Supreme Court justices in session during tariff case arguments"
+            },
+            "additionalText": [
+              "The ruling leaves a wide swath of existing U.S. trade measures untouched. Tariffs imposed under Section 232 of the Trade Expansion Act, which covers national-security threats from specific goods, and those issued under Section 301 of the Trade Act of 1974, which targets unfair foreign trade practices, were not before the Court and remain in force. Companies banking on this decision to undo those duties will need to keep waiting — or mount separate legal challenges."
+            ]
+          },
+          {
+            "type": "twoColumnLayout",
+            "title": "How the Justices Lined Up — and Why It Matters",
+            "mainContent": [
+              "Roberts was joined fully by Justices Gorsuch and Barrett, a pairing that surprised some Court watchers given both appointees' general deference toward executive power in foreign affairs. Justices Sotomayor, Kagan, and Jackson signed onto the core holding but declined parts of the majority's reasoning that touched on jurisdictional questions, producing a slightly fractured coalition that still reached a decisive outcome.",
+              "The three dissenters argued that IEEPA's broad emergency mandate was deliberately written to give presidents maximum flexibility in foreign-policy crises, and that trade pressure through tariffs falls squarely within that mandate. Justice Thomas, leading the dissent, warned that the majority's reading effectively rewrites the statute and strips future administrations of a tool that has existed — however controversially — for half a century. The majority wasn't persuaded. Roberts pointed out that Congress has never treated IEEPA as a tariff law, has never funded it as one, and never built oversight mechanisms around it as such."
+            ],
+            "showMoreRead": true
+          },
+          {
+            "type": "fullWidth",
+            "title": "What IEEPA Actually Does — and What It Never Did",
+            "content": [
+              "Congress passed IEEPA in 1977 to replace a pair of older laws that had let wartime economic powers drift into peacetime use. The new statute was meant to be a tighter, more accountable framework: the president could act fast in a genuine foreign-policy emergency, but only after declaring one formally and only within a defined set of options — blocking transactions, freezing assets, limiting transfers of technology. The legislative history is thick with assurances that IEEPA was not designed as a tax-writing shortcut. Several members of Congress who voted for it specifically noted that tariff authority would need to come from somewhere else.",
+              "Trump's legal team argued those assurances were non-binding, that the statutory text was broad enough to cover tariffs, and that courts had long given deference to presidential judgment in trade matters. The argument had enough force to survive initial rounds of litigation, with some lower courts staying challenges while others ruled quickly against the administration. The consolidation before the Supreme Court was always going to be the decisive moment."
+            ],
+            "image": {
+              "url": "/images/trump-tariffs-ieepa-supreme-court.webp",
+              "alt": "President Trump at a podium announcing trade enforcement measures"
+            },
+            "subsections": [
+              {
+                "title": "What Changes — and What Does Not",
+                "text": [
+                  "The practical fallout from Thursday's ruling will unfold across courtrooms, corporate finance departments, and congressional offices for months. On the most immediate level, Customs and Border Protection must stop collecting duties on any goods covered by the now-void IEEPA orders. Companies that have been paying those duties since 2025 can begin formal refund procedures, though the process is rarely quick."
+                ],
+                "checklist": [
+                  "All IEEPA-based tariffs voided effective immediately",
+                  "Refund claims must be filed through the Court of International Trade",
+                  "Section 232 and Section 301 tariffs remain fully in effect",
+                  "White House exploring Section 122 and other statutes for replacement duties",
+                  "No ceiling set on total refund exposure — estimates range into the tens of billions"
+                ],
+                "additionalText": [
+                  "Administration officials signaled before the ruling that contingency plans were ready. Within days of the decision, the White House began the groundwork for Section 122 orders, which allow a president to impose a temporary surcharge of up to 15 percent for 150 days to address balance-of-payments problems. Section 301 actions, slower to build and more targeted by design, are also being reviewed for expansion. Neither route gives the administration the speed or breadth that IEEPA once appeared to offer."
+                ]
+              }
+            ]
+          },
+          {
+            "type": "finalSection",
+            "title": "A Turning Point for Executive Trade Power",
+            "intro": [
+              "Thursday's ruling is already being read as one of the more consequential trade-law decisions in decades — not primarily because of what it undoes, but because of the principle it locks in. Future presidents of either party who want to use emergency declarations as a route to broad economic measures will now need to read a more hostile judicial landscape first."
+            ],
+            "twoColumnContent": {
+              "left": [
+                "For American businesses that rely on imported components or finished goods, the short-term picture is a mix of relief and uncertainty. Relief because one category of duties disappears; uncertainty because the administration's pivot to other statutes could produce new tariffs within weeks, and the refund timeline through the Court of International Trade is notoriously slow. Trade lawyers are advising clients to document their losses carefully, file protective claims early, and resist assuming that a quick refund check is on the way."
+              ],
+              "rightQuote": {
+                "text": "When Congress grants the power to impose tariffs, it does so expressly.",
+                "author": "Chief Justice John Roberts, majority opinion"
+              }
+            },
+            "conclusion": [
+              "The longer-term question is what happens to U.S. trade policy as a political matter. Congress has spent decades delegating trade authority to the executive branch, accepting in return that presidents would use the granted tools rather than reach for broader ones. This decision draws a cleaner line: delegated powers are real, but unstated ones are not. If the administration wants new tariff tools, it will need to go to Capitol Hill and ask for them — a prospect that will test both the White House's appetite for a legislative fight and Congress's willingness to revisit the architecture of American trade law.",
+              "Proceedings before the Court of International Trade are expected to accelerate in the coming months, with importers from multiple industries joining what may become a sweeping class of refund claimants. The final dollar figure, and the final shape of whatever replaces IEEPA's now-voided duties, will define the economic legacy of this ruling as much as the constitutional principle it established."
+            ]
+          }
         ]
       }
-    ]
-  }
-}
+    }
   ],
 
   "investigations": [
