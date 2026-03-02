@@ -3879,7 +3879,83 @@
       }
     ]
   }
+    },
+    {
+  "id": 7,
+  "metaTitle": "Denver Mayor Shields Protesters, Bars ICE From City Land",
+  "metaDescription": "Denver mayor orders police to protect peaceful protesters, bans ICE from city property as tensions rise over Trump-era immigration crackdown policies amid.",
+  "slug": "denver-mayor-protects-protesters-bans-ice-city-property-2026",
+  "heading": "Denver Mayor Orders Police to Guard Protesters and Blocks ICE Access",
+  "excerpt": "Mayor Mike Johnston issued an executive order Thursday directing Denver police to safeguard peaceful demonstrators against federal immigration enforcement while prohibiting ICE from using any city-owned facilities.",
+  "date": "02 Mar, 2026",
+  "image": "/images/denver-mayor-ice-protesters-order.webp",
+  "alt": "Denver Mayor Mike Johnston speaking at press conference about ICE protection order",
+  "heroImage": "/images/denver-mayor-ice-protesters-order.webp",
+  "caseInformation": {
+    "countryState": "United States / Colorado (Denver)",
+    "caseNumber": "Executive Order – Public Safety & Immigration Enforcement",
+    "status": {
+      "accusation": "Local officials argue federal immigration actions threaten public safety and free speech; the order aims to limit escalation and protect residents' rights.",
+      "onTrial": "Not a court case – executive action by Denver mayor to restrict ICE operations within city jurisdiction.",
+      "currentStatus": "Order signed and effective immediately; no legal challenge filed as of March 2, 2026.",
+      "outcome": "Police instructed to use de-escalation tactics with protesters; ICE barred from city property."
     }
+  },
+  "body": {
+    "dropcap": {
+      "letter": "D",
+      "text": "enver Mayor Mike Johnston issued a new executive order Thursday that directs city police to shield peaceful demonstrators from federal immigration enforcement operations and explicitly prohibits ICE agents from stepping foot on any city-owned property."
+    },
+    "paragraphs": [
+      "The move comes amid growing local resistance to the Trump administration's intensified immigration crackdown, which has drawn sharp criticism from civil rights groups following the fatal shootings of two U.S. citizens by federal agents in Minnesota earlier this year.",
+      "Johnston emphasized that Denver law enforcement will follow established de-escalation procedures whenever ICE conducts civil immigration actions within city limits. The order prioritizes public safety, preservation of free speech, and prevention of excessive force during protests.",
+      "In a public statement, the mayor made clear that any ICE officer observed using unreasonable force against a Denver resident would face immediate intervention. 'We hold our own officers to a high standard, and we expect the same from federal agents,' Johnston said during a news briefing."
+    ],
+    "quote": {
+      "text": "If we see any ICE officer using excessive force against a Denver resident, we will step in to detain that officer and remove them from the situation.",
+      "author": "Denver Mayor Mike Johnston"
+    },
+    "sections": [
+      {
+        "type": "imageWithText",
+        "text": [
+          "Similar protective measures have appeared in other Democratic-led cities. Minneapolis Mayor Jacob Frey recently barred city-owned parking facilities from being used to stage immigration enforcement actions. These steps reflect a broader pushback by local leaders against what they view as overreach in federal immigration policy.",
+          "The White House quickly criticized the Denver order, stating that local officials should cooperate with ICE rather than obstruct it. A White House spokesperson called such actions 'doing the bidding of criminal illegal aliens' and suggested potential federal funding consequences for non-compliant jurisdictions."
+        ],
+        "image": {
+          "url": "/images/denver-mayor-press-conference-ice-order.webp",
+          "alt": "Mayor Mike Johnston at podium announcing order to protect protesters from ICE"
+        },
+        "additionalText": [
+          "President Trump has framed the immigration enforcement surge as essential for national security and public safety. However, rights organizations warn that aggressive tactics are creating widespread fear, undermining due process, and infringing on First Amendment protections."
+        ]
+      },
+      {
+        "type": "twoColumnLayout",
+        "title": "What the Order Actually Does",
+        "mainContent": [
+          "The executive action does not stop ICE from operating in Denver entirely — federal agents retain authority in public spaces and private property outside city control. Instead, it focuses on three core directives:",
+          "1. Authorize Denver Police to protect peaceful protesters during ICE operations using de-escalation tactics.",
+          "2. Prohibit ICE from accessing or using any city-owned land, buildings, or facilities.",
+          "3. Instruct city agencies to intervene if federal officers are observed using excessive force against residents."
+        ],
+        "showMoreRead": true
+      },
+      {
+        "type": "fullWidth",
+        "title": "Broader Context and Reactions",
+        "content": [
+          "The order arrives as several Democratic mayors and governors explore legal and administrative tools to limit cooperation with federal immigration enforcement. Supporters argue these steps defend community trust and constitutional rights; critics contend they interfere with federal law and endanger public safety.",
+          "Trade and immigration policy experts expect the coming months to bring more local ordinances, potential lawsuits, and renewed debate over the balance between federal authority and municipal autonomy."
+        ],
+        "image": {
+          "url": "/images/denver-protest-ice-enforcement.webp",
+          "alt": "Peaceful protesters gathered in Denver with signs opposing ICE operations"
+        }
+      }
+    ]
+  }
+}
   ],
 
   "law-and-justice": [
