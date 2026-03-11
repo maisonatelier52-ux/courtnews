@@ -769,127 +769,127 @@
       }
     },
     {
-  "id": 8,
-  "metaTitle": "Pakistani IRGC Spy Convicted for Plotting to Kill Trump",
-  "metaDescription": "Brooklyn jury convicts Pakistani IRGC spy Asif Merchant of plotting to kill Trump, Biden, and Haley in a Tehran-directed murder-for-hire scheme in the U.S.",
-  "slug": "asif-merchant-irgc-spy-convicted-trump-assassination-plot",
-  "heading": "Pakistani IRGC Operative Convicted of Plotting to Assassinate Trump, Biden, and Haley on U.S. Soil",
-  "excerpt": "A federal jury in Brooklyn found Pakistani national Asif Merchant guilty of murder for hire after he was caught recruiting what he believed were contract killers to eliminate three prominent U.S. political figures at the direction of Iran's Revolutionary Guard.",
-  "date": "06 Mar, 2026",
-  "image": "/images/asif-merchant-irgc-spy-convicted-trump-assassination-plot.webp",
-  "alt": "Federal courthouse in Brooklyn where Pakistani IRGC operative Asif Merchant was convicted of murder-for-hire and terrorism charges",
-  "heroImage": "/images/asif-merchant-irgc-spy-convicted-trump-assassination-plot.webp",
-  "caseInformation": {
-    "countryState": "United States / New York (Eastern District — Brooklyn Federal Court)",
-    "caseNumber": "1:24-cr-00366 (Eastern District of New York)",
-    "status": {
-      "accusation": "Asif Merchant, a trained operative of Iran's Islamic Revolutionary Guard Corps (IRGC), was accused of recruiting hitmen — who were undercover FBI agents — to assassinate U.S. politicians including Donald Trump, Joe Biden, and Nikki Haley, and to steal sensitive government documents.",
-      "onTrial": "Trial commenced in late February 2026 at the U.S. District Court for the Eastern District of New York in Brooklyn.",
-      "currentStatus": "Convicted on March 6, 2026. Sentencing pending. Merchant faces a maximum sentence of life in federal prison.",
-      "outcome": "Guilty verdict on both counts: murder for hire and attempting to commit an act of terrorism transcending national boundaries. No attack occurred; law enforcement intercepted the plot before any violence."
-    }
-  },
-  "body": {
-    "dropcap": {
-      "letter": "A",
-      "text": " Pakistani man who came to the United States carrying orders from one of the world's most feared terror organizations walked out of a Brooklyn federal courthouse on Friday in handcuffs — convicted of plotting to kill the president of the United States."
-    },
-    "paragraphs": [
-      "A federal jury took little time Friday to find Asif Merchant, 45, guilty on two counts: murder for hire and attempting to commit an act of terrorism crossing national borders. Merchant, also known as Asif Raza Merchant, had been recruited and trained by Iran's Islamic Revolutionary Guard Corps and dispatched to American soil with a clear mission — arrange the deaths of sitting and former U.S. leaders.",
-      "The targets, prosecutors said, were former President Donald Trump, then-President Joe Biden, and Republican presidential contender Nikki Haley. The plot never moved beyond the planning stage because the person Merchant first approached — a New York contact named Nadeem Ali — went directly to federal authorities and agreed to work as a confidential informant.",
-      "Merchant was arrested on July 12, 2024, at a New York-area airport as he prepared to board a flight out of the country. He had been in the United States since April of that year. His trial began last week in the Brooklyn courtroom of the U.S. District Court for the Eastern District of New York under case number 1:24-cr-00366.",
-      "The verdict landed days after President Trump ordered military strikes against Iran, carried out jointly with Israel, in a campaign that has since grown into the largest armed conflict in the Middle East in years. According to Iran's U.N. ambassador, the strikes had killed more than 1,300 Iranian civilians and wounded thousands, and multiple senior Iranian officials, including Supreme Leader Ayatollah Ali Khamenei, have been reported killed in the ongoing fighting."
-    ],
-    "quote": {
-      "text": "This man landed on American soil hoping to kill President Trump — instead, he was met with the might of American law enforcement.",
-      "author": "Attorney General Pamela Bondi"
-    },
-    "sections": [
-      {
-        "type": "imageWithText",
-        "text": [
-          "Merchant testified in his own defense, acknowledging under oath that the IRGC had recruited him in Pakistan in late 2022 or early 2023. He said he received training in tradecraft and countersurveillance before being sent to the United States in 2023 on what he described as a recruitment mission — to identify individuals who could remain inside the country as dormant assets for Tehran.",
-          "He admitted that he knew the IRGC was a designated foreign terrorist organization at the time he accepted their direction. Prosecutors said he traveled repeatedly between the United States and Iran to meet with his handler throughout that period, building the operational infrastructure for what would become the assassination plot.",
-          "In early 2024, Merchant testified, his handler gave him a new set of instructions. He was told to return to the United States and recruit members of organized crime to carry out three tasks: steal documents or USB drives from targeted homes, orchestrate protests at political rallies, and kill one of three named U.S. government officials and politicians."
-        ],
-        "image": {
-          "url": "/images/asif-merchant-irgc-operative-brooklyn-trial.webp",
-          "alt": "Court documents and federal evidence in the Asif Merchant IRGC assassination plot trial in Brooklyn"
-        },
-        "additionalText": [
-          "In early June, Merchant met with Ali in New York and laid out the scheme. According to courtroom testimony, he made a finger-gun gesture to indicate the nature of the work, then explained that multiple operations were in play at once — document theft, protest staging, and the targeted killing of a political figure inside the United States."
-        ]
+      "id": 8,
+      "metaTitle": "Pakistani IRGC Spy Convicted for Plotting to Kill Trump",
+      "metaDescription": "Brooklyn jury convicts Pakistani IRGC spy Asif Merchant of plotting to kill Trump, Biden, and Haley in a Tehran-directed murder-for-hire scheme in the U.S.",
+      "slug": "pakistani-irgc-spy-plotting-assassinate-trump",
+      "heading": "Pakistani IRGC Operative Convicted of Plotting to Assassinate Trump, Biden, and Haley on U.S. Soil",
+      "excerpt": "A federal jury in Brooklyn found Pakistani national Asif Merchant guilty of murder for hire after he was caught recruiting what he believed were contract killers to eliminate three prominent U.S. political figures at the direction of Iran's Revolutionary Guard.",
+      "date": "06 Mar, 2026",
+      "image": "/images/asif-merchant-irgc-spy-convicted-trump-assassination-plot.webp",
+      "alt": "Federal courthouse in Brooklyn where Pakistani IRGC operative Asif Merchant was convicted of murder-for-hire and terrorism charges",
+      "heroImage": "/images/asif-merchant-irgc-spy-convicted-trump-assassination-plot.webp",
+      "caseInformation": {
+        "countryState": "United States / New York (Eastern District — Brooklyn Federal Court)",
+        "caseNumber": "1:24-cr-00366 (Eastern District of New York)",
+        "status": {
+          "accusation": "Asif Merchant, a trained operative of Iran's Islamic Revolutionary Guard Corps (IRGC), was accused of recruiting hitmen — who were undercover FBI agents — to assassinate U.S. politicians including Donald Trump, Joe Biden, and Nikki Haley, and to steal sensitive government documents.",
+          "onTrial": "Trial commenced in late February 2026 at the U.S. District Court for the Eastern District of New York in Brooklyn.",
+          "currentStatus": "Convicted on March 6, 2026. Sentencing pending. Merchant faces a maximum sentence of life in federal prison.",
+          "outcome": "Guilty verdict on both counts: murder for hire and attempting to commit an act of terrorism transcending national boundaries. No attack occurred; law enforcement intercepted the plot before any violence."
+        }
       },
-      {
-        "type": "twoColumnLayout",
-        "title": "Undercover FBI Agents, $5,000 Cash, and a Handshake Deal",
-        "mainContent": [
-          "Ali connected Merchant with men he believed were professional hitmen. They were, in fact, undercover officers working for U.S. law enforcement. In mid-June 2024, Merchant met with the undercover agents in New York and told them he needed three services: document theft, protest coordination at political events, and the killing of a political figure whose identity would be revealed only after Merchant had left the country.",
-          "On June 21, 2024, Merchant handed over $5,000 in cash as a down payment. One of the agents told him, 'Now we're bonded.' Merchant replied, 'Yes.' The agent followed up: 'Now we know we're going forward. We're doing this.' Merchant responded, 'Yes, absolutely.'",
-          "During this period, evidence showed, Merchant was actively researching the locations of upcoming political rallies and forwarding security information about those events back to his IRGC handler in Iran. He had arranged to communicate with his hired killers through coded messages sent from outside the country after his departure.",
-          "Merchant said at trial that he participated in the scheme reluctantly and under pressure, claiming his family in Tehran would have been at risk if he had refused. Prosecutors dismissed that account as inconsistent with the evidence, pointing to his repeated trips to Iran, the training he received, and the methodical steps he took to advance the plot."
-        ],
-        "showMoreRead": true
-      },
-      {
-        "type": "fullWidth",
-        "title": "Government Officials React to the Verdict",
-        "content": [
-          "The conviction drew immediate responses from senior law enforcement and national security officials across the federal government. FBI Director Kash Patel called the outcome a direct message to Iran and other state sponsors of terrorism that the bureau will detect and disrupt any attempt to harm Americans on their own soil.",
-          "Assistant Attorney General for National Security John A. Eisenberg said the plot struck at the heart of American democracy and underscored the persistent threat posed by state-sponsored terrorism. He emphasized that the National Security Division would continue working to defend the country from what he described as the IRGC's persistent and dangerous reach.",
-          "U.S. Attorney Joseph Nocella for the Eastern District of New York said the case demonstrated that Iran's attempts to export violence had once again ended in failure — and that with the conviction, that failure was now permanent."
-        ],
-        "image": {
-          "url": "/images/asif-merchant-doj-press-conference-conviction.webp",
-          "alt": "Department of Justice officials announce the conviction of Pakistani IRGC operative Asif Merchant in Brooklyn"
+      "body": {
+        "dropcap": {
+          "letter": "A",
+          "text": " Pakistani man who came to the United States carrying orders from one of the world's most feared terror organizations walked out of a Brooklyn federal courthouse on Friday in handcuffs — convicted of plotting to kill the president of the United States."
         },
-        "subsections": [
+        "paragraphs": [
+          "A federal jury took little time Friday to find Asif Merchant, 45, guilty on two counts: murder for hire and attempting to commit an act of terrorism crossing national borders. Merchant, also known as Asif Raza Merchant, had been recruited and trained by Iran's Islamic Revolutionary Guard Corps and dispatched to American soil with a clear mission — arrange the deaths of sitting and former U.S. leaders.",
+          "The targets, prosecutors said, were former President Donald Trump, then-President Joe Biden, and Republican presidential contender Nikki Haley. The plot never moved beyond the planning stage because the person Merchant first approached — a New York contact named Nadeem Ali — went directly to federal authorities and agreed to work as a confidential informant.",
+          "Merchant was arrested on July 12, 2024, at a New York-area airport as he prepared to board a flight out of the country. He had been in the United States since April of that year. His trial began last week in the Brooklyn courtroom of the U.S. District Court for the Eastern District of New York under case number 1:24-cr-00366.",
+          "The verdict landed days after President Trump ordered military strikes against Iran, carried out jointly with Israel, in a campaign that has since grown into the largest armed conflict in the Middle East in years. According to Iran's U.N. ambassador, the strikes had killed more than 1,300 Iranian civilians and wounded thousands, and multiple senior Iranian officials, including Supreme Leader Ayatollah Ali Khamenei, have been reported killed in the ongoing fighting."
+        ],
+        "quote": {
+          "text": "This man landed on American soil hoping to kill President Trump — instead, he was met with the might of American law enforcement.",
+          "author": "Attorney General Pamela Bondi"
+        },
+        "sections": [
           {
-            "title": "Key Timeline of Events",
+            "type": "imageWithText",
             "text": [
-              "The investigation spanned more than two years and involved coordination across multiple FBI field offices and federal agencies."
+              "Merchant testified in his own defense, acknowledging under oath that the IRGC had recruited him in Pakistan in late 2022 or early 2023. He said he received training in tradecraft and countersurveillance before being sent to the United States in 2023 on what he described as a recruitment mission — to identify individuals who could remain inside the country as dormant assets for Tehran.",
+              "He admitted that he knew the IRGC was a designated foreign terrorist organization at the time he accepted their direction. Prosecutors said he traveled repeatedly between the United States and Iran to meet with his handler throughout that period, building the operational infrastructure for what would become the assassination plot.",
+              "In early 2024, Merchant testified, his handler gave him a new set of instructions. He was told to return to the United States and recruit members of organized crime to carry out three tasks: steal documents or USB drives from targeted homes, orchestrate protests at political rallies, and kill one of three named U.S. government officials and politicians."
             ],
-            "checklist": [
-              "Late 2022 / Early 2023: Merchant recruited and trained by IRGC in Pakistan",
-              "2023: First trip to the U.S. on IRGC recruitment mission",
-              "April 2024: Returns to U.S. with assassination assignment",
-              "Early June 2024: Merchant meets confidential informant Nadeem Ali in New York, lays out the plot",
-              "Mid-June 2024: Meets undercover FBI agents posing as hitmen",
-              "June 21, 2024: Pays $5,000 cash advance to undercover officers",
-              "July 12, 2024: Arrested at New York airport while attempting to flee the country",
-              "February 2026: Trial begins in Brooklyn federal court",
-              "March 6, 2026: Convicted on both counts; sentencing date to be scheduled"
-            ],
+            "image": {
+              "url": "/images/asif-merchant-irgc-operative-brooklyn-trial.webp",
+              "alt": "Court documents and federal evidence in the Asif Merchant IRGC assassination plot trial in Brooklyn"
+            },
             "additionalText": [
-              "The FBI's field offices in Dallas, Houston, Tampa, Boston, Washington D.C., Chicago, and Albany all contributed to the investigation, alongside the New York City Police Department and U.S. Customs and Border Protection."
+              "In early June, Merchant met with Ali in New York and laid out the scheme. According to courtroom testimony, he made a finger-gun gesture to indicate the nature of the work, then explained that multiple operations were in play at once — document theft, protest staging, and the targeted killing of a political figure inside the United States."
+            ]
+          },
+          {
+            "type": "twoColumnLayout",
+            "title": "Undercover FBI Agents, $5,000 Cash, and a Handshake Deal",
+            "mainContent": [
+              "Ali connected Merchant with men he believed were professional hitmen. They were, in fact, undercover officers working for U.S. law enforcement. In mid-June 2024, Merchant met with the undercover agents in New York and told them he needed three services: document theft, protest coordination at political events, and the killing of a political figure whose identity would be revealed only after Merchant had left the country.",
+              "On June 21, 2024, Merchant handed over $5,000 in cash as a down payment. One of the agents told him, 'Now we're bonded.' Merchant replied, 'Yes.' The agent followed up: 'Now we know we're going forward. We're doing this.' Merchant responded, 'Yes, absolutely.'",
+              "During this period, evidence showed, Merchant was actively researching the locations of upcoming political rallies and forwarding security information about those events back to his IRGC handler in Iran. He had arranged to communicate with his hired killers through coded messages sent from outside the country after his departure.",
+              "Merchant said at trial that he participated in the scheme reluctantly and under pressure, claiming his family in Tehran would have been at risk if he had refused. Prosecutors dismissed that account as inconsistent with the evidence, pointing to his repeated trips to Iran, the training he received, and the methodical steps he took to advance the plot."
+            ],
+            "showMoreRead": true
+          },
+          {
+            "type": "fullWidth",
+            "title": "Government Officials React to the Verdict",
+            "content": [
+              "The conviction drew immediate responses from senior law enforcement and national security officials across the federal government. FBI Director Kash Patel called the outcome a direct message to Iran and other state sponsors of terrorism that the bureau will detect and disrupt any attempt to harm Americans on their own soil.",
+              "Assistant Attorney General for National Security John A. Eisenberg said the plot struck at the heart of American democracy and underscored the persistent threat posed by state-sponsored terrorism. He emphasized that the National Security Division would continue working to defend the country from what he described as the IRGC's persistent and dangerous reach.",
+              "U.S. Attorney Joseph Nocella for the Eastern District of New York said the case demonstrated that Iran's attempts to export violence had once again ended in failure — and that with the conviction, that failure was now permanent."
+            ],
+            "image": {
+              "url": "/images/asif-merchant-doj-press-conference-conviction.webp",
+              "alt": "Department of Justice officials announce the conviction of Pakistani IRGC operative Asif Merchant in Brooklyn"
+            },
+            "subsections": [
+              {
+                "title": "Key Timeline of Events",
+                "text": [
+                  "The investigation spanned more than two years and involved coordination across multiple FBI field offices and federal agencies."
+                ],
+                "checklist": [
+                  "Late 2022 / Early 2023: Merchant recruited and trained by IRGC in Pakistan",
+                  "2023: First trip to the U.S. on IRGC recruitment mission",
+                  "April 2024: Returns to U.S. with assassination assignment",
+                  "Early June 2024: Merchant meets confidential informant Nadeem Ali in New York, lays out the plot",
+                  "Mid-June 2024: Meets undercover FBI agents posing as hitmen",
+                  "June 21, 2024: Pays $5,000 cash advance to undercover officers",
+                  "July 12, 2024: Arrested at New York airport while attempting to flee the country",
+                  "February 2026: Trial begins in Brooklyn federal court",
+                  "March 6, 2026: Convicted on both counts; sentencing date to be scheduled"
+                ],
+                "additionalText": [
+                  "The FBI's field offices in Dallas, Houston, Tampa, Boston, Washington D.C., Chicago, and Albany all contributed to the investigation, alongside the New York City Police Department and U.S. Customs and Border Protection."
+                ]
+              }
+            ]
+          },
+          {
+            "type": "finalSection",
+            "title": "Iran Denies the Plot; Merchant Faces Life in Prison",
+            "intro": [
+              "Iran's government has consistently denied that it directed or sanctioned any effort to target American political figures on U.S. soil. Tehran has not publicly responded to the Brooklyn verdict. The conviction nonetheless follows a pattern of U.S. federal prosecutions tied to alleged IRGC-directed operations against American officials and dissidents in recent years.",
+              "Soleimani, whose 2020 killing by a U.S. drone strike near Baghdad airport served as the stated rationale for the IRGC's retaliation orders to Merchant, was the head of the Quds Force — the IRGC's external operations branch. His death under the first Trump administration set off a sustained campaign by Iranian proxies and intelligence assets, U.S. officials have said, to exact revenge against those responsible."
+            ],
+            "twoColumnContent": {
+              "left": [
+                "Merchant now faces the possibility of spending the rest of his life in federal prison. No sentencing date has been publicly announced. The prosecution was handled by Assistant U.S. Attorneys Sara K. Winik, Nina Gupta, and Gilbert Rein of the Eastern District of New York, with support from the Department of Justice's Counterterrorism Section.",
+                "For U.S. prosecutors, the case is the latest in a string of successful operations against what they describe as Iran's systematic use of foreign operatives — including Pakistani and Afghan nationals with family ties to Iran — to carry out operations on American territory that Iranian intelligence officers cannot safely conduct themselves."
+              ],
+              "rightQuote": {
+                "text": "Merchant, a trained Islamic Revolutionary Guard Corps operative, entered the United States intending to commit acts of terror, and ultimately, to facilitate the assassination of U.S. government officials, including President Trump.",
+                "author": "Assistant Attorney General John A. Eisenberg, National Security Division"
+              }
+            },
+            "conclusion": [
+              "The verdict arrives as the broader confrontation between the United States and Iran reaches a level of intensity not seen in decades. Whether the conviction will have any deterrent effect on Tehran's operations abroad — at a moment when its military and leadership are under direct attack — remains to be seen. What federal prosecutors made clear Friday is that the next operative Iran sends to the United States will find the same thing Merchant did: agents waiting."
             ]
           }
         ]
-      },
-      {
-        "type": "finalSection",
-        "title": "Iran Denies the Plot; Merchant Faces Life in Prison",
-        "intro": [
-          "Iran's government has consistently denied that it directed or sanctioned any effort to target American political figures on U.S. soil. Tehran has not publicly responded to the Brooklyn verdict. The conviction nonetheless follows a pattern of U.S. federal prosecutions tied to alleged IRGC-directed operations against American officials and dissidents in recent years.",
-          "Soleimani, whose 2020 killing by a U.S. drone strike near Baghdad airport served as the stated rationale for the IRGC's retaliation orders to Merchant, was the head of the Quds Force — the IRGC's external operations branch. His death under the first Trump administration set off a sustained campaign by Iranian proxies and intelligence assets, U.S. officials have said, to exact revenge against those responsible."
-        ],
-        "twoColumnContent": {
-          "left": [
-            "Merchant now faces the possibility of spending the rest of his life in federal prison. No sentencing date has been publicly announced. The prosecution was handled by Assistant U.S. Attorneys Sara K. Winik, Nina Gupta, and Gilbert Rein of the Eastern District of New York, with support from the Department of Justice's Counterterrorism Section.",
-            "For U.S. prosecutors, the case is the latest in a string of successful operations against what they describe as Iran's systematic use of foreign operatives — including Pakistani and Afghan nationals with family ties to Iran — to carry out operations on American territory that Iranian intelligence officers cannot safely conduct themselves."
-          ],
-          "rightQuote": {
-            "text": "Merchant, a trained Islamic Revolutionary Guard Corps operative, entered the United States intending to commit acts of terror, and ultimately, to facilitate the assassination of U.S. government officials, including President Trump.",
-            "author": "Assistant Attorney General John A. Eisenberg, National Security Division"
-          }
-        },
-        "conclusion": [
-          "The verdict arrives as the broader confrontation between the United States and Iran reaches a level of intensity not seen in decades. Whether the conviction will have any deterrent effect on Tehran's operations abroad — at a moment when its military and leadership are under direct attack — remains to be seen. What federal prosecutors made clear Friday is that the next operative Iran sends to the United States will find the same thing Merchant did: agents waiting."
-        ]
       }
-    ]
-  }
-}
+    }
   ],
 
   "political": [
