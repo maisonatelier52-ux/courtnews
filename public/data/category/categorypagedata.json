@@ -1982,7 +1982,134 @@
           }
         ]
       }
-    }
+    },
+    {
+  "id": 10,
+  "metaTitle": "DOJ Unveils Unified Corporate Disclosure Policy 2026",
+  "metaDescription": "The DOJ issued a unified Corporate Enforcement Policy to end conflicting rules and set one voluntary disclosure standard across federal criminal divisions.",
+  "slug": "doj-unified-corporate-enforcement-voluntary-disclosure-policy-2026",
+  "heading": "DOJ's New Department-Wide Corporate Enforcement Policy Brings Uniform Voluntary Disclosure Rules to Federal Criminal Cases",
+  "excerpt": "The Justice Department has issued a sweeping new Corporate Enforcement Policy that replaces a patchwork of overlapping division-specific frameworks with a single standard for how companies earn cooperation credit and voluntary disclosure benefits across federal criminal enforcement.",
+  "date": "13 Mar, 2026",
+  "image": "/images/doj-unified-corporate-enforcement-voluntary-disclosure-policy-2026.webp",
+  "alt": "U.S. Department of Justice headquarters in Washington D.C. as DOJ announces new unified Corporate Enforcement Policy for voluntary disclosure in March 2026",
+  "heroImage": "/images/doj-unified-corporate-enforcement-voluntary-disclosure-policy-2026.webp",
+  "body": {
+    "dropcap": {
+      "letter": "F",
+      "text": "or nearly a decade, companies facing potential federal criminal exposure had to navigate a maze of overlapping, inconsistent policies depending on which part of the Justice Department was investigating them. On March 10, 2026, the DOJ moved to end that confusion — announcing a new Department-wide Corporate Enforcement and Voluntary Disclosure Policy that applies a single framework to how prosecutors across virtually all federal criminal components evaluate and reward companies that come forward on their own."
+    },
+    "paragraphs": [
+      "The new policy, which covers all DOJ criminal components with the exception of the Antitrust Division, builds on the structure of the Criminal Division's existing Corporate Enforcement Policy — a framework that had been revised several times since its introduction in 2017. The Department-wide version largely preserves that structure's core architecture but introduces several adjustments designed to bring consistency to corporate enforcement decisions at a national level.",
+      "For in-house counsel and white-collar defense practitioners, the announcement represents the most significant step the Justice Department has taken in years toward making voluntary disclosure a genuinely predictable proposition. Previously, a corporation under investigation by multiple DOJ components — say, the Criminal Division alongside a U.S. Attorney's Office — could face meaningfully different standards for what counted as voluntary disclosure and how much credit cooperation would generate. That problem is now, at least formally, resolved.",
+      "The timing is deliberate. The DOJ's Criminal Division has spent the better part of the past three years trying to give corporate compliance programs and boards concrete reasons to come forward early. The 2022 directive requiring each DOJ component to adopt its own formal written policy was a step in that direction — but it inadvertently created a new problem. Instead of building consistency, the resulting policies compounded the patchwork, with the Southern District of New York announcing its own iteration as recently as last month."
+    ],
+    "quote": {
+      "text": "The path to leniency will be narrow for those that do not voluntarily disclose criminal misconduct and cooperate.",
+      "author": "U.S. Department of Justice"
+    },
+    "sections": [
+      {
+        "type": "imageWithText",
+        "text": [
+          "Under the new framework, a company seeking voluntary disclosure credit must make its disclosure directly to the appropriate DOJ criminal component — not to a federal regulator, state authority, or civil enforcement agency. The policy makes explicit what had previously been left implicit: disclosures to agencies outside the DOJ's criminal enforcement apparatus generally do not count.",
+          "The Department does carve out a narrow exception, stating that disclosures made in good faith to a regulatory body or civil enforcement agency may qualify under appropriate circumstances. But the message to companies is unmistakable — the clock on voluntary disclosure credit starts when you call a prosecutor, not a regulator.",
+          "The policy also addresses a longstanding temptation for companies under investigation: choosing which DOJ component to disclose to based on perceived leniency rather than jurisdictional logic. The new framework explicitly instructs companies to disclose to the appropriate component and commits DOJ to rewarding good faith compliance with that standard — while making clear that attempts to game the system will not be rewarded."
+        ],
+        "image": {
+          "url": "/images/doj-unified-corporate-enforcement-voluntary-disclosure-policy-2026-si.webp",
+          "alt": "Department of Justice seal and building exterior representing the DOJ's new unified corporate enforcement and voluntary disclosure framework announced March 2026"
+        },
+        "additionalText": [
+          "For companies caught between multiple simultaneous investigations by different DOJ components, the framework provides limited but real guidance: disclose to the component with primary jurisdiction and document that the disclosure was made in good faith."
+        ]
+      },
+      {
+        "type": "twoColumnLayout",
+        "title": "What Changes — and What Stays the Same",
+        "mainContent": [
+          "The most substantive change in the Department-wide policy involves what practitioners call the near-miss category — companies that cooperate fully with DOJ investigators and undertake genuine remediation but missed the window for voluntary self-disclosure or carry aggravating factors that preclude a declination. Under the prior version of the Criminal Division's CEP, those companies were eligible for a fine reduction of 75 percent off the lower end of the applicable U.S. Sentencing Guidelines range, along with a non-prosecution agreement. The new policy trims that ceiling slightly, offering a range of 50 to 75 percent rather than a fixed 75 percent reduction.",
+          "The change is modest — and the DOJ has taken care to frame it as a refinement rather than a retreat. For most companies in that category, the practical impact on the ultimate penalty calculation will be limited. What matters more is that the non-prosecution agreement pathway itself remains fully available, giving companies that cooperated substantively but disclosed late a meaningful carrot even when a full declination is off the table.",
+          "For companies that do qualify for a complete declination — those that self-disclosed, fully cooperated, and meaningfully remediated without the presence of particularly aggravating circumstances — the framework remains largely unchanged. The decision tree in the policy's Appendix A, which maps the three possible resolution paths (declination, NPA, or other resolution), has been updated to remove a line that previously pointed late-disclosing companies with aggravating factors directly toward a Part III resolution, clarifying that such companies may still be eligible for a Part II NPA depending on the specific facts."
+        ],
+        "showMoreRead": true
+      },
+      {
+        "type": "fullWidth",
+        "title": "Efficiency, Oversight, and the New Penalty Framework",
+        "content": [
+          "Beyond the substantive policy changes, the Department-wide CEP formalizes two procedural expectations that have long been the subject of practitioner complaints. First, it explicitly directs prosecutors to move efficiently in evaluating voluntary disclosures — gathering the relevant facts, reaching a conclusion about a company's eligibility for leniency, and communicating that conclusion to the company as soon as practicable. While DOJ has made similar commitments informally in the past, embedding the expectation directly into the written policy framework gives defense counsel a firmer basis for pressing prosecutors on timeline.",
+          "Second, the policy establishes a defined methodology for calculating monetary penalties in Part I and Part II resolutions. Prosecutors are directed to apply the factors set forth in Section 8C2.8 of the U.S. Sentencing Guidelines — a provision long familiar to white-collar practitioners but not previously codified into DOJ's own enforcement framework as explicitly. The move should make penalty negotiations more structured and, at least in theory, more predictable.",
+          "One practical complication that the new policy does not fully resolve involves the approval chain for corporate resolutions. The policy sets out the various levels of sign-off required within DOJ before a resolution can be finalized, including coordination with the Office of the Deputy Attorney General. There is nothing new about this structure, but rolling out a uniform policy across the entire Department's criminal enforcement apparatus will almost certainly increase scrutiny from Main Justice — at least during the initial period of implementation — as senior DOJ officials work to ensure consistent application."
+        ],
+        "image": {
+          "url": "/images/doj-unified-corporate-enforcement-voluntary-disclosure-policy-2026-ti.webp",
+          "alt": "Federal prosecutors reviewing documents related to corporate enforcement policy and voluntary self-disclosure framework at the Department of Justice"
+        },
+        "subsections": [
+          {
+            "title": "Key Elements of the New Department-Wide CEP",
+            "text": [
+              "The policy applies across all DOJ criminal enforcement components except the Antitrust Division, which retains its own separate framework. The following elements define the new standard."
+            ],
+            "checklist": [
+              "Voluntary disclosure must be made to DOJ directly — not to a regulator or civil agency",
+              "Disclosure must occur prior to an imminent threat of disclosure or active government investigation",
+              "Disclosure must be genuinely voluntary with no pre-existing legal obligation to report",
+              "Companies in the near-miss category are eligible for 50–75% fine reductions and an NPA",
+              "Companies qualifying for Part I declination retain full leniency benefits unchanged",
+              "Prosecutors directed to resolve voluntary disclosures and communicate conclusions as soon as practicable",
+              "Penalty calculations to be based on U.S.S.G. § 8C2.8 factors",
+              "Antitrust Division excluded — maintains its own separate Leniency Policy"
+            ],
+            "additionalText": [
+              "The policy's decision tree in Appendix A has been updated to remove a prior pathway that directed companies with aggravating factors toward Part III resolutions regardless of cooperation, opening the door to Part II NPAs in a broader range of circumstances than before."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "finalSection",
+        "title": "What It Means for Companies Weighing Disclosure",
+        "intro": [
+          "The new framework does not change the fundamental calculus that companies face when they discover potential criminal misconduct internally. The core question remains what it has always been: is the exposure serious enough, and is the cooperation credit available significant enough, to justify the risks that come with proactively engaging federal prosecutors.",
+          "What the Department-wide CEP does change is the environment in which that calculus takes place. Companies can now evaluate their options against a single, publicly known standard — rather than trying to map their facts onto a set of division-specific policies that often pointed in different directions and rewarded the same conduct with different outcomes.",
+          "For boards and general counsel, the policy reinforces a message DOJ has been sending with increasing clarity over the past several years: the window for voluntary disclosure is real but finite. Companies that discover misconduct and move quickly stand to benefit from a defined and predictable leniency framework. Those that wait, or that attempt to manage their exposure through selective disclosure to non-criminal agencies, will find the path to a favorable resolution significantly narrower."
+        ],
+        "twoColumnContent": {
+          "left": [
+            
+            "The new policy also carries a signal for corporate compliance programs. DOJ's decision to formalize the expectation that prosecutors move quickly in evaluating disclosures puts pressure on the Department itself to deliver on the promise of predictability. If voluntary disclosure genuinely produces faster, more defined outcomes, the business case for robust internal investigation and early engagement with criminal authorities becomes considerably stronger."
+          ],
+          "rightQuote": {
+            "text": "The decision whether — and when — to disclose potential misconduct remains a complex calculus requiring careful consideration of criminal exposure, regulatory obligations, and the potential benefits and risks of early engagement with DOJ.",
+            "author": "DOJ Department-wide CEP Policy Commentary"
+          }
+        },
+        "conclusion": [
+          "The Department-wide Corporate Enforcement Policy represents the Justice Department's most comprehensive effort to date to build genuine transparency into the voluntary disclosure process. Whether it succeeds will depend on how consistently it is applied across the full range of criminal enforcement components — and on whether the efficiency mandate translates into meaningfully faster resolution timelines for companies that take the risk of coming forward. For now, the patchwork that defined corporate criminal enforcement for most of the past decade has been formally replaced. The new standard is clear. What remains to be seen is how it performs under the pressure of real cases."
+        ]
+      }
+    ]
+  },
+  "seoKeywords": [
+    "DOJ Corporate Enforcement Policy 2026",
+    "DOJ voluntary disclosure policy companies",
+    "Department of Justice CEP March 2026",
+    "corporate voluntary self-disclosure DOJ",
+    "DOJ cooperation credit corporate criminal cases",
+    "federal corporate enforcement policy update",
+    "DOJ non-prosecution agreement voluntary disclosure",
+    "Criminal Division Corporate Enforcement Policy",
+    "DOJ declination voluntary disclosure criteria",
+    "white collar defense voluntary disclosure DOJ"
+  ],
+  "alternativeHeadlines": [
+    "DOJ Issues Department-Wide Corporate Enforcement Policy, Ending Patchwork of Conflicting Voluntary Disclosure Rules",
+    "Companies Now Face One Standard: DOJ's Unified Corporate Enforcement Policy Rewrites the Rules on Voluntary Disclosure",
+    "DOJ's New Unified Corporate Policy Gives Companies a Single Roadmap for Voluntary Disclosure and Cooperation Credit"
+  ]
+}
   ],
 
   "courts": [
