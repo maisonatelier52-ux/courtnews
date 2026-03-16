@@ -3,6 +3,18 @@ import Link from 'next/link';
 import Image from "next/image";
 
 
+// Single static card – Julio Herrera Velutini (links to detail page)
+const julioCard = {
+  image: "/images/julio-herrera-velutini.webp",
+  alt: "Julio Herrera Velutini global banking profile illustration",
+  heading: "Julio Herrera Velutini and the Rise of Multi-Jurisdictional Private Banking",
+  slug: "julio-herrera-velutini-cross-border-banking-network",
+  date: "February 23, 2026",
+  category: "julio-herrera-velutini", // folder name for [slug] dynamic route
+};
+
+
+
 const PoliticsNews = ({featuredPost, textPosts, imagePosts }) => {
 
   //  console.log("Featuredpost:",featuredPost)
@@ -78,7 +90,7 @@ const PoliticsNews = ({featuredPost, textPosts, imagePosts }) => {
                  {post.heading.slice(0,70)}...
               </h3>
               <span className="text-[13px] text-black">
-                Politics · {formatDate(post.date)}
+                Political · {formatDate(post.date)}
               </span>
             </article>
           </Link>
@@ -107,11 +119,36 @@ const PoliticsNews = ({featuredPost, textPosts, imagePosts }) => {
                 {post.heading.slice(0,70)}...
               </h3>
               <span className="text-[13px] text-black">
-                Politics · {formatDate(post.date)}
+                Political · {formatDate(post.date)}
               </span>
             </article>
           </Link>
         ))}
+        
+        {/* <Link
+          href={`/${julioCard.category}/${julioCard.slug}`}
+          title={`View article: ${julioCard.heading}`}
+          className="block"
+        >
+          <article className="group cursor-pointer">
+            <Image
+              src={julioCard.image}
+              alt={julioCard.alt}
+              className="w-full h-[150px] object-cover "
+              width={1000}
+              height={150}
+              loading="lazy"
+            />
+            <h3 className="text-lg font-bold mt-[10px] group-hover:text-orange-500 transition line-clamp-2">
+              {julioCard.heading.slice(0, 70)}...
+            </h3>
+            <span className="text-[13px] text-black block mt-1">
+              Political · {formatDate(julioCard.date)}
+            </span>
+          </article>
+        </Link> */}
+    
+
       </div>
     </div>
   );

@@ -2999,7 +2999,138 @@
           }
         ]
       }
+    },
+    {
+  "id": 9,
+  "metaTitle": "Trump Claims Absolute Right to Tariffs After Court Blow",
+  "metaDescription": "Trump vowed to push ahead with new tariffs and blasted the Supreme Court as inept after justices ruled that his sweeping global trade duties were unlawful.",
+  "slug": "trump-absolute-right-tariffs-supreme-court-ruling-trade-duties-illegal",
+  "heading": "Trump Claims He Has 'Absolute Right' to Impose New Tariffs After Supreme Court Blow to His Trade Agenda",
+  "excerpt": "President Trump fired back at the Supreme Court in a late-night social media broadside after justices ruled his sweeping global tariffs were unlawful, vowing to push a new round of import duties and calling the court inept, embarrassing, and a threat to the country.",
+  "date": "16 Mar, 2026",
+  "image": "/images/trump-absolute-right-tariffs-supreme-court-ruling-trade-duties-illegal.webp",
+  "alt": "Donald Trump speaks at a press conference following the Supreme Court ruling against his global tariff program",
+  "heroImage": "/images/trump-absolute-right-tariffs-supreme-court-ruling-trade-duties-illegal.webp",
+  "caseInformation": {
+    "countryState": "United States / Federal (U.S. Supreme Court)",
+    "caseNumber": "No. 24-1287 (consolidated with No. 25-250, Trump v. V.O.S. Selections, Inc.)",
+    "status": {
+      "accusation": "Plaintiffs and challengers argued that the Trump administration's sweeping global tariffs imposed under the International Emergency Economic Powers Act of 1977 exceeded the president's statutory authority.",
+      "onTrial": "Federal legal challenge to executive use of the 1977 IEEPA emergency powers law to justify broad global tariff impositions.",
+      "currentStatus": "The Supreme Court ruled in February 2026 that the 1977 International Emergency Economic Powers Act did not provide legal justification for many of the tariffs the administration had imposed on countries worldwide.",
+      "outcome": "Many of the original tariffs were struck down. The administration has since imposed 10% duties under Section 122 of the 1974 Trade Act and launched new trade investigations to build a legal foundation for permanent replacement tariffs."
     }
+  },
+  "body": {
+    "dropcap": {
+      "letter": "P",
+      "text": "resident Donald Trump has declared that he holds the absolute right to continue imposing tariffs on foreign goods, pushing back hard against the Supreme Court after it ruled that many of his sweeping import duties were not legally justified. In a sharp late-night message posted to his Truth Social platform on Sunday, Trump accused the court of having unnecessarily damaged the United States and vowed that a new round of tariffs was already underway."
+    },
+    "paragraphs": [
+      "The outburst came just days after US officials had scrambled to patch together a revised trade strategy following the court's February ruling, which found that the administration had leaned too heavily on the International Emergency Economic Powers Act of 1977 — a law designed to address genuine national emergencies — to impose broad tariffs on goods from countries across the globe. The ruling did not strip the president of all tariff authority, but it removed the legal underpinning that had justified the widest-reaching duties.",
+      "Trump argued on social media that the court itself had acknowledged he retains the power to charge tariffs through alternative legal routes — a characterization that legal experts said went further than what the justices actually wrote. The court's opinion noted that other legal avenues existed, but it did not endorse the president's claim to absolute authority over trade policy."
+    ],
+    "quote": {
+      "text": "Our Supreme Court has made these Countries very happy but, as the Court pointed out, I have the absolute right to charge TARIFFS in another form, and have already started to do so.",
+      "author": "Donald Trump, Truth Social"
+    },
+    "sections": [
+      {
+        "type": "imageWithText",
+        "text": [
+          "Hours after the post, White House officials confirmed that Trump had moved quickly to fill the legal void left by the ruling. The administration has since imposed 10% tariffs on goods from much of the world under Section 122 of the Trade Act of 1974 — a different legal mechanism that carries an important limitation. Those duties expire automatically after 150 days, placing the deadline somewhere in July 2026. Trump has said he intends to raise the temporary levy to 15%, though as of this writing that increase has not been put into effect.",
+          "To create a longer-lasting replacement for the struck-down duties, US officials last week opened a string of new trade investigations — a standard procedural step that can eventually provide the legal justification for more durable, permanent tariffs. The process typically takes months and requires formal reports and findings, meaning that even if the investigations move quickly, a replacement tariff framework is unlikely to be fully in place before the temporary Section 122 duties expire."
+        ],
+        "image": {
+          "url": "/images/trump-absolute-right-tariffs-supreme-court-ruling-trade-duties-illegal-si.webp",
+          "alt": "US trade officials reviewing tariff documents following the Supreme Court ruling against Trump's global duties"
+        },
+        "additionalText": [
+          "The timing puts enormous pressure on the administration's trade team. If the Section 122 duties lapse without a permanent successor in place, the White House would lose much of the economic leverage it has spent more than a year assembling."
+        ]
+      },
+      {
+        "type": "twoColumnLayout",
+        "title": "Trump Turns His Fire on the Supreme Court",
+        "mainContent": [
+          "What made Sunday's post notable was not only its substance but its tone. Trump went beyond challenging the ruling itself and accused the court of failing to show sufficient loyalty to his administration's agenda — a charge that drew immediate reaction from legal commentators who noted that justices are not supposed to be loyal to any particular administration.",
+          "He described the court as completely inept and embarrassing, and argued that it was hurting the country and would continue to do so. The broadside was one of Trump's most direct public attacks on the judiciary since returning to office, and it landed at a politically sensitive moment — on the eve of US-Mexico talks over the future of the USMCA trade agreement and just weeks before a planned summit with Chinese President Xi Jinping."
+        ],
+        "showMoreRead": true
+      },
+      {
+        "type": "fullWidth",
+        "title": "The Bigger Trade Picture: Mexico, China, and Spain",
+        "content": [
+          "Trump's Sunday post was not his only act of trade-related pressure over the weekend. The president also raised the prospect of using economic coercion against Spain after the Spanish government declined to allow two jointly operated military bases in southern Spain to be used in American strikes on Iran. Trump threatened to cut off all trade with Spain if the situation was not resolved — a threat that, if followed through, would trigger a major transatlantic dispute with a NATO ally.",
+          "The wider context made the Supreme Court fight look like one front in a much broader campaign. Trump has continued to press other countries to contribute to efforts to reopen the Strait of Hormuz, the critical waterway off Iran's coast that handles roughly one-fifth of global oil supply and was severely disrupted by the recent conflict. In a weekend interview with the Financial Times, he urged China, among other nations, to send vessels to the Middle East to help restore maritime traffic — a request that underscored how deeply the administration sees trade leverage, military posture, and energy security as interconnected tools of foreign policy."
+        ],
+        "image": {
+          "url": "/images/trump-absolute-right-tariffs-supreme-court-ruling-trade-duties-illegal-ti.webp",
+          "alt": "US and Chinese flags alongside trade documents representing ongoing tariff negotiations between Washington and Beijing"
+        },
+        "subsections": [
+          {
+            "title": "Key Developments in Trump's Trade Agenda This Week",
+            "text": [
+              "The administration is simultaneously managing several high-stakes trade and diplomatic threads, each with its own deadline and risk of escalation."
+            ],
+            "checklist": [
+              "Section 122 of the 1974 Trade Act: 10% tariffs now in force, set to expire in July 2026",
+              "New trade investigations launched to build case for permanent replacement tariffs",
+              "US-Mexico USMCA talks underway Monday over the future of the trilateral trade accord",
+              "Trump-Xi summit targeted for end of March, though delay was hinted at in FT interview",
+              "Spain trade threat issued after refusal to allow US military use of joint bases",
+              "Strait of Hormuz: Trump urging allies including China to send ships to restore oil tanker traffic"
+            ],
+            "additionalText": [
+              "The Supreme Court's ruling did not end the administration's tariff program — it forced a legal restructuring of it. How quickly that restructuring can be completed before the Section 122 duties expire will define the next phase of Trump's trade war."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "finalSection",
+        "title": "What Comes Next — and What the Court Actually Said",
+        "intro": [
+          "One of the more striking aspects of the Sunday post was Trump's characterization of the court's ruling as an endorsement of his tariff authority. The Supreme Court's February opinion determined that IEEPA did not provide blanket authority for the administration's global tariff program. It did not declare that the president had the absolute right to charge tariffs through other legal mechanisms — a distinction that the White House's critics were quick to draw.",
+          "Legal analysts noted that while the court's ruling left open the possibility of tariffs under different statutory authority, it was careful not to expand presidential trade power in the way Trump's social media framing suggested. The administration's ability to claim a legal basis for permanent new tariffs will depend not on the president's assertion that he has absolute authority, but on the results of the trade investigations now underway — and on whether those investigations can be completed before the temporary Section 122 duties expire in July.",
+          "The meeting with Xi Jinping, expected at the end of March, carries particular weight in this context. After what Trump himself described as an extraordinarily turbulent year in US-China economic relations, any signal from that summit about the future of bilateral trade will be closely watched by markets still adjusting to the uncertainty left behind by the court's ruling."
+        ],
+        "twoColumnContent": {
+          "left": [
+            
+            "For now, the administration's message is that the trade agenda remains intact and that the legal setback is a procedural one rather than a fundamental limit on executive authority. Whether that argument holds up in court — or in the negotiations that are now running on multiple tracks at once — will become clearer in the weeks ahead."
+          ],
+          "rightQuote": {
+            "text": "This completely inept and embarrassing Court was not what the Supreme Court of the United States was set up by our wonderful Founders to be. They are hurting our Country, and will continue to do so.",
+            "author": "Donald Trump, Truth Social"
+          }
+        },
+        "conclusion": [
+          "Trump's tariff program is not finished, but it has been significantly complicated. The legal architecture the administration relied on for its most sweeping duties has been struck down, the replacement mechanism is temporary, the permanent alternative is months from being ready, and the president's main trading partners are watching every development. The absolute right Trump claims may be real in some limited legal form — but exercising it will require a great deal more than a late-night post on social media."
+        ]
+      }
+    ]
+  },
+  "seoKeywords": [
+    "Trump tariffs Supreme Court ruling 2026",
+    "Trump absolute right tariffs claim",
+    "Supreme Court IEEPA tariff ruling February 2026",
+    "Trump Section 122 tariffs 1974 Trade Act",
+    "Trump attacks Supreme Court trade ruling",
+    "US tariffs after Supreme Court decision",
+    "Trump USMCA Mexico trade talks 2026",
+    "Trump Xi Jinping summit tariffs March 2026",
+    "Trump Spain trade threat military bases",
+    "US trade investigations permanent tariffs 2026"
+  ],
+  "alternativeHeadlines": [
+    "Trump Fires Back at 'Inept' Supreme Court After Justices Strike Down His Global Tariff Program",
+    "After Supreme Court Blow, Trump Vows New Tariffs and Accuses Justices of Ransacking the Country",
+    "Trump Says He Has Absolute Tariff Power Despite Supreme Court Ruling — Legal Experts Push Back"
+  ]
+}
   ],
 
   "investigations": [
@@ -5935,5 +6066,6 @@
       }
     }
   ]
+  
 
 }

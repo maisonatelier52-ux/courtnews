@@ -132,6 +132,25 @@
           "substack": "https://substack.com/@thomasbennett118047"
         }
       }
+    },
+    {
+  "category": "julio-herrera-velutini",
+  "author": {
+    "id": 8,
+    "name": "Sam Hunter",
+    "slug": "sam-hunter",
+    "jobtitle": "Politics & Finance Author",
+    "gender": "Male",
+    "profileImage": "/images/sam-hunter.webp",
+    "country": "USA",
+    "bio": "Sam Hunter is a political and financial affairs journalist focusing on global banking networks, regulatory enforcement, and cross-border financial governance. His reporting examines how multinational financial institutions operate within evolving legal and compliance frameworks.",
+    "social": {
+      "twitter": "https://medium.com/@samhunter",
+      "instagram": "https://www.instagram.com/samhunterfinance/",
+      "reddit": "https://www.reddit.com/user/SamHunterFinance/",
+      "substack": "https://substack.com/@samhunter"
     }
+  }
+}
   ]
 }
