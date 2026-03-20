@@ -3898,7 +3898,142 @@
       }
     ]
   }
+    },
+    {
+  "id": 7,
+  "metaTitle": "NSA Broke Surveillance Rules Despite Post-Snowden Vows",
+  "metaDescription": "Congress faces pressure to reform Section 702 as a declassified NSA watchdog report reveals years of unauthorized surveillance on Americans' communication.",
+  "slug": "nsa-section-702-surveillance-violations-declassified-report-2026",
+  "heading": "Declassified Report Reveals NSA Broke Surveillance Rules and Queried Americans' Data Without Authorization for Years After Post-Snowden Pledges",
+  "excerpt": "A classified federal watchdog report, finally made public after a Freedom of Information Act lawsuit, reveals that the National Security Agency continued to conduct unauthorized electronic searches of Americans' private data years after pledging to end such abuses — reigniting the battle over Section 702 of the Foreign Intelligence Surveillance Act ahead of its April 20, 2026 sunset.",
+  "date": "20 Mar, 2026",
+  "image": "/images/nsa-section-702-surveillance-violations-declassified-report-2026.webp",
+  "alt": "NSA headquarters at Fort Meade Maryland representing declassified surveillance oversight report on Section 702 violations",
+  "heroImage": "/images/nsa-section-702-surveillance-violations-declassified-report-2026.webp",
+  "caseInformation": {
+    "countryState": "United States / Federal (NSA Inspector General; Foreign Intelligence Surveillance Court, Washington D.C.)",
+    "caseNumber": "NSA OIG Report (September 2021, declassified March 2026); POGO v. NSA, Freedom of Information Act Litigation; FISC Opinion April 2024 (released November 2024); FISC Opinion March 2025 (released September 2025)",
+    "status": {
+      "accusation": "The National Security Agency failed to establish required technical safeguards preventing unauthorized backdoor searches of Americans' private electronic communications data under Section 702 of the Foreign Intelligence Surveillance Act (FISA). NSA analysts conducted queries using U.S. person identifiers that violated agency legal counsel approvals and court-authorized procedures, including unauthorized daily queries spanning several weeks and searches outside authorized time windows.",
+      "onTrial": "Administrative oversight proceeding. No criminal charges were filed against the NSA or its individual analysts in connection with this inspector general report. The report's 13 formal recommendations to the NSA have been administratively closed.",
+      "currentStatus": "Section 702 surveillance authority is set to expire on April 20, 2026. Congress is weighing renewal either without changes — as requested by President Trump — or with new civil liberties safeguards including a warrant requirement, as proposed in a bipartisan Senate reform bill from Senators Dick Durbin (D-IL) and Mike Lee (R-UT).",
+      "outcome": "Pending. The 13 inspector general recommendations have been closed, but independent compliance data shows that improper queries increased by 7.7 percent in the period following the report's internal circulation. The broader legislative outcome — and whether Section 702 will be renewed with or without new privacy protections — will be determined before the April 20, 2026 sunset deadline."
     }
+  },
+  "body": {
+    "dropcap": {
+      "letter": "A",
+      "text": " long-classified federal watchdog document exposing how the National Security Agency kept conducting unauthorized electronic searches touching American citizens — long after a wave of internal reforms was supposed to have ended such abuses — has been released to the public following a legal battle that forced the government's hand. The September 2021 NSA inspector general report was declassified in March 2026, obtained through a Freedom of Information Act lawsuit by the Project On Government Oversight, a nonpartisan watchdog organization that investigates federal agencies for waste, fraud, and abuse of power."
+    },
+    "paragraphs": [
+      "The findings are unambiguous: the country's most powerful signals intelligence agency had still not built the technical infrastructure required to block improperly authorized data searches — a fundamental safeguard it had publicly pledged to create years earlier, following Edward Snowden's 2013 disclosures about the reach of American domestic surveillance programs. Despite congressional testimony, agency assurances, and rounds of supposed internal reform, the gap between what the NSA promised lawmakers and what it actually delivered persisted well into the Trump administration's first term.",
+      "The report examined a focused window of NSA analyst activity — from January 19 through March 19, 2019 — but its implications stretch far beyond those eight weeks. Investigators found analysts had been running electronic queries using search terms that had never received approval from the agency's own general counsel and that failed to comply with procedures sanctioned by the specialized federal court that oversees American foreign intelligence operations. More troubling, the report projected forward: as the volume of analyst queries continues to grow, it warned, so does the agency's risk of future violations of Americans' civil liberties and constitutional privacy rights."
+    ],
+    "quote": {
+      "text": "Each time we bring up this issue, the arguments go something like this: 'Yes, there have been problems in the past. Yes, there have been abuses of FISA 702. But you need not worry because we now have procedures in place, administrative procedures that will fix the problem once and for all.'",
+      "author": "Senator Mike Lee (R-UT), Senate Judiciary Committee hearing, January 2026"
+    },
+    "sections": [
+      {
+        "type": "imageWithText",
+        "text": [
+          "Section 702 of the Foreign Intelligence Surveillance Act has long been described by senior American intelligence officials as the crown jewel of the country's surveillance toolkit. Intelligence community assessments indicate it contributed to as much as sixty percent of the President's Daily Brief in 2023 alone — a figure that conveys the authority's central role in American national security decision-making.",
+          "The legal framework allows the NSA to direct domestic electronic communications service providers to hand over the digital communications of specific foreign individuals who are believed to be located outside the United States and who may possess foreign intelligence information. The mechanism was designed for overseas targets. But its reach inside U.S. borders is structurally unavoidable: when intelligence agencies collect a foreign target's electronic communications, they inevitably scoop up the emails, messages, and phone calls of American citizens who communicated with that foreign person.",
+          "The NSA, the FBI, the CIA, and the National Counterterrorism Center are each authorized to then search through — or query — that accumulated data repository. Civil liberties attorneys and privacy advocates have long referred to these as backdoor searches, because they allow intelligence agencies to access the private communications of Americans without obtaining a warrant, despite constitutional protections that would ordinarily require judicial authorization before such access could occur."
+        ],
+        "image": {
+          "url": "/images/nsa-section-702-surveillance-violations-declassified-report-2026-si.webp",
+          "alt": "US Capitol building Senate chamber where lawmakers debate Section 702 renewal and civil liberties reforms ahead of April 2026 sunset"
+        },
+        "additionalText": [
+          "The Section 702 authority is scheduled to expire on April 20, 2026 — a sunset provision that has made the current congressional session a decisive moment for the future of American surveillance law and the civil liberties protections attached to it. President Trump has communicated to Republican members of Congress that he wants the authority extended with no modifications. Critics across the political spectrum have pushed back hard."
+        ]
+      },
+      {
+        "type": "twoColumnLayout",
+        "title": "What the Watchdog Found: Two Violations, a Systemic Gap, and a Projected Risk",
+        "mainContent": [
+          "The declassified NSA inspector general report identified two specific violations during the January–March 2019 examination window, both of which illustrate how the systemic failure to build a technical blocking system enables individual misconduct to go undetected. In the first instance, an NSA analyst discovered on their own that the daily searches they had been running over several consecutive weeks had never actually been approved by the agency's legal division. The analyst self-reported the compliance failure — an admission that the improperly authorized queries had run uninterrupted for weeks before anyone reviewed them.",
+          "In the second violation, a post-query review auditor reviewing analyst activity discovered that a colleague had been searching data from outside the specific time window that the agency's general counsel had explicitly authorized. In both cases, the violations were not caught by any automated compliance mechanism — because, the report confirmed, no such mechanism had been built. The NSA inspector general issued 13 formal recommendations to the agency. Those recommendations have been administratively closed, but a separate compliance data set covering June through November 2022 — published after the inspector general report had circulated internally — showed that the rate of improper queries had actually increased by 7.7 percent compared to the prior reporting window. The number of NSA, CIA, and National Counterterrorism Center approved U.S. person query terms more than doubled between 2023 and 2024, rising from approximately 3,755 to 7,845 — meaning the scope of potential exposure is expanding even as the legal debate over safeguards remains unresolved."
+        ],
+        "showMoreRead": true
+      },
+      {
+        "type": "fullWidth",
+        "title": "A Pattern of Abuse: From Dating Apps to Rental Properties to Black Lives Matter Protesters",
+        "content": [
+          "The violations documented in the newly declassified report do not stand alone. Former federal prosecutor Brett Tolman, testifying before Congress in December 2025, described two post-report incidents that he argued demonstrated the law's continued vulnerability to personal misuse. In one, an NSA analyst used the agency's surveillance infrastructure to run searches on two individuals they had met through an online dating service. In another, two separate NSA analysts sought intelligence data on a foreign national who was considering renting residential property that those analysts personally owned.",
+          "The FBI's use of Section 702 has drawn some of the sharpest criticism. A 2023 review by the Privacy and Civil Liberties Oversight Board — a congressionally mandated civil liberties watchdog — examined the agency's querying practices from 2019 through 2022 and found that it had conducted close to five million searches using data collected under Section 702, with the board finding little justification provided for many of those queries. Among the documented cases: the name of a sitting United States senator entered as a search term, queries connected to state-level legislators and a state court judge, and searches tied to individuals who had participated in Black Lives Matter protests.",
+          "A 2017 Foreign Intelligence Surveillance Court ruling had already called out the NSA for what the court described as an institutional lack of candor, after the agency failed to disclose to the court that it had been running queries violating a specific prohibition on searching for U.S. citizen information within certain categories of data collected under Section 702."
+        ],
+        "image": {
+          "url": "/images/nsa-section-702-surveillance-violations-declassified-report-2026-ti.webp",
+          "alt": "Digital surveillance and private communications concept representing Section 702 backdoor search debate and Americans' privacy rights"
+        },
+        "subsections": [
+          {
+            "title": "Key Documented Facts From the Declassified Report and Related Oversight",
+            "text": [
+              "The following facts emerge directly from the declassified NSA inspector general report, related compliance filings, and congressional testimony reviewed in connection with the Section 702 reauthorization debate."
+            ],
+            "checklist": [
+              "NSA IG report completed September 2021 — declassified and released March 2026 via FOIA litigation",
+              "Violations examined covered January 19 – March 19, 2019 NSA analyst queries",
+              "Analysts used unapproved U.S. person identifiers and searched outside court-authorized time windows",
+              "13 inspector general recommendations issued — all administratively closed",
+              "Improper query rate increased 7.7 percent in the June–November 2022 compliance period following the report",
+              "FBI ran approximately 5 million Section 702 searches from 2019–2022, many with limited justification",
+              "NSA, CIA, and NCTC approved U.S. person query terms doubled from 3,755 (2023) to 7,845 (2024)",
+              "FISC criticized NSA for institutional lack of candor in 2017 ruling on query violations",
+              "Section 702 set to expire April 20, 2026 unless Congress acts"
+            ],
+            "additionalText": [
+              "The Justice Department's own watchdog reported last year that the FBI has substantially improved its querying practices since the period of widespread noncompliance documented in the oversight board's review. The same cannot yet be said for the NSA, CIA, and NCTC, where the number of approved U.S. person query terms has expanded sharply and the full scope of associated errors in recent years remains publicly unknown due to reporting lags."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "finalSection",
+        "title": "April 20, 2026: What Congress Must Decide — and What Advocates Are Demanding",
+        "intro": [
+          "The declassified NSA inspector general report arrives at a moment of acute political pressure. Section 702 is set to expire on April 20, 2026, unless Congress acts. President Trump has made his position clear: he wants the law renewed exactly as written, with no new restrictions. Stephen Miller, Trump's deputy chief of staff and homeland security advisor, has emerged as one of the White House's most vocal champions of a clean extension.",
+          "On the other side of that argument stands a bipartisan coalition that includes some of Congress's most prominent voices on civil liberties and executive power. Senators Dick Durbin of Illinois and Mike Lee of Utah introduced legislation in February 2026 that would renew Section 702 while attaching a requirement that intelligence agencies obtain a warrant before accessing the actual content of any American's private communications. The bill represents the most substantial reform effort since the post-Snowden period, and its bipartisan sponsorship signals a level of institutional concern that goes beyond the usual partisan lines on surveillance policy.",
+          "The debate has also been shaped by a provision added quietly during the 2024 reauthorization that explicitly authorized the use of Section 702 surveillance powers to vet all non-U.S. persons traveling to the United States. Representative Joaquin Castro of Texas raised alarms at the time, warning that codifying the provision without meaningful restrictions would give those inclined toward demographic-based targeting a powerful legal tool. Privacy and immigration advocates have renewed those concerns in the current debate, arguing that the immigration enforcement context of the Trump administration makes the absence of a warrant requirement more dangerous now than at any previous point in the law's history."
+        ],
+        "twoColumnContent": {
+          "left": [
+            " Elizabeth Goitein, senior director of the Brennan Center for Justice's Liberty and National Security program, told Congress in January 2026 that the pattern of continuing failures to honor the privacy protections attached to Section 702 should give every lawmaker serious pause before handing the executive branch another unchecked term with access to vast quantities of Americans' private data."
+          ],
+          "rightQuote": {
+            "text": "Warrantless access to Americans' private communications is an invitation to governmental overreach and abuse under any administration. The widespread and continuing failures to honor privacy protections should give lawmakers pause.",
+            "author": "Elizabeth Goitein, Senior Director, Brennan Center for Justice Liberty and National Security Program, January 2026 congressional testimony"
+          }
+        },
+        "conclusion": [
+          "The NSA did not respond to multiple requests for comment from POGO on the findings of the declassified inspector general report. The agency's own inspector general's office directed inquiries back to the NSA. For the millions of Americans whose private communications have passed through the Section 702 collection apparatus — as correspondents with foreign targets, as subjects of backdoor searches, or simply as participants in the global digital communications infrastructure that the NSA monitors — the April 20 deadline represents something concrete: a moment when elected officials must choose between the national security establishment's preference for unchecked surveillance authority and the constitutional privacy protections that the courts, the oversight boards, and now a declassified watchdog report have all found to be at risk."
+        ]
+      }
+    ]
+  },
+  "seoKeywords": [
+    "NSA Section 702 violations declassified report 2026",
+    "Section 702 FISA sunset April 2026 Congress",
+    "NSA unauthorized surveillance Americans data",
+    "NSA inspector general report backdoor searches",
+    "Section 702 warrant requirement reform bill",
+    "NSA Section 702 privacy civil liberties abuses",
+    "FISA 702 reauthorization Trump administration 2026",
+    "NSA surveillance Snowden post-reform violations",
+    "Section 702 FBI improper queries Americans",
+    "POGO NSA FOIA declassified surveillance report"
+  ],
+  "alternativeHeadlines": [
+    "NSA Watchdog Report Shows Agency Never Fixed Surveillance Abuses It Promised to End After Snowden",
+    "Declassified NSA Report Reveals Unauthorized Searches of Americans' Data Persisted Despite Post-Snowden Reform Pledges",
+    "Section 702 Renewal Fight Intensifies as Declassified Report Confirms NSA Kept Breaking Its Own Surveillance Rules"
+  ]
+}
   ],
 
   "civil-rights": [
