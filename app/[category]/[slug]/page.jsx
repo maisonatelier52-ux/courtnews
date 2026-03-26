@@ -179,7 +179,9 @@ export default async function Page({ params }) {
       },
     ],
     datePublished: new Date(post.date).toISOString(),
-    dateModified: new Date(post.modifiedDate || post.date).toISOString(),
+    ...(post.updatedDate && {
+      dateModified: new Date(post.updatedDate).toISOString(),
+    }),
     author: author
       ? {
           "@type": "Person",
@@ -315,12 +317,35 @@ export default async function Page({ params }) {
 
               <div className="text-sm">
                 <p className="font-semibold text-black">{author.name}</p>
-                <time
+                {/* <time
                   className="text-black"
                   dateTime={new Date(post.date).toISOString()}
                 >
                   {post.date}
-                </time>
+                </time> */}
+                <div className="text-black text-sm">
+                  <time dateTime={new Date(post.date).toISOString()}>
+                    {new Date(post.date).toLocaleDateString("en-US", {
+                      month: "long",
+                      day: "numeric",
+                      year: "numeric",
+                    })}
+                  </time>
+
+                  {post.updatedDate && (
+                    <>
+                      <span className="mx-2 text-gray-400">•</span>
+                      <span className="text-gray-500">
+                        Updated{" "}
+                        {new Date(post.updatedDate).toLocaleDateString("en-US", {
+                          month: "long",
+                          day: "numeric",
+                          year: "numeric",
+                        })}
+                      </span>
+                    </>
+                  )}
+                </div>
               </div>
             </div>
 
