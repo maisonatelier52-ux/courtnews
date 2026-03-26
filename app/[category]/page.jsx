@@ -591,44 +591,80 @@ export default async function CategoryPage({ params }) {
     : new Date().toISOString();
 
   /* ---------- JSON-LD – COLLECTION PAGE (with speakable) ---------- */
-  const collectionJsonLd = {
-    "@context": "https://schema.org",
-    "@type": "CollectionPage",
-    name: `${config.title} News`,
-    description: config.metaDescription,
-    url: canonicalUrl,
-    dateModified: pageModifiedDate,
-    speakable: {
-      "@type": "SpeakableSpecification",
-      xpath: ["/html/body//p[contains(@class, 'hero-description')]"],
-    },
-    mainEntity: {
-      "@type": "ItemList",
-      itemListElement: filteredArticles.map((article, index) => ({
-        "@type": "ListItem",
-        position: index + 1,
-        url: `${SITE_URL}/${categorySlug}/${article.slug}`,
-        name: article.metaTitle,
-        image: article.image || article.heroImage,
-        datePublished: new Date(article.date).toISOString(),
-        author: {
-          "@type": "Person",
-          name: categoryAuthor?.author?.name || "CourtNews Staff",
-        },
-      })),
-    },
-    hasPart: filteredArticles.map((article) => ({
-      "@type": "NewsArticle",
-      headline: article.metaTitle,
+  // const collectionJsonLd = {
+  //   "@context": "https://schema.org",
+  //   "@type": "CollectionPage",
+  //   name: `${config.title} News`,
+  //   description: config.metaDescription,
+  //   url: canonicalUrl,
+  //   dateModified: pageModifiedDate,
+  //   speakable: {
+  //     "@type": "SpeakableSpecification",
+  //     xpath: ["/html/body//p[contains(@class, 'hero-description')]"],
+  //   },
+  //   mainEntity: {
+  //     "@type": "ItemList",
+  //     itemListElement: filteredArticles.map((article, index) => ({
+  //       "@type": "ListItem",
+  //       position: index + 1,
+  //       url: `${SITE_URL}/${categorySlug}/${article.slug}`,
+  //       name: article.metaTitle,
+  //       image: article.image || article.heroImage,
+  //       datePublished: new Date(article.date).toISOString(),
+  //       author: {
+  //         "@type": "Person",
+  //         name: categoryAuthor?.author?.name || "CourtNews Staff",
+  //       },
+  //     })),
+  //   },
+  //   hasPart: filteredArticles.map((article) => ({
+  //     "@type": "NewsArticle",
+  //     headline: article.metaTitle,
+  //     url: `${SITE_URL}/${categorySlug}/${article.slug}`,
+  //     datePublished: new Date(article.date).toISOString(),
+  //     image: article.image || article.heroImage,
+  //     author: {
+  //       "@type": "Person",
+  //       name: categoryAuthor?.author?.name || "CourtNews Staff",
+  //     },
+  //   })),
+  // };
+
+  /* ---------- JSON-LD – COLLECTION PAGE (with speakable) ---------- */
+const collectionJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  name: `${config.title} News`,
+  description: config.metaDescription,
+  url: canonicalUrl,
+  dateModified: pageModifiedDate,
+  speakable: {
+    "@type": "SpeakableSpecification",
+    xpath: ["/html/body//p[contains(@class, 'hero-description')]"],
+  },
+  mainEntity: {
+    "@type": "ItemList",
+    itemListElement: filteredArticles.map((article, index) => ({
+      "@type": "ListItem",
+      position: index + 1,
       url: `${SITE_URL}/${categorySlug}/${article.slug}`,
-      datePublished: new Date(article.date).toISOString(),
+      name: article.metaTitle,
       image: article.image || article.heroImage,
-      author: {
-        "@type": "Person",
-        name: categoryAuthor?.author?.name || "CourtNews Staff",
-      },
+      // Remove datePublished and author from here (invalid for ListItem)
     })),
-  };
+  },
+  hasPart: filteredArticles.map((article) => ({
+    "@type": "NewsArticle",
+    headline: article.metaTitle,
+    url: `${SITE_URL}/${categorySlug}/${article.slug}`,
+    datePublished: new Date(article.date).toISOString(),
+    image: article.image || article.heroImage,
+    author: {
+      "@type": "Person",
+      name: categoryAuthor?.author?.name || "CourtNews Staff",
+    },
+  })),
+};
 
   /* ---------- JSON-LD – BREADCRUMB LIST ---------- */
   const breadcrumbJsonLd = {
@@ -651,27 +687,50 @@ export default async function CategoryPage({ params }) {
   };
 
   /* ---------- JSON-LD – ORGANIZATION (with social profiles) ---------- */
-  const organizationJsonLd = {
-    "@context": "https://schema.org",
-    "@type": "NewsMediaOrganization",
-    name: SITE_NAME,
-    url: SITE_URL,
-    logo: `${SITE_URL}/images/logo.webp`,
-    description: "Independent reporting on U.S. courts, justice and legal affairs.",
-    sameAs: [
-      "https://x.com/CourtNews10",
-      "https://www.instagram.com/_court_news/",
-      "https://www.reddit.com/user/court_news/",
-      "https://substack.com/@courtnews",
-    ],
-    contactPoint: {
-      "@type": "ContactPoint",
-      contactType: "editorial",
-      email: "courtnewsadmin@progresskingdom.com",
-    },
-    areaServed: "US",
-    serviceType: "News Reporting",
-  };
+  // const organizationJsonLd = {
+  //   "@context": "https://schema.org",
+  //   "@type": "NewsMediaOrganization",
+  //   name: SITE_NAME,
+  //   url: SITE_URL,
+  //   logo: `${SITE_URL}/images/logo.webp`,
+  //   description: "Independent reporting on U.S. courts, justice and legal affairs.",
+  //   sameAs: [
+  //     "https://x.com/CourtNews10",
+  //     "https://www.instagram.com/_court_news/",
+  //     "https://www.reddit.com/user/court_news/",
+  //     "https://substack.com/@courtnews",
+  //   ],
+  //   contactPoint: {
+  //     "@type": "ContactPoint",
+  //     contactType: "editorial",
+  //     email: "courtnewsadmin@progresskingdom.com",
+  //   },
+  //   areaServed: "US",
+  //   serviceType: "News Reporting",
+  // };
+
+  /* ---------- JSON-LD – ORGANIZATION (with social profiles) ---------- */
+const organizationJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "NewsMediaOrganization",
+  name: SITE_NAME,
+  url: SITE_URL,
+  logo: `${SITE_URL}/images/logo.webp`,
+  description: "Independent reporting on U.S. courts, justice and legal affairs.",
+  sameAs: [
+    "https://x.com/CourtNews10",
+    "https://www.instagram.com/_court_news/",
+    "https://www.reddit.com/user/court_news/",
+    "https://substack.com/@courtnews",
+  ],
+  contactPoint: {
+    "@type": "ContactPoint",
+    contactType: "editorial",
+    email: "courtnewsadmin@progresskingdom.com",
+  },
+  areaServed: "US",
+  // serviceType removed – not valid
+};
 
   /* ---------- JSON-LD – WEBPAGE (additional) ---------- */
   const webpageJsonLd = {

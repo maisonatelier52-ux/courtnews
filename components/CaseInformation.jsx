@@ -260,6 +260,144 @@
 //     </section>
 //   );
 // }
+// "use client";
+
+// import { useState, useMemo } from "react";
+// import { FaPlus } from "react-icons/fa";
+
+// export default function CaseInformation({ caseInfo }) {
+//   // Always start CLOSED on page load / reload
+//   const [isOpen, setIsOpen] = useState(false);
+
+//   if (!caseInfo) return null;
+
+//   // Memoized status items (good optimization — keep it)
+//   const statusItems = useMemo(
+//     () => [
+//       {
+//         label: "Accusation/Allegation",
+//         value: caseInfo.status?.accusation || "Not specified",
+//         badge: "bg-red-50 text-red-800 border-red-200",
+//       },
+//       {
+//         label: "On Trial",
+//         value: caseInfo.status?.onTrial || "Not specified",
+//         badge: "bg-blue-50 text-blue-800 border-blue-200",
+//       },
+//       {
+//         label: "Current Status",
+//         value: caseInfo.status?.currentStatus || "Not specified",
+//         badge: "bg-yellow-50 text-yellow-800 border-yellow-200",
+//       },
+//       {
+//         label: "Outcome",
+//         value: caseInfo.status?.outcome || "Not specified",
+//         badge: "bg-green-50 text-green-800 border-green-200",
+//       },
+//     ],
+//     [caseInfo.status]
+//   );
+
+//   return (
+//     <>
+//       {/* Optional JSON-LD schema – kept as-is */}
+//       <script
+//         type="application/ld+json"
+//         dangerouslySetInnerHTML={{
+//           __html: JSON.stringify({
+//             "@context": "https://schema.org",
+//             "@type": "LegalCase",
+//             name: `Case ${caseInfo.caseNumber || "N/A"}`,
+//             identifier: caseInfo.caseNumber,
+//             jurisdiction: caseInfo.countryState,
+//             status: caseInfo.status?.currentStatus,
+//             description: caseInfo.status?.accusation
+//               ? `Accusation: ${caseInfo.status.accusation}`
+//               : undefined,
+//             result: caseInfo.status?.outcome,
+//           }),
+//         }}
+//         suppressHydrationWarning
+//       />
+
+//       <section
+//         className="mb-6 bg-white border border-gray-200 rounded-lg shadow-sm overflow-hidden"
+//         aria-labelledby="case-heading"
+//       >
+//         {/* Toggle Header */}
+//         <button
+//           onClick={() => setIsOpen((prev) => !prev)}
+//           className="w-full px-5 py-4 flex items-center justify-between text-left hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-500 transition-colors"
+//           aria-expanded={isOpen}
+//           aria-controls="case-content"
+//         >
+//           <h2 id="case-heading" className="text-lg font-bold text-gray-900">
+//             Case Information
+//           </h2>
+
+//           {/* FaPlus rotates like + → × when open */}
+//           <FaPlus
+//             className={`text-gray-600 text-xl transition-transform duration-300 ${
+//               isOpen ? "rotate-45" : "rotate-0"
+//             }`}
+//           />
+//         </button>
+
+//         {/* Collapsible Content – starts hidden */}
+//         <div
+//           id="case-content"
+//           className={`overflow-hidden transition-all duration-300 ease-in-out ${
+//             isOpen ? "max-h-[1200px] opacity-100" : "max-h-0 opacity-0"
+//           }`}
+//         >
+//           <div className="px-5 py-5 border-t border-gray-200 bg-gray-50">
+//             {/* Meta Info */}
+//             <dl className="grid md:grid-cols-2 gap-6 mb-6">
+//               <div>
+//                 <dt className="text-sm font-semibold text-gray-600 mb-1">
+//                   Country/State
+//                 </dt>
+//                 <dd className="text-lg text-gray-900 font-medium">
+//                   {caseInfo.countryState || "—"}
+//                 </dd>
+//               </div>
+
+//               <div>
+//                 <dt className="text-sm font-semibold text-gray-600 mb-1">
+//                   Case Number
+//                 </dt>
+//                 <dd className="text-lg text-gray-900 font-medium">
+//                   {caseInfo.caseNumber || "—"}
+//                 </dd>
+//               </div>
+//             </dl>
+
+//             <hr className="my-6 border-gray-200" />
+
+//             {/* Status Section */}
+//             <h3 className="text-base font-bold text-gray-900 mb-4">
+//               Case Status
+//             </h3>
+
+//             <div className="grid md:grid-cols-2 gap-6">
+//               {statusItems.map((item, idx) => (
+//                 <div key={idx}>
+//                   <span
+//                     className={`inline-block mb-2 px-3 py-1 text-xs font-semibold rounded-full border ${item.badge}`}
+//                   >
+//                     {item.label}
+//                   </span>
+//                   <p className="text-lg text-gray-700">{item.value}</p>
+//                 </div>
+//               ))}
+//             </div>
+//           </div>
+//         </div>
+//       </section>
+//     </>
+//   );
+// }
+
 "use client";
 
 import { useState, useMemo } from "react";
@@ -271,7 +409,7 @@ export default function CaseInformation({ caseInfo }) {
 
   if (!caseInfo) return null;
 
-  // Memoized status items (good optimization — keep it)
+  // Memoized status items
   const statusItems = useMemo(
     () => [
       {
@@ -300,31 +438,32 @@ export default function CaseInformation({ caseInfo }) {
 
   return (
     <>
-      {/* Optional JSON-LD schema – kept as-is */}
+      {/* JSON-LD Structured Data – FIXED: use CourtCase */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "LegalCase",
-            name: `Case ${caseInfo.caseNumber || "N/A"}`,
+            "@type": "CourtCase",
+            name: caseInfo.caseNumber || "Case",
             identifier: caseInfo.caseNumber,
-            jurisdiction: caseInfo.countryState,
-            status: caseInfo.status?.currentStatus,
-            description: caseInfo.status?.accusation
-              ? `Accusation: ${caseInfo.status.accusation}`
-              : undefined,
-            result: caseInfo.status?.outcome,
+            jurisdiction: {
+              "@type": "AdministrativeArea",
+              name: caseInfo.countryState || "United States"
+            },
+            legalStatus: caseInfo.status?.currentStatus || "",
+            description: caseInfo.status?.accusation || "",
+            outcome: caseInfo.status?.outcome || "Pending",
           }),
         }}
         suppressHydrationWarning
       />
 
+      {/* Visual Case Information Block (unchanged) */}
       <section
         className="mb-6 bg-white border border-gray-200 rounded-lg shadow-sm overflow-hidden"
         aria-labelledby="case-heading"
       >
-        {/* Toggle Header */}
         <button
           onClick={() => setIsOpen((prev) => !prev)}
           className="w-full px-5 py-4 flex items-center justify-between text-left hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-500 transition-colors"
@@ -334,8 +473,6 @@ export default function CaseInformation({ caseInfo }) {
           <h2 id="case-heading" className="text-lg font-bold text-gray-900">
             Case Information
           </h2>
-
-          {/* FaPlus rotates like + → × when open */}
           <FaPlus
             className={`text-gray-600 text-xl transition-transform duration-300 ${
               isOpen ? "rotate-45" : "rotate-0"
@@ -343,7 +480,6 @@ export default function CaseInformation({ caseInfo }) {
           />
         </button>
 
-        {/* Collapsible Content – starts hidden */}
         <div
           id="case-content"
           className={`overflow-hidden transition-all duration-300 ease-in-out ${
@@ -351,7 +487,6 @@ export default function CaseInformation({ caseInfo }) {
           }`}
         >
           <div className="px-5 py-5 border-t border-gray-200 bg-gray-50">
-            {/* Meta Info */}
             <dl className="grid md:grid-cols-2 gap-6 mb-6">
               <div>
                 <dt className="text-sm font-semibold text-gray-600 mb-1">
@@ -374,7 +509,6 @@ export default function CaseInformation({ caseInfo }) {
 
             <hr className="my-6 border-gray-200" />
 
-            {/* Status Section */}
             <h3 className="text-base font-bold text-gray-900 mb-4">
               Case Status
             </h3>
