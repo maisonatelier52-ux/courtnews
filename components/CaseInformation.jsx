@@ -397,19 +397,16 @@
 //     </>
 //   );
 // }
-
 "use client";
 
 import { useState, useMemo } from "react";
 import { FaPlus } from "react-icons/fa";
 
 export default function CaseInformation({ caseInfo }) {
-  // Always start CLOSED on page load / reload
   const [isOpen, setIsOpen] = useState(false);
 
   if (!caseInfo) return null;
 
-  // Memoized status items
   const statusItems = useMemo(
     () => [
       {
@@ -438,19 +435,17 @@ export default function CaseInformation({ caseInfo }) {
 
   return (
     <>
-      {/* JSON-LD Structured Data – FIXED: use CourtCase */}
+      {/* Corrected JSON‑LD – using LegalCase */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "CourtCase",
+            "@type": "LegalCase",
             name: caseInfo.caseNumber || "Case",
             identifier: caseInfo.caseNumber,
-            jurisdiction: {
-              "@type": "AdministrativeArea",
-              name: caseInfo.countryState || "United States"
-            },
+            caseNumber: caseInfo.caseNumber,
+            jurisdiction: caseInfo.countryState || "United States",
             legalStatus: caseInfo.status?.currentStatus || "",
             description: caseInfo.status?.accusation || "",
             outcome: caseInfo.status?.outcome || "Pending",
@@ -496,7 +491,6 @@ export default function CaseInformation({ caseInfo }) {
                   {caseInfo.countryState || "—"}
                 </dd>
               </div>
-
               <div>
                 <dt className="text-sm font-semibold text-gray-600 mb-1">
                   Case Number
