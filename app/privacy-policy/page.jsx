@@ -181,8 +181,6 @@
 //     </>
 //   );
 // }
-
-
 const SITE_URL = "https://www.courtnews.org";
 const SITE_NAME = "CourtNews";
 
@@ -251,20 +249,17 @@ export const metadata = {
 export default function PrivacyPolicy() {
   const canonicalUrl = `${SITE_URL}/privacy-policy`;
 
-  // JSON-LD for PrivacyPolicy (schema.org type)
-  const privacyPolicyJsonLd = {
+  // Main WebPage schema – replaces invalid PrivacyPolicy
+  const mainWebPageJsonLd = {
     "@context": "https://schema.org",
-    "@type": "PrivacyPolicy",
+    "@type": "WebPage",
     name: "CourtNews Privacy Policy",
     url: canonicalUrl,
     description:
       "Privacy Policy for CourtNews, an independent U.S. news platform focused on courts and justice.",
     inLanguage: "en-US",
     dateModified: "2026-02-09",
-    speakable: {
-      "@type": "SpeakableSpecification",
-      xpath: ["/html/body//h1", "/html/body//p[contains(@class, 'privacy-intro')]"],
-    },
+    about: "Privacy policy, data protection, user data handling", // helps Google understand the page's purpose
     publisher: {
       "@type": "NewsMediaOrganization",
       name: SITE_NAME,
@@ -273,7 +268,7 @@ export default function PrivacyPolicy() {
     },
   };
 
-  // WebPage schema for the page (additional)
+  // Additional WebPage schema (could be merged, but separate is fine)
   const webpageJsonLd = {
     "@context": "https://schema.org",
     "@type": "WebPage",
@@ -333,9 +328,9 @@ export default function PrivacyPolicy() {
     <>
       {/* JSON-LD STRUCTURED DATA */}
       <script
-        id="privacy-policy-jsonld"
+        id="privacy-main-webpage-jsonld"
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(privacyPolicyJsonLd) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(mainWebPageJsonLd) }}
       />
       <script
         id="privacy-webpage-jsonld"
@@ -369,7 +364,7 @@ export default function PrivacyPolicy() {
             This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website at courtnews.org.
           </p>
 
-          {/* rest of the content unchanged */}
+          {/* … rest of the content unchanged … */}
           <h2 className="font-semibold py-3 text-lg mt-10">1. Information We Collect</h2>
           <ul className="list-disc pl-6 space-y-2">
             <li><strong>Automatically Collected:</strong> IP address, browser type and version, device information, operating system, pages visited, time and duration of visits, referring site</li>

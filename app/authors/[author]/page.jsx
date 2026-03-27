@@ -432,7 +432,7 @@ const getArticlesByAuthor = (category) => {
 };
 
 // =====================
-// METADATA GENERATION (Enhanced)
+// METADATA GENERATION
 // =====================
 export async function generateMetadata({ params }) {
   const { author } = await params;
@@ -503,7 +503,6 @@ export async function generateMetadata({ params }) {
       creator: "@CourtNews10",
       site: "@CourtNews10",
     },
-    // GEO and additional meta tags
     other: {
       "geo.region": "US",
       "geo.placename": "United States",
@@ -539,7 +538,6 @@ export default async function AuthorPage({ params }) {
     ? authorData.profileImage
     : `${SITE_URL}${authorData.profileImage}`;
 
-  // Compute page modification date (latest article date)
   const pageModifiedDate = sortedArticles[0]?.date
     ? new Date(sortedArticles[0].date).toISOString()
     : new Date().toISOString();
@@ -548,7 +546,7 @@ export default async function AuthorPage({ params }) {
   // ENHANCED JSON-LD STRUCTURED DATA
   // =====================
 
-  /* Person Schema with speakable and sameAs */
+  /* Person Schema (without speakable) */
   const personJsonLd = {
     "@context": "https://schema.org",
     "@type": "Person",
@@ -573,10 +571,7 @@ export default async function AuthorPage({ params }) {
       "@type": "ProfilePage",
       "@id": canonicalUrl,
     },
-    speakable: {
-      "@type": "SpeakableSpecification",
-      xpath: ["/html/body//div[contains(@class, 'author-bio')]/p"],
-    },
+    // ❌ speakable removed – it is not valid for Person
   };
 
   /* Breadcrumb Schema */
@@ -605,7 +600,7 @@ export default async function AuthorPage({ params }) {
     ],
   };
 
-  /* Articles List Schema (ItemList) */
+  /* Articles List Schema (ItemList) – datePublished removed from itemListElement */
   const articlesListJsonLd = {
     "@context": "https://schema.org",
     "@type": "ItemList",
@@ -618,7 +613,7 @@ export default async function AuthorPage({ params }) {
       name: article.metaTitle,
       url: `${SITE_URL}/${authorData.category}/${article.slug}`,
       image: article.image || article.heroImage,
-      datePublished: new Date(article.date).toISOString(),
+      // ❌ datePublished removed – not allowed on ListItem
     })),
   };
 
@@ -636,7 +631,7 @@ export default async function AuthorPage({ params }) {
     },
   };
 
-  /* Organization Schema (for consistency) */
+  /* Organization Schema */
   const organizationJsonLd = {
     "@context": "https://schema.org",
     "@type": "NewsMediaOrganization",
@@ -688,7 +683,6 @@ export default async function AuthorPage({ params }) {
 
       {/* ===== PROFILE HEADER SECTION ===== */}
       <section className="mb-1 relative flex-shrink-0" aria-label="Author profile header">
-        {/* Background with Radial Gradient Dots */}
         <div
           className="absolute inset-0 bg-gray-100 bg-opacity-20"
           style={{
@@ -698,9 +692,7 @@ export default async function AuthorPage({ params }) {
           aria-hidden="true"
         ></div>
 
-        {/* Content Container */}
         <div className="relative z-10 px-6 py-7 max-w-7xl mx-auto flex flex-col items-center gap-8 lg:flex-row">
-          {/* Author Profile Image */}
           <div className="w-40 h-40 rounded-full overflow-hidden shadow-xl flex-shrink-0">
             <Image
               src={authorData.profileImage}
@@ -712,21 +704,17 @@ export default async function AuthorPage({ params }) {
             />
           </div>
 
-          {/* Author Info */}
           <div className="flex flex-col items-center lg:items-start text-center lg:text-left max-w-2xl">
-            {/* Only ONE H1 on page */}
             <h1 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-3">
               {authorData.name}
             </h1>
 
-            {/* Job Title */}
             {authorData.jobtitle?.trim() && (
               <p className="text-lg font-semibold text-orange-600 mb-2">
                 {authorData.jobtitle.trim()} at {SITE_NAME}
               </p>
             )}
 
-            {/* Author Bio (with class for speakable) */}
             {authorData.bio && (
               <div className="author-bio">
                 <p className="text-lg text-gray-700 leading-relaxed mb-4">
@@ -735,7 +723,6 @@ export default async function AuthorPage({ params }) {
               </div>
             )}
 
-            {/* Category Badge */}
             <div className="flex items-center gap-2 mb-6">
               <span className="text-sm font-semibold text-gray-600 uppercase">
                 Covering:
@@ -749,7 +736,6 @@ export default async function AuthorPage({ params }) {
               </Link>
             </div>
 
-            {/* Social Media Icons */}
             {Object.values(authorData.social || {}).some(Boolean) && (
               <div className="flex gap-4 justify-center lg:justify-start flex-wrap">
                 {authorData.social?.twitter && (
@@ -759,7 +745,6 @@ export default async function AuthorPage({ params }) {
                     rel="noopener noreferrer"
                     className="p-2 rounded-lg bg-gray-200 text-gray-700 hover:bg-blue-500 hover:text-white transition"
                     title="Medium"
-                    aria-label={`${authorData.name} on Medium`}
                   >
                     <SiMedium size={20} />
                   </Link>
@@ -771,7 +756,6 @@ export default async function AuthorPage({ params }) {
                     rel="noopener noreferrer"
                     className="p-2 rounded-lg bg-gray-200 text-gray-700 hover:bg-pink-500 hover:text-white transition"
                     title="Quora"
-                    aria-label={`${authorData.name} on Quora`}
                   >
                     <FaQuora size={20} />
                   </Link>
@@ -783,7 +767,6 @@ export default async function AuthorPage({ params }) {
                     rel="noopener noreferrer"
                     className="p-2 rounded-lg bg-gray-200 text-gray-700 hover:bg-red-700 hover:text-white transition"
                     title="Reddit"
-                    aria-label={`${authorData.name} on Reddit`}
                   >
                     <FaReddit size={20} />
                   </Link>
@@ -795,7 +778,6 @@ export default async function AuthorPage({ params }) {
                     rel="noopener noreferrer"
                     className="p-2 rounded-lg bg-gray-200 text-gray-700 hover:bg-orange-500 hover:text-white transition"
                     title="Substack"
-                    aria-label={`${authorData.name} on Substack`}
                   >
                     <BsSubstack size={20} />
                   </Link>
@@ -809,7 +791,6 @@ export default async function AuthorPage({ params }) {
       {/* ===== ARTICLES SECTION ===== */}
       <section className="flex-grow" aria-label="Articles by author">
         <div className="max-w-7xl mx-auto px-6 pt-5 pb-10">
-          {/* Section Header */}
           <div className="mb-10">
             <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-1">
               Latest Articles
@@ -817,7 +798,6 @@ export default async function AuthorPage({ params }) {
             <div className="w-full border-t-4 border-orange-500"></div>
           </div>
 
-          {/* Articles Grid */}
           {latestArticles.length === 0 ? (
             <div className="text-center py-16">
               <p className="text-gray-600 text-xl">
@@ -836,7 +816,6 @@ export default async function AuthorPage({ params }) {
                     title={article.heading || article.metaTitle}
                     className="block group"
                   >
-                    {/* Article Image */}
                     <div className="relative w-full h-56 overflow-hidden">
                       <Image
                         src={article.image || article.heroImage || "/images/placeholder.jpg"}
@@ -848,14 +827,11 @@ export default async function AuthorPage({ params }) {
                       />
                     </div>
 
-                    {/* Article Content */}
                     <div className="pt-6 px-6 pb-6">
-                      {/* Article Title - H3 */}
                       <h3 className="text-xl font-bold text-gray-900 mb-3 line-clamp-2 group-hover:text-orange-500 transition">
                         {article.heading || article.metaTitle}
                       </h3>
 
-                      {/* Article Meta */}
                       <div className="flex items-center justify-between text-sm text-gray-600 mb-3">
                         <time dateTime={new Date(article.date).toISOString()}>
                           {article.date}
@@ -865,7 +841,6 @@ export default async function AuthorPage({ params }) {
                         </span>
                       </div>
 
-                      {/* Article Excerpt */}
                       {article.excerpt && (
                         <p className="text-gray-700 text-sm line-clamp-2">
                           {article.excerpt}
