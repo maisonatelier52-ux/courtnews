@@ -435,20 +435,39 @@ export default function CaseInformation({ caseInfo }) {
 
   return (
     <>
-      {/* Corrected JSON‑LD – using LegalCase */}
+      {/* Safe JSON‑LD using CreativeWork + additionalProperty */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "LegalCase",
+            "@type": "CreativeWork",
             name: caseInfo.caseNumber || "Case",
             identifier: caseInfo.caseNumber,
-            caseNumber: caseInfo.caseNumber,
-            jurisdiction: caseInfo.countryState || "United States",
-            legalStatus: caseInfo.status?.currentStatus || "",
             description: caseInfo.status?.accusation || "",
-            outcome: caseInfo.status?.outcome || "Pending",
+            about: "Federal legal proceeding",
+            inLanguage: "en",
+            spatialCoverage: {
+              "@type": "Place",
+              name: caseInfo.countryState || "United States"
+            },
+            additionalProperty: [
+              {
+                "@type": "PropertyValue",
+                name: "Case Number",
+                value: caseInfo.caseNumber
+              },
+              {
+                "@type": "PropertyValue",
+                name: "Legal Status",
+                value: caseInfo.status?.currentStatus || ""
+              },
+              {
+                "@type": "PropertyValue",
+                name: "Outcome",
+                value: caseInfo.status?.outcome || "Pending"
+              }
+            ]
           }),
         }}
         suppressHydrationWarning
