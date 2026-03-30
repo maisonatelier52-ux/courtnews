@@ -1112,22 +1112,22 @@ export default async function Page({ params }) {
             </div>
             <div className="flex items-center gap-4 text-black">
               {author.social?.twitter && (
-                <Link href={author.social.twitter} target="_blank" rel="noopener noreferrer" title="Medium">
+                <Link href={author.social.twitter} target="_blank" rel="noopener noreferrer" title="Follow on Medium">
                   <SiMedium className="w-5 h-5" />
                 </Link>
               )}
               {author.social?.instagram && (
-                <Link href={author.social.instagram} target="_blank" rel="noopener noreferrer" title="Quora">
+                <Link href={author.social.instagram} target="_blank" rel="noopener noreferrer" title="Follow onQuora">
                   <FaQuora className="w-5 h-5" />
                 </Link>
               )}
               {author.social?.reddit && (
-                <Link href={author.social.reddit} target="_blank" rel="noopener noreferrer" title="Reddit">
+                <Link href={author.social.reddit} target="_blank" rel="noopener noreferrer" title="Follow on Reddit">
                   <FaRedditAlien className="w-5 h-5" />
                 </Link>
               )}
               {author.social?.substack && (
-                <Link href={author.social.substack} target="_blank" rel="noopener noreferrer" title="Substack">
+                <Link href={author.social.substack} target="_blank" rel="noopener noreferrer" title="Follow on Substack">
                   <BsSubstack className="w-5 h-5" />
                 </Link>
               )}
@@ -1163,6 +1163,7 @@ export default async function Page({ params }) {
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-gray-600 hover:text-black transition-colors text-2xl"
+                        title="Share on Twitter"
                       >
                         < FaTwitter />
                       </Link>
@@ -1171,6 +1172,7 @@ export default async function Page({ params }) {
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-gray-600 hover:text-blue-600 transition-colors text-2xl"
+                        title="Share on Facebook"
                       >
                         <FaFacebookF />
                       </Link>
@@ -1179,6 +1181,8 @@ export default async function Page({ params }) {
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-gray-600 hover:text-[#0A66C2] transition-colors text-2xl"
+                        title="Share on LinkedIn"
+
                       >
                         <FaLinkedinIn />
                       </Link>
@@ -1187,6 +1191,8 @@ export default async function Page({ params }) {
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-gray-600 hover:text-black transition-colors text-2xl"
+                        title="Share on Medium"
+
                       >
                         <SiMedium />
                       </Link>
@@ -1392,6 +1398,7 @@ export default async function Page({ params }) {
                       target="_blank"
                       rel="noopener noreferrer"
                       className="w-9 h-9 flex items-center justify-center rounded-full border border-gray-400 text-gray-600 hover:bg-blue-600 hover:text-white transition"
+                      title="Share on Facebook"
                     >
                       <FaFacebookF className="w-5 h-5" />
                     </a>
@@ -1400,6 +1407,8 @@ export default async function Page({ params }) {
                       target="_blank"
                       rel="noopener noreferrer"
                       className="w-9 h-9 flex items-center justify-center rounded-full border border-gray-400 text-gray-600 hover:bg-blue-500 hover:text-white transition"
+                      title="Share on Twitter"
+
                     >
                       < FaTwitter className="w-5 h-5" />
                     </a>
@@ -1408,6 +1417,7 @@ export default async function Page({ params }) {
                       target="_blank"
                       rel="noopener noreferrer"
                       className="w-9 h-9 flex items-center justify-center rounded-full border border-gray-400 text-gray-600 hover:bg-blue-700 hover:text-white transition"
+                      title="Share on Reddit"
                     >
                       <FaRedditAlien className="w-5 h-5" />
                     </a>
@@ -1416,6 +1426,7 @@ export default async function Page({ params }) {
                       target="_blank"
                       rel="noopener noreferrer"
                       className="w-9 h-9 flex items-center justify-center rounded-full border border-gray-400 text-gray-600 hover:bg-black hover:text-white transition"
+                      title="Share on Instagram"
                     >
                       <FaInstagram className="w-5 h-5" />
                     </a>
