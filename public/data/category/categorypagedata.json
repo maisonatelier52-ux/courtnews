@@ -6508,7 +6508,116 @@
         "immigration ruling",
         "judicial security"
       ]
+    },
+    {
+  "id": 9,
+  "metaTitle": "Supreme Court Clears Path to Dismiss Bannon Contempt Case",
+  "metaDescription": "The U.S. Supreme Court vacated a lower court ruling upholding Steve Bannon’s 2022 contempt of Congress conviction, clearing the way for the Trump administration’s Justice Department to dismiss the case.",
+  "slug": "supreme-court-clears-path-to-dismiss-bannon-contempt-case",
+  "heading": "Supreme Court Opens Door for Dismissal of Steve Bannon Contempt Case",
+  "excerpt": "The U.S. Supreme Court on Monday vacated an appeals court decision that had upheld Steve Bannon’s conviction for defying a congressional subpoena, paving the way for the Justice Department to drop the case.",
+  "date": "07 Apr, 2026",
+  "image": "/images/supreme-court-clears-path-to-dismiss-bannon-contempt-case.webp",
+  "alt": "Supreme Court building with scales of justice and Steve Bannon file photo",
+  "heroImage": "/images/supreme-court-clears-path-to-dismiss-bannon-contempt-case.webp",
+  "caseInformation": {
+    "countryState": "United States / Federal (U.S. Supreme Court)",
+    "caseNumber": "23-1134 (Bannon v. United States)",
+    "status": {
+      "accusation": "Contempt of Congress for refusing to comply with a subpoena from the House select committee investigating the January 6, 2021, Capitol attack.",
+      "onTrial": "Convicted in 2022; conviction upheld by D.C. Circuit on appeal.",
+      "currentStatus": "Supreme Court vacated the appeals court ruling on April 6, 2026.",
+      "outcome": "Case remanded for further proceedings in light of the Justice Department’s motion to dismiss the indictment."
     }
+  },
+  "body": {
+    "dropcap": {
+      "letter": "T",
+      "text": "he U.S. Supreme Court on Monday vacated a lower court ruling that had upheld Steve Bannon’s conviction for contempt of Congress, clearing the way for the Trump administration’s Justice Department to move forward with dismissing the case."
+    },
+    "paragraphs": [
+      "Bannon, a longtime Trump ally and former White House strategist, was convicted by a jury in 2022 on two counts of contempt of Congress. He had refused to provide documents or testimony to the Democratic-led House select committee investigating the January 6, 2021, attack on the Capitol.",
+      "The Supreme Court issued a brief unsigned order with no noted dissents, sending the case back to the lower court for further consideration in light of the Justice Department’s pending motion to dismiss the indictment. The department has stated that dismissal would be in the interests of justice.",
+      "Bannon already served a four-month prison sentence in 2024 at a federal facility in Danbury, Connecticut, after his appeals failed to keep him out of custody while the case continued. The expected dismissal would remove the conviction from his record, though the practical effect is largely symbolic at this stage."
+    ],
+    "quote": {
+      "text": "It has been one battle after another for five years, but today the Supreme Court vacated an unjust conviction, and in doing so validated a fundamental rule – like oil and water, politics and prosecution don’t mix.",
+      "author": "M. Evan Corcoran, attorney for Steve Bannon"
+    },
+    "sections": [
+      {
+        "type": "imageWithText",
+        "text": [
+          "The ruling is the latest in a series of actions by the Justice Department under the current administration that have benefited Trump allies. Bannon, 72, served as chief strategist in Trump’s first term and has remained a prominent voice in right-wing media through his “War Room” podcast.",
+          "He has described himself as a political prisoner and resumed his media work shortly after his release from prison, just before Trump’s victory in the 2024 election."
+        ],
+        "image": {
+          "url": "/images/steve-bannon-supreme-court-ruling.webp",
+          "alt": "Steve Bannon speaking at a public event"
+        },
+        "additionalText": [
+          "Bannon had argued that the subpoena was politically motivated and that executive privilege protected him from complying. The House committee had sought his communications related to the events surrounding January 6."
+        ]
+      },
+      {
+        "type": "twoColumnLayout",
+        "title": "Background on the Case",
+        "mainContent": [
+          "The contempt charges stemmed from Bannon’s refusal to cooperate with the January 6 committee’s subpoena. Prosecutors argued his actions were willful. He was sentenced to four months in prison and a fine, though the sentence was delayed during appeals.",
+          "The Justice Department under the Biden administration pursued the case, while the current administration has taken the position that continuing the prosecution is not in the interests of justice."
+        ],
+        "showMoreRead": true
+      },
+      {
+        "type": "fullWidth",
+        "title": "Broader Context",
+        "content": [
+          "This development fits into a pattern of the Justice Department seeking to dismiss or resolve cases involving Trump associates. Similar steps have been taken in other high-profile matters involving former administration officials."
+        ],
+        "image": {
+          "url": "/images/us-supreme-court-building-justice.webp",
+          "alt": "Exterior view of the U.S. Supreme Court building"
+        },
+        "subsections": [
+          {
+            "title": "Key Facts",
+            "text": [
+              "Convicted in 2022 on two counts of contempt of Congress.",
+              "Served four-month sentence in 2024.",
+              "Supreme Court vacated appeals court ruling on April 6, 2026.",
+              "Case involves subpoena related to January 6 investigation."
+            ],
+            "checklist": [
+              "No explanation or dissents noted in Supreme Court order",
+              "Justice Department filed motion to dismiss earlier this year",
+              "Dismissal would erase the conviction from Bannon’s record",
+              "Bannon remains active in conservative media and politics"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "finalSection",
+        "title": "What Happens Next",
+        "intro": [
+          "The case now returns to the lower court, where a judge is widely expected to grant the Justice Department’s motion to dismiss the indictment."
+        ],
+        "twoColumnContent": {
+          "left": [
+            "While the conviction would be wiped away, Bannon has faced other legal challenges, including a separate fraud case in New York related to a border wall fundraising effort."
+          ],
+          "rightQuote": {
+            "text": "The department’s decision to drop Bannon’s case was one of multiple actions it has taken that have benefited allies and supporters of the Republican president.",
+            "author": "Court filings and reporting"
+          }
+        },
+        "conclusion": [
+          "Legal observers note that such dismissals in politically charged cases often spark debate about the independence of the justice system, though the Supreme Court’s brief order provided no detailed reasoning."
+        ]
+      }
+    ]
+  }
+}
   ], 
 
   "us-news": [
