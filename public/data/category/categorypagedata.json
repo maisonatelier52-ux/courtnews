@@ -7425,7 +7425,129 @@
           }
         ]
       }
-    }
+    },
+    {
+  "id": 9,
+  "metaTitle": "DHS Could Halt Airport Processing in Sanctuary Cities",
+  "metaDescription": "DHS Secretary Mullin says customs officers may be pulled from sanctuary city airports that refuse to cooperate with federal immigration enforcement efforts.",
+  "slug": "dhs-halt-international-travelers-sanctuary-city-airports",
+  "heading": "DHS Weighs Withdrawing Customs Officers From Airports in Sanctuary Cities",
+  "excerpt": "The Department of Homeland Security is considering a plan to pull customs processing from major international airports in cities that have declined to coordinate with federal immigration enforcement — a move that could disrupt air travel, commerce, and the upcoming FIFA World Cup.",
+  "date": "April 7, 2026",
+  "image": "/images/dhs-halt-international-travelers-sanctuary-city-airports.webp",
+  "alt": "DHS Secretary Markwayne Mullin speaks to reporters as the administration weighs withdrawing customs officers from sanctuary city airports",
+  "heroImage": "/images/dhs-halt-international-travelers-sanctuary-city-airports.webp",
+  "tags": [
+    "DHS",
+    "sanctuary cities",
+    "immigration enforcement",
+    "Markwayne Mullin",
+    "U.S. airports",
+    "Customs and Border Protection",
+    "Trump administration",
+    "FIFA World Cup"
+  ],
+  "keywords": [
+    "dhs sanctuary city airports",
+    "customs officers pulled sanctuary cities",
+    "dhs halt international travelers airports",
+    "markwayne mullin immigration airports",
+    "sanctuary city airport processing suspended"
+  ],
+  "body": {
+    "dropcap": {
+      "letter": "T",
+      "text": "he Department of Homeland Security is weighing a plan to withdraw customs officers from major international airports located in so-called sanctuary cities — municipalities that have declined to coordinate with the Trump administration's federal immigration enforcement efforts — according to remarks made Tuesday by DHS Secretary Markwayne Mullin."
+    },
+    "paragraphs": [
+      "The proposal, if enacted, would effectively suspend international traveler processing at some of the nation's busiest airports, carrying broad consequences for commerce, tourism, and the country's ability to host large-scale international events. Mullin raised the idea during a media availability in North Carolina, describing it as one of several options the department is actively considering while Congress remains at an impasse over DHS funding.",
+      "Mullin was careful to frame the proposal as preliminary, noting that no formal decision had been reached. He said he anticipated raising the concept directly with President Donald Trump before any action moved forward. The remarks came as relations between the federal government and Democratic-led cities over immigration enforcement have reached a new level of tension."
+    ],
+    "sections": [
+      {
+        "type": "h2",
+        "text": "What Mullin Said — and What It Would Mean"
+      },
+      {
+        "type": "paragraph",
+        "text": "Speaking to reporters, Mullin laid out his reasoning in direct terms. Cities that refuse to enforce federal immigration policy, he argued, should not expect to benefit from the presence of federally stationed customs personnel. 'If cities are going to sit there and say they're not going to enforce immigration policies, then it doesn't make any sense for us to process international travelers through that city,' he said. He added that the administration had not yet committed to the plan: 'We're going to start having those conversations. This is just something I'm thinking. This isn't something that I'm necessarily going to do.'"
+      },
+      {
+        "type": "paragraph",
+        "text": "Mullin also cited the ongoing congressional deadlock over DHS appropriations as a contributing factor in the department's reconsideration of its airport commitments. He argued that local and state laws limiting cooperation with federal immigration agents were themselves unlawful, operating in direct conflict with federal statute — a legal position the administration has advanced across multiple fronts since taking office."
+      },
+      {
+        "type": "highlight",
+        "text": "More than 50 million international travelers passed through the three major New York-area airports in 2025 alone. A withdrawal of federal customs processing from those facilities could ground international arrivals and disrupt global airline routes and air freight supply chains simultaneously."
+      },
+      {
+        "type": "h2",
+        "text": "The Cities in the Crosshairs"
+      },
+      {
+        "type": "paragraph",
+        "text": "The Department of Justice published a list of sanctuary jurisdictions in October 2025 that includes many of the country's most heavily trafficked international gateway cities. Among those identified are New York City, Los Angeles, Chicago, San Francisco, Seattle, Newark, Philadelphia, and Denver — each of which is home to at least one major international airport that handles millions of arrivals annually."
+      },
+      {
+        "type": "paragraph",
+        "text": "The scale of potential disruption is difficult to overstate. Customs and Border Protection officers stationed at international airports are responsible for processing every arriving international traveler and clearing inbound cargo. Removing those personnel would not simply slow the process — it would halt it entirely for affected facilities, with no clear legal mechanism for airports or airlines to fill the gap independently."
+      },
+      {
+        "type": "imageWithText",
+        "text": [
+          "The timing of the proposal drew immediate attention given that the FIFA World Cup is scheduled to begin in early June. The tournament is expected to bring hundreds of thousands of international visitors to host cities across the United States — several of which are on the Justice Department's sanctuary jurisdiction list."
+        ],
+        "image": {
+          "url": "/images/dhs-halt-international-travelers-sanctuary-city-airports-si.webp",
+          "alt": "International travelers move through customs at a major U.S. airport as DHS considers withdrawing processing officers from sanctuary city facilities",
+          "caption": "Federal customs officers process international arrivals at U.S. airports. DHS is weighing whether to withdraw those personnel from airports in cities that decline to cooperate with immigration enforcement."
+        },
+        "additionalText": [
+          "Tournament organizers and city officials in the affected markets have not yet publicly responded to Mullin's remarks. The practical question of whether the federal government could withdraw airport customs services without violating its own legal obligations to facilitate lawful international entry has not been addressed by the administration in its public statements."
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "A Dispute Rooted in Funding and Enforcement"
+      },
+      {
+        "type": "paragraph",
+        "text": "The tension between the federal government and sanctuary jurisdictions over airport operations did not emerge suddenly. The broader conflict has been escalating since mid-February, when Democratic lawmakers declined to support additional DHS appropriations without accompanying restrictions on what they described as overly aggressive enforcement tactics deployed by the administration. That funding standoff has left Customs and Border Protection operating under budgetary uncertainty for weeks."
+      },
+      {
+        "type": "paragraph",
+        "text": "Mullin's remarks Tuesday represent the most direct public signal yet that the administration is prepared to use airport customs staffing as leverage in that standoff. By framing the withdrawal of customs officers as a logical response to local non-cooperation rather than a punitive action, DHS appeared to be laying groundwork for a policy it could defend on operational rather than political grounds."
+      },
+      {
+        "type": "fullWidth",
+        "title": "What's at Stake Beyond Airport Operations",
+        "content": [
+          "The administration's broader immigration enforcement push has placed CBP at the center of ongoing disputes with Democratic-governed states and cities. Officers stationed at international airports carry a dual function — processing arriving travelers and cargo while also carrying out immigration enforcement responsibilities that sanctuary policies are designed to limit. The overlap between those two roles is precisely what makes the airport customs question legally and politically complicated.",
+          "If the federal government moved forward with a withdrawal, the effects would extend well beyond the cities directly targeted. International airlines operating routes into affected airports would face immediate schedule disruptions. Air freight operators that rely on same-day customs clearance for perishable goods and time-sensitive cargo would be similarly affected. Trade partners whose goods move through those facilities would face delays with no clear resolution timeline."
+        ],
+        "subsections": [
+          {
+            "title": "No Formal Action Taken as of Tuesday Evening",
+            "text": [
+              "No executive order, formal agency directive, or public regulatory filing had been issued by DHS as of Tuesday evening. The department did not provide reporters with a timeline for when a decision might be reached, who within the administration would need to approve the move, or whether the proposal would require legal review before being implemented."
+            ],
+            "additionalText": [
+              "Mullin's comments did not specify which airports would be affected first, whether the withdrawal would be gradual or immediate, or how the administration would handle international travelers who arrive at a facility that has lost its customs processing capacity mid-operation. Those logistical questions are likely to become central to any legal challenge that follows if the administration moves ahead."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "finalSection",
+        "title": "What to Watch as the Administration Considers Next Steps",
+        "intro": [
+          "The DHS proposal sits at the intersection of several unresolved legal and political fights: the administration's immigration enforcement agenda, the congressional deadlock over homeland security funding, the legal status of sanctuary jurisdiction policies under federal law, and the government's obligations to facilitate lawful international travel and commerce. How the administration proceeds — or whether it proceeds at all — will depend in part on how those overlapping pressures develop in the coming weeks.",
+          "Legal experts and immigration policy observers are likely to scrutinize whether a customs withdrawal would survive judicial review, given the federal government's own statutory responsibilities at ports of entry. For now, Mullin's remarks stand as the clearest signal yet that the administration views airport customs staffing as a tool in its broader enforcement strategy — and is prepared to use it."
+        ]
+      }
+    ]
+  }
+}
   ]
   
 
