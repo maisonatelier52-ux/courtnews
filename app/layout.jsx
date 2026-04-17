@@ -115,6 +115,8 @@ import "./globals.css";
 import Header from "../components/Header.jsx";
 import Footer from "../components/Footer.jsx";
 
+import Script from "next/script";
+
 const robotoCondensed = Roboto_Condensed({
   variable: "--font-roboto-condensed",
   subsets: ["latin"],
@@ -207,6 +209,15 @@ export default function RootLayout({ children }) {
         <Header />
         <main className="w-full">{children}</main>
         <Footer />
+        <Script id="clarity" strategy="afterInteractive">
+          {`
+            (function(c,l,a,r,i,t,y){
+              c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+              t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i+"?ref=bwt";
+              y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+            })(window, document, "clarity", "script", "wd1melkbal");
+          `}
+        </Script>
       </body>
     </html>
   );
