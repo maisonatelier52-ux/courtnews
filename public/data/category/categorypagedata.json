@@ -4769,7 +4769,140 @@
         "Beijing Retaliates With Formal Trade Investigations After Trump's Section 301 Actions",
         "MOFCOM Launches Dual Inquiries Into U.S. Trade Barriers as Summit Diplomacy Stalls"
       ]
-    }
+    },
+    {
+  "id": 10,
+  "category": "investigation",
+  "site": "courtnews.org",
+  "metaTitle": "FBI Escalates Probe of Ex-CIA Chief Brennan Over Russia Report",
+  "metaDescription": "The FBI is preparing to question former intelligence officials in its criminal inquiry into ex-CIA Director John Brennan over the 2017 Russia election interference assessment.",
+  "slug": "fbi-brennan-russia-probe-2026",
+  "heading": "FBI Escalates Criminal Investigation of Former CIA Director Brennan Over Russia Intelligence Assessment",
+  "excerpt": "Federal investigators are preparing to question approximately six former intelligence officials as part of a long-running criminal probe into ex-CIA Director John Brennan, focusing on his congressional testimony about the origins of the 2017 intelligence report that concluded Russia interfered in the 2016 presidential election to benefit Donald Trump. The investigation, run out of the U.S. Attorney's Office in Miami, marks one of the most significant prosecutorial efforts by the Trump administration to revisit the foundational events of what the president has long condemned as a politically motivated witch hunt.",
+  "date": "15 Apr, 2026",
+  "updatedDate": "2026-04-15",
+  "image": "/images/fbi-brennan-russia-probe-investigation-2026.webp",
+  "alt": "FBI seal and U.S. Department of Justice building representing the criminal investigation into former CIA Director John Brennan over the 2017 Russia intelligence assessment",
+  "heroImage": "/images/fbi-brennan-russia-probe-investigation-2026.webp",
+  "body": {
+    "dropcap": {
+      "letter": "F",
+      "text": "ederal investigators have quietly lined up interviews with roughly a half-dozen former intelligence officials in their criminal probe targeting ex-CIA Director John Brennan, advancing a case that has now emerged as one of the most politically charged prosecutorial undertakings of the Trump administration's second term. The witness sessions, expected to unfold over the coming weeks, will zero in on what officials say and do not say about the creation of a landmark 2017 intelligence report — the same report that declared Russia had worked to tip the scales of the presidential race in Donald Trump's favor."
+    },
+    "paragraphs": [
+      "The investigation, which has been underway for months and is being run by the U.S. Attorney's Office in Miami, appears to center on testimony Brennan delivered before the House Judiciary Committee in 2023 concerning the intelligence community's internal deliberations over that assessment. Federal prosecutors notified Brennan through legal channels late last year that he had formally been designated a target of the inquiry — a status that carries significant legal weight and signals that investigators believe they may have grounds to seek charges.",
+      "A small number of witness interviews have already taken place, according to two people with knowledge of the investigation who declined to be identified given the sensitivity of the matter. The forthcoming round of sessions represents a substantial escalation in the scope of the inquiry and suggests the investigation has moved well beyond its earliest stages into what could prove a protracted and contentious legal battle."
+    ],
+    "quote": {
+      "text": "There is no legally justifiable basis for this investigation. What is happening here is the weaponization of the legal system against a political critic of the sitting president.",
+      "author": "Attorney for John Brennan, letter to the Chief District Court Judge, Miami, December 2025"
+    },
+    "sections": [
+      {
+        "type": "imageWithText",
+        "text": [
+          "The case traces its origins to a referral made in October of last year by Representative Jim Jordan of Ohio, chairman of the House Judiciary Committee and a close ally of the president. Jordan forwarded Brennan's name to the Justice Department with an allegation that the former intelligence chief had given false statements to his committee during the 2023 hearing. The central claim involves Brennan's account of how the so-called Steele dossier — a compilation of unverified raw intelligence funded by Trump's political opponents — was or was not incorporated into the final version of the January 2017 assessment.",
+          "Brennan has said consistently and on the record that the CIA pushed back against including the dossier in the formal intelligence product. A summary of the document was ultimately appended to a classified version of the report, a fact that has fed competing narratives about how thoroughly the dossier shaped the assessment's conclusions. Trump and his allies have argued for years that the dossier's inclusion tainted the entire investigation into Russian interference. Brennan's defenders counter that his testimony accurately described the CIA's position.",
+          "The former CIA director, who has become a fixture in television news commentary and has been among the most visible critics of the president since leaving government, has rejected the investigation in unsparing terms. His legal team has accused federal prosecutors of deploying improper tactics and contended that the probe reflects political targeting rather than a genuine law enforcement interest. Brennan's attorney declined to elaborate publicly beyond the December letter, which was addressed to the presiding District Court judge in Miami and made plain that the defense intends to challenge the investigation's legitimacy at every available opportunity."
+        ],
+        "image": {
+          "url": "/images/fbi-brennan-russia-probe-investigation-2026-si.webp",
+          "alt": "U.S. Capitol building representing congressional testimony by ex-CIA Director John Brennan that is now the focus of a federal criminal investigation in Miami"
+        },
+        "additionalText": [
+          "The probe's jurisdiction has also drawn legal scrutiny. Brennan gave the 2023 testimony at issue before a House committee sitting in Washington, D.C., not in southern Florida. Legal specialists in federal criminal procedure have noted that judges and grand juries in the District of Columbia have historically been skeptical of efforts to prosecute cases arising from congressional testimony in other jurisdictions — and that any prosecution proceeding in Miami could face substantive venue challenges before it ever reached the question of the underlying merits."
+        ]
+      },
+      {
+        "type": "twoColumnLayout",
+        "title": "Senior Justice Department Leadership Involved in Overseeing the Case",
+        "mainContent": [
+          "Todd Blanche, who stepped into the role of acting attorney general earlier this month following the abrupt departure of Pam Bondi, had been actively involved in overseeing this investigation in his prior capacity as Bondi's top deputy. According to two law enforcement officials, Blanche convened a series of meetings with senior Justice Department leadership in recent weeks specifically to review the probe's progress and trajectory.",
+          "Bondi was dismissed on April 2 after the president grew frustrated with what he viewed as insufficient movement on investigations he had publicly demanded. Her ouster sent a clear signal about the administration's expectations for the Justice Department's investigative posture, particularly on matters touching the president's political adversaries.",
+          "The witness interviews now being scheduled predated Bondi's dismissal and appear to reflect the investigation's own internal momentum rather than any directive issued in the wake of her exit. Nevertheless, the timing places the probe's advancement squarely within a Justice Department whose senior leadership has been reshuffled around the question of prosecutorial aggressiveness toward the administration's perceived opponents.",
+          "The Justice Department declined to comment. The FBI did not respond to a request for comment. Neither office confirmed or denied any specific aspect of the investigation's current state."
+        ],
+        "showMoreRead": true
+      },
+      {
+        "type": "fullWidth",
+        "title": "A Report Whose Conclusions Have Survived Every Review — and a President Who Has Never Accepted Them",
+        "content": [
+          "The January 2017 intelligence assessment that sits at the center of this investigation was among the most consequential documents produced by the United States intelligence community in recent memory. Released in the final days before Trump's first inauguration, it presented a unified judgment by the CIA, the FBI, and the National Security Agency that Russian President Vladimir Putin had personally authorized an influence operation designed to damage Hillary Clinton's candidacy and support Trump's.",
+          "That conclusion has been examined, contested, re-examined, and ultimately reaffirmed across multiple subsequent reviews. A bipartisan Senate intelligence committee, the Justice Department's own inspector general, and an internal CIA review all reached determinations that did not undercut the assessment's core findings. The special counsel investigation that consumed much of Trump's first term also proceeded from the same foundational premise.",
+          "For Trump, none of that has been dispositive. He has described the Russia inquiry, in speeches, social media posts, and formal statements, as an elaborate fabrication designed to undermine his presidency before it began. His administration has consistently framed efforts to revisit these events not as political retribution but as a long-overdue accounting for what officials characterize as abuse of investigative authority by career intelligence and law enforcement officials."
+        ],
+        "image": {
+          "url": "/images/fbi-brennan-russia-probe-investigation-2026-ti.webp",
+          "alt": "FBI headquarters J. Edgar Hoover Building Washington DC representing the ongoing criminal investigation of former CIA Director Brennan over Russia election interference report"
+        },
+        "subsections": [
+          {
+            "title": "Key Facts",
+            "text": [
+              "The following facts are drawn from reporting by Reuters and other major news organizations, public court filings, official statements, and congressional records, as of April 15, 2026."
+            ],
+            "checklist": [
+              "The FBI plans to interview approximately six witnesses in the criminal probe of ex-CIA Director John Brennan",
+              "The investigation is being run by the U.S. Attorney's Office in Miami and has been active for several months",
+              "The probe centers on Brennan's 2023 congressional testimony to the House Judiciary Committee about the 2017 Russia election interference assessment",
+              "A small number of witness interviews have already been conducted; the forthcoming round represents an escalation",
+              "Brennan was formally designated a target of the investigation, disclosed via a letter from his attorney in December 2025",
+              "The referral to DOJ was made by Representative Jim Jordan (R-OH) in October 2025, alleging Brennan made false statements to Congress",
+              "Acting Attorney General Todd Blanche oversaw the investigation as Pam Bondi's deputy and convened senior DOJ leadership meetings on its progress",
+              "Bondi was dismissed on April 2, 2026; the scheduled witness interviews predated her departure",
+              "The 2017 intelligence assessment's core conclusions have been affirmed by a bipartisan Senate committee, a CIA internal review, and a Justice Department review",
+              "Venue presents a potential legal obstacle: Brennan's 2023 testimony was delivered in Washington, D.C., not in Florida",
+              "Brennan's attorney has accused prosecutors of improper tactics and asserted there is no lawful basis for the investigation",
+              "The Justice Department and FBI declined to comment"
+            ],
+            "additionalText": [
+              "No charges have been filed against Brennan as of the date of publication. Target designation in a federal criminal investigation means prosecutors believe they have evidence implicating the individual; it does not constitute a formal accusation or indictment."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "finalSection",
+        "title": "The Broader Pattern — and What This Investigation Signals",
+        "intro": [
+          "The Brennan inquiry does not exist in isolation. Over the course of the administration's second term, the Justice Department has pursued or escalated criminal inquiries into a range of figures who have clashed publicly with the president — former officials, political opponents, and critics from within the national security community. Taken together, these cases have generated sustained concern among legal scholars, former prosecutors, and civil liberties advocates who argue that the prosecutorial machinery is being reoriented around the president's personal and political grievances rather than independent law enforcement judgment.",
+          "The administration's defenders offer a sharply different frame. They argue that the individuals now facing scrutiny wielded enormous institutional power during a period when that power was directed, whether through formal action or passive facilitation, against a sitting president and his associates. From that vantage point, the current investigations represent accountability rather than retaliation — a belated reckoning with conduct that was shielded from consequence during previous administrations.",
+          "What is not in dispute is that the Brennan case represents one of the most aggressive applications of that accountability argument to date. He is not a minor figure or a peripheral actor in the events under review. He served as CIA director during one of the most consequential intelligence episodes in the nation's recent history, and his public profile since leaving government has made him one of the administration's most recognizable critics. A prosecution, if it proceeds, would carry implications that extend well beyond the specific factual questions the investigation is designed to resolve."
+        ],
+        "twoColumnContent": {
+          "left": [
+            "Former federal prosecutors who have followed the case closely note that the combination of factors at play — a referral from a partisan congressional ally, a jurisdiction far removed from where the alleged conduct occurred, and a target who has made no secret of his political opposition to the president — creates a profile that is unusual in the annals of federal criminal prosecution. Whether the evidence assembled by investigators is sufficient to sustain charges that could survive the scrutiny of federal courts, including judges who have already shown skepticism toward similar cases, remains an open and consequential question. The witness interviews now being arranged will go some distance toward answering it."
+          ],
+          "rightQuote": {
+            "text": "This is not a legitimate law enforcement exercise. It is an attempt to use the machinery of the Justice Department to punish a political critic and rewrite the history of the Russia investigation.",
+            "author": "Senior national security attorney commenting on the Brennan probe, April 2026"
+          }
+        },
+        "conclusion": [
+          "As the investigation advances into its next phase, the legal, political, and institutional stakes are converging in ways that will be difficult to disentangle. A target designation, an escalating witness list, and senior Justice Department involvement have moved this case from the category of background noise into something that will demand sustained attention from courts, Congress, and the public. Whether it ends in charges, a quiet closure, or a protracted legal fight that outlasts the current administration remains to be seen — but the trajectory of the past several weeks suggests the answer will not be long in coming."
+        ]
+      }
+    ]
+  },
+  "seoKeywords": [
+    "FBI investigation John Brennan 2026",
+    "Brennan criminal probe Russia report",
+    "Trump DOJ investigation ex-CIA director",
+    "John Brennan false statements Congress",
+    "FBI Russia interference assessment probe",
+    "Brennan target federal investigation 2026",
+    "Trump Justice Department political prosecutions",
+    "Steele dossier Brennan testimony investigation",
+    "Jim Jordan DOJ referral Brennan",
+    "CIA director criminal investigation 2026"
+  ],
+  "alternativeHeadlines": [
+    "Trump's Justice Department Prepares Witness Interviews in Criminal Probe of Ex-CIA Chief Brennan",
+    "Federal Investigators Escalate Criminal Inquiry Into Former CIA Director Over 2017 Russia Report",
+    "FBI Advances Case Against Ex-CIA Director Brennan as Witness Interviews Are Scheduled"
+  ]
+}
   ],
 
   "civil-rights": [
