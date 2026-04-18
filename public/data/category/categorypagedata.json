@@ -5884,6 +5884,191 @@
         "immigration law",
         "New York"
       ]
+    },
+    {
+      "id": 10,
+      "metaTitle": "Judge Blocks DOJ Bid for Rhode Island Voter Data",
+      "metaDescription": "A federal judge rejected the Justice Department's demand for private voter data from Rhode Island, calling it an unprecedented overreach without legal basis.",
+      "slug": "judge-blocks-doj-rhode-island-voter-data-2026",
+      "heading": "Federal Judge Rejects Justice Department Bid for Rhode Island Voter Data",
+      "excerpt": "A federal judge has thrown out the Trump administration's attempt to compel Rhode Island to hand over private data on nearly 750,000 registered voters, dealing the Justice Department another legal blow in its nationwide campaign to obtain sensitive voter records from states.",
+      "date": "Apr 17, 2026",
+      "image": "/images/rhode-island-voter-data-doj-ruling-2026.webp",
+      "alt": "Exterior of the federal courthouse in Providence, Rhode Island, where Judge Mary McElroy rejected the DOJ voter data request",
+      "heroImage": "/images/rhode-island-voter-data-doj-ruling-2026.webp",
+      "body": {
+        "dropcap": {
+          "letter": "A",
+          "text": " federal judge in Providence has rejected the Trump administration's effort to force Rhode Island to surrender confidential data on approximately 750,000 voters, ruling that the Justice Department lacked the legal authority to demand such records under the guise of election integrity. The decision, handed down Friday by U.S. District Judge Mary McElroy, marked the latest in a string of courtroom defeats for the administration's sweeping push to obtain unredacted voter files from states across the country."
+        },
+        "paragraphs": [
+          "McElroy described the government's request as unprecedented, finding that neither the National Voter Registration Act nor the Help America Vote Act granted the Justice Department the power to pursue what she characterized as a wide-ranging fishing expedition into Rhode Island's voter records.",
+          "The Justice Department had sought access to files containing voters' driver's license numbers and the last four digits of their Social Security numbers — data the state's top election official had declined to provide, offering instead the publicly available version of the voter list.",
+          "The ruling follows similar decisions against the administration in California, Massachusetts, Michigan, and Oregon. In total, the Justice Department has pursued legal action against 30 states and the District of Columbia in its effort to obtain the sensitive voter information, framing the requests as necessary to ensure compliance with federal election laws."
+        ],
+        "quote": {
+          "text": "The Department of Justice has not provided a sufficient factual basis for why it requires Rhode Island's non-public voter records.",
+          "author": "U.S. District Judge Mary McElroy, District of Rhode Island"
+        },
+        "sections": [
+          {
+            "type": "imageWithText",
+            "text": [
+              "Rhode Island Secretary of State Gregg Amore, a Democrat, had taken a firm line against the administration's demands. When the Justice Department filed suit in December, Amore had already made clear he would share only what the public could access — not the unredacted files that federal officials were pressing for.",
+              "During a March hearing in the case, a Justice Department official testified that the administration's goal was to ensure the state's voter rolls were clean, a process that would have involved sharing the data with the Department of Homeland Security to cross-check voters' citizenship status."
+            ],
+            "image": {
+              "url": "/images/rhode-island-voter-data-doj-ruling-2026-si.webp",
+              "alt": "Rhode Island Secretary of State Gregg Amore at a press event in Providence in 2026"
+            },
+            "additionalText": [
+              "McElroy also examined the administration's reliance on a provision of the Civil Rights Act of 1960 to justify the records demand. While she acknowledged the law was not strictly limited to cases of racial discrimination, she concluded that the government had failed to offer any factual foundation for why Rhode Island's voter data was needed in this instance — a threshold it could not clear."
+            ]
+          },
+          {
+            "type": "twoColumnLayout",
+            "title": "A Pattern of Setbacks for the Administration's Voter Data Campaign",
+            "mainContent": [
+              "The Justice Department has not commented publicly on the Rhode Island ruling. Its repeated defeats in court reflect the resistance that has met the administration's election integrity agenda across Democratic-led states, whose officials have consistently argued that the demands go beyond what any federal statute authorizes.",
+              "Legal observers have noted that courts have drawn a consistent line: while agencies have some authority to monitor compliance with voter registration laws, that authority does not extend to commandeering private personal data without a concrete showing of why it is needed.",
+              "President Trump has long maintained, without evidence, that his 2020 presidential defeat was the product of widespread voting irregularities. That claim has been rejected by courts, state officials, and federal agencies, but it has continued to animate the administration's push for expanded access to voter rolls."
+            ],
+            "showMoreRead": true
+          },
+          {
+            "type": "fullWidth",
+            "title": "What the Government Said It Was Looking For",
+            "content": [
+              "According to court filings, the Justice Department argued it was already conducting its own voter list comparisons using non-public data in its possession, attempting to flag duplicate registrations and deceased voters. Officials contended that Rhode Island's unredacted files were needed to extend that effort.",
+              "Rhode Island's refusal to comply without a valid court order reflected a broader posture among Democratic state officials, many of whom have argued that turning over sensitive personal data to federal immigration and homeland security agencies raises serious civil liberties concerns — particularly for communities wary of how the information might ultimately be used."
+            ],
+            "image": {
+              "url": "/images/rhode-island-voter-data-doj-ruling-2026-ti.webp",
+              "alt": "Voting booths inside a Rhode Island polling location during the 2024 general election"
+            },
+            "subsections": [
+              {
+                "title": "Key Facts in the Case",
+                "text": [
+                  "The following details have been confirmed through court filings and public statements as of April 17, 2026."
+                ],
+                "checklist": [
+                  "U.S. District Judge Mary McElroy rejected the DOJ's bid on Friday, April 17, 2026",
+                  "The ruling applies to data on approximately 750,000 registered Rhode Island voters",
+                  "The Justice Department sought unredacted records including driver's license numbers and partial Social Security numbers",
+                  "Rhode Island Secretary of State Gregg Amore offered only the state's publicly available voter list",
+                  "The DOJ filed suit against Rhode Island in December after that offer was declined",
+                  "McElroy found no authority under the NVRA or Help America Vote Act for the government's request",
+                  "Similar DOJ requests were denied in California, Massachusetts, Michigan, and Oregon",
+                  "The Trump administration has pursued voter data lawsuits against 30 states and Washington, D.C."
+                ],
+                "additionalText": [
+                  "The Rhode Island decision adds to a growing body of case law limiting the federal government's ability to compel states to hand over private voter information. Civil liberties groups have hailed the rulings as important guardrails against the potential misuse of sensitive personal data under the banner of election oversight."
+                ]
+              }
+            ]
+          },
+          {
+            "type": "finalSection",
+            "title": "Broader Stakes for Voter Privacy Nationwide",
+            "intro": [
+              "For voter rights advocates and privacy-focused legal organizations, the Rhode Island ruling carries weight beyond a single state boundary. The case is one of dozens currently moving through the federal courts, and the cumulative effect of judges consistently rejecting the Justice Department's legal theories could effectively curtail the administration's data-gathering ambitions well before the 2026 midterm elections.",
+              "Critics of the administration's approach have argued that the push for voter data is less about ensuring clean rolls — a responsibility that already sits with state officials — and more about creating a federal database that could be cross-referenced with immigration enforcement systems.",
+              "Whether the Justice Department appeals the Rhode Island decision or adjusts its legal strategy in remaining active cases remains to be seen. The administration has so far shown no signs of abandoning its broader voter integrity agenda despite the mounting defeats."
+            ],
+            "twoColumnContent": {
+              "left": [
+                "The Justice Department did not respond to requests for comment following Friday's ruling. Rhode Island officials are expected to address the outcome in the coming days. The case stands as a significant checkpoint in the ongoing legal battle over the boundaries of federal election oversight authority."
+              ],
+              "rightQuote": {
+                "text": "This request is unprecedented. The department has not shown it is entitled to conduct the kind of inquiry it seeks here.",
+                "author": "U.S. District Judge Mary McElroy"
+              }
+            },
+            "conclusion": [
+              "As the legal challenges continue to multiply across the country, Friday's ruling reinforces a clear judicial trend: federal courts are drawing firm limits on how far the executive branch can reach into state-administered electoral systems, and the burden of justifying those intrusions is one the Trump administration has so far struggled to meet."
+            ]
+          }
+        ]
+      },
+      "seoKeywords": [
+        "DOJ Rhode Island voter data ruling 2026",
+        "Judge McElroy voter data decision",
+        "Trump administration voter records lawsuit",
+        "Rhode Island Secretary of State voter files",
+        "Justice Department election integrity voter data",
+        "NVRA voter data federal court ruling",
+        "Gregg Amore Rhode Island voter data",
+        "federal judge rejects voter data request",
+        "DOJ voter rolls lawsuit dismissed",
+        "election integrity lawsuit 2026 Rhode Island"
+      ],
+      "alternativeHeadlines": [
+        "Federal Court Rules DOJ Overstepped in Demand for Rhode Island Voter Files",
+        "Rhode Island Judge Blocks Trump Administration's Access to 750,000 Voter Records",
+        "Another Court Rejects DOJ Push for Private Voter Data in Election Integrity Fight"
+      ],
+      "category": "civil-rights",
+      "tags": [
+        "Justice Department",
+        "voter data",
+        "Rhode Island",
+        "election integrity",
+        "Mary McElroy",
+        "Gregg Amore",
+        "voter privacy",
+        "Trump administration",
+        "federal courts",
+        "NVRA",
+        "voter rolls",
+        "civil liberties",
+        "election law",
+        "DHS",
+        "New England"
+      ],
+      "seoAnalysis": {
+        "contentGaps": [
+          "Explainer: What data is actually in a state voter file and why it matters",
+          "Timeline of every state that has resisted or complied with DOJ voter data demands",
+          "How states currently maintain their own voter rolls — and what that process looks like",
+          "Legal analysis: The full history and intent of the Civil Rights Act of 1960 provision DOJ relied on",
+          "Impact on 2026 midterms: What the wave of voter data rulings means for election administration"
+        ],
+        "highIntentKeywords": [
+          "DOJ voter data lawsuit states 2026",
+          "Trump voter records demand ruled illegal",
+          "can federal government access state voter files",
+          "Rhode Island voter data case outcome",
+          "which states rejected DOJ voter data request",
+          "NVRA federal authority voter records",
+          "Help America Vote Act voter data access",
+          "voter privacy federal court ruling 2026",
+          "election integrity lawsuit dismissed",
+          "DOJ voter roll access denied",
+          "state voter file privacy rights",
+          "federal government voter data overreach",
+          "Rhode Island election law 2026",
+          "Gregg Amore voter data decision",
+          "Trump administration election data collection",
+          "Mary McElroy federal ruling voter data",
+          "DHS voter citizenship cross-check program",
+          "voter suppression federal overreach 2026",
+          "election integrity legal challenge ruling",
+          "unredacted voter file Social Security number access"
+        ],
+        "longTailKeywords": [
+          "can the Justice Department force a state to hand over voter data",
+          "what happened in the Rhode Island voter data case 2026",
+          "why did the judge reject the DOJ voter records request",
+          "which states have won against Trump voter data lawsuits",
+          "what does the National Voter Registration Act say about federal access",
+          "what personal data is included in a state voter file",
+          "how does DHS use voter data to check citizenship status",
+          "what is the Civil Rights Act of 1960 voter records provision",
+          "Rhode Island Secretary of State response to DOJ voter data request",
+          "what does election integrity voter data collection mean for 2026 midterms"
+        ]
+      }
     }
   ],
 

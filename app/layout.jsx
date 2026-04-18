@@ -218,6 +218,7 @@ export default function RootLayout({ children }) {
             })(window, document, "clarity", "script", "wd1melkbal");
           `}
         </Script>
+
       </body>
     </html>
   );
