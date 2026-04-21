@@ -6994,114 +6994,277 @@
       ]
     },
     {
-  "id": 9,
-  "metaTitle": "Supreme Court Clears Path to Dismiss Bannon Contempt Case",
-  "metaDescription": "The U.S. Supreme Court vacated a ruling upholding Steve Bannon’s contempt conviction, allowing the Justice Department to move toward dismissing the case.",
-  "slug": "supreme-court-clears-path-to-dismiss-bannon-contempt-case",
-  "heading": "Supreme Court Opens Door for Dismissal of Steve Bannon Contempt Case",
-  "excerpt": "The U.S. Supreme Court on Monday vacated an appeals court decision that had upheld Steve Bannon’s conviction for defying a congressional subpoena, paving the way for the Justice Department to drop the case.",
-  "date": "07 Apr, 2026",
-  "image": "/images/supreme-court-clears-path-to-dismiss-bannon-contempt-case.webp",
-  "alt": "Supreme Court building with scales of justice and Steve Bannon file photo",
-  "heroImage": "/images/supreme-court-clears-path-to-dismiss-bannon-contempt-case.webp",
-  "caseInformation": {
-    "countryState": "United States / Federal (U.S. Supreme Court)",
-    "caseNumber": "23-1134 (Bannon v. United States)",
-    "status": {
-      "accusation": "Contempt of Congress for refusing to comply with a subpoena from the House select committee investigating the January 6, 2021, Capitol attack.",
-      "onTrial": "Convicted in 2022; conviction upheld by D.C. Circuit on appeal.",
-      "currentStatus": "Supreme Court vacated the appeals court ruling on April 6, 2026.",
-      "outcome": "Case remanded for further proceedings in light of the Justice Department’s motion to dismiss the indictment."
-    }
-  },
-  "body": {
-    "dropcap": {
-      "letter": "T",
-      "text": "he U.S. Supreme Court on Monday vacated a lower court ruling that had upheld Steve Bannon’s conviction for contempt of Congress, clearing the way for the Trump administration’s Justice Department to move forward with dismissing the case."
-    },
-    "paragraphs": [
-      "Bannon, a longtime Trump ally and former White House strategist, was convicted by a jury in 2022 on two counts of contempt of Congress. He had refused to provide documents or testimony to the Democratic-led House select committee investigating the January 6, 2021, attack on the Capitol.",
-      "The Supreme Court issued a brief unsigned order with no noted dissents, sending the case back to the lower court for further consideration in light of the Justice Department’s pending motion to dismiss the indictment. The department has stated that dismissal would be in the interests of justice.",
-      "Bannon already served a four-month prison sentence in 2024 at a federal facility in Danbury, Connecticut, after his appeals failed to keep him out of custody while the case continued. The expected dismissal would remove the conviction from his record, though the practical effect is largely symbolic at this stage."
-    ],
-    "quote": {
-      "text": "It has been one battle after another for five years, but today the Supreme Court vacated an unjust conviction, and in doing so validated a fundamental rule – like oil and water, politics and prosecution don’t mix.",
-      "author": "M. Evan Corcoran, attorney for Steve Bannon"
-    },
-    "sections": [
-      {
-        "type": "imageWithText",
-        "text": [
-          "The ruling is the latest in a series of actions by the Justice Department under the current administration that have benefited Trump allies. Bannon, 72, served as chief strategist in Trump’s first term and has remained a prominent voice in right-wing media through his “War Room” podcast.",
-          "He has described himself as a political prisoner and resumed his media work shortly after his release from prison, just before Trump’s victory in the 2024 election."
-        ],
-        "image": {
-          "url": "/images/steve-bannon-supreme-court-ruling.webp",
-          "alt": "Steve Bannon speaking at a public event"
-        },
-        "additionalText": [
-          "Bannon had argued that the subpoena was politically motivated and that executive privilege protected him from complying. The House committee had sought his communications related to the events surrounding January 6."
-        ]
+      "id": 9,
+      "metaTitle": "Supreme Court Clears Path to Dismiss Bannon Contempt Case",
+      "metaDescription": "The U.S. Supreme Court vacated a ruling upholding Steve Bannon’s contempt conviction, allowing the Justice Department to move toward dismissing the case.",
+      "slug": "supreme-court-clears-path-to-dismiss-bannon-contempt-case",
+      "heading": "Supreme Court Opens Door for Dismissal of Steve Bannon Contempt Case",
+      "excerpt": "The U.S. Supreme Court on Monday vacated an appeals court decision that had upheld Steve Bannon’s conviction for defying a congressional subpoena, paving the way for the Justice Department to drop the case.",
+      "date": "07 Apr, 2026",
+      "image": "/images/supreme-court-clears-path-to-dismiss-bannon-contempt-case.webp",
+      "alt": "Supreme Court building with scales of justice and Steve Bannon file photo",
+      "heroImage": "/images/supreme-court-clears-path-to-dismiss-bannon-contempt-case.webp",
+      "caseInformation": {
+        "countryState": "United States / Federal (U.S. Supreme Court)",
+        "caseNumber": "23-1134 (Bannon v. United States)",
+        "status": {
+          "accusation": "Contempt of Congress for refusing to comply with a subpoena from the House select committee investigating the January 6, 2021, Capitol attack.",
+          "onTrial": "Convicted in 2022; conviction upheld by D.C. Circuit on appeal.",
+          "currentStatus": "Supreme Court vacated the appeals court ruling on April 6, 2026.",
+          "outcome": "Case remanded for further proceedings in light of the Justice Department’s motion to dismiss the indictment."
+        }
       },
-      {
-        "type": "twoColumnLayout",
-        "title": "Background on the Case",
-        "mainContent": [
-          "The contempt charges stemmed from Bannon’s refusal to cooperate with the January 6 committee’s subpoena. Prosecutors argued his actions were willful. He was sentenced to four months in prison and a fine, though the sentence was delayed during appeals.",
-          "The Justice Department under the Biden administration pursued the case, while the current administration has taken the position that continuing the prosecution is not in the interests of justice."
-        ],
-        "showMoreRead": true
-      },
-      {
-        "type": "fullWidth",
-        "title": "Broader Context",
-        "content": [
-          "This development fits into a pattern of the Justice Department seeking to dismiss or resolve cases involving Trump associates. Similar steps have been taken in other high-profile matters involving former administration officials."
-        ],
-        "image": {
-          "url": "/images/us-supreme-court-building-justice.webp",
-          "alt": "Exterior view of the U.S. Supreme Court building"
+      "body": {
+        "dropcap": {
+          "letter": "T",
+          "text": "he U.S. Supreme Court on Monday vacated a lower court ruling that had upheld Steve Bannon’s conviction for contempt of Congress, clearing the way for the Trump administration’s Justice Department to move forward with dismissing the case."
         },
-        "subsections": [
+        "paragraphs": [
+          "Bannon, a longtime Trump ally and former White House strategist, was convicted by a jury in 2022 on two counts of contempt of Congress. He had refused to provide documents or testimony to the Democratic-led House select committee investigating the January 6, 2021, attack on the Capitol.",
+          "The Supreme Court issued a brief unsigned order with no noted dissents, sending the case back to the lower court for further consideration in light of the Justice Department’s pending motion to dismiss the indictment. The department has stated that dismissal would be in the interests of justice.",
+          "Bannon already served a four-month prison sentence in 2024 at a federal facility in Danbury, Connecticut, after his appeals failed to keep him out of custody while the case continued. The expected dismissal would remove the conviction from his record, though the practical effect is largely symbolic at this stage."
+        ],
+        "quote": {
+          "text": "It has been one battle after another for five years, but today the Supreme Court vacated an unjust conviction, and in doing so validated a fundamental rule – like oil and water, politics and prosecution don’t mix.",
+          "author": "M. Evan Corcoran, attorney for Steve Bannon"
+        },
+        "sections": [
           {
-            "title": "Key Facts",
+            "type": "imageWithText",
             "text": [
-              "Convicted in 2022 on two counts of contempt of Congress.",
-              "Served four-month sentence in 2024.",
-              "Supreme Court vacated appeals court ruling on April 6, 2026.",
-              "Case involves subpoena related to January 6 investigation."
+              "The ruling is the latest in a series of actions by the Justice Department under the current administration that have benefited Trump allies. Bannon, 72, served as chief strategist in Trump’s first term and has remained a prominent voice in right-wing media through his “War Room” podcast.",
+              "He has described himself as a political prisoner and resumed his media work shortly after his release from prison, just before Trump’s victory in the 2024 election."
             ],
-            "checklist": [
-              "No explanation or dissents noted in Supreme Court order",
-              "Justice Department filed motion to dismiss earlier this year",
-              "Dismissal would erase the conviction from Bannon’s record",
-              "Bannon remains active in conservative media and politics"
+            "image": {
+              "url": "/images/steve-bannon-supreme-court-ruling.webp",
+              "alt": "Steve Bannon speaking at a public event"
+            },
+            "additionalText": [
+              "Bannon had argued that the subpoena was politically motivated and that executive privilege protected him from complying. The House committee had sought his communications related to the events surrounding January 6."
+            ]
+          },
+          {
+            "type": "twoColumnLayout",
+            "title": "Background on the Case",
+            "mainContent": [
+              "The contempt charges stemmed from Bannon’s refusal to cooperate with the January 6 committee’s subpoena. Prosecutors argued his actions were willful. He was sentenced to four months in prison and a fine, though the sentence was delayed during appeals.",
+              "The Justice Department under the Biden administration pursued the case, while the current administration has taken the position that continuing the prosecution is not in the interests of justice."
+            ],
+            "showMoreRead": true
+          },
+          {
+            "type": "fullWidth",
+            "title": "Broader Context",
+            "content": [
+              "This development fits into a pattern of the Justice Department seeking to dismiss or resolve cases involving Trump associates. Similar steps have been taken in other high-profile matters involving former administration officials."
+            ],
+            "image": {
+              "url": "/images/us-supreme-court-building-justice.webp",
+              "alt": "Exterior view of the U.S. Supreme Court building"
+            },
+            "subsections": [
+              {
+                "title": "Key Facts",
+                "text": [
+                  "Convicted in 2022 on two counts of contempt of Congress.",
+                  "Served four-month sentence in 2024.",
+                  "Supreme Court vacated appeals court ruling on April 6, 2026.",
+                  "Case involves subpoena related to January 6 investigation."
+                ],
+                "checklist": [
+                  "No explanation or dissents noted in Supreme Court order",
+                  "Justice Department filed motion to dismiss earlier this year",
+                  "Dismissal would erase the conviction from Bannon’s record",
+                  "Bannon remains active in conservative media and politics"
+                ]
+              }
+            ]
+          },
+          {
+            "type": "finalSection",
+            "title": "What Happens Next",
+            "intro": [
+              "The case now returns to the lower court, where a judge is widely expected to grant the Justice Department’s motion to dismiss the indictment."
+            ],
+            "twoColumnContent": {
+              "left": [
+                "While the conviction would be wiped away, Bannon has faced other legal challenges, including a separate fraud case in New York related to a border wall fundraising effort."
+              ],
+              "rightQuote": {
+                "text": "The department’s decision to drop Bannon’s case was one of multiple actions it has taken that have benefited allies and supporters of the Republican president.",
+                "author": "Court filings and reporting"
+              }
+            },
+            "conclusion": [
+              "Legal observers note that such dismissals in politically charged cases often spark debate about the independence of the justice system, though the Supreme Court’s brief order provided no detailed reasoning."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 10,
+      "metaTitle": "Supreme Court Rejects Mass. School Gender Identity Challenge",
+      "metaDescription": "The U.S. Supreme Court declined to hear a Massachusetts parents' challenge to a school district's gender identity privacy policy, letting the lower court ruling stand.",
+      "slug": "supreme-court-rejects-massachusetts-school-gender-identity-challenge",
+      "heading": "US Supreme Court Refuses to Hear Massachusetts School Gender Identity Policy Challenge",
+      "excerpt": "The U.S. Supreme Court on Monday turned away an appeal from Massachusetts parents who argued that a public school district violated their constitutional rights by supporting their child's gender identity without notifying them.",
+      "date": "20 Apr, 2026",
+      "image": "/images/supreme-court-rejects-massachusetts-school-gender-identity-challenge.webp",
+      "alt": "U.S. Supreme Court building with a rainbow flag and school hallway in background",
+      "heroImage": "/images/supreme-court-rejects-massachusetts-school-gender-identity-challenge.webp",
+      "caseInformation": {
+        "countryState": "United States / Massachusetts (1st U.S. Circuit Court of Appeals)",
+        "caseNumber": "No. 25-77 (Foote v. Ludlow School Committee) | Lower Court: No. 23-1069 (1st Cir.)",
+        "status": {
+          "accusation": "Parents alleged school officials violated their 14th Amendment due process rights by supporting their child's gender identity and withholding that information without parental consent.",
+          "onTrial": "Federal lawsuit filed in 2022; dismissed by district court; dismissal upheld by 1st U.S. Circuit Court of Appeals in 2025.",
+          "currentStatus": "U.S. Supreme Court declined to hear appeal on April 20, 2026.",
+          "outcome": "Lower court ruling stands; parents' lawsuit remains dismissed. No Supreme Court precedent established."
+        }
+      },
+      "body": {
+        "dropcap": {
+          "letter": "T",
+          "text": "he U.S. Supreme Court on Monday declined to take up a closely watched case out of Massachusetts in which parents sued a public school district for supporting their child's gender identity without their knowledge, leaving intact a lower court decision that had sided with the school."
+        },
+        "paragraphs": [
+          "The justices offered no explanation for their decision not to hear the appeal, as is standard practice when the court turns away a case. The move effectively preserves a ruling by the Boston-based 1st U.S. Circuit Court of Appeals, which had upheld a lower court's dismissal of the lawsuit brought by Stephen Foote and Marissa Silvestri, parents of a student who attended Baird Middle School in Ludlow, Massachusetts.",
+          "The parents had argued that school officials crossed a constitutional line when they honored their child's request to use a different name and set of pronouns at school — without telling the parents. Their child, identified in court documents only as 'B.F.,' had begun identifying as genderqueer, a term used to describe individuals who do not align with traditional binary gender norms, around the age of 11.",
+          "According to court filings, the student asked school staff to use a chosen name and different pronouns while also requesting that teachers and officials continue referring to the child by their birth name and original pronouns when in contact with the parents. School personnel complied with both requests."
+        ],
+        "quote": {
+          "text": "Parents remain free to strive to mold their child according to the parents' own beliefs.",
+          "author": "1st U.S. Circuit Court of Appeals, 2025 ruling"
+        },
+        "sections": [
+          {
+            "type": "imageWithText",
+            "text": [
+              "The parents, represented by the Alliance Defending Freedom — a prominent conservative Christian legal organization — contended that the school's conduct amounted to a violation of their fundamental rights under the 14th Amendment's Due Process Clause. The Supreme Court has long recognized that parents have a constitutionally protected interest in directing the upbringing and care of their children, and Foote and Silvestri argued those rights were undermined when the school withheld critical information about their child's social transition.",
+              "Their lawsuit, filed in 2022, named the town of Ludlow, the Ludlow School Committee, and several school officials as defendants. A federal district court dismissed the case that same year, finding that the parents had not made a sufficient legal claim. The 1st Circuit affirmed that dismissal in 2025, reasoning that the school's use of a different name and pronouns for the student did not constitute medical treatment, and therefore did not infringe on the parents' right to direct their child's healthcare."
+            ],
+            "image": {
+              "url": "/images/baird-middle-school-ludlow-massachusetts.webp",
+              "alt": "Exterior view of Baird Middle School in Ludlow, Massachusetts"
+            },
+            "additionalText": [
+              "The appeals court also emphasized that the school's deference to the student's privacy wishes did not prevent parents from exercising their authority at home. The policy, the court noted, simply allowed students to express their identity at school without fear of backlash, and placed no legal restraint on what parents could do or say outside the school environment."
+            ]
+          },
+          {
+            "type": "twoColumnLayout",
+            "title": "A Broader National Debate",
+            "mainContent": [
+              "The case is far from an isolated dispute. Across the United States, school districts, state legislatures, and courts have been grappling with how to balance the privacy interests of transgender and gender-nonconforming students against the rights of parents to be informed about their children's lives at school. The outcomes have varied dramatically depending on jurisdiction.",
+              "Just last month, on March 2, 2026, the Supreme Court took a notably different approach in a California case, blocking a state policy that would have limited the circumstances under which school officials could share information about a student's gender identity with parents without the child's permission. That decision signaled that at least some justices are willing to intervene in this arena — though Monday's denial suggests the court may be selective about which cases it uses to set precedent.",
+              "The Supreme Court also declined to hear similar parental rights challenges originating from Wisconsin and Maryland back in 2024, indicating a pattern of allowing lower court decisions in this area to stand rather than using the high court's docket to resolve the national debate definitively."
+            ],
+            "showMoreRead": true
+          },
+          {
+            "type": "fullWidth",
+            "title": "Legal Arguments and Parental Rights",
+            "content": [
+              "At the heart of the Ludlow case is a question that courts have been reluctant to answer directly: does a school's decision to honor a student's gender identity — including using a different name or pronouns — without parental notification constitute a violation of constitutional parental rights?",
+              "The 1st Circuit's answer was essentially no, at least on the facts presented. The court was not persuaded that the school's use of affirming language was equivalent to providing medical care, which is the area in which parental rights receive the strongest constitutional protection. The parents had argued that facilitating a 'gender transition' — even a social one limited to names and pronouns — was inherently a medical matter that required their involvement and consent.",
+              "The Alliance Defending Freedom, in its Supreme Court filings on behalf of the parents, pushed back hard against that reasoning. The organization argued that by actively concealing the child's evolving gender identity from the family, school officials effectively inserted themselves into a deeply personal family matter and disrupted the parent-child relationship in ways that carry lasting consequences."
+            ],
+            "image": {
+              "url": "/images/alliance-defending-freedom-supreme-court-case.webp",
+              "alt": "Alliance Defending Freedom legal team outside the Supreme Court"
+            },
+            "subsections": [
+              {
+                "title": "Key Facts",
+                "text": [
+                  "Case name: Foote v. Ludlow School Committee, No. 25-77.",
+                  "Student identified as genderqueer at approximately age 11.",
+                  "School honored student's request for confidentiality from parents.",
+                  "Lower courts found no constitutional violation by the school."
+                ],
+                "checklist": [
+                  "Supreme Court issued no written explanation for denial",
+                  "Alliance Defending Freedom represented the parents",
+                  "1st Circuit ruled school policy did not constitute medical treatment",
+                  "Similar challenges in Wisconsin and Maryland also rejected in 2024"
+                ]
+              }
+            ]
+          },
+          {
+            "type": "finalSection",
+            "title": "Where This Leaves Schools and Families",
+            "intro": [
+              "With the Supreme Court declining to step in, school districts in the 1st Circuit — which covers Maine, Massachusetts, New Hampshire, Puerto Rico, and Rhode Island — can take some comfort that their gender-supportive confidentiality policies are on solid legal ground, at least for now. Nationally, however, the picture remains murky.",
+                "The high court's broader track record on transgender issues has been mixed. In June 2025, the justices upheld a Tennessee law restricting gender-affirming medical care for minors, a significant win for states seeking to limit such treatments. A ruling on whether states can bar transgender athletes from female sports teams is also still pending, and that outcome could further shape the legal landscape for gender-related policies in schools."
+            ],
+            "twoColumnContent": {
+              "left": [
+                "Meanwhile, the Trump administration has been actively pushing to roll back protections for transgender individuals across federal agencies and institutions, adding political pressure to an already charged legal environment. Executive orders and agency guidance have sought to redefine gender in binary terms for federal purposes, with implications rippling through education, healthcare, and employment policy."
+              ],
+              "rightQuote": {
+                "text": "The deference by school officials to the wishes of students about whether to disclose their gender identity to parents allows the children to express their identity without worrying about parental backlash.",
+                "author": "1st U.S. Circuit Court of Appeals"
+              }
+            },
+            "conclusion": [
+              "For Foote and Silvestri, Monday's decision marks the end of a legal road that began in 2022. Their case drew national attention and became a rallying point for parental rights advocates who argue that schools have overstepped their bounds in matters of gender and identity. While the Supreme Court's silence is not a ruling on the merits, it leaves the 1st Circuit's reasoning in place — a result that supporters of student privacy are calling a significant, if quiet, victory.",
+              "The debate itself, however, shows no signs of quieting. With multiple cases working their way through federal courts, fresh state legislation emerging regularly, and a deeply divided national conversation showing no signs of resolution, the question of how public schools navigate gender identity between students and their parents is likely to land before the high court again — perhaps on terms that make it harder to decline."
             ]
           }
         ]
       },
-      {
-        "type": "finalSection",
-        "title": "What Happens Next",
-        "intro": [
-          "The case now returns to the lower court, where a judge is widely expected to grant the Justice Department’s motion to dismiss the indictment."
-        ],
-        "twoColumnContent": {
-          "left": [
-            "While the conviction would be wiped away, Bannon has faced other legal challenges, including a separate fraud case in New York related to a border wall fundraising effort."
-          ],
-          "rightQuote": {
-            "text": "The department’s decision to drop Bannon’s case was one of multiple actions it has taken that have benefited allies and supporters of the Republican president.",
-            "author": "Court filings and reporting"
-          }
-        },
-        "conclusion": [
-          "Legal observers note that such dismissals in politically charged cases often spark debate about the independence of the justice system, though the Supreme Court’s brief order provided no detailed reasoning."
-        ]
-      }
-    ]
-  }
-}
+      "seoTitle": "Supreme Court Rejects Mass. School Gender Policy Case",
+      "seoMetaDescription": "The Supreme Court declined to hear a challenge by Massachusetts parents who sued over a school's gender identity privacy policy, letting the lower ruling stand.",
+      "seoSlug": "supreme-court-rejects-massachusetts-school-gender-identity-challenge",
+      "seoKeywords": [
+        "Supreme Court gender identity school policy",
+        "Massachusetts school transgender student case",
+        "Foote v Ludlow School Committee",
+        "parental rights gender identity schools",
+        "school gender privacy policy Supreme Court",
+        "transgender student rights Massachusetts",
+        "Alliance Defending Freedom Supreme Court",
+        "14th Amendment parental rights schools",
+        "genderqueer student school confidentiality",
+        "1st Circuit gender identity ruling"
+      ],
+      "alternativeHeadlines": [
+        "Supreme Court Lets Stand Ruling Backing Massachusetts School's Gender Identity Policy",
+        "High Court Refuses Massachusetts Parents' Bid to Sue Over School's Gender Privacy Rules",
+        "Justices Decline Case Pitting Parental Rights Against Student Gender Privacy in Massachusetts"
+      ],
+      "contentGaps": [
+        "How individual school districts across the U.S. are drafting gender identity notification policies in the absence of Supreme Court guidance",
+        "A state-by-state breakdown of laws requiring or prohibiting parental notification of student gender identity changes at school",
+        "The psychological and developmental research on the effects of gender-affirming school environments on student well-being",
+        "How the Alliance Defending Freedom's broader legal strategy on transgender school cases is evolving after this denial",
+        "What the pending Supreme Court ruling on transgender athletes in female sports could mean for school gender identity policies more broadly"
+      ],
+      "buyerIntentKeywords": [
+        "can schools hide student gender identity from parents",
+        "parental rights transgender student school policy",
+        "Supreme Court transgender student ruling 2026",
+        "school gender identity notification law by state",
+        "is it legal for schools to use different pronouns without parental consent",
+        "Foote v Ludlow School Committee decision",
+        "Alliance Defending Freedom gender identity school cases",
+        "Massachusetts transgender student privacy law",
+        "how to challenge school gender policy legally",
+        "1st Circuit Court transgender student ruling explained",
+        "gender identity school policy parental rights lawsuit",
+        "Supreme Court parental rights 14th Amendment school",
+        "do parents have the right to know about child gender transition at school",
+        "genderqueer student school rights United States",
+        "school district gender affirmation policy legal challenge",
+        "what happens when schools use different pronouns without telling parents",
+        "transgender minor rights school confidentiality policy",
+        "Supreme Court 2026 gender identity education case",
+        "parental notification transgender policy First Circuit",
+        "conservative legal challenge gender ideology public schools"
+      ]
+    }
   ], 
 
   "us-news": [
