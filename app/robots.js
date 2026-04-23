@@ -6,6 +6,7 @@ export default function robots() {
       {
         userAgent: "*",           // Applies to all crawlers (Google, Bing, etc.)
         allow: "/",               // Allow full access to the site
+        disallow: ["/_next/"], // Block Next.js internal paths
         // If you want to block specific paths in the future, uncomment and customize:
         // disallow: ["/admin/", "/private/", "/preview/"],
       },
