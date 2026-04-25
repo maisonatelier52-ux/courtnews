@@ -6657,6 +6657,107 @@
           "what does election integrity voter data collection mean for 2026 midterms"
         ]
       }
+    },
+    {
+      "id": 11,
+      "metaTitle": "Alaska Sued Over Sharing Voter Data With DOJ",
+      "metaDescription": "Civil rights groups sue Alaska election officials, alleging the state unconstitutionally handed unredacted voter registration data to the Justice Department without due process.",
+      "slug": "alaska-voter-data-doj-lawsuit-unconstitutional-civil-rights",
+      "heading": "Groups Sue Alaska Election Officials Over Handing Voter Data to the Justice Department",
+      "excerpt": "The League of Women Voters of Alaska and the Alaska Black Caucus filed suit against state election officials Wednesday, alleging the transfer of unredacted voter records to the DOJ violates Alaska's constitution.",
+      "date": "25 Apr, 2026",
+      "image": "/images/alaska-voter-data-doj-lawsuit.webp",
+      "alt": "Alaska Division of Elections office exterior with voting rights protest signs",
+      "heroImage": "/images/alaska-voter-data-doj-lawsuit.webp",
+      "body": {
+        "dropcap": {
+          "letter": "T",
+          "text": "here is something deeply uncomfortable about a state quietly handing over its most sensitive voter information to the federal government — no public debate, no court order, just a signed agreement and a data transfer. That is exactly what happened in Alaska, and now a coalition of civil rights organizations is asking a judge to do what state officials would not: protect the people."
+        },
+        "paragraphs": [
+          "The League of Women Voters of Alaska and the Alaska Black Caucus filed suit Wednesday in state court against the Alaska Division of Elections, naming Lt. Gov. Nancy Dahlstrom and division Director Carol Beecher as defendants. The core allegation is straightforward but serious — Alaska handed the U.S. Department of Justice a full, unredacted voter registration list, complete with dates of birth, driver's license numbers, and partial Social Security numbers, without the constitutional authority to do so.",
+          "What separates Alaska from other states caught in this same Justice Department data sweep is the agreement it actually signed. Alaska and Texas went further than simply providing records — they entered memoranda of understanding giving the DOJ authority to analyze voter files, flag irregularities, and direct which registrations should potentially be removed."
+        ],
+        "quote": {
+          "text": "Rather than fiercely defending the rights of Alaska's voters, our Division of Elections acceded to federal overreach. Now, we are asking the court to step in and ensure that DOE upholds its constitutional and legal obligations to Alaskans.",
+          "author": "Eric Glatt, Legal Director, ACLU of Alaska"
+        },
+        "sections": [
+          {
+            "type": "imageWithText",
+            "text": [
+              "The lawsuit alleges that handing over personal voter data violates the right to privacy guaranteed under the Alaska state constitution. It further argues that the memorandum of understanding violates due process by allowing the Justice Department to flag voters for removal without any notice to the affected voters or any process for them to challenge those decisions.",
+              "The ACLU of Alaska, the ACLU Voting Rights Project, and the Electronic Privacy Information Center are representing the plaintiffs. They are asking a judge to void the agreement entirely and require the elections division to make every reasonable effort to ensure the Justice Department destroys all copies of the data already transferred."
+            ],
+            "image": {
+              "url": "/images/alaska-voter-data-doj-lawsuit-si.webp",
+              "alt": "Voter registration forms and Alaska state seal on a government desk"
+            },
+            "additionalText": [
+              "The state Department of Law defended the transfer, saying Alaska statutes expressly permit sharing voter information for authorized governmental purposes and that the department intends to defend that statute in court."
+            ]
+          },
+          {
+            "type": "twoColumnLayout",
+            "title": "What Happened and How the State Responded",
+            "mainContent": [
+              "Alaska is one of at least 12 states that provided detailed voter information — including sensitive personal identifiers — to the Trump administration. In Rhode Island, Justice Department attorneys acknowledged the data was being sought so it could be shared with the Department of Homeland Security to check citizenship status.",
+              "During a legislative hearing last month, a state Department of Law attorney told lawmakers Alaska had a compelling interest to comply, citing a mutual interest in maintaining accurate and current voter rolls. The plaintiffs argue that framing is irreconcilable with the plain language of the agreement Alaska actually signed."
+            ],
+            "showMoreRead": true
+          },
+          {
+            "type": "fullWidth",
+            "title": "Federal Courts and the Broader National Fight",
+            "content": [
+              "Federal judges in California, Massachusetts, Michigan, Oregon, and Rhode Island have already rejected Justice Department efforts to compel voter data from states that refused to comply. The department has sued at least 30 states and the District of Columbia in pursuit of unredacted voter files, making this one of the most sweeping federal election data efforts in recent memory."
+            ],
+            "image": {
+              "url": "/images/alaska-voter-data-doj-lawsuit-ti.webp",
+              "alt": "Federal courthouse steps with voting rights advocates gathered outside"
+            },
+            "subsections": [
+              {
+                "title": "Key Facts From the Alaska Lawsuit",
+                "text": [
+                  "The suit was filed in Alaska state court, not federal court, grounding the claims directly in the Alaska constitution's privacy protections.",
+                  "Alaska and Texas are the only states known to have signed agreements giving the DOJ a role in flagging and directing voter removal.",
+                  "The lawsuit states that under Alaska law, a voter's registration can only be promptly canceled upon death or felony conviction — not federal flagging.",
+                  "At least four separate federal lawsuits have also been filed nationally to stop the DOJ from collecting or using unredacted voter data."
+                ],
+                "checklist": [
+                  "Unredacted data included birthdates, license numbers, and partial SSNs",
+                  "Agreement gave DOJ power to flag voters for removal",
+                  "No notice or challenge process guaranteed for affected voters",
+                  "Plaintiffs seek full destruction of already-transferred data"
+                ],
+                "additionalText": [
+                  "The Justice Department has not publicly commented on the Alaska state court lawsuit, though it has aggressively pursued voter data litigation across the country in recent months."
+                ]
+              }
+            ]
+          },
+          {
+            "type": "finalSection",
+            "title": "Why This Case Goes Beyond Alaska",
+            "intro": [
+              "The Alaska lawsuit reflects a deepening conflict between state election authority and federal executive power — one playing out in courtrooms across the country. At its core, it raises a question that does not have an easy answer: when a state voluntarily hands sensitive voter data to the federal government, who is responsible for what happens to it next?"
+            ],
+            "twoColumnContent": {
+              "left": [
+                "For Black voters, Indigenous voters, and naturalized citizens in Alaska, this is not an abstract legal dispute. Voter roll purges have a documented history in this country, and that history has never fallen equally on everyone. When a federal agency gains the power to flag registrations without transparent standards and without guaranteed notice to the voter, the communities most at risk are rarely the powerful ones."
+              ],
+              "rightQuote": {
+                "text": "To ensure the integrity of elections, there was a mutual interest in maintaining voter rolls that were accurate and current.",
+                "author": "Rachel Witty, Alaska Department of Law Attorney"
+              }
+            },
+            "conclusion": [
+              "As this case moves through Alaska's state courts, it will test whether a state constitution's privacy protections can serve as a meaningful brake on federal data collection — and whether the voters whose information was already transferred will ever get it back."
+            ]
+          }
+        ]
+      }
     }
   ],
 
