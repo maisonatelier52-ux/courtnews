@@ -7953,6 +7953,118 @@
         "parental notification transgender policy First Circuit",
         "conservative legal challenge gender ideology public schools"
       ]
+    },
+    {
+      "id": 12,
+      "metaTitle": "US Judges Split as AI Creeps Into Courtrooms",
+      "metaDescription": "Federal judges debate AI's growing role in courts as hallucinations taint filings and two judges retract opinions riddled with AI-generated errors.",
+      "slug": "us-judges-weigh-ai-risks-judicial-work",
+      "heading": "US Judges Wrestle With AI's Expanding Role in Courts",
+      "excerpt": "As artificial intelligence infiltrates American courtrooms, judges are drawing battle lines — some banning it outright, others racing to build guardrails before the technology outpaces the law.",
+      "date": "27 Apr, 2026",
+      "image": "/images/us-judges-weigh-ai-risks-judicial-work.webp",
+      "alt": "Federal courthouse interior with gavel and AI circuit graphic overlay",
+      "heroImage": "/images/us-judges-weigh-ai-risks-judicial-work.webp",
+      "caseInformation": {
+        "countryState": "United States / Federal & State Courts",
+        "caseNumber": "Multiple proceedings; no single docket",
+        "status": {
+          "accusation": "AI-generated errors and hallucinations have corrupted court filings and at least two federal judicial opinions.",
+          "onTrial": "Judiciary-wide debate over adopting formal AI policies versus leaving judges to self-regulate.",
+          "currentStatus": "No uniform national standard; courts acting independently.",
+          "outcome": "Ongoing — ABA guidelines issued; individual judges setting chamber-level rules."
+        }
+      },
+      "body": {
+        "dropcap": {
+          "letter": "A",
+          "text": "t a federal courthouse outside Washington, a Maryland magistrate judge runs what he calls a generative AI-free chambers — a deliberate stand against a technology that roughly 60 percent of his federal colleagues have already quietly adopted."
+        },
+        "paragraphs": [
+          "U.S. Magistrate Judge Ajmel Quereshi told a conference on AI and the judiciary Friday that his job demands something machines cannot replicate: understanding the full life of a case, weighing unique facts against settled law, and producing writing that reflects genuine human judgment.",
+          "His view is a minority one. A Northwestern University study released last month found that about 60 percent of federal judges use at least one AI tool in their work, while roughly 20 percent have formally banned it and another 17 percent discourage but do not prohibit its use."
+        ],
+        "quote": {
+          "text": "AI is changing how courts and judges do the work that we do — it should not be feared, but it must be addressed head-on.",
+          "author": "U.S. District Judge Lydia Kay Griggsby, Greenbelt Federal Court"
+        },
+        "sections": [
+          {
+            "type": "imageWithText",
+            "text": [
+              "The one-day conference in Greenbelt, Maryland, drew state and federal judges, attorneys, and legal scholars to confront a question that no court system has fully answered: how do you govern a technology that moves faster than the rules designed to contain it.",
+              "The urgency is not abstract. Dozens of attorneys have faced discipline for submitting AI-generated briefs riddled with fabricated citations. Since the start of 2025, more than 500 documented hallucination incidents have appeared in U.S. court filings. At least two federal judges — in New Jersey and Mississippi — retracted opinions last year after discovering AI errors had slipped through."
+            ],
+            "image": {
+              "url": "/images/us-judges-weigh-ai-risks-judicial-work-si.webp",
+              "alt": "Judge reviewing documents at bench with laptop and AI interface visible"
+            },
+            "additionalText": [
+              "A Connecticut attorney was fined $500 this year after AI-generated errors appeared in a wage suit filing — one of the smaller penalties in a growing disciplinary docket tied to unchecked AI use."
+            ]
+          },
+          {
+            "type": "twoColumnLayout",
+            "title": "A Judiciary Without Uniform Rules",
+            "mainContent": [
+              "Judge Griggsby announced plans to issue formal AI policies for her chambers, including specific guidance on when and how staff may use the technology. She acknowledged a generational reality: clerks and law students arriving in chambers already rely on AI and will default to it without direction.",
+              "Maryland Supreme Court Chief Justice Matthew Fader, delivering the conference keynote, said the retracted opinions from New Jersey and Mississippi were cautionary markers — evidence that AI errors do not stay confined to attorneys' offices but can reach the bench itself.",
+              "The American Bar Association has issued guidelines emphasizing that AI may assist judicial work but can never substitute for human judgment. Proposed changes to Federal Rule of Evidence 707 would require AI-generated content — including enhanced photos and voice recordings — to meet expert testimony standards before admission."
+            ],
+            "showMoreRead": true
+          },
+          {
+            "type": "fullWidth",
+            "title": "Key Cases Shaping AI in Court",
+            "content": [
+              "Several proceedings in recent months have forced the judiciary to confront AI's legal boundaries directly, from evidence authentication to attorney-client privilege."
+            ],
+            "image": {
+              "url": "/images/us-judges-weigh-ai-risks-judicial-work-ti.webp",
+              "alt": "Courtroom with digital evidence screen displaying AI-generated content warning"
+            },
+            "subsections": [
+              {
+                "title": "Rulings That Set the Tone",
+                "text": [
+                  "In February 2026, the Southern District of New York ruled in United States v. Bradley Heppner that a defendant's conversations with a public AI platform carry no attorney-client privilege protection.",
+                  "The U.S. Supreme Court declined in March to hear Thaler v. Perlmutter, leaving intact lower court holdings that copyright protection requires human authorship — AI-created works do not qualify.",
+                  "A federal magistrate in Colorado issued a protective order this month requiring a pro se litigant to disclose every AI platform used in the case and barring most mainstream tools without strict contractual safeguards."
+                ],
+                "checklist": [
+                  "60% of federal judges use at least one AI tool",
+                  "500+ hallucination incidents logged in filings since Jan. 2025",
+                  "Two federal opinions retracted due to AI errors in 2025",
+                  "ABA guidelines issued; no binding national judicial standard exists",
+                  "Proposed Rule 707 would subject AI evidence to expert scrutiny"
+                ],
+                "additionalText": [
+                  "Bias in algorithmic risk-assessment tools like COMPAS remains a separate fault line, with ongoing studies showing Black defendants are flagged as high-risk more often than white defendants with comparable records."
+                ]
+              }
+            ]
+          },
+          {
+            "type": "finalSection",
+            "title": "What Comes Next for Courts and AI",
+            "intro": [
+              "The conference produced no binding consensus, but it mapped the terrain of a debate that will define judicial administration for the next decade. The core tension is unchanged: AI offers speed and efficiency that an overburdened court system cannot easily refuse, while its failure modes — hallucinations, bias, privilege breaches — strike at the foundations of due process."
+            ],
+            "twoColumnContent": {
+              "left": [
+                "Judges who have embraced AI argue that transparent policies and staff training can contain the risks. Those who have banned it argue that no guardrail fully addresses the deeper problem: a technology that generates confident-sounding falsehoods is uniquely dangerous in a system where accuracy is not optional."
+              ],
+              "rightQuote": {
+                "text": "Those are not things that generative AI can do — understanding the life of a case, applying unique facts to law, and good writing.",
+                "author": "U.S. Magistrate Judge Ajmel Quereshi, Maryland"
+              }
+            },
+            "conclusion": [
+              "Until Congress acts or the Judicial Conference sets binding national standards, the American judiciary will remain a patchwork of chamber-by-chamber policies — each judge deciding, largely alone, how much of the future to let in."
+            ]
+          }
+        ]
+      }
     }
   ], 
 
