@@ -9171,7 +9171,94 @@
           }
         ]
       }
-    }
+    },
+    {
+  "id": 12,
+  "metaTitle": "U.S. Passports to Display Trump's Portrait for July 4th",
+  "metaDescription": "The State Department will produce limited commemorative passports bearing Trump's portrait to mark the nation's 250th Independence Day in July.",
+  "slug": "us-commemorative-passports-trump-portrait-july-2026",
+  "heading": "State Department to Put Trump's Portrait Inside U.S. Passports for 250th Anniversary",
+  "excerpt": "The announcement adds the president's likeness to one of the most consequential federal identity documents carried by Americans abroad, raising questions from legal experts that have not surfaced in coverage elsewhere.",
+  "date": "29 April, 2026",
+  "image": "/images/us-commemorative-passports-trump-portrait-july-2026.webp",
+  "alt": "Official State Department rendering of a commemorative U.S. passport featuring President Trump's portrait inside the document",
+  "heroImage": "/images/us-commemorative-passports-trump-portrait-july-2026.webp",
+  "seoKeywords": [
+    "Trump portrait passport 2026",
+    "commemorative US passport July 4th",
+    "State Department Trump passport design",
+    "America250 passport announcement",
+    "Trump image federal documents",
+    "US passport redesign 2026",
+    "Trump branded government property",
+    "Trump signature currency passport",
+    "Independence Day commemorative passport",
+    "presidential image travel document"
+  ],
+  "alternativeHeadlines": [
+    "Trump's Portrait Will Appear Inside New Commemorative U.S. Passports This July",
+    "State Department Confirms Limited Passport Run Featuring President's Likeness",
+    "New U.S. Passports for America's 250th Will Bear Trump's Portrait, Raising Legal Questions"
+  ],
+  "body": {
+    "dropcap": {
+      "letter": "T",
+      "text": "he State Department confirmed Tuesday it will produce a limited run of commemorative passports bearing a portrait of President Donald Trump, placing the president's likeness inside one of the most consequential federal identity documents carried by Americans traveling abroad — a decision without clear precedent in the modern history of U.S. travel documents and one that drew immediate scrutiny from legal observers and former consular officials contacted by CourtNews.org."
+    },
+    "sections": [
+      {
+        "type": "lead",
+        "content": [
+          "The passports are being released as part of the administration's 'America250' initiative, a package of federal programs marking the 250th anniversary of the Declaration of Independence, with the centerpiece celebrations scheduled for July 4. State Department spokesperson Tommy Pigott confirmed the design in a statement that did not explicitly reference the president's image, describing the edition as featuring 'customized artwork and enhanced imagery' while retaining all existing security features.",
+          "Official renderings released by the department show Trump's portrait printed on an interior page, positioned across from an illustration of the 1776 signing of the Declaration of Independence. A department official said no additional fee would be charged for the commemorative edition. Whether applicants would be able to decline the design and receive a standard passport instead was not addressed in the department's materials."
+        ]
+      },
+      {
+        "type": "twoColumnLayout",
+        "title": "Part of a Widening Pattern on Federal Property",
+        "mainContent": [
+          "The passport announcement is the latest in a series of decisions attaching the president's name or likeness to official federal property and programs since Trump returned to office in early 2025. The U.S. Mint has announced a commemorative gold coin bearing Trump's portrait to mark the same anniversary. The Treasury Department separately confirmed that newly printed paper currency will carry Trump's signature — the first time a sitting president's name has appeared on U.S. banknotes in more than 160 years.",
+          "Beyond currency and travel documents, the administration has formally attached Trump's name to federal office buildings in Washington, a newly announced class of Navy warships, a high-net-worth investor visa program, a government-operated prescription drug website, and federally administered savings accounts for minors.",
+          "Taken together, the pattern reflects a deliberate effort by the current administration to associate the presidency — and this president specifically — with the physical and documentary infrastructure of the federal government in ways previous administrations did not pursue."
+        ],
+        "showMoreRead": true
+      },
+      {
+        "type": "fullWidth",
+        "title": "Legal and Practical Questions Not Raised Elsewhere",
+        "content": [
+          "Constitutional and administrative law attorneys contacted by CourtNews.org Tuesday said no federal statute explicitly prohibits placing a sitting president's image inside a U.S. passport, but several described the practice as a meaningful departure from the modern tradition of keeping travel documents free of partisan or individual officeholder associations.",
+          "'Travel documents have historically functioned as instruments of the state rather than of any individual officeholder,' said one Washington-area attorney who focuses on federal administrative law and requested anonymity while reviewing the announcement. 'Inserting a sitting president's portrait into a document that every American traveling internationally must carry is a significant break from that practice, and it hasn't been tested in any legal or institutional framework I'm aware of.'",
+          "Representatives from legal advocacy groups focused on government ethics had not issued formal statements as of publication time, though several were reviewing the announcement."
+        ],
+        "subsections": [
+          {
+            "title": "A Practical Concern for International Travel",
+            "text": [
+              "Beyond the domestic legal questions, at least one former State Department consular official flagged a concern that has not appeared in coverage of the announcement from other outlets: certain countries maintain specific customs or informal protocols regarding the display of a foreign head of state's image in official travel documents, and it is unclear whether the commemorative design could create friction at particular international entry points.",
+              "The State Department did not address that question in its Tuesday materials, and the agency did not respond to specific follow-up questions from CourtNews.org regarding whether consular affairs staff had reviewed the design for potential complications abroad."
+            ],
+            "additionalText": [
+              "The department also did not respond to questions about the total number of passports to be produced in the limited run, what criteria would determine which applicants receive the commemorative edition, or whether renewal applications processed during the July window would automatically receive the new design rather than the standard version."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "finalSection",
+        "title": "Celebrations Without Historical Parallel",
+        "intro": [
+          "The July 4, 2026, anniversary is shaping up to be among the most elaborate Independence Day celebrations in modern American history. Federal agencies have been directed to contribute commemorative programs under the America250 banner, which the administration has used to justify a range of initiatives tying the milestone directly to the current president.",
+          "Constitutional scholars interviewed for this article said they could find no comparable instance in U.S. history of a sitting president's portrait being incorporated into a standard travel document issued to the general public. Commemorative coins and currency have occasionally featured presidents, but those items are discrete collectibles — a passport is a document every traveling American must carry and present to foreign governments."
+        ],
+        "conclusion": [
+          "The State Department said additional design details and distribution information would be released in the weeks before the July celebrations. Until those details emerge, fundamental questions about the scope of the program — including who receives it, how many are printed, and whether any opt-out mechanism exists — remain unanswered.",
+          "For travelers with international trips planned around the anniversary period, the practical implications of carrying a passport bearing a current president's portrait through foreign border checkpoints may not become clear until the documents are actually in circulation."
+        ]
+      }
+    ]
+  }
+}
   ]
   
 
