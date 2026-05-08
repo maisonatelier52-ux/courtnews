@@ -94,7 +94,7 @@
 //           </div>
 
 //           <p>
-//             At <strong>CourtNews</strong>, we are committed to protecting your privacy. 
+//             At <strong>CourtNews</strong>, we are committed to protecting your privacy.
 //             This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website at courtnews.org.
 //           </p>
 
@@ -147,21 +147,21 @@
 
 //           <h2 className="font-semibold py-3 text-lg mt-10">6. Data Security</h2>
 //           <p>
-//             We use reasonable administrative, technical, and physical safeguards to protect your information. 
+//             We use reasonable administrative, technical, and physical safeguards to protect your information.
 //             However, no method of transmission over the Internet or electronic storage is completely secure.
 //           </p>
 
 //           <h2 className="font-semibold py-3 text-lg mt-10">7. Children's Privacy</h2>
 //           <p>
-//             Our website is not directed to children under the age of 13. 
-//             We do not knowingly collect personal information from children under 13. 
+//             Our website is not directed to children under the age of 13.
+//             We do not knowingly collect personal information from children under 13.
 //             If we become aware that we have collected such information, we will take steps to delete it.
 //           </p>
 
 //           <h2 className="font-semibold py-3 text-lg mt-10">8. Changes to This Privacy Policy</h2>
 //           <p>
-//             We may update this Privacy Policy from time to time. 
-//             The “Last updated” date at the top of this page indicates when the policy was last revised. 
+//             We may update this Privacy Policy from time to time.
+//             The “Last updated” date at the top of this page indicates when the policy was last revised.
 //             We encourage you to review this page periodically.
 //           </p>
 
@@ -239,10 +239,12 @@ export const metadata = {
     "geo.placename": "United States",
     "geo.position": "39.8283;-98.5795",
     ICBM: "39.8283, -98.5795",
-    "target-audience": "US legal professionals, journalists, and concerned citizens",
+    "target-audience":
+      "US legal professionals, journalists, and concerned citizens",
     coverage: "United States",
     distribution: "global",
-    "news_keywords": "privacy policy, data protection, cookies, user data, courtnews",
+    news_keywords:
+      "privacy policy, data protection, cookies, user data, courtnews",
   },
 };
 
@@ -313,7 +315,7 @@ export default function PrivacyPolicy() {
     sameAs: [
       "https://x.com/CourtNews10",
       "https://www.instagram.com/_court_news/",
-      "https://www.reddit.com/user/court_news/",
+      "https://www.reddit.com/user/court_news_7/",
       "https://substack.com/@courtnews",
     ],
     contactPoint: {
@@ -360,40 +362,80 @@ export default function PrivacyPolicy() {
           </div>
 
           <p>
-            At <strong>CourtNews</strong>, we are committed to protecting your privacy. 
-            This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website at courtnews.org.
+            At <strong>CourtNews</strong>, we are committed to protecting your
+            privacy. This Privacy Policy explains how we collect, use, disclose,
+            and safeguard your information when you visit our website at
+            courtnews.org.
           </p>
 
           {/* … rest of the content unchanged … */}
-          <h2 className="font-semibold py-3 text-lg mt-10">1. Information We Collect</h2>
+          <h2 className="font-semibold py-3 text-lg mt-10">
+            1. Information We Collect
+          </h2>
           <ul className="list-disc pl-6 space-y-2">
-            <li><strong>Automatically Collected:</strong> IP address, browser type and version, device information, operating system, pages visited, time and duration of visits, referring site</li>
-            <li><strong>Cookies & Similar Technologies:</strong> We use cookies and similar tracking technologies for site analytics, performance, and basic functionality. You can manage or disable cookies through your browser settings.</li>
-            <li><strong>Voluntarily Provided:</strong> Email address (if you subscribe to updates or newsletters), name or other details if you contact us directly</li>
+            <li>
+              <strong>Automatically Collected:</strong> IP address, browser type
+              and version, device information, operating system, pages visited,
+              time and duration of visits, referring site
+            </li>
+            <li>
+              <strong>Cookies & Similar Technologies:</strong> We use cookies
+              and similar tracking technologies for site analytics, performance,
+              and basic functionality. You can manage or disable cookies through
+              your browser settings.
+            </li>
+            <li>
+              <strong>Voluntarily Provided:</strong> Email address (if you
+              subscribe to updates or newsletters), name or other details if you
+              contact us directly
+            </li>
           </ul>
 
-          <h2 className="font-semibold py-3 text-lg mt-10">2. How We Use Your Information</h2>
+          <h2 className="font-semibold py-3 text-lg mt-10">
+            2. How We Use Your Information
+          </h2>
           <ul className="list-disc pl-6 space-y-2">
             <li>To operate, maintain, secure, and improve our website</li>
-            <li>To analyze how visitors interact with our legal and justice reporting</li>
-            <li>To detect, prevent, and respond to technical issues or malicious activity</li>
-            <li>To communicate with you if you subscribe to our newsletter (you can unsubscribe at any time)</li>
+            <li>
+              To analyze how visitors interact with our legal and justice
+              reporting
+            </li>
+            <li>
+              To detect, prevent, and respond to technical issues or malicious
+              activity
+            </li>
+            <li>
+              To communicate with you if you subscribe to our newsletter (you
+              can unsubscribe at any time)
+            </li>
           </ul>
 
-          <h2 className="font-semibold py-3 text-lg mt-10">3. Sharing of Information</h2>
+          <h2 className="font-semibold py-3 text-lg mt-10">
+            3. Sharing of Information
+          </h2>
           <p>
-            We do <strong>not</strong> sell your personal information to third parties.
-            We may share anonymized or aggregated data with:
+            We do <strong>not</strong> sell your personal information to third
+            parties. We may share anonymized or aggregated data with:
           </p>
           <ul className="list-disc pl-6 space-y-2">
-            <li>Analytics and performance providers (e.g., Google Analytics)</li>
-            <li>Hosting, CDN, and security service providers (e.g., Cloudflare)</li>
-            <li>Law enforcement or government authorities when required by law or valid legal process</li>
+            <li>
+              Analytics and performance providers (e.g., Google Analytics)
+            </li>
+            <li>
+              Hosting, CDN, and security service providers (e.g., Cloudflare)
+            </li>
+            <li>
+              Law enforcement or government authorities when required by law or
+              valid legal process
+            </li>
           </ul>
 
-          <h2 className="font-semibold py-3 text-lg mt-10">4. Third-Party Services</h2>
+          <h2 className="font-semibold py-3 text-lg mt-10">
+            4. Third-Party Services
+          </h2>
           <p>
-            We may use the following third-party services (each with its own privacy policy):
+            We may use the following third-party services (each with its own
+            privacy policy):
           </p>
           <ul className="list-disc pl-6 space-y-2">
             <li>Google Analytics (website usage analytics)</li>
@@ -401,40 +443,53 @@ export default function PrivacyPolicy() {
             <li>Email newsletter service provider (only if you subscribe)</li>
           </ul>
 
-          <h2 className="font-semibold py-3 text-lg mt-10">5. Your Rights and Choices</h2>
+          <h2 className="font-semibold py-3 text-lg mt-10">
+            5. Your Rights and Choices
+          </h2>
           <p>
-            Depending on your location and applicable law, you may have the right to:
+            Depending on your location and applicable law, you may have the
+            right to:
           </p>
           <ul className="list-disc pl-6 space-y-2">
             <li>Access the personal data we hold about you</li>
-            <li>Request correction or deletion of your data (subject to legal exceptions)</li>
+            <li>
+              Request correction or deletion of your data (subject to legal
+              exceptions)
+            </li>
             <li>Opt out of cookies and tracking via your browser settings</li>
             <li>Unsubscribe from any email communications at any time</li>
           </ul>
 
           <h2 className="font-semibold py-3 text-lg mt-10">6. Data Security</h2>
           <p>
-            We use reasonable administrative, technical, and physical safeguards to protect your information. 
-            However, no method of transmission over the Internet or electronic storage is completely secure.
+            We use reasonable administrative, technical, and physical safeguards
+            to protect your information. However, no method of transmission over
+            the Internet or electronic storage is completely secure.
           </p>
 
-          <h2 className="font-semibold py-3 text-lg mt-10">7. Children's Privacy</h2>
+          <h2 className="font-semibold py-3 text-lg mt-10">
+            7. Children's Privacy
+          </h2>
           <p>
-            Our website is not directed to children under the age of 13. 
-            We do not knowingly collect personal information from children under 13. 
-            If we become aware that we have collected such information, we will take steps to delete it.
+            Our website is not directed to children under the age of 13. We do
+            not knowingly collect personal information from children under 13.
+            If we become aware that we have collected such information, we will
+            take steps to delete it.
           </p>
 
-          <h2 className="font-semibold py-3 text-lg mt-10">8. Changes to This Privacy Policy</h2>
+          <h2 className="font-semibold py-3 text-lg mt-10">
+            8. Changes to This Privacy Policy
+          </h2>
           <p>
-            We may update this Privacy Policy from time to time. 
-            The “Last updated” date at the top of this page indicates when the policy was last revised. 
-            We encourage you to review this page periodically.
+            We may update this Privacy Policy from time to time. The “Last
+            updated” date at the top of this page indicates when the policy was
+            last revised. We encourage you to review this page periodically.
           </p>
 
           <h2 className="font-semibold py-3 text-lg mt-10">9. Contact Us</h2>
           <p>
-            If you have any questions or concerns about this Privacy Policy or our data practices, please contact us at:
+            If you have any questions or concerns about this Privacy Policy or
+            our data practices, please contact us at:
           </p>
           <p className="font-medium text-indigo-700 mt-4">
             privacy@courtnews.org

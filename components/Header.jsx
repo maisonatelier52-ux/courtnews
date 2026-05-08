@@ -2,9 +2,9 @@
 
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
-import { HiMenu } from 'react-icons/hi';
+import { HiMenu } from "react-icons/hi";
 import { IoClose } from "react-icons/io5";
-import { FaXTwitter,FaInstagram } from "react-icons/fa6";
+import { FaXTwitter, FaInstagram } from "react-icons/fa6";
 import { FaRedditAlien } from "react-icons/fa";
 import { BsSubstack } from "react-icons/bs";
 import Image from "next/image";
@@ -34,13 +34,13 @@ const Header = () => {
   // Prepare all news articles for search
   const allSearchItems = Object.entries(categoryPageData).flatMap(
     ([category, posts]) =>
-      posts.map(post => ({
+      posts.map((post) => ({
         heading: post.heading,
         slug: post.slug,
         category: category,
         image: post.image,
-        date: post.date
-      }))
+        date: post.date,
+      })),
   );
 
   // Live Date + Time
@@ -84,7 +84,7 @@ const Header = () => {
     }
 
     const filtered = allSearchItems.filter((item) =>
-      item.heading.toLowerCase().includes(value.toLowerCase())
+      item.heading.toLowerCase().includes(value.toLowerCase()),
     );
 
     setResults(filtered.slice(0, 6));
@@ -92,14 +92,12 @@ const Header = () => {
 
   return (
     <header className="bg-white border-b border-gray-200 relative">
-
       {/* TOP BAR */}
       <div className="flex items-center justify-between px-4 md:px-[8%] py-3">
-
         {/* LOGO */}
         <Link href="/" title="Court News Homepage" className="block">
           <Image
-            src="/images/logo-b.png"           // ← starts with /
+            src="/images/logo-b.png" // ← starts with /
             alt="CourtNews"
             width={200}
             height={60}
@@ -110,12 +108,11 @@ const Header = () => {
 
         {/* DESKTOP RIGHT */}
         <div className="hidden md:flex items-center gap-4">
-
           {/* SOCIAL ICONS */}
           <div className="flex items-center gap-4 text-gray-700 text-lg">
-           <Link 
-              href="https://x.com/CourtNews10" 
-              aria-label="x" 
+            <Link
+              href="https://x.com/CourtNews10"
+              aria-label="x"
               title="Follow us on X"
               className="hover:text-orange-500"
               target="_blank"
@@ -124,9 +121,9 @@ const Header = () => {
               <FaXTwitter />
             </Link>
 
-            <Link 
-              href="https://www.instagram.com/_court_news/" 
-              aria-label="Instagram" 
+            <Link
+              href="https://www.instagram.com/_court_news/"
+              aria-label="Instagram"
               title="Follow us on Instagram"
               className="hover:text-orange-500"
               target="_blank"
@@ -135,9 +132,9 @@ const Header = () => {
               <FaInstagram />
             </Link>
 
-            <Link 
-              href="https://www.reddit.com/user/court_news/" 
-              aria-label="Reddit" 
+            <Link
+              href="https://www.reddit.com/user/court_news_7/"
+              aria-label="Reddit"
               title="Follow us on Reddit"
               className="hover:text-orange-500"
               target="_blank"
@@ -146,9 +143,9 @@ const Header = () => {
               <FaRedditAlien />
             </Link>
 
-            <Link 
-              href="https://substack.com/@courtnews" 
-              aria-label="Substack" 
+            <Link
+              href="https://substack.com/@courtnews"
+              aria-label="Substack"
               title="Follow us on Substack"
               className="hover:text-orange-500"
               target="_blank"
@@ -167,7 +164,7 @@ const Header = () => {
               onChange={handleSearchInput}
               className="border border-gray-300 rounded-full px-4 py-2 text-sm focus:outline-none focus:border-orange-500 w-[200px]"
             />
-            
+
             {/* DESKTOP SEARCH RESULTS */}
             {results.length > 0 && (
               <div className="absolute top-full mt-2 left-0 right-0 bg-white border border-gray-200 rounded-lg shadow-lg z-50 max-w-[400px]">
@@ -186,7 +183,7 @@ const Header = () => {
                       {item.heading}
                     </div>
                     <div className="text-xs text-gray-500 mt-1 capitalize">
-                      {item.category.replace('-', ' ')} • {item.date}
+                      {item.category.replace("-", " ")} • {item.date}
                     </div>
                   </Link>
                 ))}
@@ -199,7 +196,8 @@ const Header = () => {
         <button
           onClick={() => setIsMenuOpen(true)}
           className="md:hidden flex flex-col justify-between w-7 h-6"
-          aria-label="Menu" title="Open menu"
+          aria-label="Menu"
+          title="Open menu"
         >
           <HiMenu size={30} />
         </button>
@@ -213,7 +211,8 @@ const Header = () => {
             {/* HOME */}
             <li>
               <Link
-                href="/" title="Court News Homepage"
+                href="/"
+                title="Court News Homepage"
                 className="block px-4 py-2 font-semibold text-gray-700 rounded hover:bg-gray-100 hover:text-orange-500"
               >
                 Home
@@ -224,7 +223,8 @@ const Header = () => {
             {categories.map((cat) => (
               <li key={cat.slug}>
                 <Link
-                  href={cat.slug} title={`${cat.name} News`}
+                  href={cat.slug}
+                  title={`${cat.name} News`}
                   className="block px-4 py-2 font-semibold text-gray-700 rounded hover:bg-gray-100 hover:text-orange-500"
                 >
                   {cat.name}
@@ -244,7 +244,7 @@ const Header = () => {
       {isMenuOpen && (
         <>
           {/* Overlay */}
-          <div 
+          <div
             className="fixed inset-0 bg-black bg-opacity-50 z-40 md:hidden"
             onClick={() => setIsMenuOpen(false)}
           ></div>
@@ -260,7 +260,8 @@ const Header = () => {
               <button
                 onClick={() => setIsMenuOpen(false)}
                 className="text-gray-600 hover:text-orange-500"
-                aria-label="Close menu" title="Close menu"
+                aria-label="Close menu"
+                title="Close menu"
               >
                 <IoClose size={30} />
               </button>
@@ -275,7 +276,7 @@ const Header = () => {
                 onChange={handleSearchInput}
                 className="w-full border border-gray-300 rounded-full px-4 py-2 text-sm focus:outline-none focus:border-orange-500"
               />
-              
+
               {/* MOBILE SEARCH RESULTS */}
               {results.length > 0 && (
                 <div className="mt-2 bg-white border border-gray-200 rounded-lg max-h-[300px] overflow-y-auto">
@@ -295,7 +296,7 @@ const Header = () => {
                         {item.heading}
                       </div>
                       <div className="text-xs text-gray-500 mt-1 capitalize">
-                        {item.category.replace('-', ' ')} • {item.date}
+                        {item.category.replace("-", " ")} • {item.date}
                       </div>
                     </Link>
                   ))}
@@ -361,7 +362,7 @@ const Header = () => {
                 </Link>
 
                 <Link
-                  href="https://www.reddit.com/user/court_news/"
+                  href="https://www.reddit.com/user/court_news_7/"
                   aria-label="Reddit"
                   className="hover:text-orange-500"
                   target="_blank"

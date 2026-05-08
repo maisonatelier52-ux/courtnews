@@ -267,7 +267,6 @@
 //   );
 // }
 
-
 const SITE_URL = "https://www.courtnews.org";
 const SITE_NAME = "CourtNews";
 
@@ -326,10 +325,12 @@ export const metadata = {
     "geo.placename": "United States",
     "geo.position": "39.8283;-98.5795",
     ICBM: "39.8283, -98.5795",
-    "target-audience": "US legal professionals, journalists, and concerned citizens",
+    "target-audience":
+      "US legal professionals, journalists, and concerned citizens",
     coverage: "United States",
     distribution: "global",
-    "news_keywords": "terms and conditions, legal terms, copyright, disclaimer, courtnews",
+    news_keywords:
+      "terms and conditions, legal terms, copyright, disclaimer, courtnews",
   },
 };
 
@@ -348,7 +349,10 @@ export default function TermsAndConditions() {
     dateModified: "2026-02-09",
     speakable: {
       "@type": "SpeakableSpecification",
-      xpath: ["/html/body//h1", "/html/body//p[contains(@class, 'terms-intro')]"],
+      xpath: [
+        "/html/body//h1",
+        "/html/body//p[contains(@class, 'terms-intro')]",
+      ],
     },
     publisher: {
       "@type": "NewsMediaOrganization",
@@ -400,7 +404,7 @@ export default function TermsAndConditions() {
     sameAs: [
       "https://x.com/CourtNews10",
       "https://www.instagram.com/_court_news/",
-      "https://www.reddit.com/user/court_news/",
+      "https://www.reddit.com/user/court_news_7/",
       "https://substack.com/@courtnews",
     ],
     contactPoint: {

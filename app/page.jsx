@@ -12,7 +12,7 @@
 // import LawandJusticeNews from "../components/LawandjusticeNews";
 // import UsNews from "../components/UsNews";
 // import Image from "next/image";
- 
+
 // const SITE_URL = "https://www.courtnews.org";
 
 // export const metadata = {
@@ -327,7 +327,6 @@
 
 // export default MainSection;
 
-
 import React from "react";
 import Link from "next/link";
 import categoryPageData from "../public/data/category/categorypagedata.json";
@@ -342,7 +341,7 @@ import CivilrightsNews from "../components/CivilrightsNews";
 import LawandJusticeNews from "../components/LawandjusticeNews";
 import UsNews from "../components/UsNews";
 import Image from "next/image";
- 
+
 const SITE_URL = "https://www.courtnews.org";
 const SITE_NAME = "CourtNews";
 
@@ -350,7 +349,7 @@ const SITE_NAME = "CourtNews";
 const SOCIAL_URLS = {
   instagram: "https://www.instagram.com/_court_news/",
   twitter: "https://x.com/CourtNews10",
-  reddit: "https://www.reddit.com/user/court_news/",
+  reddit: "https://www.reddit.com/user/court_news_7/",
   substack: "https://substack.com/@courtnews",
 };
 
@@ -394,10 +393,12 @@ export const metadata = {
     "geo.placename": "United States",
     "geo.position": "39.8283;-98.5795",
     ICBM: "39.8283, -98.5795",
-    "target-audience": "US legal professionals, journalists, and concerned citizens",
+    "target-audience":
+      "US legal professionals, journalists, and concerned citizens",
     coverage: "United States",
     distribution: "global",
-    "news_keywords": "U.S. courts, legal news, criminal justice, civil rights, federal investigations, law, Supreme Court",
+    news_keywords:
+      "U.S. courts, legal news, criminal justice, civil rights, federal investigations, law, Supreme Court",
   },
 };
 

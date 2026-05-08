@@ -1,5 +1,3 @@
-
-
 // import categoryPageData from "../../../public/data/category/categorypagedata.json";
 // import authorsData from "../../../public/data/authors.json";
 // import Link from "next/link";
@@ -8,7 +6,6 @@
 // import { SiMedium } from "react-icons/si";
 // import { BsSubstack } from "react-icons/bs";
 // import { notFound } from "next/navigation";
-
 
 // const SITE_URL = "https://www.courtnews.org";
 
@@ -39,7 +36,6 @@
 //   const authorSlug = decodeURIComponent(author);
 
 //   const authorData = getAuthorBySlug(authorSlug);
-
 
 //   const profileImageUrl = authorData.profileImage.startsWith("http")
 //     ? authorData.profileImage
@@ -100,8 +96,6 @@
 //   const authorSlug = decodeURIComponent(author);
 
 //   const authorData = getAuthorBySlug(authorSlug);
-
-
 
 //   if (!authorData) {
 //     notFound();
@@ -475,8 +469,7 @@ export async function generateMetadata({ params }) {
     openGraph: {
       title: `${authorData.name} — CourtNews Journalist`,
       description:
-        authorData.bio ||
-        `Read articles by ${authorData.name} on CourtNews.`,
+        authorData.bio || `Read articles by ${authorData.name} on CourtNews.`,
       url: canonicalUrl,
       type: "profile",
       firstName: authorData.name.split(" ")[0],
@@ -497,8 +490,7 @@ export async function generateMetadata({ params }) {
       card: "summary_large_image",
       title: `${authorData.name} — CourtNews Journalist`,
       description:
-        authorData.bio ||
-        `Read articles by ${authorData.name} on CourtNews.`,
+        authorData.bio || `Read articles by ${authorData.name} on CourtNews.`,
       images: [profileImageUrl],
       creator: "@CourtNews10",
       site: "@CourtNews10",
@@ -508,10 +500,11 @@ export async function generateMetadata({ params }) {
       "geo.placename": "United States",
       "geo.position": "39.8283;-98.5795",
       ICBM: "39.8283, -98.5795",
-      "target-audience": "US legal professionals, journalists, and concerned citizens",
+      "target-audience":
+        "US legal professionals, journalists, and concerned citizens",
       coverage: "United States",
       distribution: "global",
-      "news_keywords": `${authorData.name}, journalist, ${authorData.category} news`,
+      news_keywords: `${authorData.name}, journalist, ${authorData.category} news`,
     },
   };
 }
@@ -529,7 +522,7 @@ export default async function AuthorPage({ params }) {
   // Get and sort articles
   const authorArticles = getArticlesByAuthor(authorData.category);
   const sortedArticles = [...authorArticles].sort(
-    (a, b) => new Date(b.date) - new Date(a.date)
+    (a, b) => new Date(b.date) - new Date(a.date),
   );
   const latestArticles = sortedArticles.slice(0, 6);
 
@@ -622,7 +615,8 @@ export default async function AuthorPage({ params }) {
     "@context": "https://schema.org",
     "@type": "WebPage",
     name: `${authorData.name} — Author Profile`,
-    description: authorData.bio || `Read articles by ${authorData.name} on CourtNews.`,
+    description:
+      authorData.bio || `Read articles by ${authorData.name} on CourtNews.`,
     url: canonicalUrl,
     inLanguage: "en-US",
     dateModified: pageModifiedDate,
@@ -641,7 +635,7 @@ export default async function AuthorPage({ params }) {
     sameAs: [
       "https://x.com/CourtNews10",
       "https://www.instagram.com/_court_news/",
-      "https://www.reddit.com/user/court_news/",
+      "https://www.reddit.com/user/court_news_7/",
       "https://substack.com/@courtnews",
     ],
     contactPoint: {
@@ -682,11 +676,15 @@ export default async function AuthorPage({ params }) {
       />
 
       {/* ===== PROFILE HEADER SECTION ===== */}
-      <section className="mb-1 relative flex-shrink-0" aria-label="Author profile header">
+      <section
+        className="mb-1 relative flex-shrink-0"
+        aria-label="Author profile header"
+      >
         <div
           className="absolute inset-0 bg-gray-100 bg-opacity-20"
           style={{
-            backgroundImage: "radial-gradient(#dcdcdc 1.2px, transparent 1.2px)",
+            backgroundImage:
+              "radial-gradient(#dcdcdc 1.2px, transparent 1.2px)",
             backgroundSize: "16px 16px",
           }}
           aria-hidden="true"
@@ -818,7 +816,11 @@ export default async function AuthorPage({ params }) {
                   >
                     <div className="relative w-full h-56 overflow-hidden">
                       <Image
-                        src={article.image || article.heroImage || "/images/placeholder.jpg"}
+                        src={
+                          article.image ||
+                          article.heroImage ||
+                          "/images/placeholder.jpg"
+                        }
                         alt={article.alt || article.heading || "Article image"}
                         width={400}
                         height={225}

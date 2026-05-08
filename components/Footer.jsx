@@ -89,7 +89,7 @@ const Footer = () => {
               <FaInstagram />
             </Link>
            
-            <Link href="https://www.reddit.com/user/court_news/" aria-label="Reddit" title="Follow us on Reddit" className="hover:text-orange-500 transition-colors">
+            <Link href="https://www.reddit.com/user/court_news_7/" aria-label="Reddit" title="Follow us on Reddit" className="hover:text-orange-500 transition-colors">
               <FaRedditAlien />
             </Link>
             <Link href="https://substack.com/@courtnews" aria-label="substack" title="Follow us on Substack" className="hover:text-orange-500 transition-colors">

@@ -1,9 +1,7 @@
-
-
 // import React from "react";
 // import categoryPageData from "../../public/data/category/categorypagedata.json";
 // import authorsData from "../../public/data/authors.json";
-// import Link from "next/link"; 
+// import Link from "next/link";
 // import Image from "next/image";
 // import { notFound } from "next/navigation";
 
@@ -90,7 +88,6 @@
 
 //   const canonicalUrl = `${SITE_URL}/${categorySlug}`;
 
-
 //   return {
 //     title: config.metaTitle,
 //     description: config.metaDescription,
@@ -134,7 +131,6 @@
 //     if (!categorySlug || !categoryConfig[categorySlug]) {
 //     notFound();
 //   }
-
 
 //   // Get category configuration
 //   const config = categoryConfig[categorySlug] || categoryConfig["us-news"];
@@ -307,7 +303,7 @@
 //                 Latest {categoryTitleFormatted} News
 //               </h2>
 //             </div>
-            
+
 //             {/* Decorative Line */}
 //             <div className="w-full border-t-4 border-orange-500 mb-8"></div>
 
@@ -322,8 +318,8 @@
 //               <div className="grid grid-cols-1 lg:grid-cols-4 gap-6">
 //                 {/* First Row - Large Items (Two Items with Equal Width) */}
 //                 {filteredArticles.slice(0, 2).map((article, idx) => (
-//                   <article 
-//                     key={article.id || idx} 
+//                   <article
+//                     key={article.id || idx}
 //                     className="relative lg:col-span-2 overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300"
 //                   >
 //                     <Link href={`/${categorySlug}/${article.slug}`} title={article.heading || article.metaTitle} className="block group">
@@ -338,9 +334,8 @@
 //                           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 800px"
 //                         />
 
-                        
 //                       </div>
-                      
+
 //                       {/* Dark Overlay */}
 //                       <div className="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent p-6 flex flex-col justify-end">
 //                         <h3 className="text-2xl font-bold text-white mb-3 group-hover:text-orange-400 transition-colors duration-300 line-clamp-3">
@@ -361,8 +356,8 @@
 
 //                 {/* Second Row - Regular Items */}
 //                 {filteredArticles.slice(2, 6).map((article, idx) => (
-//                   <article 
-//                     key={article.id || idx} 
+//                   <article
+//                     key={article.id || idx}
 //                     className="relative overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300"
 //                   >
 //                     <Link href={`/${categorySlug}/${article.slug}`} title={article.heading || article.metaTitle} className="block group">
@@ -377,7 +372,7 @@
 //                           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
 //                         />
 //                       </div>
-                      
+
 //                       {/* Dark Overlay */}
 //                       <div className="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent p-6 flex flex-col justify-end">
 //                         <h3 className="text-lg font-bold text-white mb-2 group-hover:text-orange-400 transition-colors duration-300 line-clamp-3">
@@ -404,7 +399,6 @@
 //   );
 // }
 
-
 import React from "react";
 import categoryPageData from "../../public/data/category/categorypagedata.json";
 import authorsData from "../../public/data/authors.json";
@@ -425,7 +419,8 @@ const categoryConfig = {
     heroDescription:
       "Our crime section delivers original journalism focused on accuracy, accountability, and insight. Our editorial team covers breaking developments, law enforcement operations, criminal investigations, and public safety issues.",
     heroImage: "/images/crime-hero.webp",
-    keywords: "crime news, criminal justice, law enforcement, investigations, breaking crime",
+    keywords:
+      "crime news, criminal justice, law enforcement, investigations, breaking crime",
   },
   political: {
     title: "Political",
@@ -445,7 +440,8 @@ const categoryConfig = {
     heroDescription:
       "Our courts section delivers original journalism focused on accuracy, accountability, and insight. Our editorial team covers federal courts, Supreme Court rulings, landmark cases, judicial appointments, and constitutional matters.",
     heroImage: "/images/courts-hero.webp",
-    keywords: "courts news, supreme court, federal courts, judicial, constitutional law",
+    keywords:
+      "courts news, supreme court, federal courts, judicial, constitutional law",
   },
   investigations: {
     title: "Investigations",
@@ -455,7 +451,8 @@ const categoryConfig = {
     heroDescription:
       "Our investigations section delivers original journalism focused on accuracy, accountability, and insight. Our editorial team covers corruption, government accountability, corporate misconduct, and data-driven reporting.",
     heroImage: "/images/investigations-hero.webp",
-    keywords: "investigative journalism, corruption, accountability, government, data journalism",
+    keywords:
+      "investigative journalism, corruption, accountability, government, data journalism",
   },
   "us-news": {
     title: "U.S.",
@@ -475,7 +472,8 @@ const categoryConfig = {
     heroDescription:
       "Our civil rights section delivers original journalism focused on accuracy, accountability, and insight. Our editorial team covers social justice movements, voting rights, policing reform, equality issues, and discrimination cases.",
     heroImage: "/images/civil-rights-hero.webp",
-    keywords: "civil rights, voting rights, social justice, equality, discrimination",
+    keywords:
+      "civil rights, voting rights, social justice, equality, discrimination",
   },
   "law-and-justice": {
     title: "Law & Justice",
@@ -485,7 +483,8 @@ const categoryConfig = {
     heroDescription:
       "Our law and justice section delivers original journalism focused on accuracy, accountability, and insight. Our editorial team covers criminal justice reform, federal law enforcement, legislation, legal policy, and judicial system developments.",
     heroImage: "/images/law-justice-hero.webp",
-    keywords: "law news, justice news, criminal justice, federal law, legal policy",
+    keywords:
+      "law news, justice news, criminal justice, federal law, legal policy",
   },
 };
 
@@ -548,10 +547,11 @@ export async function generateMetadata({ params }) {
       "geo.placename": "United States",
       "geo.position": "39.8283;-98.5795",
       ICBM: "39.8283, -98.5795",
-      "target-audience": "US legal professionals, journalists, and concerned citizens",
+      "target-audience":
+        "US legal professionals, journalists, and concerned citizens",
       coverage: "United States",
       distribution: "global",
-      "news_keywords": config.keywords,
+      news_keywords: config.keywords,
     },
   };
 }
@@ -568,7 +568,7 @@ export default async function CategoryPage({ params }) {
 
   // Get author for this category
   const categoryAuthor = authorsData.categories.find(
-    (item) => item.category === categorySlug
+    (item) => item.category === categorySlug,
   );
 
   // Get articles for this category
@@ -576,7 +576,7 @@ export default async function CategoryPage({ params }) {
 
   // Sort articles by date (latest first)
   const sortedArticles = [...categoryArticles].sort(
-    (a, b) => new Date(b.date) - new Date(a.date)
+    (a, b) => new Date(b.date) - new Date(a.date),
   );
 
   // Get only the latest 6 articles
@@ -631,40 +631,40 @@ export default async function CategoryPage({ params }) {
   // };
 
   /* ---------- JSON-LD – COLLECTION PAGE (with speakable) ---------- */
-const collectionJsonLd = {
-  "@context": "https://schema.org",
-  "@type": "CollectionPage",
-  name: `${config.title} News`,
-  description: config.metaDescription,
-  url: canonicalUrl,
-  dateModified: pageModifiedDate,
-  speakable: {
-    "@type": "SpeakableSpecification",
-    xpath: ["/html/body//p[contains(@class, 'hero-description')]"],
-  },
-  mainEntity: {
-    "@type": "ItemList",
-    itemListElement: filteredArticles.map((article, index) => ({
-      "@type": "ListItem",
-      position: index + 1,
-      url: `${SITE_URL}/${categorySlug}/${article.slug}`,
-      name: article.metaTitle,
-      image: article.image || article.heroImage,
-      // Remove datePublished and author from here (invalid for ListItem)
-    })),
-  },
-  hasPart: filteredArticles.map((article) => ({
-    "@type": "NewsArticle",
-    headline: article.metaTitle,
-    url: `${SITE_URL}/${categorySlug}/${article.slug}`,
-    datePublished: new Date(article.date).toISOString(),
-    image: article.image || article.heroImage,
-    author: {
-      "@type": "Person",
-      name: categoryAuthor?.author?.name || "CourtNews Staff",
+  const collectionJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    name: `${config.title} News`,
+    description: config.metaDescription,
+    url: canonicalUrl,
+    dateModified: pageModifiedDate,
+    speakable: {
+      "@type": "SpeakableSpecification",
+      xpath: ["/html/body//p[contains(@class, 'hero-description')]"],
     },
-  })),
-};
+    mainEntity: {
+      "@type": "ItemList",
+      itemListElement: filteredArticles.map((article, index) => ({
+        "@type": "ListItem",
+        position: index + 1,
+        url: `${SITE_URL}/${categorySlug}/${article.slug}`,
+        name: article.metaTitle,
+        image: article.image || article.heroImage,
+        // Remove datePublished and author from here (invalid for ListItem)
+      })),
+    },
+    hasPart: filteredArticles.map((article) => ({
+      "@type": "NewsArticle",
+      headline: article.metaTitle,
+      url: `${SITE_URL}/${categorySlug}/${article.slug}`,
+      datePublished: new Date(article.date).toISOString(),
+      image: article.image || article.heroImage,
+      author: {
+        "@type": "Person",
+        name: categoryAuthor?.author?.name || "CourtNews Staff",
+      },
+    })),
+  };
 
   /* ---------- JSON-LD – BREADCRUMB LIST ---------- */
   const breadcrumbJsonLd = {
@@ -697,7 +697,7 @@ const collectionJsonLd = {
   //   sameAs: [
   //     "https://x.com/CourtNews10",
   //     "https://www.instagram.com/_court_news/",
-  //     "https://www.reddit.com/user/court_news/",
+  //     "https://www.reddit.com/user/court_news_7/",
   //     "https://substack.com/@courtnews",
   //   ],
   //   contactPoint: {
@@ -710,27 +710,28 @@ const collectionJsonLd = {
   // };
 
   /* ---------- JSON-LD – ORGANIZATION (with social profiles) ---------- */
-const organizationJsonLd = {
-  "@context": "https://schema.org",
-  "@type": "NewsMediaOrganization",
-  name: SITE_NAME,
-  url: SITE_URL,
-  logo: `${SITE_URL}/images/logo.webp`,
-  description: "Independent reporting on U.S. courts, justice and legal affairs.",
-  sameAs: [
-    "https://x.com/CourtNews10",
-    "https://www.instagram.com/_court_news/",
-    "https://www.reddit.com/user/court_news/",
-    "https://substack.com/@courtnews",
-  ],
-  contactPoint: {
-    "@type": "ContactPoint",
-    contactType: "editorial",
-    email: "courtnewsadmin@progresskingdom.com",
-  },
-  areaServed: "US",
-  // serviceType removed – not valid
-};
+  const organizationJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "NewsMediaOrganization",
+    name: SITE_NAME,
+    url: SITE_URL,
+    logo: `${SITE_URL}/images/logo.webp`,
+    description:
+      "Independent reporting on U.S. courts, justice and legal affairs.",
+    sameAs: [
+      "https://x.com/CourtNews10",
+      "https://www.instagram.com/_court_news/",
+      "https://www.reddit.com/user/court_news_7/",
+      "https://substack.com/@courtnews",
+    ],
+    contactPoint: {
+      "@type": "ContactPoint",
+      contactType: "editorial",
+      email: "courtnewsadmin@progresskingdom.com",
+    },
+    areaServed: "US",
+    // serviceType removed – not valid
+  };
 
   /* ---------- JSON-LD – WEBPAGE (additional) ---------- */
   const webpageJsonLd = {
@@ -777,7 +778,8 @@ const organizationJsonLd = {
           <div
             className="absolute inset-0 bg-gray-100 bg-opacity-20"
             style={{
-              backgroundImage: "radial-gradient(#dcdcdc 1.2px, transparent 1.2px)",
+              backgroundImage:
+                "radial-gradient(#dcdcdc 1.2px, transparent 1.2px)",
               backgroundSize: "16px 16px",
             }}
             aria-hidden="true"
@@ -813,7 +815,10 @@ const organizationJsonLd = {
         </section>
 
         {/* Articles Section */}
-        <section className="max-w-7xl mx-auto px-4 pt-1 pb-10" aria-label="Latest articles">
+        <section
+          className="max-w-7xl mx-auto px-4 pt-1 pb-10"
+          aria-label="Latest articles"
+        >
           <div className="mb-10">
             {/* Section Header */}
             <div className="flex items-center justify-between mb-1">
@@ -848,7 +853,9 @@ const organizationJsonLd = {
                       <div className="relative w-full h-80 overflow-hidden">
                         <Image
                           src={article.image || article.heroImage}
-                          alt={article.alt || article.heading || "Article image"}
+                          alt={
+                            article.alt || article.heading || "Article image"
+                          }
                           width={1200}
                           height={675}
                           priority
@@ -864,9 +871,13 @@ const organizationJsonLd = {
                         </h3>
                         <div className="flex items-center justify-between text-sm text-gray-200">
                           <span className="font-semibold">
-                            By {categoryAuthor?.author?.name || "CourtNews Staff"}
+                            By{" "}
+                            {categoryAuthor?.author?.name || "CourtNews Staff"}
                           </span>
-                          <time dateTime={new Date(article.date).toISOString()} className="text-xs">
+                          <time
+                            dateTime={new Date(article.date).toISOString()}
+                            className="text-xs"
+                          >
                             {article.date}
                           </time>
                         </div>
@@ -889,7 +900,9 @@ const organizationJsonLd = {
                       <div className="relative w-full h-64 overflow-hidden">
                         <Image
                           src={article.image || article.heroImage}
-                          alt={article.alt || article.heading || "Article image"}
+                          alt={
+                            article.alt || article.heading || "Article image"
+                          }
                           width={1200}
                           height={675}
                           className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
@@ -905,7 +918,8 @@ const organizationJsonLd = {
                         </h3>
                         <div className="flex items-center justify-between text-xs text-gray-200">
                           <span className="font-semibold">
-                            By {categoryAuthor?.author?.name || "CourtNews Staff"}
+                            By{" "}
+                            {categoryAuthor?.author?.name || "CourtNews Staff"}
                           </span>
                           <time dateTime={new Date(article.date).toISOString()}>
                             {article.date}

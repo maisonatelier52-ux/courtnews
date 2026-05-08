@@ -1,25 +1,20 @@
-import React from 'react';
+import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { FaXTwitter,FaInstagram } from "react-icons/fa6";
+import { FaXTwitter, FaInstagram } from "react-icons/fa6";
 import { FaRedditAlien } from "react-icons/fa";
 import { BsSubstack } from "react-icons/bs";
 
-
-
-
-
 const CivilRightsNews = ({ rightPosts, middlePost, leftPost, leftPost2 }) => {
-
   // Helper function to format date
   const formatDate = (dateStr) => {
-    if (dateStr && dateStr.includes(',')) {
+    if (dateStr && dateStr.includes(",")) {
       return dateStr;
     }
     try {
       const date = new Date(dateStr);
       const day = date.getDate();
-      const month = date.toLocaleDateString('en-US', { month: 'short' });
+      const month = date.toLocaleDateString("en-US", { month: "short" });
       const year = date.getFullYear();
       return `${day} ${month}, ${year}`;
     } catch {
@@ -29,7 +24,6 @@ const CivilRightsNews = ({ rightPosts, middlePost, leftPost, leftPost2 }) => {
 
   return (
     <div className="grid grid-cols-1 lg:grid-cols-[1fr_2fr_1fr] gap-5 p-5 max-w-[1300px] mx-auto">
-      
       {/* Left Column */}
       <div className="flex flex-col gap-5">
         {/* <div className="bg-[#f0f0f0] p-5 text-center ">
@@ -46,20 +40,21 @@ const CivilRightsNews = ({ rightPosts, middlePost, leftPost, leftPost2 }) => {
                 />
           </Link>
         </div> */}
-        
 
         {leftPost && (
-          <Link href={`/${leftPost.category}/${leftPost.slug}`} title={leftPost.heading}>
-           
+          <Link
+            href={`/${leftPost.category}/${leftPost.slug}`}
+            title={leftPost.heading}
+          >
             <div className="bg-white group cursor-pointer">
-               <Image
+              <Image
                 src={leftPost.image}
                 alt={leftPost.alt || leftPost.heading}
                 className="w-full h-[150px] object-cover"
-                width={500}  // You can adjust this width as needed
+                width={500} // You can adjust this width as needed
                 height={100} // You can adjust this height as needed
                 loading="lazy"
-                />
+              />
               <h3 className="text-lg font-bold pt-2 group-hover:text-orange-500 transition">
                 {leftPost.heading}
               </h3>
@@ -67,23 +62,26 @@ const CivilRightsNews = ({ rightPosts, middlePost, leftPost, leftPost2 }) => {
                 {leftPost.excerpt}
               </p> */}
               <span className="text-xs text-gray-600 mt-2 block">
-                By {leftPost.author?.name || "Unknown"} · {formatDate(leftPost.date)}
+                By {leftPost.author?.name || "Unknown"} ·{" "}
+                {formatDate(leftPost.date)}
               </span>
             </div>
           </Link>
         )}
         {leftPost2 && (
-          <Link href={`/${leftPost2.category}/${leftPost2.slug}`} title={leftPost2.heading}>
-           
+          <Link
+            href={`/${leftPost2.category}/${leftPost2.slug}`}
+            title={leftPost2.heading}
+          >
             <div className="bg-white group cursor-pointer">
-               <Image
+              <Image
                 src={leftPost2.image}
                 alt={leftPost2.alt || leftPost2.heading}
                 className="w-full h-[150px] object-cover"
-                width={500}  // You can adjust this width as needed
+                width={500} // You can adjust this width as needed
                 height={100} // You can adjust this height as needed
                 loading="lazy"
-                />
+              />
               <h3 className="text-lg font-bold pt-2 group-hover:text-orange-500 transition">
                 {leftPost2.heading}
               </h3>
@@ -91,7 +89,8 @@ const CivilRightsNews = ({ rightPosts, middlePost, leftPost, leftPost2 }) => {
                 {leftPost.excerpt}
               </p> */}
               <span className="text-xs text-gray-600 mt-2 block">
-                By {leftPost2.author?.name || "Unknown"} · {formatDate(leftPost2.date)}
+                By {leftPost2.author?.name || "Unknown"} ·{" "}
+                {formatDate(leftPost2.date)}
               </span>
             </div>
           </Link>
@@ -101,7 +100,10 @@ const CivilRightsNews = ({ rightPosts, middlePost, leftPost, leftPost2 }) => {
       {/* Middle Column */}
       <div className="flex flex-col gap-5">
         {middlePost && (
-          <Link href={`/${middlePost.category}/${middlePost.slug}`} title={middlePost.heading}>
+          <Link
+            href={`/${middlePost.category}/${middlePost.slug}`}
+            title={middlePost.heading}
+          >
             <div className="group cursor-pointer">
               <Image
                 src={middlePost.image}
@@ -110,7 +112,7 @@ const CivilRightsNews = ({ rightPosts, middlePost, leftPost, leftPost2 }) => {
                 width={700} // Adjust width as needed
                 height={200} // Adjust height as needed
                 loading="lazy"
-                />
+              />
               <h2 className="text-2xl font-bold mt-[15px] group-hover:text-orange-500 transition">
                 {middlePost.heading}
               </h2>
@@ -118,7 +120,8 @@ const CivilRightsNews = ({ rightPosts, middlePost, leftPost, leftPost2 }) => {
                 {middlePost.excerpt}
               </p> */}
               <span className="text-xs text-black mt-2 block">
-                By {middlePost.author?.name || "Unknown"} · {formatDate(middlePost.date)}
+                By {middlePost.author?.name || "Unknown"} ·{" "}
+                {formatDate(middlePost.date)}
               </span>
             </div>
           </Link>
@@ -134,16 +137,26 @@ const CivilRightsNews = ({ rightPosts, middlePost, leftPost, leftPost2 }) => {
             {/* X (Twitter) */}
             <div className="flex flex-col items-center text-sm">
               <span className="w-12 h-12 flex items-center justify-center rounded-full bg-black text-white transition-all duration-300 hover:scale-110 hover:shadow-lg hover:shadow-black/30">
-                <Link href="https://x.com/CourtNews10" title="Follow us on X (Twitter)" target="_blank" rel="noopener noreferrer">
+                <Link
+                  href="https://x.com/CourtNews10"
+                  title="Follow us on X (Twitter)"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <FaXTwitter className="text-xl" />
-                </Link> 
+                </Link>
               </span>
             </div>
 
             {/* Instagram */}
             <div className="flex flex-col items-center text-sm">
               <span className="w-12 h-12 flex items-center justify-center rounded-full bg-gradient-to-br from-[#E1306C] via-[#C13584] to-[#F56040] text-white transition-all duration-300 hover:scale-110 hover:shadow-lg hover:shadow-pink-500/40">
-                <Link href="https://www.instagram.com/_court_news/" title="Follow us on Instagram" target="_blank" rel="noopener noreferrer">
+                <Link
+                  href="https://www.instagram.com/_court_news/"
+                  title="Follow us on Instagram"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <FaInstagram className="text-xl" />
                 </Link>
               </span>
@@ -152,7 +165,12 @@ const CivilRightsNews = ({ rightPosts, middlePost, leftPost, leftPost2 }) => {
             {/* Reddit */}
             <div className="flex flex-col items-center text-sm">
               <span className="w-12 h-12 flex items-center justify-center rounded-full bg-[#FF4500] text-white transition-all duration-300 hover:scale-110 hover:shadow-lg hover:shadow-orange-600/40">
-                <Link href="https://www.reddit.com/user/court_news/" title="Follow us on Reddit" target="_blank" rel="noopener noreferrer">
+                <Link
+                  href="https://www.reddit.com/user/court_news_7/"
+                  title="Follow us on Reddit"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <FaRedditAlien className="text-xl" />
                 </Link>
               </span>
@@ -161,7 +179,12 @@ const CivilRightsNews = ({ rightPosts, middlePost, leftPost, leftPost2 }) => {
             {/* Substack */}
             <div className="flex flex-col items-center text-sm">
               <span className="w-12 h-12 flex items-center justify-center rounded-full bg-[#FF6719] text-white transition-all duration-300 hover:scale-110 hover:shadow-lg hover:shadow-orange-600/40">
-                <Link href="https://substack.com/@courtnews" title="Follow us on Substack" target="_blank" rel="noopener noreferrer">
+                <Link
+                  href="https://substack.com/@courtnews"
+                  title="Follow us on Substack"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <BsSubstack className="text-xl" />
                 </Link>
               </span>
@@ -170,7 +193,7 @@ const CivilRightsNews = ({ rightPosts, middlePost, leftPost, leftPost2 }) => {
         </div>
 
         {rightPosts.map((post, index) => (
-          <Link 
+          <Link
             key={post.id || index}
             href={`/${post.category}/${post.slug}`}
             title={post.heading}
