@@ -5868,130 +5868,131 @@
       ]
     },
     {
-  "id": 14,
-  "metaTitle": "DC Police Crime Data Scandal: 13 Officials Face Firing",
-  "metaDescription": "Thirteen high-ranking DC police officials face termination after an internal probe found crime stats were changed to make the city look safer than it really was.",
-  "slug": "dc-police-crime-data-manipulation-13-officials-termination",
-  "focusKeyword": "DC police crime data manipulation",
-  "heading": "DC Police Crime Data Scandal: 13 High-Ranking Officials Face Termination After Internal Probe",
-  "excerpt": "Thirteen DC Metropolitan Police Department officials were served with termination notices after an internal affairs investigation found that crime data was manipulated to make violent crime rates appear lower than they were.",
-  "date": "08 May, 2026",
-  "author": "Court News Staff",
-  "image": "/images/dc-police-crime-data-manipulation-termination-2026.webp",
-  "alt": "DC Metropolitan Police Department headquarters amid crime data manipulation investigation in 2026",
-  "heroImage": "/images/dc-police-crime-data-manipulation-termination-2026.webp",
-  "caseInformation": {
-    "countryState": "United States / Washington, D.C.",
-    "caseNumber": "Internal Affairs Division, Metropolitan Police Department — Ongoing. House Oversight Committee Interim Report, 2025. D.C. Inspector General Probe, launched January 2026.",
-    "status": {
-      "accusation": "Thirteen senior Metropolitan Police Department officials have been served with proposed termination notices following an internal affairs investigation that found substantiated claims of crime data manipulation. Offenses including armed robbery and assault were allegedly reclassified to lesser crimes or removed from public databases to show lower crime numbers.",
-      "onTrial": "No criminal trial has begun. Disciplinary proceedings are active. Officials were placed on administrative leave on May 4, 2026, and have the right to appeal. The process can include arbitration and may take years.",
-      "currentStatus": "Active. The House Oversight Committee is still requesting documents. The D.C. Inspector General investigation is also ongoing. Multiple officials are challenging the findings through the department's internal disciplinary process.",
-      "outcome": "Pending. Officials have not been formally terminated. A lawyer for one captain argues the investigation is punishing managers who reclassified crimes in good faith, not those who intentionally falsified records."
-    }
-  },
-  "body": {
-    "dropcap": {
-      "letter": "T",
-      "text": "hirteen high-ranking officers at the Washington, D.C. Metropolitan Police Department face termination after an internal investigation found that crime data had been changed to make violent crime appear lower than it was — a finding that has shaken the department from the top down and put the careers of some of its most senior leaders on the line."
-    },
-    "paragraphs": [
-      "Interim Police Chief Jeffery Carroll confirmed on May 4, 2026, that the 13 officials were placed on administrative leave and handed notices of proposed adverse action. The disciplinary move follows an internal affairs investigation that found substantiated claims against people in leadership positions inside the department.",
-      "The officials have not been formally fired. Under department rules, each person served with a termination notice has the right to challenge the findings through a formal disciplinary process that can include hearings, arbitration, and appeals that may stretch out for years."
-    ],
-    "quote": {
-      "text": "Never will I ever compromise my integrity for a few crime numbers.",
-      "author": "Former DC Police Chief Pamela A. Smith, speaking at her departure ceremony"
-    },
-    "sections": [
-      {
-        "type": "imageWithText",
-        "title": "Who Is Named and What They Are Accused Of",
-        "text": [
-          "Among the senior officials now facing termination are Assistant Chief LaShay Makal, Assistant Chief Andre Wright, Second District Commander Tatjana Savoy, and former Third District Commander Michael Pulliam, according to officials who spoke on condition they not be named because of the sensitivity of the internal process.",
-          "The probe, backed in part by the House Oversight Committee and the U.S. Justice Department, found that serious crimes — including armed robberies, shootings, and assaults with weapons — were frequently reclassified as minor offenses or scrubbed from crime tracking systems entirely. The goal, according to investigators, was to produce lower crime numbers for public reporting."
-        ],
-        "image": {
-          "url": "/images/dc-mpd-headquarters-crime-probe-2026.webp",
-          "alt": "Metropolitan Police Department headquarters in Washington DC during 2026 crime data investigation"
-        },
-        "additionalText": [
-          "Officers in at least one Southeast Washington police district compiled a list of more than 150 cases since March 2024 in which they say crimes were improperly reclassified. Commanders testified that they were pushed to change classifications by people above them in the chain of command.",
-          "One commander described being told by a senior executive to change an assault with a dangerous weapon to the lesser charge of endangerment with a firearm — a crime that does not appear in public crime reports. Another testified about pressure to reclassify burglaries as unlawful entry, a far less serious offense."
-        ]
+      "id": 12,
+      "metaTitle": "DC Police Crime Data Scandal: 13 High-Ranking Officials Face Firing",
+      "metaDescription": "13 high-ranking DC police officials face firing after an internal probe uncovered a major crime data scandal in Washington.",
+      "slug": "dc-police-crime-data-scandal-firing-probe",
+      "focusKeyword": "DC police crime data scandal",
+      "heading": "DC Police Crime Data Scandal: 13 High-Ranking Officials Face Firing After Internal Probe",
+      "excerpt": "Thirteen DC Metropolitan Police Department officials were served with termination notices after an internal affairs investigation found that crime data was manipulated to make violent crime rates appear lower than they were.",
+      "date": "08 May, 2026",
+      "author": "Court News Staff",
+      "image": "/images/dc-police-crime-data-manipulation-termination-2026.webp",
+      "alt": "DC Metropolitan Police Department headquarters amid crime data manipulation investigation in 2026",
+      "heroImage": "/images/dc-police-crime-data-manipulation-termination-2026.webp",
+      "caseInformation": {
+        "countryState": "United States / Washington, D.C.",
+        "caseNumber": "Internal Affairs Division, Metropolitan Police Department — Ongoing. House Oversight Committee Interim Report, 2025. D.C. Inspector General Probe, launched January 2026.",
+        "status": {
+          "accusation": "Thirteen senior Metropolitan Police Department officials have been served with proposed termination notices following an internal affairs investigation that found substantiated claims of crime data manipulation. Offenses including armed robbery and assault were allegedly reclassified to lesser crimes or removed from public databases to show lower crime numbers.",
+          "onTrial": "No criminal trial has begun. Disciplinary proceedings are active. Officials were placed on administrative leave on May 4, 2026, and have the right to appeal. The process can include arbitration and may take years.",
+          "currentStatus": "Active. The House Oversight Committee is still requesting documents. The D.C. Inspector General investigation is also ongoing. Multiple officials are challenging the findings through the department's internal disciplinary process.",
+          "outcome": "Pending. Officials have not been formally terminated. A lawyer for one captain argues the investigation is punishing managers who reclassified crimes in good faith, not those who intentionally falsified records."
+        }
       },
-      {
-        "type": "twoColumnLayout",
-        "title": "How the Investigation Began and Who Pushed It Forward",
-        "mainContent": [
-          "Concerns about manipulated crime data inside the Metropolitan Police Department are not new. For years, officers and supervisors have privately complained that managers changed crime classifications to help their districts look safer. Those complaints moved into public view when a police commander was put on administrative leave during an internal inquiry into data manipulation.",
-          "The D.C. police union went public with allegations that crime underreporting was routine. President Donald Trump then stepped in, declaring a local crime emergency in part because he questioned statistics showing violent crime in D.C. had dropped to historic lows after a spike in 2023. Trump's declaration — now expired — brought National Guard troops and immigration agents into the city.",
-          "By fall 2025, dozens of officers were voluntarily giving information to the Justice Department. The Republican-led House Oversight Committee released an interim report accusing then-Police Chief Pamela A. Smith of creating what it called an ecosystem of fear and retaliation, in which commanders felt pressure to hit low crime numbers by any means necessary.",
-          "A leaked Justice Department draft report used similar language, describing a coercive culture of fear under Smith's leadership. The House Oversight Committee chair, Rep. James Comer of Kentucky, wrote to Interim Chief Carroll this week confirming the internal affairs probe had been completed and that its findings were substantiated against people in leadership roles."
-        ],
-        "showMoreRead": true
-      },
-      {
-        "type": "fullWidth",
-        "title": "Smith Denies It. Democrats See It Differently.",
-        "content": [
-          "Former Chief Smith has pushed back hard against the allegations. At a ceremony marking her departure from the department late last year, she told the crowd she would never compromise her integrity for a few crime numbers. Her supporters applauded.",
-          "Democrats on the House Oversight Committee reviewed the same commander interviews used by Republicans but came to different conclusions. Their own report highlighted testimony from officials who said they had never been pressured to change crime classifications and were instead encouraged to report numbers accurately. Those same commanders also told the committee, according to Democrats, that crime in the city had in fact fallen significantly over the past two years.",
-          "The split along party lines has made it harder to separate the factual question — whether crime data was deliberately changed — from the political one — whether Republicans are using the issue to justify Trump's intervention in D.C. Democrats said in their report that the Republican investigation was an assault on reality, carried out at the request of a president angry at a police department for doing its job."
-        ],
-        "image": {
-          "url": "/images/dc-police-internal-affairs-investigation-2026.webp",
-          "alt": "DC internal affairs investigation documents related to crime data manipulation probe 2026"
+      "body": {
+        "dropcap": {
+          "letter": "T",
+          "text": "hirteen high-ranking officers at the Washington, D.C. Metropolitan Police Department face termination after an internal investigation found that crime data had been changed to make violent crime appear lower than it was — a finding that has shaken the department from the top down and put the careers of some of its most senior leaders on the line."
         },
-        "subsections": [
+        "paragraphs": [
+          "Interim Police Chief Jeffery Carroll confirmed on May 4, 2026, that the 13 officials were placed on administrative leave and handed notices of proposed adverse action. The disciplinary move follows an internal affairs investigation that found substantiated claims against people in leadership positions inside the department.",
+          "The officials have not been formally fired. Under department rules, each person served with a termination notice has the right to challenge the findings through a formal disciplinary process that can include hearings, arbitration, and appeals that may stretch out for years.",
+          "The growing scandal surrounding manipulated crime statistics has become one of the most damaging crises in recent Metropolitan Police Department history. CourtNews reviewed internal findings, congressional records, and oversight documents tied to the investigation as 13 high-ranking officials now face possible firing."
+        ],
+        "quote": {
+          "text": "Never will I ever compromise my integrity for a few crime numbers.",
+          "author": "Former DC Police Chief Pamela A. Smith, speaking at her departure ceremony"
+        },
+        "sections": [
           {
-            "title": "Key Facts in the DC Crime Data Investigation",
+            "type": "imageWithText",
+            "title": "Who Is Named and What They Are Accused Of",
             "text": [
-              "Here is where the investigation stands as of May 8, 2026."
+              "Among the senior officials now facing termination are Assistant Chief LaShay Makal, Assistant Chief Andre Wright, Second District Commander Tatjana Savoy, and former Third District Commander Michael Pulliam, according to officials who spoke on condition they not be named because of the sensitivity of the internal process.",
+              "The probe, backed in part by the House Oversight Committee and the U.S. Justice Department, found that serious crimes — including armed robberies, shootings, and assaults with weapons — were frequently reclassified as minor offenses or scrubbed from crime tracking systems entirely. The goal, according to investigators, was to produce lower crime numbers for public reporting."
             ],
-            "checklist": [
-              "13 senior MPD officials placed on administrative leave May 4, 2026",
-              "Officials served with proposed termination notices — not yet formally fired",
-              "Named officials include Asst. Chiefs Makal and Wright, and Commanders Savoy and Pulliam",
-              "Internal affairs division found substantiated claims against department leadership",
-              "House Oversight Committee interim report accused former Chief Smith of creating a 'culture of fear'",
-              "DOJ and congressional investigations both remain active",
-              "D.C. Inspector General probe launched January 2026 — still ongoing",
-              "Officers compiled a list of 150+ alleged misclassifications since March 2024 in one district alone",
-              "Officials facing termination have the right to appeal — process can take years"
-            ],
+            "image": {
+              "url": "/images/dc-mpd-headquarters-crime-probe-2026.webp",
+              "alt": "Metropolitan Police Department headquarters in Washington DC during 2026 crime data investigation"
+            },
             "additionalText": [
-              "A lawyer representing one of the captains facing termination argues the investigation is catching managers who corrected misclassifications honestly, rather than those who deliberately sought to hide crime."
+              "Officers in at least one Southeast Washington police district compiled a list of more than 150 cases since March 2024 in which they say crimes were improperly reclassified. Commanders testified that they were pushed to change classifications by people above them in the chain of command.",
+              "One commander described being told by a senior executive to change an assault with a dangerous weapon to the lesser charge of endangerment with a firearm — a crime that does not appear in public crime reports. Another testified about pressure to reclassify burglaries as unlawful entry, a far less serious offense."
+            ]
+          },
+          {
+            "type": "twoColumnLayout",
+            "title": "How the Investigation Began and Who Pushed It Forward",
+            "mainContent": [
+              "Concerns about manipulated crime data inside the Metropolitan Police Department are not new. For years, officers and supervisors have privately complained that managers changed crime classifications to help their districts look safer. Those complaints moved into public view when a police commander was put on administrative leave during an internal inquiry into data manipulation.",
+              "The D.C. police union went public with allegations that crime underreporting was routine. President Donald Trump then stepped in, declaring a local crime emergency in part because he questioned statistics showing violent crime in D.C. had dropped to historic lows after a spike in 2023. Trump's declaration — now expired — brought National Guard troops and immigration agents into the city.",
+              "By fall 2025, dozens of officers were voluntarily giving information to the Justice Department. The Republican-led House Oversight Committee released an interim report accusing then-Police Chief Pamela A. Smith of creating what it called an ecosystem of fear and retaliation, in which commanders felt pressure to hit low crime numbers by any means necessary.",
+              "A leaked Justice Department draft report used similar language, describing a coercive culture of fear under Smith's leadership. The House Oversight Committee chair, Rep. James Comer of Kentucky, wrote to Interim Chief Carroll this week confirming the internal affairs probe had been completed and that its findings were substantiated against people in leadership roles."
+            ],
+            "showMoreRead": true
+          },
+          {
+            "type": "fullWidth",
+            "title": "Smith Denies It. Democrats See It Differently.",
+            "content": [
+              "Former Chief Smith has pushed back hard against the allegations. At a ceremony marking her departure from the department late last year, she told the crowd she would never compromise her integrity for a few crime numbers. Her supporters applauded.",
+              "Democrats on the House Oversight Committee reviewed the same commander interviews used by Republicans but came to different conclusions. Their own report highlighted testimony from officials who said they had never been pressured to change crime classifications and were instead encouraged to report numbers accurately. Those same commanders also told the committee, according to Democrats, that crime in the city had in fact fallen significantly over the past two years.",
+              "The split along party lines has made it harder to separate the factual question — whether crime data was deliberately changed — from the political one — whether Republicans are using the issue to justify Trump's intervention in D.C. Democrats said in their report that the Republican investigation was an assault on reality, carried out at the request of a president angry at a police department for doing its job."
+            ],
+            "image": {
+              "url": "/images/dc-police-internal-affairs-investigation-2026.webp",
+              "alt": "DC internal affairs investigation documents related to crime data manipulation probe 2026"
+            },
+            "subsections": [
+              {
+                "title": "Key Facts in the DC Crime Data Investigation",
+                "text": [
+                  "Here is where the investigation stands as of May 8, 2026."
+                ],
+                "checklist": [
+                  "13 senior MPD officials placed on administrative leave May 4, 2026",
+                  "Officials served with proposed termination notices — not yet formally fired",
+                  "Named officials include Asst. Chiefs Makal and Wright, and Commanders Savoy and Pulliam",
+                  "Internal affairs division found substantiated claims against department leadership",
+                  "House Oversight Committee interim report accused former Chief Smith of creating a 'culture of fear'",
+                  "DOJ and congressional investigations both remain active",
+                  "D.C. Inspector General probe launched January 2026 — still ongoing",
+                  "Officers compiled a list of 150+ alleged misclassifications since March 2024 in one district alone",
+                  "Officials facing termination have the right to appeal — process can take years"
+                ],
+                "additionalText": [
+                  "A lawyer representing one of the captains facing termination argues the investigation is catching managers who corrected misclassifications honestly, rather than those who deliberately sought to hide crime."
+                ]
+              }
+            ]
+          },
+          {
+            "type": "finalSection",
+            "title": "What Comes Next for the Department and the City",
+            "intro": [
+              "The termination notices mark the most dramatic step yet in what has become one of the most damaging internal scandals in the Metropolitan Police Department's recent history. But they are not the end of the road.",
+              "Officials who have been served with proposed termination notices can challenge the findings through the department's disciplinary process. That process includes the right to respond to the charges, request a hearing, and, if needed, take the matter to arbitration. Given the number of officials involved and the complexity of the allegations, legal observers expect the process to play out over months if not years.",
+              "The House Oversight Committee has made clear it wants more. Rep. Comer and fellow Republicans on the panel posted publicly this week that they would not stop until the full truth is out. They demanded that the department release every document from its internal investigation. The committee continues to seek additional records and communications from the department.",
+              "Mayor Muriel Bowser asked the city's inspector general to take an independent look at the crime data concerns, and that investigation is still running. It is separate from both the internal affairs probe and the congressional inquiry, and its findings have not yet been made public.",
+                "The proposed disciplinary actions will create immediate staffing challenges. With more than a dozen senior officials now on leave, the department faces gaps at the command level at a time when it is already under public scrutiny. Interim Chief Carroll has not said publicly how the department plans to fill those roles while the disciplinary process moves forward."
+            ],
+            "twoColumnContent": {
+              "left": [
+                "For residents and city officials, the broader question remains unresolved: how much did crime data manipulation actually affect what the public was told about safety in Washington, D.C.? Until the inspector general and congressional investigations reach final conclusions — and until the department's disciplinary process plays out — that question does not have a clear answer."
+              ],
+              "rightQuote": {
+                "text": "We're not stopping until the full truth is out.",
+                "author": "House Oversight Committee Republicans, in a public statement, May 2026"
+              }
+            },
+            "conclusion": [
+              "As of May 8, 2026, no officials have been formally terminated, no criminal charges have been filed, and multiple investigations remain open. The department now faces the dual challenge of rebuilding public trust in its crime data while navigating a leadership crisis that has reached the highest levels of its command structure."
             ]
           }
         ]
-      },
-      {
-        "type": "finalSection",
-        "title": "What Comes Next for the Department and the City",
-        "intro": [
-          "The termination notices mark the most dramatic step yet in what has become one of the most damaging internal scandals in the Metropolitan Police Department's recent history. But they are not the end of the road.",
-          "Officials who have been served with proposed termination notices can challenge the findings through the department's disciplinary process. That process includes the right to respond to the charges, request a hearing, and, if needed, take the matter to arbitration. Given the number of officials involved and the complexity of the allegations, legal observers expect the process to play out over months if not years.",
-          "The House Oversight Committee has made clear it wants more. Rep. Comer and fellow Republicans on the panel posted publicly this week that they would not stop until the full truth is out. They demanded that the department release every document from its internal investigation. The committee continues to seek additional records and communications from the department.",
-          "Mayor Muriel Bowser asked the city's inspector general to take an independent look at the crime data concerns, and that investigation is still running. It is separate from both the internal affairs probe and the congressional inquiry, and its findings have not yet been made public.",
-            "The proposed disciplinary actions will create immediate staffing challenges. With more than a dozen senior officials now on leave, the department faces gaps at the command level at a time when it is already under public scrutiny. Interim Chief Carroll has not said publicly how the department plans to fill those roles while the disciplinary process moves forward."
-        ],
-        "twoColumnContent": {
-          "left": [
-            "For residents and city officials, the broader question remains unresolved: how much did crime data manipulation actually affect what the public was told about safety in Washington, D.C.? Until the inspector general and congressional investigations reach final conclusions — and until the department's disciplinary process plays out — that question does not have a clear answer."
-          ],
-          "rightQuote": {
-            "text": "We're not stopping until the full truth is out.",
-            "author": "House Oversight Committee Republicans, in a public statement, May 2026"
-          }
-        },
-        "conclusion": [
-          "As of May 8, 2026, no officials have been formally terminated, no criminal charges have been filed, and multiple investigations remain open. The department now faces the dual challenge of rebuilding public trust in its crime data while navigating a leadership crisis that has reached the highest levels of its command structure."
-        ]
       }
-    ]
-  }
-}
+    }
   ],
 
   "civil-rights": [
