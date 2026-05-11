@@ -134,7 +134,7 @@ export const metadata = {
   description:
     "CourtNews delivers fast, factual reporting on U.S. courts, criminal justice, civil rights, federal investigations, law, political, and major national cases.",
   icons: {
-    icon: "/favicon.ico",
+    icon: "/washington-insider-icon.ico",
   },
   openGraph: {
     title: {
