@@ -7260,6 +7260,117 @@
           }
         ]
       }
+    },
+    {
+      "id": 12,
+      "metaTitle": "Kemp Sets a June Special Session to Redraw Georgia Maps",
+      "metaDescription": "Georgia Gov. Brian Kemp called a special legislative session for June 17 to redraw electoral maps after SCOTUS struck down racial gerrymandering districts.",
+      "slug": "kemp-georgia-special-session-redistricting-2026",
+      "heading": "Kemp Orders Georgia Back to the Capitol in June to Redraw Electoral Maps After Supreme Court Racial Gerrymandering Ruling",
+      "excerpt": "Gov. Brian Kemp signed a proclamation Wednesday ordering Georgia lawmakers into a rare special session on June 17, directing them to redraw the state's congressional and legislative district maps in compliance with a landmark Supreme Court ruling — and to resolve a looming ballot tabulation crisis before the fall election.",
+      "date": "13 May, 2026",
+      "image": "/images/kemp-georgia-special-session-redistricting-2026.webp",
+      "alt": "Georgia Governor Brian Kemp at a press podium announcing a special legislative session",
+      "heroImage": "/images/kemp-georgia-special-session-redistricting-2026.webp",
+      "caseInformation": {
+        "countryState": "United States / Georgia (U.S. Supreme Court; U.S. District Court, N.D. Georgia; 11th Circuit Court of Appeals)",
+        "caseNumber": "Triggering case: Louisiana v. Callais, No. 24-1234 (U.S. Apr. 29, 2026). Related Georgia cases: Pendergrass v. Raffensperger, No. 1:21-cv-05339; Alpha Phi Alpha Fraternity Inc. v. Raffensperger, No. 1:21-cv-05337; Grant v. Raffensperger, No. 1:22-cv-00122",
+        "status": {
+          "accusation": "Multiple plaintiffs alleged that Georgia's 2021 congressional and state legislative maps violated Section 2 of the Voting Rights Act by diluting Black voting strength. Separately, the Supreme Court found in Louisiana v. Callais that majority-Black districts drawn primarily on race are unconstitutional racial gerrymanders.",
+          "onTrial": "Three redistricting lawsuits challenging Georgia's current 2023 court-ordered maps remain pending on appeal before the 11th Circuit Court of Appeals.",
+          "currentStatus": "Gov. Kemp has called a special legislative session beginning June 17, 2026, to redraw state Senate, state House, and U.S. congressional maps in response to the Callais ruling. Lawmakers are also tasked with replacing the state's QR code ballot tabulation system before a July 1 statutory deadline.",
+          "outcome": "Special session scheduled for June 17, 2026. New maps targeted for the 2028 election cycle. Related federal lawsuits ongoing at the 11th Circuit."
+        }
+      },
+      "body": {
+        "dropcap": {
+          "letter": "G",
+          "text": "eorgia Gov. Brian Kemp signed a proclamation Wednesday ordering the state legislature into a special session on June 17, directing lawmakers to tear up the state's existing electoral maps and draw new congressional and legislative district lines — a direct response to a Supreme Court ruling last month that declared race-centered redistricting unconstitutional."
+        },
+        "paragraphs": [
+          "The session is the first Kemp has called specifically for redistricting purposes, and it puts Georgia at the center of a rapidly shifting legal landscape following the high court's 6-3 decision in Louisiana v. Callais, No. 24-1234, handed down April 29, 2026. The justices ruled that Louisiana's second majority-Black congressional district was drawn too heavily on race, making it an unconstitutional racial gerrymander under the Equal Protection Clause. Kemp said the ruling 'requires Georgia to adopt new electoral maps before the 2028 election cycle.'",
+          "The new maps will not touch the 2026 midterms. Lawmakers in the June session are confined to a specific agenda: redraw state Senate, state House, and U.S. congressional districts for 2028 and beyond — and separately, fix a looming crisis in how Georgia counts its ballots. A 2024 state law bans QR codes from ballot tabulation starting July 1, 2026, but the legislature adjourned in April without funding or choosing a replacement system. Without legislative action this month, Georgia could head into a fall general election without a functioning vote-count framework."
+        ],
+        "quote": {
+          "text": "The Supreme Court has set a new constitutional standard on how districts can be drawn. Georgia has a legal obligation to bring its maps into compliance, and this session will allow us to do that before the next election cycle begins.",
+          "author": "Gov. Brian Kemp, State of Georgia"
+        },
+        "sections": [
+          {
+            "type": "imageWithText",
+            "text": [
+              "Georgia's current maps were not drawn by the legislature voluntarily. They came out of a 2023 special session ordered by a federal court that found the state's 2021 lines violated Section 2 of the Voting Rights Act by diluting Black voting power across multiple districts. Those court-drawn maps are now themselves under challenge. Three federal lawsuits remain pending on appeal before the 11th Circuit: Pendergrass v. Raffensperger (No. 1:21-cv-05339), which targets U.S. congressional lines; Alpha Phi Alpha Fraternity Inc. v. Raffensperger (No. 1:21-cv-05337), which challenges state legislative maps; and Grant v. Raffensperger (No. 1:22-cv-00122), which also contests state legislative districts.",
+              "Republicans view the Callais decision as legal authorization to scale back majority-minority districts that federal courts previously mandated. Their argument: if drawing districts primarily around race is now unconstitutional, the court orders that forced those districts may no longer stand. That logic is not settled — courts will have to determine how Callais applies to existing consent decrees and appeal-level injunctions — but it is the frame Georgia Republicans plan to take into the drafting room this summer."
+            ],
+            "image": {
+              "url": "/images/kemp-georgia-special-session-redistricting-2026-si.webp",
+              "alt": "Georgia State Capitol building in Atlanta where the special session will convene"
+            },
+            "additionalText": [
+              "The session's scope is narrow by design. Kemp's proclamation limits lawmakers to redistricting and the QR code tabulation fix — nothing else is on the table. Any bill outside those two subjects would be out of order under the terms of the call."
+            ]
+          },
+          {
+            "type": "twoColumnLayout",
+            "title": "Democrats Condemn the Move; Republicans Cite Legal Duty",
+            "mainContent": [
+              "Democratic lawmakers and civil rights groups pushed back hard within hours of the proclamation. Their core argument: the Callais ruling does not require Georgia to undo maps a federal court ordered it to draw in the first place, and using the decision as cover to dilute Black voting power is precisely the kind of maneuvering the Voting Rights Act was written to prevent. Several Democratic legislators called the session politically motivated, designed to lock in Republican advantages in a state that came within a razor's margin in recent statewide races.",
+              "Republican leadership framed the session differently — as a straightforward compliance exercise. Senate President Pro Tempore John Kennedy said in a statement that Georgia must draw 'race-neutral maps that follow the law as the Supreme Court has now defined it.' The divide over what the law actually requires will almost certainly outlast the session itself. Civil rights attorneys have already signaled they will challenge whatever maps emerge, meaning the new lines are likely headed straight back into federal court."
+            ],
+            "showMoreRead": true
+          },
+          {
+            "type": "fullWidth",
+            "title": "The QR Code Deadline: A Separate but Urgent Crisis",
+            "content": [
+              "The ballot tabulation problem is less politically charged but equally time-sensitive. Georgia's voting system uses QR codes printed on paper ballots as the primary tabulation input — a method that has drawn scrutiny from election security advocates who argue the codes are unverifiable by ordinary voters. In 2024, the legislature passed a law requiring the state to move to a different system, setting a July 1, 2026 deadline. But when the regular session ended in April, no replacement technology had been procured, tested, or funded.",
+              "County election officials have made clear that without a legislative fix, they have no legal framework for counting ballots under the new law. Kemp's decision to fold the tabulation issue into the redistricting session ensures it gets resolved before Georgia's November elections — but it also means a rushed process for a change that affects every voter in the state."
+            ],
+            "image": {
+              "url": "/images/kemp-georgia-special-session-redistricting-2026-ti.webp",
+              "alt": "Georgia election officials reviewing paper ballots at a county tabulation center"
+            },
+            "subsections": [
+              {
+                "title": "Key Facts at a Glance",
+                "text": [
+                  "The June 17 session is limited to two items by the terms of Kemp's proclamation: drawing new electoral maps and fixing the ballot tabulation system. Both carry hard deadlines — one legal, one electoral."
+                ],
+                "checklist": [
+                  "Louisiana v. Callais decided 6-3 on April 29, 2026 — racial gerrymanders unconstitutional",
+                  "New Georgia maps apply to 2028 elections only; 2026 midterms are unaffected",
+                  "Three federal redistricting lawsuits remain active at the 11th Circuit Court of Appeals",
+                  "QR code ballot tabulation ban takes effect July 1, 2026 — no replacement system yet selected",
+                  "Democrats and civil rights groups have pledged to challenge any maps that reduce majority-Black districts"
+                ],
+                "additionalText": [
+                  "The proclamation does not authorize any other legislation. Lawmakers who attempt to attach unrelated items will face a point of order under the constitutional limits on special sessions."
+                ]
+              }
+            ]
+          },
+          {
+            "type": "finalSection",
+            "title": "What It Means for Georgia Voters — and the Courts",
+            "intro": [
+              "Whatever maps the legislature produces in June will almost certainly be challenged in court before the ink is dry. The three existing redistricting lawsuits already at the 11th Circuit create a complex legal environment — any new maps drawn under the Callais rationale will need to survive both those pending cases and fresh litigation from voting rights organizations. That means Georgia voters may not know the final shape of their districts for months or years."
+            ],
+            "twoColumnContent": {
+              "left": [
+                "The deeper question — whether the Supreme Court's Callais ruling actually requires states to reduce or eliminate court-ordered majority-minority districts — has not been definitively answered. Lower courts around the country are working through that question now, and Georgia's June session will generate one of the first major legislative responses to watch. The outcome here could influence how other states in the South respond to the ruling.",
+                "For communities that spent years in court winning the right to a fair map, the special session feels like starting over. For Republican lawmakers, it represents a rare opportunity to reshape Georgia's political geography for a generation — all with the cover of a Supreme Court decision to point to."
+              ],
+              "rightQuote": {
+                "text": "The Voting Rights Act still exists. A Supreme Court ruling on racial gerrymandering does not give any legislature a blank check to erase districts that minority communities fought years in federal court to secure.",
+                "author": "Voting rights attorneys, paraphrased from public statements following the Callais decision"
+              }
+            },
+            "conclusion": [
+              "The June 17 special session will be one of the most watched state legislative events of the year — a live test of how far a Republican-controlled statehouse will go in using Callais to redraw the political map, and how quickly the courts will intervene. Georgia's electoral future for the next decade hinges, in large part, on what happens in that chamber this summer."
+            ]
+          }
+        ]
+      }
     }
   ],
 
