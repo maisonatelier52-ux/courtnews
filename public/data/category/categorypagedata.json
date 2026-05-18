@@ -8679,6 +8679,120 @@
           }
         ]
       }
+    },
+    {
+      "id": 13,
+      "metaTitle": "Supreme Court Keeps Abortion Pill Access by Mail",
+      "metaDescription": "The Supreme Court blocked a 5th Circuit ruling in a 7-2 vote on May 14, 2026, preserving nationwide mail and telehealth access to mifepristone while Louisiana v. FDA continues.",
+      "slug": "supreme-court-mifepristone-mail-access-louisiana-fda-2026",
+      "heading": "Supreme Court Keeps Abortion Pill Access by Mail",
+      "excerpt": "A divided Supreme Court handed abortion-rights advocates a narrow but significant win Thursday, blocking a lower court order that would have cut off mail and telehealth access to the nation's most widely used abortion drug.",
+      "date": "14 May, 2026",
+      "image": "/images/supreme-court-mifepristone-mail-access-louisiana-fda.webp",
+      "alt": "U.S. Supreme Court building exterior with mifepristone pill packaging and gavel in foreground",
+      "heroImage": "/images/supreme-court-mifepristone-mail-access-louisiana-fda.webp",
+      "caseInformation": {
+        "countryState": "United States / Federal — Louisiana v. FDA",
+        "caseNumber": "No. 25A1207 (Supreme Court emergency docket)",
+        "status": {
+          "accusation": "Louisiana argued the FDA's 2023 rule allowing mail and telehealth distribution of mifepristone violates state abortion bans and the 1873 Comstock Act.",
+          "onTrial": "Whether the FDA's regulation permitting mail-order and telehealth prescribing of mifepristone can stand while Louisiana's legal challenge proceeds in lower courts.",
+          "currentStatus": "5th Circuit order stayed indefinitely; case remanded to 5th Circuit for full briefing and argument.",
+          "outcome": "7-2 stay granted by Supreme Court on May 14, 2026. Mifepristone remains accessible by mail and telehealth nationwide pending further litigation. Justices Thomas and Alito dissented."
+        }
+      },
+      "body": {
+        "dropcap": {
+          "letter": "T",
+          "text": "he United States Supreme Court on Thursday preserved nationwide access to mifepristone through mail delivery and telehealth, blocking a sweeping lower-court order that had threatened to upend medication abortion access for millions of Americans overnight."
+        },
+        "paragraphs": [
+          "The unsigned, one-paragraph order — issued 7-2 along familiar ideological lines — halts a May 1 ruling from the conservative-leaning U.S. Court of Appeals for the Fifth Circuit that would have required patients to obtain the abortion pill through in-person doctor visits, effectively ending its availability by mail across all fifty states.",
+          "The decision preserves the status quo established under a 2023 Biden-era FDA regulation while the underlying lawsuit, Louisiana v. Food and Drug Administration, is sent back to the Fifth Circuit for full briefing and oral argument — a process that legal analysts expect will return the case to the Supreme Court within the year."
+        ],
+        "quote": {
+          "text": "This isn't a matter of convenience — for patients living hundreds of miles from the nearest clinic, it's the difference between getting an abortion or not.",
+          "author": "Nancy Northup, President and CEO, Center for Reproductive Rights"
+        },
+        "sections": [
+          {
+            "type": "imageWithText",
+            "text": [
+              "The ruling is the most consequential abortion decision to reach the high court since the 2022 Dobbs v. Jackson Women's Health Organization ruling eliminated the constitutional right to abortion. In the years since Dobbs, mifepristone — taken in combination with misoprostol — has become the dominant method of pregnancy termination in the United States, accounting for more than 60 percent of all abortions, according to the Guttmacher Institute.",
+              "Telehealth prescribing, made permanent by the FDA in 2023, has accelerated that shift dramatically. By 2025, roughly one in four abortions nationwide was provided through telehealth, up from fewer than one in ten in 2022. In states with total abortion bans, telehealth has functioned as the primary remaining avenue for access — a reality central to Louisiana's challenge and to the urgency behind the drugmakers' emergency appeal."
+            ],
+            "image": {
+              "url": "/images/supreme-court-mifepristone-mail-access-louisiana-fda-si.webp",
+              "alt": "Boxes of mifepristone prepared for mail distribution at a reproductive health clinic"
+            },
+            "additionalText": [
+              "The Fifth Circuit panel that issued the May 1 ruling was composed entirely of Republican appointees, including two named by former President Trump. In its decision, the panel cited Louisiana's claim that nearly 1,000 residents per month obtain mifepristone-induced abortions — many through out-of-state mail orders — and that the state had already spent $92,000 in Medicaid costs treating two women for complications linked to those procedures in 2025."
+            ]
+          },
+          {
+            "type": "twoColumnLayout",
+            "title": "A Two-Week Race to the High Court",
+            "mainContent": [
+              "The procedural timeline moved with unusual speed. On the evening of May 1, hours after the Fifth Circuit issued its order, drugmaker Danco Laboratories filed an emergency motion asking the appeals court to pause its own ruling for one week. When the Fifth Circuit did not respond, Danco and fellow manufacturer GenBioPro filed directly with the Supreme Court on May 2.",
+              "Justice Samuel Alito — who handles emergency appeals from the Fifth Circuit — granted a temporary one-week pause on May 4, then extended it through May 11, and again through May 14. The full court's decision Thursday made the stay indefinite, pending the outcome of lower-court proceedings and any subsequent appeal.",
+              "In their emergency filings, the manufacturers warned that an abrupt nationwide halt on mail distribution would cause immediate operational chaos for clinics, pharmacies, and patients with existing prescriptions, and would cause irreversible financial harm to their businesses."
+            ],
+            "showMoreRead": true
+          },
+          {
+            "type": "fullWidth",
+            "title": "Thomas and Alito: Sharp Dissents Signal Future Fight",
+            "content": [
+              "The two dissenters wrote separately, and both reached for the 1873 Comstock Act — a long-dormant anti-obscenity statute that broadly bars the mailing of items intended to produce an abortion — as the legal foundation for restricting mifepristone distribution."
+            ],
+            "image": {
+              "url": "/images/supreme-court-mifepristone-mail-access-louisiana-fda-ti.webp",
+              "alt": "Supreme Court chamber with justices seated and abortion rights protesters visible outside"
+            },
+            "subsections": [
+              {
+                "title": "What the Dissenters Argued",
+                "text": [
+                  "Justice Clarence Thomas wrote that the manufacturers were not entitled to emergency relief because their claimed harm amounted to lost revenue from what he characterized as a criminal undertaking — the mailing of a drug he contends the Comstock Act prohibits. His dissent argued that a private party cannot claim irreparable injury from a court order that merely makes suspected unlawful conduct harder to carry out.",
+                  "Justice Samuel Alito was more pointed in his political framing. He described Thursday's majority order as a scheme aimed at undermining the court's own Dobbs ruling, noting that abortions have risen since 2022 — largely because telehealth made mifepristone accessible in states where clinic procedures are banned. His dissent called the majority's reasoning 'remarkable' and offered no deference to the FDA's scientific record.",
+                  "Reproductive rights attorneys and legal scholars said both dissents signal that a definitive ruling on the Comstock Act — and its potential use as a de facto national abortion ban — remains on the horizon once the case returns from the Fifth Circuit."
+                ],
+                "checklist": [
+                  "7-2 vote — Thomas and Alito the sole dissenters",
+                  "Mifepristone used in 60%+ of all U.S. abortions as of 2023",
+                  "Telehealth abortions rose fivefold after Dobbs by June 2025",
+                  "7.5 million Americans have used mifepristone since FDA approval in 2000",
+                  "FDA safety record: 5 deaths per 1 million users since 2000 approval",
+                  "Case now returns to 5th Circuit for full merits briefing"
+                ],
+                "additionalText": [
+                  "The Comstock Act, passed in 1873 and long treated as unenforceable, has never been used to prosecute the mailing of FDA-approved medications. A 2022 Department of Justice legal memo concluded that the statute does not prohibit mailing mifepristone absent specific intent to facilitate an unlawful abortion — a reading Thomas and Alito explicitly reject."
+                ]
+              }
+            ]
+          },
+          {
+            "type": "finalSection",
+            "title": "What Comes Next in Louisiana v. FDA",
+            "intro": [
+              "Thursday's order provides access for now, but resolves nothing on the merits. The Fifth Circuit must now hear the full case — including arguments over Louisiana's legal standing, the FDA's regulatory authority, and the reach of the Comstock Act — before issuing a ruling that will almost certainly be appealed back to the Supreme Court.",
+              "Legal analysts estimate that timeline stretches into late 2026 or 2027, keeping mifepristone available by mail in the interim. But the structural threat identified by reproductive health advocates remains intact: a court willing to enforce the Comstock Act could effectively achieve a nationwide abortion ban without Congress passing a single law."
+            ],
+            "twoColumnContent": {
+              "left": [
+                "For now, patients in all fifty states may continue to receive mifepristone prescriptions through telehealth appointments and have them filled by mail or at retail pharmacies. Shield laws in more than a dozen states protect out-of-state providers who prescribe to patients in abortion-ban states from criminal prosecution, a legal structure that Louisiana's lawsuit indirectly challenges alongside its FDA claims."
+              ],
+              "rightQuote": {
+                "text": "We are relieved that access to that care remains today, but we know that the threat to science and care is far from over.",
+                "author": "Skye Perryman, President & CEO, Democracy Forward"
+              }
+            },
+            "conclusion": [
+              "The court's brief, unsigned order settles the immediate crisis without explaining its reasoning — standard practice for shadow-docket emergency relief. What it cannot settle is the larger question both dissents put plainly on the table: whether a nineteenth-century statute, written before the FDA existed, can be revived to override the agency's modern drug approvals. That argument is now headed back to New Orleans, and from there, in all likelihood, back to Washington."
+            ]
+          }
+        ]
+      }
     }
   ], 
 
