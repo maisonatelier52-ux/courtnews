@@ -4536,6 +4536,108 @@
           }
         ]
       }
+    },
+    {
+      "id": 13,
+      "metaTitle": "Supreme Court Faces Historic Executive Power Showdown: Four Major Trump Cases Pending",
+      "metaDescription": "The U.S. Supreme Court is poised to rule on four landmark Trump-era cases — birthright citizenship, Federal Reserve independence, FTC commissioner removal, and TPS terminations — with sweeping implications for presidential authority and immigration law.",
+      "slug": "supreme-court-trump-executive-power-cases-2026",
+      "heading": "Supreme Court Faces Historic Executive Power Showdown as Four Major Trump Cases Await Ruling",
+      "excerpt": "Four landmark cases testing the outer limits of presidential authority are awaiting rulings from the U.S. Supreme Court, with decisions expected before the close of the current term that will shape American governance for decades.",
+      "date": "22 May, 2026",
+      "image": "/images/supreme-court-trump-executive-power-cases-2026.webp",
+      "alt": "U.S. Supreme Court building in Washington D.C. with American flag",
+      "heroImage": "/images/supreme-court-trump-executive-power-cases-2026.webp",
+      "caseInformation": {
+        "countryState": "United States / Federal (U.S. Supreme Court)",
+        "caseNumber": "Trump v. Barbara No. 25-365 | Trump v. Cook No. 25A312 | Trump v. Slaughter No. 25-332 | Mullin v. Doe",
+        "status": {
+          "accusation": "The Trump administration is advancing four separate legal actions testing presidential authority over birthright citizenship, removal of Federal Reserve and FTC officers, and termination of Temporary Protected Status for hundreds of thousands of immigrants.",
+          "onTrial": "Federal civil and constitutional cases before the U.S. Supreme Court reviewing the scope of executive power across four distinct legal challenges.",
+          "currentStatus": "All four cases are pending ruling before the Supreme Court. Oral arguments in Trump v. Barbara were heard April 1, 2026. Lower court stays remain in effect in the Federal Reserve and birthright citizenship cases. TPS terminations are proceeding under a Supreme Court stay issued October 2025.",
+          "outcome": "Rulings pending. Decisions are expected before the close of the Court's current term and will define the boundaries of executive authority for future administrations of either party."
+        }
+      },
+      "body": {
+        "dropcap": {
+          "letter": "F",
+          "text": "our landmark cases that could reshape the boundaries of American presidential power are awaiting rulings from the U.S. Supreme Court — decisions that will settle whether a sitting president can rewrite birthright citizenship by executive order, remove a Federal Reserve governor at will, fire an FTC commissioner over policy disagreements, and unilaterally strip humanitarian protections from hundreds of thousands of immigrants."
+        },
+        "paragraphs": [
+          "The cases — Trump v. Barbara (No. 25-365), Trump v. Cook (No. 25A312), Trump v. Slaughter (No. 25-332), and Mullin v. Doe — arrive before the Court's current term as the Trump administration has mounted one of the most aggressive expansions of executive authority in modern American legal history, according to legal scholars and court observers.",
+          "Rulings are expected before the end of the Court's current term. Each case carries consequences that extend well beyond the Trump presidency, setting precedents that will define executive power for administrations of either party for decades.",
+          "Reuters reported on May 20, 2026 that the cases represent a historic showdown over executive power, with the Court expected to issue consequential rulings on all four before the term closes."
+        ],
+        "quote": {
+          "text": "These four cases together represent perhaps the most concentrated test of executive power limits in a single Supreme Court term since the New Deal era.",
+          "author": "Court observers cited in Reuters reporting, May 20, 2026"
+        },
+        "sections": [
+          {
+            "type": "imageWithText",
+            "text": [
+              "On his first day back in office, President Trump signed an executive order directing federal agencies to deny automatic citizenship to children born on U.S. soil if neither parent holds citizenship or lawful permanent residency. Federal courts moved quickly to block the order, finding it flatly inconsistent with the 14th Amendment's Citizenship Clause and the Immigration and Nationality Act.",
+              "During oral arguments on April 1, 2026, a majority of justices signaled deep skepticism toward the administration's legal theory. The government argued for broad executive discretion over citizenship definitions; challengers contended no executive order can override a constitutional amendment."
+            ],
+            "additionalText": [
+              "The birthright citizenship case — Trump v. Barbara, No. 25-365 — is the first direct executive challenge to the 14th Amendment's Citizenship Clause since its ratification in 1868. A ruling against the administration would leave the existing standard intact."
+            ]
+          },
+          {
+            "type": "twoColumnLayout",
+            "title": "The Federal Reserve and FTC: Two Removal Power Cases, Two Different Signals",
+            "mainContent": [
+              "In Trump v. Cook (No. 25A312), the administration is seeking to remove Federal Reserve Board Governor Lisa Cook — a move that alarmed financial markets and monetary policy experts. The Federal Reserve was deliberately designed with insulation from political pressure; governors serve 14-year terms. Multiple justices appeared committed to protecting the Fed's structural independence during oral arguments, suggesting the administration faces a difficult path.",
+              "The FTC case tells a different story. In Trump v. Slaughter (No. 25-332), the administration is challenging a 1914 statute limiting the removal of FTC commissioners to 'for cause.' Unlike in the Federal Reserve case, the Court's conservative majority appeared more receptive to expanding presidential removal powers over the FTC — suggesting the agency's century-old statutory protections may be more vulnerable."
+            ],
+            "showMoreRead": true
+          },
+          {
+            "type": "fullWidth",
+            "title": "Temporary Protected Status: Mullin v. Doe and the 9th Circuit Conflict",
+            "content": [
+              "The fourth case — Mullin v. Doe — concerns the administration's push to rescind Temporary Protected Status for approximately 350,000 immigrants from Haiti and 6,100 from Syria. TPS, created by Congress in 1990, grants temporary deportation protection and work authorization to nationals of countries experiencing armed conflict or natural disaster."
+            ],
+            "subsections": [
+              {
+                "title": "Key Facts Across All Four Cases",
+                "text": [
+                  "The 9th Circuit ruled in January 2026 — in the related case Naranjo v. Noem — that DHS Secretary Kristi Noem lacked statutory authority to vacate Venezuela's existing TPS designation. A three-judge panel found Congress never granted the secretary power to 'vacate' prior TPS designations. Judge Salvador Mendoza Jr. concurred separately, noting evidence that the administration's reasoning was pretextual and reflected racial and national-origin animus. Despite that ruling, the Supreme Court's October 2025 stay allows terminations to proceed on the ground while the high court reviews the matter."
+                ],
+                "checklist": [
+                  "Trump v. Barbara (No. 25-365): Birthright citizenship — 14th Amendment challenge, lower courts blocked executive order",
+                  "Trump v. Cook (No. 25A312): Federal Reserve Governor Lisa Cook firing — justices signaled support for Fed independence",
+                  "Trump v. Slaughter (No. 25-332): FTC Commissioner removal — conservative majority appeared open to expanded removal power",
+                  "Mullin v. Doe: TPS terminations for 350,000 Haitians and 6,100 Syrians — Supreme Court stay allows terminations pending ruling"
+                ],
+                "additionalText": [
+                  "The White House and DHS did not respond to requests for comment on the pending rulings. The Supreme Court is expected to issue decisions on all four cases before the close of the current term."
+                ]
+              }
+            ]
+          },
+          {
+            "type": "finalSection",
+            "title": "What the Four Cases Mean Together",
+            "intro": [
+              "Considered individually, each case is significant. Considered together, the four cases form a coherent legal challenge: a systematic push to concentrate executive authority over independent institutions, immigration enforcement, and constitutional interpretation historically reserved to Congress and the courts."
+            ],
+            "twoColumnContent": {
+              "left": [
+                "If the Court rules for the administration across the board, future presidents will hold power to dismiss Federal Reserve governors at will, dismantle independent regulatory commissions through personnel decisions, and reinterpret the 14th Amendment by executive action — powers no prior administration has successfully claimed. If the Court rules against the administration in key cases, the decisions will affirm that even a presidency with broad political support operates within constitutional limits the judiciary enforces."
+              ],
+              "rightQuote": {
+                "text": "The final high court decision will determine whether hundreds of thousands of immigrants who have lived and worked legally in the United States for years — many married to U.S. citizens, many with U.S.-born children — face deportation to countries still experiencing the crises that originally prompted their TPS designations.",
+                "author": "CourtNews.org Legal Desk analysis, May 22, 2026"
+              }
+            },
+            "conclusion": [
+              "As of May 22, 2026, all four cases remain pending. The rulings, expected before the Court's term closes, will shape American governance for a generation. CourtNews.org will publish immediate analysis of each decision as it is issued.",
+              "This article is based on reporting from Reuters (May 20, 2026), the U.S. Supreme Court official docket, the 9th Circuit opinion in Naranjo v. Noem (3:25-cv-01766), and supplementary reporting from The Detroit News, CBS News, USA Today, and The Straits Times."
+            ]
+          }
+        ]
+      }
     }
   ],
 
