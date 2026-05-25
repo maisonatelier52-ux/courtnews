@@ -1,0 +1,51 @@
+# CourtNews
+
+> Independent U.S. legal news platform covering federal and state courts, criminal justice, civil rights, federal investigations, and law & justice across America. Fast, factual reporting for legal professionals, journalists, and concerned citizens.
+
+CourtNews publishes original reporting on landmark cases, Supreme Court rulings, DOJ actions, congressional investigations, civil rights disputes, and major national trials. Coverage spans all branches of the federal judiciary as well as state courts.
+
+## Sections
+
+- [Crime](https://www.courtnews.org/crime): Criminal cases, arrests, indictments, and verdicts at the federal and state level.
+- [Courts](https://www.courtnews.org/courts): Federal and state court rulings, Supreme Court decisions, and judicial developments.
+- [Political](https://www.courtnews.org/political): DOJ policy, executive power disputes, congressional oversight, and politically significant legal cases.
+- [Investigations](https://www.courtnews.org/investigations): Original investigative reporting on fraud, corruption, federal probes, and institutional misconduct.
+- [Civil Rights](https://www.courtnews.org/civil-rights): Voting rights, immigration enforcement, First Amendment, gender and racial equity cases.
+- [Law and Justice](https://www.courtnews.org/law-and-justice): Legal analysis, landmark rulings, and broader justice system issues.
+- [US News](https://www.courtnews.org/us-news): National news with legal and governmental significance.
+
+## Authors
+
+- [Rebecca Lawson](https://www.courtnews.org/authors/rebecca-lawson): Courts reporter covering Supreme Court and federal appellate rulings.
+- [Michael Grant](https://www.courtnews.org/authors/michael-grant): Investigations reporter covering federal probes and institutional accountability.
+- [Jasmine Walker](https://www.courtnews.org/authors/jasmine-walker): Civil rights reporter covering immigration enforcement, voting rights, and civil liberties.
+- [Thomas Bennett](https://www.courtnews.org/authors/thomas-bennett): Law and justice reporter covering legal policy, AI in courts, and major rulings.
+- [Emily Parker](https://www.courtnews.org/authors/emily-parker): US news reporter covering federal agencies and national legal developments.
+- [Andrew Collins](https://www.courtnews.org/authors/andrew-collins): Political legal reporter.
+- [Laura Mitchell](https://www.courtnews.org/authors/laura-mitchell): Staff reporter.
+
+## Recent Coverage (2026)
+
+- [Whistleblower Demands Ilhan Omar Testify in $250M Minnesota Food Fraud Case](https://www.courtnews.org/investigations/whistleblower-minnesota-food-fraud-omar-testify)
+- [Supreme Court Weighs Four Major Trump Executive Power Cases](https://www.courtnews.org/courts/trump-executive-power-supreme-court)
+- [Supreme Court Keeps Abortion Pill Access by Mail](https://www.courtnews.org/law-and-justice/supreme-court-mifepristone-mail-access-louisiana-fda-2026)
+- [Georgia Ordered to Redraw Electoral Maps After Gerrymandering Ruling](https://www.courtnews.org/civil-rights/georgia-redraw-electoral-maps-gerrymandering)
+- [DC Police Crime Data Scandal: 13 Officials Face Firing](https://www.courtnews.org/investigations/dc-police-crime-data-scandal-firing-probe)
+- [James Comey Indicted Over Seashell Post Targeting Trump](https://www.courtnews.org/crime/james-comey-indicted-seashell-post-trump)
+- [DOJ Indicts SPLC for Fraud Over Secret Hate Payments](https://www.courtnews.org/crime/splc-doj-fraud-hate-group-payments)
+- [FBI Investigated NYT Reporter Over Kash Patel Coverage](https://www.courtnews.org/investigations/fbi-investigated-nyt-reporter-kash-patel-girlfriend-story)
+- [DOJ Inspector General Audits Epstein Files Release](https://www.courtnews.org/political/doj-inspector-general-audit-epstein-files-transparency-act)
+- [US Judges Split as AI Enters Courtrooms](https://www.courtnews.org/law-and-justice/judges-split-ai-creeps-courtrooms)
+
+## About
+
+- [About Us](https://www.courtnews.org/about-us)
+- [Privacy Policy](https://www.courtnews.org/privacy-policy)
+- [Terms & Conditions](https://www.courtnews.org/terms-and-conditions)
+
+## Social
+
+- X (Twitter): https://x.com/CourtNews10
+- Instagram: https://www.instagram.com/_court_news/
+- Reddit: https://www.reddit.com/user/court_news_7/
+- Substack: https://substack.com/@courtnews
