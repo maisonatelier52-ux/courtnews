@@ -7601,7 +7601,119 @@
           }
         ]
       }
+    },
+    {
+  "id": 13,
+  "metaTitle": "Federal Court Blocks Alabama Map Over Black Voter Bias",
+  "metaDescription": "A three-judge federal panel struck down Alabama's Republican-drawn congressional map Tuesday, ruling it intentionally discriminated against Black voters in violation of the Voting Rights Act.",
+  "slug": "federal-court-blocks-alabama-congressional-map-black-voter-discrimination",
+  "heading": "Federal Court Blocks Alabama Congressional Map, Citing Intentional Discrimination Against Black Voters",
+  "excerpt": "A federal three-judge panel rejected Alabama's latest Republican-drawn congressional map Tuesday, finding it deliberately dilutes Black voting power ahead of the 2026 midterms — and ordered the state to keep using a court-drawn map instead.",
+  "date": "27 May, 2026",
+  "image": "/images/federal-court-blocks-alabama-congressional-map-black-voter-discrimination.webp",
+  "alt": "Alabama State Capitol building in Montgomery with protesters outside during redistricting debate",
+  "heroImage": "/images/federal-court-blocks-alabama-congressional-map-black-voter-discrimination.webp",
+  "caseInformation": {
+    "countryState": "United States / Federal (U.S. District Court, Northern District of Alabama)",
+    "caseNumber": "2:21-cv-01291-AMM",
+    "status": {
+      "accusation": "Plaintiffs, including Black Alabama voters and civil rights organizations, allege that the Republican-drawn congressional map intentionally dilutes Black voting power in violation of the Voting Rights Act of 1965 and the Fourteenth Amendment.",
+      "onTrial": "Federal civil rights litigation challenging the constitutionality of Alabama's legislature-approved congressional redistricting plan.",
+      "currentStatus": "The three-judge panel has blocked Alabama from using its 2023 legislature-approved map and ordered continued use of the court-drawn Special Master map for the 2026 elections. The state's attorney general has said he will appeal.",
+      "outcome": "Pending Supreme Court review; the court-drawn Special Master map remains in effect for 2026 elections."
     }
+  },
+  "body": {
+    "dropcap": {
+      "letter": "A",
+      "text": " federal panel of three judges on Tuesday blocked Alabama from using its Republican-backed congressional map in this fall's midterm elections, ruling in a sweeping 102-page order that the state's plan was tainted by intentional racial discrimination against Black voters — and that no court could in good conscience force those voters to cast ballots under it."
+    },
+    "paragraphs": [
+      "The decision, issued by the U.S. District Court in Birmingham, orders Alabama to continue using a court-drawn map developed by a Special Master rather than the legislature-approved 2023 plan that state Republicans had pushed to put in place before November. The panel found that the GOP-drawn map violated both the Voting Rights Act of 1965 and the Fourteenth Amendment to the Constitution — the same conclusions the court had reached after a full trial last year.",
+      "The ruling lands in the middle of a broader, fast-moving legal battle over redistricting in the South. The Supreme Court had sent the case back to the panel last month, asking judges to take a fresh look in light of its decision in Louisiana v. Callais, which struck down a Louisiana congressional map as an unconstitutional racial gerrymander. The Alabama panel considered that ruling and still arrived at the same place: the state's map cannot stand."
+    ],
+    "quote": {
+      "text": "We cannot see our way clear to requiring Alabamians to cast their votes in the 2026 elections under a districting plan tainted by intentional race-based discrimination.",
+      "author": "Three-judge federal panel, U.S. District Court, Northern District of Alabama"
+    },
+    "sections": [
+      {
+        "type": "imageWithText",
+        "text": [
+          "At the center of the dispute is whether Alabama — where Black residents make up roughly 27 percent of the population — must draw a second congressional district in which Black voters have a meaningful opportunity to elect a candidate of their choice. The state currently has one such district, represented by Democratic Rep. Terri Sewell. The Republican legislature's 2023 map would have kept it that way, drawing a second district with a Black voting-age population of only about 40 percent, which civil rights lawyers argued falls well short of what the law requires.",
+          "The panel rejected that approach in blunt language. 'We reject in the strongest possible terms the State's attempt to finish its intentional decision to dilute minority votes with a veneer of legislative regularity,' the judges wrote. The court said it reached its conclusion 'with great reluctance and dismay and even greater restraint — only after another exhaustive analysis of an extensive record.'"
+        ],
+        "image": {
+          "url": "/images/federal-court-blocks-alabama-congressional-map-black-voter-discrimination-si.webp",
+          "alt": "Demonstrators outside the Alabama Statehouse in Montgomery during redistricting special session, May 2026"
+        },
+        "additionalText": [
+          "Two of the three judges on the panel were appointed by President Donald Trump — Anna Manasco and Terry Moorer. The third, Stanley Marcus, was originally nominated to the federal bench by President Ronald Reagan and elevated to the Eleventh Circuit by President Bill Clinton. The unanimity of the decision across that ideological span underscored how clearly the panel believed the record supported its findings."
+        ]
+      },
+      {
+        "type": "twoColumnLayout",
+        "title": "The Legal Road That Led Here",
+        "mainContent": [
+          "This case has been grinding through the courts for nearly five years. It began when civil rights organizations and Black Alabama voters sued after the state drew its post-2020 census congressional map with just one majority-Black district out of seven. The Supreme Court affirmed in Allen v. Milligan in 2023 that the original map likely violated the Voting Rights Act and ordered Alabama to draw a second district where Black voters could elect a preferred candidate.",
+          "Alabama's Republican-controlled legislature held a special session earlier this month and passed a new map — the one the court blocked Tuesday. Critics said it was barely different from the version the Supreme Court had already found problematic. The panel agreed, noting the state's own lawyers effectively conceded the new map did not meet the remedy the court had spelled out. With special primaries approaching and November not far behind, the judges said there was no time and no legal basis to let a discriminatory map take effect."
+        ],
+        "showMoreRead": true
+      },
+      {
+        "type": "fullWidth",
+        "title": "What the Ruling Means for the 2026 Midterms",
+        "content": [
+          "The practical effect of Tuesday's decision is that Alabama heads into the 2026 congressional elections using the Special Master's court-drawn map — a map designed to create two districts where Black voters have a genuine opportunity to elect candidates of their choice. For Republicans, who hold a narrow majority in the House of Representatives and had hoped the new map would make a GOP pickup more likely, the ruling is a significant setback."
+        ],
+        "image": {
+          "url": "/images/federal-court-blocks-alabama-congressional-map-black-voter-discrimination-ti.webp",
+          "alt": "Alabama legislators during the May 2026 special redistricting session at the state capitol"
+        },
+        "subsections": [
+          {
+            "title": "Key Facts in the Case",
+            "text": [
+              "Alabama's attorney general said he would appeal the ruling, setting up what could be another Supreme Court confrontation over redistricting and the limits of the Voting Rights Act before November.",
+              "The legal battle in Alabama is being watched closely in Texas, Florida, Georgia, and other Southern states where similar disputes over the relationship between race, population, and congressional districts remain unresolved.",
+              "Civil rights lawyers argued that packing the state's Black population — more than a quarter of Alabama — into a single congressional district is precisely the kind of vote dilution the Voting Rights Act was written to prevent."
+            ],
+            "checklist": [
+              "Three-judge panel issued a 102-page ruling Tuesday blocking the 2023 legislature-approved map",
+              "Court ordered continued use of the court-drawn Special Master map for 2026 elections",
+              "Panel found the map violated both the Voting Rights Act and the Fourteenth Amendment",
+              "Alabama attorney general announced he will appeal the decision",
+              "Two of three judges on the panel were appointed by President Trump",
+              "Alabama's Black residents make up approximately 27% of the state's population"
+            ],
+            "additionalText": [
+              "The outcome will almost certainly shape how courts in other states handle similar Voting Rights Act challenges in the months ahead — and could influence which party controls the House after November."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "finalSection",
+        "title": "A Decades-Long Struggle Over Political Power",
+        "intro": [
+          "The Alabama redistricting fight is not new. It stretches back through decades of legal battles over how the state draws its political lines — battles that have repeatedly ended with federal courts finding that Alabama officials subordinated the rights of Black voters to partisan advantage. What is new in 2026 is the compressed timeline: with midterm elections approaching and the balance of the House potentially at stake, the stakes of every ruling are sharper than ever."
+        ],
+        "twoColumnContent": {
+          "left": [
+            "For voting rights advocates, Tuesday's decision was a hard-won affirmation that the Voting Rights Act retains real force even after years of Supreme Court rulings that have steadily narrowed its reach. The question now is whether the Supreme Court, which will almost certainly be asked to weigh in again, agrees — and how quickly it moves before November."
+          ],
+          "rightQuote": {
+            "text": "We are deeply troubled that the state enacted a map that the state readily admits does not provide the remedy we said federal law requires.",
+            "author": "Three-judge federal panel, U.S. District Court, Northern District of Alabama"
+          }
+        },
+        "conclusion": [
+          "Alabama's attorney general is expected to seek emergency relief from the Supreme Court in the coming days. Whether the justices intervene before the 2026 elections — and on what terms — will determine not just which map Alabama voters use in November, but how much practical protection the Voting Rights Act still offers Black voters across the South."
+        ]
+      }
+    ]
+  }
+}
   ],
 
   "law-and-justice": [
