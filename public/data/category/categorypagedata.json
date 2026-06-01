@@ -9139,6 +9139,120 @@
           }
         ]
       }
+    },
+    {
+      "id": 14,
+      "metaTitle": "Supreme Court Backs Trump on Immigration Judges",
+      "metaDescription": "The Supreme Court unanimously sided with Trump, blocking immigration judges from suing directly over speech restrictions in a procedural ruling.",
+      "slug": "supreme-court-immigration-judges-speech-restrictions",
+      "heading": "Supreme Court Backs Trump in Immigration Judges' Speech Fight",
+      "excerpt": "The Supreme Court handed the Trump administration a procedural win Monday, ruling unanimously that immigration judges cannot sue directly in federal court over speech restrictions that require government approval before public remarks.",
+      "date": "28 May, 2026",
+      "image": "/images/supreme-court-immigration-judges-speech-restrictions.webp",
+      "alt": "Exterior of the U.S. Supreme Court building in Washington, D.C.",
+      "heroImage": "/images/supreme-court-immigration-judges-speech-restrictions.webp",
+      "caseInformation": {
+        "countryState": "United States / Federal",
+        "caseNumber": "25-767",
+        "status": {
+          "accusation": "The National Association of Immigration Judges alleged that a Department of Justice policy requiring supervisory approval before public remarks violates immigration judges' First Amendment rights.",
+          "onTrial": "Procedural dispute over whether immigration judges must route labor complaints through the Merit Systems Protection Board rather than filing directly in federal district court.",
+          "currentStatus": "Remanded to lower courts following the Supreme Court's per curiam reversal of the Fourth Circuit's ruling.",
+          "outcome": "The Supreme Court reversed the Fourth Circuit and sent the case back. The underlying First Amendment claims remain unresolved and the legal challenge is ongoing."
+        }
+      },
+      "body": {
+        "dropcap": {
+          "letter": "T",
+          "text": "he Supreme Court handed the Trump administration a unanimous procedural victory Monday, ruling that immigration judges challenging federal speech restrictions had no business taking their fight directly to a federal district court — a decision that shuts one legal door while leaving the underlying constitutional question wide open."
+        },
+        "paragraphs": [
+          "The unsigned per curiam order in Margolin v. National Association of Immigration Judges, No. 25-767, reversed a ruling from the U.S. Court of Appeals for the Fourth Circuit and sent the dispute back to lower courts. The justices did not weigh in on whether the speech policy itself is constitutional — only on where such a challenge may lawfully be heard.",
+          "At issue is a rule, first put in place during Trump's first term in 2017 and kept on the books through the Biden years, that requires immigration judges to get sign-off from a Justice Department supervisor before making any official public remarks touching on their duties. The National Association of Immigration Judges sued, arguing the requirement violates their First Amendment rights and chills their ability to guest-lecture or speak to community groups.",
+          "The court said that was the wrong courtroom for that argument. Under the Civil Service Reform Act, federal executive branch employees like immigration judges must bring workplace grievances through the Merit Systems Protection Board — an internal administrative process — before heading to the judiciary."
+        ],
+        "quote": {
+          "text": "The [Fourth Circuit] strayed from its proper role by invoking arguments the parties themselves never raised. Courts are not free to construct a case for litigants who chose not to make it.",
+          "author": "Supreme Court, per curiam opinion, Margolin v. National Association of Immigration Judges"
+        },
+        "sections": [
+          {
+            "type": "imageWithText",
+            "text": [
+              "The justices were pointed in their criticism of the Fourth Circuit, faulting that court for violating what legal scholars call the 'party-presentation' principle — the bedrock rule that appellate judges decide cases based on arguments actually presented by the parties, not theories the judges manufacture on their own.",
+              "The Fourth Circuit had raised concerns that the internal Merit Systems Protection Board process was itself tainted, noting that the Trump administration had removed senior MSPB officials. The Supreme Court said that line of reasoning was not the lower court's to explore, at least not unprompted."
+            ],
+            "image": {
+              "url": "/images/supreme-court-immigration-judges-speech-restrictions-si.webp",
+              "alt": "Immigration court hallway with American flag and wooden benches"
+            },
+            "additionalText": [
+              "Justice Clarence Thomas, joined by Justice Amy Coney Barrett, wrote separately to land an additional rebuke on the Fourth Circuit, accusing it of inserting itself into what he described as the 'political controversies of the day' — language that signaled broader impatience with courts that reach beyond their institutional footing."
+            ]
+          },
+          {
+            "type": "twoColumnLayout",
+            "title": "A Win on Process, Not Substance",
+            "mainContent": [
+              "Monday's ruling is a meaningful procedural victory for the administration, but it resolves nothing about the legality of the speech policy itself. The justices explicitly declined to address whether requiring government approval for a judge's public remarks runs afoul of the First Amendment — a question that legal scholars and civil liberties advocates say remains urgent.",
+              "Representatives for the immigration judges' association made clear they intend to keep pressing the constitutional fight, describing the underlying free-speech challenge as 'far from over.' The case now returns to lower courts, where the association will likely need to navigate the MSPB administrative process before any federal court can weigh the merits of their First Amendment claims."
+            ],
+            "showMoreRead": true
+          },
+          {
+            "type": "fullWidth",
+            "title": "A Policy That Predates This Administration",
+            "content": [
+              "The speech restriction at the center of the case is older than this legal battle. It took root during the first Trump administration as part of a broader effort to rein in public commentary by immigration court personnel, whose caseloads and working conditions had become politically sensitive subjects. The Biden administration left the policy in place, and the current Trump White House has defended it vigorously in court.",
+              "The immigration judges' association has long argued that the policy is uniquely corrosive to judicial independence because immigration judges — unlike Article III federal judges — are employed directly by the Justice Department, making them executive branch workers rather than independent officers of the court. That structural reality is precisely what forces their First Amendment claims into the civil service complaint apparatus rather than a direct lawsuit."
+            ],
+            "image": {
+              "url": "/images/supreme-court-immigration-judges-speech-restrictions-ti.webp",
+              "alt": "Department of Justice building in Washington, D.C. at dusk"
+            },
+            "subsections": [
+              {
+                "title": "What the ruling does — and doesn't — decide.",
+                "text": [
+                  "Legal observers cautioned against reading too much into Monday's order. While it forecloses the direct-to-district-court path, the MSPB route remains available, and a ruling from that body — or a challenge to its integrity given recent firings of board members — could eventually put the First Amendment question back in front of a federal court.",
+                  "The administration's broader effort to assert tighter control over immigration adjudication has faced resistance in multiple venues. Immigration judges have sought union recognition, clashed with Justice Department leadership over docket management, and pushed back on policies they say compromise their neutrality."
+                ],
+                "checklist": [
+                  "Supreme Court reversed Fourth Circuit in a unanimous, unsigned order",
+                  "Justices found the lower court raised arguments no party had presented",
+                  "Immigration judges must use the Merit Systems Protection Board process first",
+                  "The First Amendment merits of the speech restriction were not decided",
+                  "Thomas and Barrett separately criticized the Fourth Circuit's overreach",
+                  "Judges' association vowed to continue the constitutional challenge"
+                ],
+                "additionalText": [
+                  "The per curiam format — an opinion issued in the court's name without any single justice listed as author — signals consensus and is typically reserved for cases the justices regard as sufficiently settled to require no extended written analysis."
+                ]
+              }
+            ]
+          },
+          {
+            "type": "finalSection",
+            "title": "The Larger Stakes for Judicial Independence",
+            "intro": [
+              "For immigration advocates and civil liberties groups watching the case, Monday's ruling is a setback, but not a final one. What concerns them most is not the procedural detour but the underlying restriction — and what it means when judges who decide life-altering deportation cases cannot speak freely about the work they do."
+            ],
+            "twoColumnContent": {
+              "left": [
+                "Critics of the speech policy argue that requiring DOJ approval before a judge can address a community forum or university class creates an inherent conflict of interest, given that the Justice Department acts as a party before those same judges in deportation proceedings. The association has framed this not merely as a labor dispute, but as a structural threat to fair adjudication in the nation's immigration courts — courts that handle roughly three million pending cases."
+              ],
+              "rightQuote": {
+                "text": "This fight is far from over. Our members have a constitutional right to speak, and we intend to vindicate that right through every avenue still available to us.",
+                "author": "Spokesperson, National Association of Immigration Judges, following Monday's ruling"
+              }
+            },
+            "conclusion": [
+              "The case will now wind back through the administrative process, a path that could take months or years before a court reaches the question the justices conspicuously left unanswered: whether the federal government can condition a judge's speech on the approval of the very department whose cases that judge decides.",
+              "Monday's ruling settled the question of where this fight may be waged. It said nothing about who will ultimately win it."
+            ]
+          }
+        ]
+      }
     }
   ], 
 
