@@ -10361,87 +10361,175 @@
       }
     },
     {
-  "id": 12,
-  "metaTitle": "U.S. Passports to Display Trump Portrait for Anniversary",
-  "metaDescription": "The State Department will produce limited commemorative passports bearing Trump's portrait to mark the nation's 250th Independence Day in July.",
-  "slug": "state-department-trump-passport-portrait",
-  "heading": "State Department to Put Trump's Portrait Inside U.S. Passports for 250th Anniversary",
-  "excerpt": "The announcement adds the president's likeness to one of the most consequential federal identity documents carried by Americans abroad, raising questions from legal experts that have not surfaced in coverage elsewhere.",
-  "date": "29 April, 2026",
-  "image": "/images/us-commemorative-passports-trump-portrait-july-2026.webp",
-  "alt": "Official State Department rendering of a commemorative U.S. passport featuring President Trump's portrait inside the document",
-  "heroImage": "/images/us-commemorative-passports-trump-portrait-july-2026.webp",
+      "id": 12,
+      "metaTitle": "U.S. Passports to Display Trump Portrait for Anniversary",
+      "metaDescription": "The State Department will produce limited commemorative passports bearing Trump's portrait to mark the nation's 250th Independence Day in July.",
+      "slug": "state-department-trump-passport-portrait",
+      "heading": "State Department to Put Trump's Portrait Inside U.S. Passports for 250th Anniversary",
+      "excerpt": "The announcement adds the president's likeness to one of the most consequential federal identity documents carried by Americans abroad, raising questions from legal experts that have not surfaced in coverage elsewhere.",
+      "date": "29 April, 2026",
+      "image": "/images/us-commemorative-passports-trump-portrait-july-2026.webp",
+      "alt": "Official State Department rendering of a commemorative U.S. passport featuring President Trump's portrait inside the document",
+      "heroImage": "/images/us-commemorative-passports-trump-portrait-july-2026.webp",
+      "seoKeywords": [
+        "Trump portrait passport 2026",
+        "commemorative US passport July 4th",
+        "State Department Trump passport design",
+        "America250 passport announcement",
+        "Trump image federal documents",
+        "US passport redesign 2026",
+        "Trump branded government property",
+        "Trump signature currency passport",
+        "Independence Day commemorative passport",
+        "presidential image travel document"
+      ],
+      "alternativeHeadlines": [
+        "Trump's Portrait Will Appear Inside New Commemorative U.S. Passports This July",
+        "State Department Confirms Limited Passport Run Featuring President's Likeness",
+        "New U.S. Passports for America's 250th Will Bear Trump's Portrait, Raising Legal Questions"
+      ],
+      "body": {
+        "dropcap": {
+          "letter": "T",
+          "text": "he State Department confirmed Tuesday it will produce a limited run of commemorative passports bearing a portrait of President Donald Trump, placing the president's likeness inside one of the most consequential federal identity documents carried by Americans traveling abroad — a decision without clear precedent in the modern history of U.S. travel documents and one that drew immediate scrutiny from legal observers and former consular officials contacted by CourtNews.org."
+        },
+        "sections": [
+          {
+            "type": "lead",
+            "content": [
+              "The passports are being released as part of the administration's 'America250' initiative, a package of federal programs marking the 250th anniversary of the Declaration of Independence, with the centerpiece celebrations scheduled for July 4. State Department spokesperson Tommy Pigott confirmed the design in a statement that did not explicitly reference the president's image, describing the edition as featuring 'customized artwork and enhanced imagery' while retaining all existing security features.",
+              "Official renderings released by the department show Trump's portrait printed on an interior page, positioned across from an illustration of the 1776 signing of the Declaration of Independence. A department official said no additional fee would be charged for the commemorative edition. Whether applicants would be able to decline the design and receive a standard passport instead was not addressed in the department's materials."
+            ]
+          },
+          {
+            "type": "twoColumnLayout",
+            "title": "Part of a Widening Pattern on Federal Property",
+            "mainContent": [
+              "The passport announcement is the latest in a series of decisions attaching the president's name or likeness to official federal property and programs since Trump returned to office in early 2025. The U.S. Mint has announced a commemorative gold coin bearing Trump's portrait to mark the same anniversary. The Treasury Department separately confirmed that newly printed paper currency will carry Trump's signature — the first time a sitting president's name has appeared on U.S. banknotes in more than 160 years.",
+              "Beyond currency and travel documents, the administration has formally attached Trump's name to federal office buildings in Washington, a newly announced class of Navy warships, a high-net-worth investor visa program, a government-operated prescription drug website, and federally administered savings accounts for minors.",
+              "Taken together, the pattern reflects a deliberate effort by the current administration to associate the presidency — and this president specifically — with the physical and documentary infrastructure of the federal government in ways previous administrations did not pursue."
+            ],
+            "showMoreRead": true
+          },
+          {
+            "type": "fullWidth",
+            "title": "Legal and Practical Questions Not Raised Elsewhere",
+            "content": [
+              "Constitutional and administrative law attorneys contacted by CourtNews.org Tuesday said no federal statute explicitly prohibits placing a sitting president's image inside a U.S. passport, but several described the practice as a meaningful departure from the modern tradition of keeping travel documents free of partisan or individual officeholder associations.",
+              "'Travel documents have historically functioned as instruments of the state rather than of any individual officeholder,' said one Washington-area attorney who focuses on federal administrative law and requested anonymity while reviewing the announcement. 'Inserting a sitting president's portrait into a document that every American traveling internationally must carry is a significant break from that practice, and it hasn't been tested in any legal or institutional framework I'm aware of.'",
+              "Representatives from legal advocacy groups focused on government ethics had not issued formal statements as of publication time, though several were reviewing the announcement."
+            ],
+            "subsections": [
+              {
+                "title": "A Practical Concern for International Travel",
+                "text": [
+                  "Beyond the domestic legal questions, at least one former State Department consular official flagged a concern that has not appeared in coverage of the announcement from other outlets: certain countries maintain specific customs or informal protocols regarding the display of a foreign head of state's image in official travel documents, and it is unclear whether the commemorative design could create friction at particular international entry points.",
+                  "The State Department did not address that question in its Tuesday materials, and the agency did not respond to specific follow-up questions from CourtNews.org regarding whether consular affairs staff had reviewed the design for potential complications abroad."
+                ],
+                "additionalText": [
+                  "The department also did not respond to questions about the total number of passports to be produced in the limited run, what criteria would determine which applicants receive the commemorative edition, or whether renewal applications processed during the July window would automatically receive the new design rather than the standard version."
+                ]
+              }
+            ]
+          },
+          {
+            "type": "finalSection",
+            "title": "Celebrations Without Historical Parallel",
+            "intro": [
+              "The July 4, 2026, anniversary is shaping up to be among the most elaborate Independence Day celebrations in modern American history. Federal agencies have been directed to contribute commemorative programs under the America250 banner, which the administration has used to justify a range of initiatives tying the milestone directly to the current president.",
+              "Constitutional scholars interviewed for this article said they could find no comparable instance in U.S. history of a sitting president's portrait being incorporated into a standard travel document issued to the general public. Commemorative coins and currency have occasionally featured presidents, but those items are discrete collectibles — a passport is a document every traveling American must carry and present to foreign governments."
+            ],
+            "conclusion": [
+              "The State Department said additional design details and distribution information would be released in the weeks before the July celebrations. Until those details emerge, fundamental questions about the scope of the program — including who receives it, how many are printed, and whether any opt-out mechanism exists — remain unanswered.",
+              "For travelers with international trips planned around the anniversary period, the practical implications of carrying a passport bearing a current president's portrait through foreign border checkpoints may not become clear until the documents are actually in circulation."
+            ]
+          }
+        ]
+      }
+    },
+    {
+  "id": 13,
+  "metaTitle": "ICE Won't Enforce Immigration at LA World Cup Matches",
+  "metaDescription": "LA County Sheriff confirms ICE told him civil immigration enforcement will not occur at any of the eight FIFA World Cup matches at SoFi Stadium.",
+  "slug": "ice-no-enforcement-la-world-cup-2026",
+  "heading": "L.A. Sheriff Says Federal Officials Confirmed ICE Will Not Conduct Immigration Enforcement at Any World Cup Match",
+  "excerpt": "Sheriff Robert Luna went directly to the head of Homeland Security in the L.A. region to get the assurance — but he acknowledged the pledge could change, and stadium workers are still preparing to strike.",
+  "date": "2 June, 2026",
+  "image": "/images/ice-world-cup-la-sofi-stadium-2026.webp",
+  "alt": "Law enforcement officials at a press conference in downtown Los Angeles outlining security plans for the 2026 FIFA World Cup at SoFi Stadium",
+  "heroImage": "/images/ice-world-cup-la-sofi-stadium-2026.webp",
   "seoKeywords": [
-    "Trump portrait passport 2026",
-    "commemorative US passport July 4th",
-    "State Department Trump passport design",
-    "America250 passport announcement",
-    "Trump image federal documents",
-    "US passport redesign 2026",
-    "Trump branded government property",
-    "Trump signature currency passport",
-    "Independence Day commemorative passport",
-    "presidential image travel document"
+    "ICE World Cup Los Angeles 2026",
+    "FIFA World Cup immigration enforcement",
+    "SoFi Stadium World Cup security",
+    "Sheriff Luna ICE confirmation",
+    "World Cup 2026 security plans",
+    "ICE enforcement World Cup matches",
+    "Los Angeles World Cup immigration",
+    "Unite Here Local 11 strike World Cup",
+    "Iran World Cup Los Angeles",
+    "World Cup 2026 drone restrictions"
   ],
   "alternativeHeadlines": [
-    "Trump's Portrait Will Appear Inside New Commemorative U.S. Passports This July",
-    "State Department Confirms Limited Passport Run Featuring President's Likeness",
-    "New U.S. Passports for America's 250th Will Bear Trump's Portrait, Raising Legal Questions"
+    "Sheriff Luna Got Personal Assurance from Homeland Security: No ICE Enforcement at L.A. World Cup Games",
+    "Federal Officials Tell L.A. Sheriff ICE Will Stand Down on Immigration at FIFA World Cup Venues",
+    "No ICE Enforcement at World Cup, Sheriff Says — But the Pledge Could Change and Workers Are Not Satisfied"
   ],
   "body": {
     "dropcap": {
-      "letter": "T",
-      "text": "he State Department confirmed Tuesday it will produce a limited run of commemorative passports bearing a portrait of President Donald Trump, placing the president's likeness inside one of the most consequential federal identity documents carried by Americans traveling abroad — a decision without clear precedent in the modern history of U.S. travel documents and one that drew immediate scrutiny from legal observers and former consular officials contacted by CourtNews.org."
+      "letter": "L",
+      "text": "os Angeles County Sheriff Robert Luna walked into a downtown press conference Monday morning carrying something rare in the current immigration climate: a personal assurance from federal officials that civil immigration enforcement will not take place at any of the eight FIFA World Cup matches scheduled for SoFi Stadium in Inglewood beginning June 12 — a commitment he said he sought out himself after weeks of rumors and reporting that U.S. Immigration and Customs Enforcement agents could be deployed at the games, and one that CourtNews.org has reviewed against the backdrop of simmering labor tensions, geopolitical complications, and a security operation officials are already calling one of the largest in Los Angeles history."
     },
     "sections": [
       {
         "type": "lead",
         "content": [
-          "The passports are being released as part of the administration's 'America250' initiative, a package of federal programs marking the 250th anniversary of the Declaration of Independence, with the centerpiece celebrations scheduled for July 4. State Department spokesperson Tommy Pigott confirmed the design in a statement that did not explicitly reference the president's image, describing the edition as featuring 'customized artwork and enhanced imagery' while retaining all existing security features.",
-          "Official renderings released by the department show Trump's portrait printed on an interior page, positioned across from an illustration of the 1776 signing of the Declaration of Independence. A department official said no additional fee would be charged for the commemorative edition. Whether applicants would be able to decline the design and receive a standard passport instead was not addressed in the department's materials."
+          "Luna's announcement came at a joint press conference of local, state and federal law enforcement officials gathered to outline public safety preparations for the tournament, which brings 104 matches to 16 cities across the United States, Canada and Mexico between June 11 and July 19. All eight Los Angeles-area fixtures will be played at SoFi Stadium, which will be formally renamed Los Angeles Stadium for the duration of the tournament. The first match — the U.S. national team's group-stage opener against Paraguay — kicks off June 12.",
+          "The sheriff said the assurance came directly from the head of Homeland Security for the Los Angeles region, whom Luna said he called personally after news reports and community speculation about a possible ICE presence began circulating several weeks ago. Federal agents will be present at the venues, Luna confirmed, but in a general security capacity. 'In regard to civil immigration enforcement, they told us that specifically would not be occurring at any of the games,' Luna said from the podium. He added a notable qualifier: 'Any of that is subject to change, but I have trust that they're giving me the appropriate information — because if that starts occurring, we're going to have a whole new host of problems.'"
         ]
       },
       {
         "type": "twoColumnLayout",
-        "title": "Part of a Widening Pattern on Federal Property",
+        "title": "A Pledge Made Under Pressure, With a Caveat Built In",
         "mainContent": [
-          "The passport announcement is the latest in a series of decisions attaching the president's name or likeness to official federal property and programs since Trump returned to office in early 2025. The U.S. Mint has announced a commemorative gold coin bearing Trump's portrait to mark the same anniversary. The Treasury Department separately confirmed that newly printed paper currency will carry Trump's signature — the first time a sitting president's name has appeared on U.S. banknotes in more than 160 years.",
-          "Beyond currency and travel documents, the administration has formally attached Trump's name to federal office buildings in Washington, a newly announced class of Navy warships, a high-net-worth investor visa program, a government-operated prescription drug website, and federally administered savings accounts for minors.",
-          "Taken together, the pattern reflects a deliberate effort by the current administration to associate the presidency — and this president specifically — with the physical and documentary infrastructure of the federal government in ways previous administrations did not pursue."
+          "The context in which Luna issued that reassurance matters. ICE arrests in the Los Angeles area tripled in the year leading up to the World Cup, and enforcement operations involving masked agents in residential neighborhoods across the county have generated sustained protests and what community advocates describe as widespread fear among immigrant communities who make up a significant portion of the region's working population — including the workers who staff the stadium itself.",
+          "Unite Here Local 11, the union representing workers at SoFi Stadium, has been among the most vocal opponents of any ICE presence at World Cup events. The union announced this week that its members will vote on whether to authorize a strike over the issue. That vote is expected later this week, and the outcome could complicate the tournament's operational readiness at the primary venue with opening day less than two weeks away.",
+          "Kathryn Schloessman, who leads the FIFA World Cup host committee for the Los Angeles region, said previously that ICE agents were not included in the official security plans for SoFi Stadium. Luna's Monday statement brings local law enforcement's public position into alignment with the host committee's — though neither confirmation comes with a legally binding mechanism to prevent a change in federal posture."
         ],
         "showMoreRead": true
       },
       {
         "type": "fullWidth",
-        "title": "Legal and Practical Questions Not Raised Elsewhere",
+        "title": "One of the Largest Security Operations in L.A. History",
         "content": [
-          "Constitutional and administrative law attorneys contacted by CourtNews.org Tuesday said no federal statute explicitly prohibits placing a sitting president's image inside a U.S. passport, but several described the practice as a meaningful departure from the modern tradition of keeping travel documents free of partisan or individual officeholder associations.",
-          "'Travel documents have historically functioned as instruments of the state rather than of any individual officeholder,' said one Washington-area attorney who focuses on federal administrative law and requested anonymity while reviewing the announcement. 'Inserting a sitting president's portrait into a document that every American traveling internationally must carry is a significant break from that practice, and it hasn't been tested in any legal or institutional framework I'm aware of.'",
-          "Representatives from legal advocacy groups focused on government ethics had not issued formal statements as of publication time, though several were reviewing the announcement."
+          "Beyond the immigration question, Monday's press conference sketched the outlines of a security apparatus that officials described as unprecedented in scope for the city and a deliberate dry run for the 2028 Los Angeles Olympics. L.A. County District Attorney Nathan Hochman struck a reassuring tone, telling residents: 'We've got your back. We're going to make sure that we keep streets and the venues of Los Angeles safe for you.'",
+          "The operational footprint spans all eight matches over a 28-day window, with law enforcement from city, county, state and federal agencies coordinating across SoFi Stadium and what officials described as both 'scoped' official events and 'unscoped' surrounding activity — fan zones, watch parties, transit corridors and the informal gatherings that accompany a tournament of this scale. Officials said the security planning serves as a direct precursor to preparations for the 2028 Olympics, making the World Cup as much a rehearsal as an event in its own right.",
+          "The head of FIFA's West Coast Security operation called on fans attending matches to consider themselves an extra layer of awareness, urging them to report suspicious activity and familiarize themselves with the venues and surrounding areas before attending. Officials said fan engagement would be critical at a tournament where the sheer volume of activity makes comprehensive surveillance by law enforcement alone impossible."
         ],
         "subsections": [
           {
-            "title": "A Practical Concern for International Travel",
+            "title": "Drones, Fines, and the FBI's Deliberate Silence on Countermeasures",
             "text": [
-              "Beyond the domestic legal questions, at least one former State Department consular official flagged a concern that has not appeared in coverage of the announcement from other outlets: certain countries maintain specific customs or informal protocols regarding the display of a foreign head of state's image in official travel documents, and it is unclear whether the commemorative design could create friction at particular international entry points.",
-              "The State Department did not address that question in its Tuesday materials, and the agency did not respond to specific follow-up questions from CourtNews.org regarding whether consular affairs staff had reviewed the design for potential complications abroad."
+              "One of the more technically specific elements of Monday's briefing concerned unmanned aerial vehicles. Officials announced that temporary flight restrictions will be in place above and around all World Cup venues in the region, and that drone detection and mitigation teams will be deployed throughout the tournament. The FBI's team lead confirmed on the record that the capability exists to bring unauthorized drones down into safe locations away from crowds — but declined to explain the specific methods that would be used to do so.",
+              "Drone pilots who enter restricted airspace illegally face fines of up to $100,000 and the confiscation of their equipment, officials warned. The announcement reflects a security concern that has become standard at large outdoor events in the years since commercial drone technology became widely accessible, and one that law enforcement agencies have been reluctant to address in detail publicly precisely because countermeasure disclosure can aid those attempting to defeat them."
             ],
             "additionalText": [
-              "The department also did not respond to questions about the total number of passports to be produced in the limited run, what criteria would determine which applicants receive the commemorative edition, or whether renewal applications processed during the July window would automatically receive the new design rather than the standard version."
+              "The FBI's refusal to detail its countermeasures on the record is consistent with how federal agencies have handled this question at previous major events, but it leaves a gap in the public record about the specific technological tools being deployed around venues that will host hundreds of thousands of spectators over the coming weeks."
             ]
           }
         ]
       },
       {
         "type": "finalSection",
-        "title": "Celebrations Without Historical Parallel",
+        "title": "Iran's Matches Add a Layer No Security Briefing Can Fully Address",
         "intro": [
-          "The July 4, 2026, anniversary is shaping up to be among the most elaborate Independence Day celebrations in modern American history. Federal agencies have been directed to contribute commemorative programs under the America250 banner, which the administration has used to justify a range of initiatives tying the milestone directly to the current president.",
-          "Constitutional scholars interviewed for this article said they could find no comparable instance in U.S. history of a sitting president's portrait being incorporated into a standard travel document issued to the general public. Commemorative coins and currency have occasionally featured presidents, but those items are discrete collectibles — a passport is a document every traveling American must carry and present to foreign governments."
+          "The security calculus in Los Angeles is further complicated by Iran's presence in the tournament. Iran is scheduled to play its opening Group G match against New Zealand at SoFi Stadium on June 15 — three days after the U.S. team opener — followed by a second group fixture against Belgium at the same venue on June 21. Los Angeles is home to the largest concentration of Iranians living outside Iran, a demographic fact that gives the matches a political and emotional charge unlike any other fixture in the tournament.",
+          "Sheriff Luna addressed the Iran matches directly Monday, acknowledging that the geopolitical environment requires a different operational posture. 'Iran does bring a different dynamic because of the current world events,' Luna said, noting that law enforcement will increase staffing levels for those specific games and will monitor for protests or other activity near the stadium and surrounding fan zones. The U.S. participated in military strikes against Iran earlier this year, and Iran's football federation has publicly expressed uncertainty about whether its national team will travel to the United States at all, citing security concerns that the federation said the U.S. government has not adequately resolved.",
+          "Iranian federation president Mehdi Taj stated that his organization would not send the team to America if the U.S. government could not guarantee their safety — a statement that FIFA has not formally acted on, and that tournament organizers have not addressed at the level of public specificity that the question arguably warrants. As of publication, Iran's participation remains officially confirmed but practically uncertain."
         ],
         "conclusion": [
-          "The State Department said additional design details and distribution information would be released in the weeks before the July celebrations. Until those details emerge, fundamental questions about the scope of the program — including who receives it, how many are printed, and whether any opt-out mechanism exists — remain unanswered.",
-          "For travelers with international trips planned around the anniversary period, the practical implications of carrying a passport bearing a current president's portrait through foreign border checkpoints may not become clear until the documents are actually in circulation."
+          "What Monday's press conference established, taken in full, is that the security operation surrounding the Los Angeles World Cup matches is large, multi-agency, and built around contingencies — but that some of the most consequential variables remain unresolved. The ICE assurance Luna described is a verbal commitment, not a policy guarantee, and the sheriff himself acknowledged it is subject to change. The stadium worker strike vote has not yet occurred. And Iran's presence on the schedule introduces a geopolitical dimension that no amount of drone-countermeasure planning can entirely contain.",
+          "For the millions of fans, workers, and residents who will be drawn into the orbit of eight matches across 28 days at one of the country's largest sports venues, those unresolved variables are not abstractions. They are the conditions under which the tournament will actually unfold."
         ]
       }
     ]
