@@ -10448,93 +10448,93 @@
       }
     },
     {
-  "id": 13,
-  "metaTitle": "ICE Won't Enforce Immigration at LA World Cup Matches",
-  "metaDescription": "LA County Sheriff confirms ICE told him civil immigration enforcement will not occur at any of the eight FIFA World Cup matches at SoFi Stadium.",
-  "slug": "ice-no-enforcement-la-world-cup-2026",
-  "heading": "L.A. Sheriff Says Federal Officials Confirmed ICE Will Not Conduct Immigration Enforcement at Any World Cup Match",
-  "excerpt": "Sheriff Robert Luna went directly to the head of Homeland Security in the L.A. region to get the assurance — but he acknowledged the pledge could change, and stadium workers are still preparing to strike.",
-  "date": "2 June, 2026",
-  "image": "/images/ice-world-cup-la-sofi-stadium-2026.webp",
-  "alt": "Law enforcement officials at a press conference in downtown Los Angeles outlining security plans for the 2026 FIFA World Cup at SoFi Stadium",
-  "heroImage": "/images/ice-world-cup-la-sofi-stadium-2026.webp",
-  "seoKeywords": [
-    "ICE World Cup Los Angeles 2026",
-    "FIFA World Cup immigration enforcement",
-    "SoFi Stadium World Cup security",
-    "Sheriff Luna ICE confirmation",
-    "World Cup 2026 security plans",
-    "ICE enforcement World Cup matches",
-    "Los Angeles World Cup immigration",
-    "Unite Here Local 11 strike World Cup",
-    "Iran World Cup Los Angeles",
-    "World Cup 2026 drone restrictions"
-  ],
-  "alternativeHeadlines": [
-    "Sheriff Luna Got Personal Assurance from Homeland Security: No ICE Enforcement at L.A. World Cup Games",
-    "Federal Officials Tell L.A. Sheriff ICE Will Stand Down on Immigration at FIFA World Cup Venues",
-    "No ICE Enforcement at World Cup, Sheriff Says — But the Pledge Could Change and Workers Are Not Satisfied"
-  ],
-  "body": {
-    "dropcap": {
-      "letter": "L",
-      "text": "os Angeles County Sheriff Robert Luna walked into a downtown press conference Monday morning carrying something rare in the current immigration climate: a personal assurance from federal officials that civil immigration enforcement will not take place at any of the eight FIFA World Cup matches scheduled for SoFi Stadium in Inglewood beginning June 12 — a commitment he said he sought out himself after weeks of rumors and reporting that U.S. Immigration and Customs Enforcement agents could be deployed at the games, and one that CourtNews.org has reviewed against the backdrop of simmering labor tensions, geopolitical complications, and a security operation officials are already calling one of the largest in Los Angeles history."
-    },
-    "sections": [
-      {
-        "type": "lead",
-        "content": [
-          "Luna's announcement came at a joint press conference of local, state and federal law enforcement officials gathered to outline public safety preparations for the tournament, which brings 104 matches to 16 cities across the United States, Canada and Mexico between June 11 and July 19. All eight Los Angeles-area fixtures will be played at SoFi Stadium, which will be formally renamed Los Angeles Stadium for the duration of the tournament. The first match — the U.S. national team's group-stage opener against Paraguay — kicks off June 12.",
-          "The sheriff said the assurance came directly from the head of Homeland Security for the Los Angeles region, whom Luna said he called personally after news reports and community speculation about a possible ICE presence began circulating several weeks ago. Federal agents will be present at the venues, Luna confirmed, but in a general security capacity. 'In regard to civil immigration enforcement, they told us that specifically would not be occurring at any of the games,' Luna said from the podium. He added a notable qualifier: 'Any of that is subject to change, but I have trust that they're giving me the appropriate information — because if that starts occurring, we're going to have a whole new host of problems.'"
-        ]
-      },
-      {
-        "type": "twoColumnLayout",
-        "title": "A Pledge Made Under Pressure, With a Caveat Built In",
-        "mainContent": [
-          "The context in which Luna issued that reassurance matters. ICE arrests in the Los Angeles area tripled in the year leading up to the World Cup, and enforcement operations involving masked agents in residential neighborhoods across the county have generated sustained protests and what community advocates describe as widespread fear among immigrant communities who make up a significant portion of the region's working population — including the workers who staff the stadium itself.",
-          "Unite Here Local 11, the union representing workers at SoFi Stadium, has been among the most vocal opponents of any ICE presence at World Cup events. The union announced this week that its members will vote on whether to authorize a strike over the issue. That vote is expected later this week, and the outcome could complicate the tournament's operational readiness at the primary venue with opening day less than two weeks away.",
-          "Kathryn Schloessman, who leads the FIFA World Cup host committee for the Los Angeles region, said previously that ICE agents were not included in the official security plans for SoFi Stadium. Luna's Monday statement brings local law enforcement's public position into alignment with the host committee's — though neither confirmation comes with a legally binding mechanism to prevent a change in federal posture."
-        ],
-        "showMoreRead": true
-      },
-      {
-        "type": "fullWidth",
-        "title": "One of the Largest Security Operations in L.A. History",
-        "content": [
-          "Beyond the immigration question, Monday's press conference sketched the outlines of a security apparatus that officials described as unprecedented in scope for the city and a deliberate dry run for the 2028 Los Angeles Olympics. L.A. County District Attorney Nathan Hochman struck a reassuring tone, telling residents: 'We've got your back. We're going to make sure that we keep streets and the venues of Los Angeles safe for you.'",
-          "The operational footprint spans all eight matches over a 28-day window, with law enforcement from city, county, state and federal agencies coordinating across SoFi Stadium and what officials described as both 'scoped' official events and 'unscoped' surrounding activity — fan zones, watch parties, transit corridors and the informal gatherings that accompany a tournament of this scale. Officials said the security planning serves as a direct precursor to preparations for the 2028 Olympics, making the World Cup as much a rehearsal as an event in its own right.",
-          "The head of FIFA's West Coast Security operation called on fans attending matches to consider themselves an extra layer of awareness, urging them to report suspicious activity and familiarize themselves with the venues and surrounding areas before attending. Officials said fan engagement would be critical at a tournament where the sheer volume of activity makes comprehensive surveillance by law enforcement alone impossible."
-        ],
-        "subsections": [
+      "id": 13,
+      "metaTitle": "ICE Won't Enforce Immigration at LA World Cup Matches",
+      "metaDescription": "LA County Sheriff confirms ICE told him civil immigration enforcement will not occur at any of the eight FIFA World Cup matches at SoFi Stadium.",
+      "slug": "ice-no-enforcement-la-world-cup-2026",
+      "heading": "L.A. Sheriff Says Federal Officials Confirmed ICE Will Not Conduct Immigration Enforcement at Any World Cup Match",
+      "excerpt": "Sheriff Robert Luna went directly to the head of Homeland Security in the L.A. region to get the assurance — but he acknowledged the pledge could change, and stadium workers are still preparing to strike.",
+      "date": "2 June, 2026",
+      "image": "/images/ice-world-cup-la-sofi-stadium-2026.webp",
+      "alt": "Law enforcement officials at a press conference in downtown Los Angeles outlining security plans for the 2026 FIFA World Cup at SoFi Stadium",
+      "heroImage": "/images/ice-world-cup-la-sofi-stadium-2026.webp",
+      "seoKeywords": [
+        "ICE World Cup Los Angeles 2026",
+        "FIFA World Cup immigration enforcement",
+        "SoFi Stadium World Cup security",
+        "Sheriff Luna ICE confirmation",
+        "World Cup 2026 security plans",
+        "ICE enforcement World Cup matches",
+        "Los Angeles World Cup immigration",
+        "Unite Here Local 11 strike World Cup",
+        "Iran World Cup Los Angeles",
+        "World Cup 2026 drone restrictions"
+      ],
+      "alternativeHeadlines": [
+        "Sheriff Luna Got Personal Assurance from Homeland Security: No ICE Enforcement at L.A. World Cup Games",
+        "Federal Officials Tell L.A. Sheriff ICE Will Stand Down on Immigration at FIFA World Cup Venues",
+        "No ICE Enforcement at World Cup, Sheriff Says — But the Pledge Could Change and Workers Are Not Satisfied"
+      ],
+      "body": {
+        "dropcap": {
+          "letter": "L",
+          "text": "os Angeles County Sheriff Robert Luna walked into a downtown press conference Monday morning carrying something rare in the current immigration climate: a personal assurance from federal officials that civil immigration enforcement will not take place at any of the eight FIFA World Cup matches scheduled for SoFi Stadium in Inglewood beginning June 12 — a commitment he said he sought out himself after weeks of rumors and reporting that U.S. Immigration and Customs Enforcement agents could be deployed at the games, and one that CourtNews.org has reviewed against the backdrop of simmering labor tensions, geopolitical complications, and a security operation officials are already calling one of the largest in Los Angeles history."
+        },
+        "sections": [
           {
-            "title": "Drones, Fines, and the FBI's Deliberate Silence on Countermeasures",
-            "text": [
-              "One of the more technically specific elements of Monday's briefing concerned unmanned aerial vehicles. Officials announced that temporary flight restrictions will be in place above and around all World Cup venues in the region, and that drone detection and mitigation teams will be deployed throughout the tournament. The FBI's team lead confirmed on the record that the capability exists to bring unauthorized drones down into safe locations away from crowds — but declined to explain the specific methods that would be used to do so.",
-              "Drone pilots who enter restricted airspace illegally face fines of up to $100,000 and the confiscation of their equipment, officials warned. The announcement reflects a security concern that has become standard at large outdoor events in the years since commercial drone technology became widely accessible, and one that law enforcement agencies have been reluctant to address in detail publicly precisely because countermeasure disclosure can aid those attempting to defeat them."
+            "type": "lead",
+            "content": [
+              "Luna's announcement came at a joint press conference of local, state and federal law enforcement officials gathered to outline public safety preparations for the tournament, which brings 104 matches to 16 cities across the United States, Canada and Mexico between June 11 and July 19. All eight Los Angeles-area fixtures will be played at SoFi Stadium, which will be formally renamed Los Angeles Stadium for the duration of the tournament. The first match — the U.S. national team's group-stage opener against Paraguay — kicks off June 12.",
+              "The sheriff said the assurance came directly from the head of Homeland Security for the Los Angeles region, whom Luna said he called personally after news reports and community speculation about a possible ICE presence began circulating several weeks ago. Federal agents will be present at the venues, Luna confirmed, but in a general security capacity. 'In regard to civil immigration enforcement, they told us that specifically would not be occurring at any of the games,' Luna said from the podium. He added a notable qualifier: 'Any of that is subject to change, but I have trust that they're giving me the appropriate information — because if that starts occurring, we're going to have a whole new host of problems.'"
+            ]
+          },
+          {
+            "type": "twoColumnLayout",
+            "title": "A Pledge Made Under Pressure, With a Caveat Built In",
+            "mainContent": [
+              "The context in which Luna issued that reassurance matters. ICE arrests in the Los Angeles area tripled in the year leading up to the World Cup, and enforcement operations involving masked agents in residential neighborhoods across the county have generated sustained protests and what community advocates describe as widespread fear among immigrant communities who make up a significant portion of the region's working population — including the workers who staff the stadium itself.",
+              "Unite Here Local 11, the union representing workers at SoFi Stadium, has been among the most vocal opponents of any ICE presence at World Cup events. The union announced this week that its members will vote on whether to authorize a strike over the issue. That vote is expected later this week, and the outcome could complicate the tournament's operational readiness at the primary venue with opening day less than two weeks away.",
+              "Kathryn Schloessman, who leads the FIFA World Cup host committee for the Los Angeles region, said previously that ICE agents were not included in the official security plans for SoFi Stadium. Luna's Monday statement brings local law enforcement's public position into alignment with the host committee's — though neither confirmation comes with a legally binding mechanism to prevent a change in federal posture."
             ],
-            "additionalText": [
-              "The FBI's refusal to detail its countermeasures on the record is consistent with how federal agencies have handled this question at previous major events, but it leaves a gap in the public record about the specific technological tools being deployed around venues that will host hundreds of thousands of spectators over the coming weeks."
+            "showMoreRead": true
+          },
+          {
+            "type": "fullWidth",
+            "title": "One of the Largest Security Operations in L.A. History",
+            "content": [
+              "Beyond the immigration question, Monday's press conference sketched the outlines of a security apparatus that officials described as unprecedented in scope for the city and a deliberate dry run for the 2028 Los Angeles Olympics. L.A. County District Attorney Nathan Hochman struck a reassuring tone, telling residents: 'We've got your back. We're going to make sure that we keep streets and the venues of Los Angeles safe for you.'",
+              "The operational footprint spans all eight matches over a 28-day window, with law enforcement from city, county, state and federal agencies coordinating across SoFi Stadium and what officials described as both 'scoped' official events and 'unscoped' surrounding activity — fan zones, watch parties, transit corridors and the informal gatherings that accompany a tournament of this scale. Officials said the security planning serves as a direct precursor to preparations for the 2028 Olympics, making the World Cup as much a rehearsal as an event in its own right.",
+              "The head of FIFA's West Coast Security operation called on fans attending matches to consider themselves an extra layer of awareness, urging them to report suspicious activity and familiarize themselves with the venues and surrounding areas before attending. Officials said fan engagement would be critical at a tournament where the sheer volume of activity makes comprehensive surveillance by law enforcement alone impossible."
+            ],
+            "subsections": [
+              {
+                "title": "Drones, Fines, and the FBI's Deliberate Silence on Countermeasures",
+                "text": [
+                  "One of the more technically specific elements of Monday's briefing concerned unmanned aerial vehicles. Officials announced that temporary flight restrictions will be in place above and around all World Cup venues in the region, and that drone detection and mitigation teams will be deployed throughout the tournament. The FBI's team lead confirmed on the record that the capability exists to bring unauthorized drones down into safe locations away from crowds — but declined to explain the specific methods that would be used to do so.",
+                  "Drone pilots who enter restricted airspace illegally face fines of up to $100,000 and the confiscation of their equipment, officials warned. The announcement reflects a security concern that has become standard at large outdoor events in the years since commercial drone technology became widely accessible, and one that law enforcement agencies have been reluctant to address in detail publicly precisely because countermeasure disclosure can aid those attempting to defeat them."
+                ],
+                "additionalText": [
+                  "The FBI's refusal to detail its countermeasures on the record is consistent with how federal agencies have handled this question at previous major events, but it leaves a gap in the public record about the specific technological tools being deployed around venues that will host hundreds of thousands of spectators over the coming weeks."
+                ]
+              }
+            ]
+          },
+          {
+            "type": "finalSection",
+            "title": "Iran's Matches Add a Layer No Security Briefing Can Fully Address",
+            "intro": [
+              "The security calculus in Los Angeles is further complicated by Iran's presence in the tournament. Iran is scheduled to play its opening Group G match against New Zealand at SoFi Stadium on June 15 — three days after the U.S. team opener — followed by a second group fixture against Belgium at the same venue on June 21. Los Angeles is home to the largest concentration of Iranians living outside Iran, a demographic fact that gives the matches a political and emotional charge unlike any other fixture in the tournament.",
+              "Sheriff Luna addressed the Iran matches directly Monday, acknowledging that the geopolitical environment requires a different operational posture. 'Iran does bring a different dynamic because of the current world events,' Luna said, noting that law enforcement will increase staffing levels for those specific games and will monitor for protests or other activity near the stadium and surrounding fan zones. The U.S. participated in military strikes against Iran earlier this year, and Iran's football federation has publicly expressed uncertainty about whether its national team will travel to the United States at all, citing security concerns that the federation said the U.S. government has not adequately resolved.",
+              "Iranian federation president Mehdi Taj stated that his organization would not send the team to America if the U.S. government could not guarantee their safety — a statement that FIFA has not formally acted on, and that tournament organizers have not addressed at the level of public specificity that the question arguably warrants. As of publication, Iran's participation remains officially confirmed but practically uncertain."
+            ],
+            "conclusion": [
+              "What Monday's press conference established, taken in full, is that the security operation surrounding the Los Angeles World Cup matches is large, multi-agency, and built around contingencies — but that some of the most consequential variables remain unresolved. The ICE assurance Luna described is a verbal commitment, not a policy guarantee, and the sheriff himself acknowledged it is subject to change. The stadium worker strike vote has not yet occurred. And Iran's presence on the schedule introduces a geopolitical dimension that no amount of drone-countermeasure planning can entirely contain.",
+              "For the millions of fans, workers, and residents who will be drawn into the orbit of eight matches across 28 days at one of the country's largest sports venues, those unresolved variables are not abstractions. They are the conditions under which the tournament will actually unfold."
             ]
           }
         ]
-      },
-      {
-        "type": "finalSection",
-        "title": "Iran's Matches Add a Layer No Security Briefing Can Fully Address",
-        "intro": [
-          "The security calculus in Los Angeles is further complicated by Iran's presence in the tournament. Iran is scheduled to play its opening Group G match against New Zealand at SoFi Stadium on June 15 — three days after the U.S. team opener — followed by a second group fixture against Belgium at the same venue on June 21. Los Angeles is home to the largest concentration of Iranians living outside Iran, a demographic fact that gives the matches a political and emotional charge unlike any other fixture in the tournament.",
-          "Sheriff Luna addressed the Iran matches directly Monday, acknowledging that the geopolitical environment requires a different operational posture. 'Iran does bring a different dynamic because of the current world events,' Luna said, noting that law enforcement will increase staffing levels for those specific games and will monitor for protests or other activity near the stadium and surrounding fan zones. The U.S. participated in military strikes against Iran earlier this year, and Iran's football federation has publicly expressed uncertainty about whether its national team will travel to the United States at all, citing security concerns that the federation said the U.S. government has not adequately resolved.",
-          "Iranian federation president Mehdi Taj stated that his organization would not send the team to America if the U.S. government could not guarantee their safety — a statement that FIFA has not formally acted on, and that tournament organizers have not addressed at the level of public specificity that the question arguably warrants. As of publication, Iran's participation remains officially confirmed but practically uncertain."
-        ],
-        "conclusion": [
-          "What Monday's press conference established, taken in full, is that the security operation surrounding the Los Angeles World Cup matches is large, multi-agency, and built around contingencies — but that some of the most consequential variables remain unresolved. The ICE assurance Luna described is a verbal commitment, not a policy guarantee, and the sheriff himself acknowledged it is subject to change. The stadium worker strike vote has not yet occurred. And Iran's presence on the schedule introduces a geopolitical dimension that no amount of drone-countermeasure planning can entirely contain.",
-          "For the millions of fans, workers, and residents who will be drawn into the orbit of eight matches across 28 days at one of the country's largest sports venues, those unresolved variables are not abstractions. They are the conditions under which the tournament will actually unfold."
-        ]
       }
-    ]
-  }
-}
+    }
   ]
   
 
