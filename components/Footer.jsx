@@ -144,24 +144,29 @@ const Footer = () => {
 
   const policyLinks = [
     { label: "About Us", href: "/about-us" },
-    { label: "Advertising Policy", href: "/advertising-policy" },
-    { label: "Corrections Policy", href: "/corrections-policy" },
+    { label: "Our Team", href: "/our-team" },
+    { label: "Terms & Conditions", href: "/terms-and-conditions" },
+    { label: "Privacy Policy", href: "/privacy-policy" },
+    { label: "Legal", href: "/legal" },
     { label: "Editorial Board", href: "/editorial-board" },
-    { label: "Editorial Policy", href: "/editorial-policy" },
-    { label: "Finance Coverage Standards", href: "/finance-coverage-standards" },
+    
     
     
 
   ];
 
   const policyLinks2 = [
-    { label: "Legal", href: "/legal" },
-    { label: "Our Team", href: "/our-team" },
-    { label: "Ownership & Funding", href: "/ownership-and-funding" },
-    { label: "Privacy Policy", href: "/privacy-policy" },
+    
+    
+    { label: "Editorial Policy", href: "/editorial-policy" },
+    { label: "Advertising Policy", href: "/advertising-policy" },
+    { label: "Corrections Policy", href: "/corrections-policy" },
     { label: "Right of Reply Policy", href: "/right-of-reply-policy" },
+    { label: "Ownership & Funding", href: "/ownership-and-funding" },
     { label: "Source Methodology", href: "/source-methodology" },
-    { label: "Terms & Conditions", href: "/terms-and-conditions" },
+    { label: "Finance Coverage Standards", href: "/finance-coverage-standards" },
+
+    
   ];
 
 
