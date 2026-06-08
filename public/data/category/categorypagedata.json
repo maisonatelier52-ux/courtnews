@@ -1570,7 +1570,129 @@
           }
         ]
       }
+    },
+    {
+      "id": 14,
+      "metaTitle": "Operation Spring Cleaning: FBI Nabs 1,100, Seizes 1,000 Guns and 2,700 Pounds of Drugs",
+      "metaDescription": "The Justice Department announced the results of Operation Spring Cleaning, a three-month FBI-led nationwide crackdown that produced over 1,100 arrests, nearly 1,000 illegal firearms seized, and more than 2,700 pounds of narcotics removed from American streets.",
+      "slug": "operation-spring-cleaning-doj-fbi-arrests-drugs-firearms-2026",
+      "heading": "Operation Spring Cleaning: FBI-Led Sweep Nets 1,100 Arrests, Nearly 1,000 Illegal Guns, and 2,700 Pounds of Drugs in Three Months",
+      "excerpt": "The Department of Justice on June 5, 2026, unveiled the full results of Operation Spring Cleaning — a three-month FBI-led crackdown that produced over 1,100 arrests, nearly 1,000 seized illegal firearms, and more than 2,700 pounds of narcotics seized from communities coast to coast.",
+      "date": "05 Jun, 2026",
+      "image": "/images/operation-spring-cleaning-fbi-doj-2026.webp",
+      "alt": "Guns, drugs, and currency seized by FBI Honolulu Field Office displayed during Operation Spring Cleaning results announcement",
+      "heroImage": "/images/operation-spring-cleaning-fbi-doj-2026-hero.webp",
+      "caseInformation": {
+        "countryState": "United States / Nationwide (Multiple Federal Districts)",
+        "caseNumber": "No single overarching case number. Operation Spring Cleaning is a nationwide umbrella initiative encompassing over 600 individual federal indictments and criminal cases filed across multiple U.S. District Courts, including the Districts of Hawaii, Western North Carolina, Western Missouri, Southern Texas, and Western Kentucky, among others.",
+        "status": {
+          "accusation": "Federal prosecutors allege that the more than 1,100 individuals arrested during Operation Spring Cleaning were engaged in gang-related drug trafficking, illegal firearms distribution, and violent criminal enterprises that flooded American communities with narcotics and weapons.",
+          "onTrial": "Ongoing across multiple jurisdictions. Over 600 federal charges have been filed. Individual defendants are at varying stages of arraignment, detention hearings, and pre-trial proceedings in their respective federal district courts.",
+          "currentStatus": "Operation concluded May 31, 2026. Results announced June 5, 2026. Individual cases continue to move through federal courts nationwide. Defense motions, plea negotiations, and trial dates are being set district by district.",
+          "outcome": "Pending. No aggregate conviction outcome exists for the operation as a whole. Each of the 600-plus individual cases will be adjudicated separately. All defendants are presumed innocent unless proven guilty in a court of law."
+        }
+      },
+      "body": {
+        "dropcap": {
+          "letter": "T",
+          "text": "he Justice Department stepped before cameras on June 5, 2026, to announce one of the most sweeping domestic law enforcement operations in recent memory — a three-month FBI-led surge called Operation Spring Cleaning that produced more than 1,100 arrests, nearly 1,000 illegal firearms recovered, and over 2,700 pounds of narcotics seized from communities stretching from Hawaii to North Carolina, and from Missouri to Texas."
+        },
+        "paragraphs": [
+          "The operation ran from March 1 through May 31 and was coordinated across federal, state, and local law enforcement agencies targeting the illegal flow of firearms and narcotics tied to violent street gangs and drug trafficking organizations. In three months, the initiative generated over 600 federal charges and almost 600 executed search warrants — numbers the FBI and DOJ characterized as a landmark in domestic crime enforcement.",
+          "Acting Attorney General Todd Blanche announced the results Thursday, flanked by FBI Director Kash Patel. Blanche framed the operation in terms of family safety, saying when neighborhoods are protected from what he called the scourge of deadly drugs, individuals and families can prosper. He credited the Trump administration's enforcement priorities as central to the results and said removing what he called poison from American streets is a key step toward making America safe again."
+        ],
+        "quote": {
+          "text": "Operation Spring Cleaning represents our total commitment to crushing this kind of violent crime and eliminating the criminal networks who facilitate them. Righteous operations like this show this FBI is only getting started.",
+          "author": "FBI Director Kash Patel"
+        },
+        "sections": [
+          {
+            "type": "imageWithText",
+            "text": [
+              "The drug haul alone exceeded 2,700 pounds across seven categories of narcotics. Cocaine topped the list at more than 1,100 pounds — over 500 kilograms — followed by nearly 700 pounds of methamphetamine, over 550 pounds of marijuana, more than 100 pounds of fentanyl, over 85 pounds of heroin, more than 16 pounds of crack cocaine, and over 13,200 pills of MDMA, also known as ecstasy or molly.",
+              "On the weapons side, investigators recovered almost 1,000 illegal firearms — dozens of them equipped with machine gun conversion devices, commonly called switches, along with more than 75 stand-alone conversion devices. Federal law classifies those accessories as machine guns under the National Firearms Act, and their increasing appearance in gang-related shootings has made them a rising priority for federal prosecutors across multiple districts."
+            ],
+            "image": {
+              "url": "/images/operation-spring-cleaning-fbi-honolulu-seizure.webp",
+              "alt": "FBI Honolulu Field Office displays firearms, narcotics, and cash seized during Operation Spring Cleaning"
+            },
+            "additionalText": [
+              "FBI Honolulu, among the most active field offices in the operation, executed 27 warrants across one large-scale takedown and two additional operations. That resulted in the arrest and indictment of 11 individuals, including 10 alleged members of a drug trafficking organization. Seized materials included approximately 8 kilograms of methamphetamine, 5 kilograms of cocaine, 4 kilograms of miscellaneous controlled substances, 10 firearms, 11 firearm accessories, and $150,000 in U.S. currency."
+            ]
+          },
+          {
+            "type": "twoColumnLayout",
+            "title": "From Hawaii to Missouri: Regional Results Across the Country",
+            "mainContent": [
+              "The Western District of North Carolina announced regional results on June 1, four days before the national rollout. That district's three-month surge produced 56 defendants charged federally, 157 fugitives apprehended, 110 illegal firearms recovered, and over 254 kilograms of drugs seized — one of the heavier regional hauls in the entire operation.",
+              "In the Western District of Missouri, an early wave of the operation in March produced 85 federal indictments charging 101 defendants across Springfield and Joplin, announced in coordination with the DEA's regional office. Houston, Texas, saw targeted raids in the Clinton Park neighborhood, leading to federal court appearances for 10 men facing gun violation charges and accusations of trafficking more than 3,000 methamphetamine pills.",
+              "FBI Louisville engaged in 20 joint operations during the same period, resulting in 29 arrests and 5 distinct criminal indictments filed in the Western District of Kentucky. In Hawaii, FBI Honolulu's work during the operation also followed an earlier separate action that had seized over 40 firearms — including an Uzi submachine gun, short-barreled rifles, and an AR-style pistol — and resulted in the arrest of two brothers.",
+              "Because Operation Spring Cleaning functioned as a national umbrella initiative rather than a single prosecution, there is no one overarching court case number. The more than 600 federal charges are distributed across individual indictments filed in U.S. District Courts throughout the country. Defendants seeking their specific case information can access records through the PACER federal court records system or contact the press offices of the relevant U.S. Attorney's offices."
+            ],
+            "showMoreRead": true
+          },
+          {
+            "type": "fullWidth",
+            "title": "Legal and Political Context: A High-Profile Enforcement Push",
+            "content": [
+              "Operation Spring Cleaning arrives during a period of heightened federal focus on violent crime, firearms trafficking, and the domestic narcotics supply chain. FBI Director Patel has publicly positioned the bureau's 2025–2026 enforcement agenda around what he calls crushing violent criminal networks, and the Spring Cleaning results appear intended to serve as a marquee example of that agenda in action.",
+              "The machine gun conversion device seizures drew particular attention from legal observers. Switches have become increasingly prevalent in gang-related gun violence, and federal prosecutors in multiple jurisdictions have ramped up MCD-related charging decisions in recent months. Under federal law, possessing or transferring an MCD without proper licensing carries severe penalties — and the 75-plus stand-alone devices recovered during the operation signal how aggressively the FBI is now pursuing that enforcement angle.",
+              "U.S. Attorney Ken Sorenson of the District of Hawaii captured the operation's stated mission directly, saying the operation represents a significant step toward dismantling and disrupting drug trafficking and the violent gangs that plague communities. FBI Honolulu Special Agent in Charge David Porter was blunter still: 'We live here. We work here. This is our home, and we refuse to cede our neighborhoods to violent criminals.'"
+            ],
+            "image": {
+              "url": "/images/operation-spring-cleaning-investigators-2026.webp",
+              "alt": "Federal investigators during Operation Spring Cleaning field operations"
+            },
+            "subsections": [
+              {
+                "title": "Operation Spring Cleaning — By the Numbers",
+                "text": [
+                  "Here is where the national operation stood as of the June 5, 2026, announcement."
+                ],
+                "checklist": [
+                  "Operation ran March 1 through May 31, 2026 — 92 days",
+                  "Over 1,100 total arrests nationwide",
+                  "Over 600 federal charges filed across multiple U.S. District Courts",
+                  "Almost 600 search warrants executed",
+                  "Nearly 1,000 illegal firearms seized, including dozens with machine gun conversion devices",
+                  "Over 75 stand-alone machine gun conversion devices (switches) recovered",
+                  "Over 2,700 pounds of narcotics seized total",
+                  "1,100+ pounds of cocaine, 700 pounds of meth, 100+ pounds of fentanyl among drug totals",
+                  "FBI Honolulu: 11 indicted, 27 warrants, $150,000 cash, 10 firearms seized",
+                  "Western NC: 56 federally charged, 157 fugitives apprehended, 254+ kg drugs seized"
+                ],
+                "additionalText": [
+                  "All defendants named in cases arising from Operation Spring Cleaning are presumed innocent unless and until proven guilty in a court of law."
+                ]
+              }
+            ]
+          },
+          {
+            "type": "finalSection",
+            "title": "What Comes Next: 600-Plus Cases Head Into Federal Courts",
+            "intro": [
+              "With the operational phase concluded, the legal phase of Operation Spring Cleaning now begins in earnest. More than 600 federal cases — spread across district courts from Honolulu to Greenville to Springfield — will each move independently through arraignments, pre-trial motions, plea negotiations, and, in some cases, jury trials. The sheer volume of cases ensures the operation will occupy federal prosecutors and public defenders for months, if not years, to come.",
+              "Defense attorneys in several districts have already signaled they will scrutinize the evidence gathered during the nearly 600 executed search warrants, some raising early questions about the scope of surveillance and probable cause standards used to obtain them. Those challenges, if successful in individual cases, could result in suppressed evidence and dismissed charges — a routine part of any large-scale federal enforcement sweep.",
+              "The operation's announced figures — particularly the firearms and fentanyl seizures — carry weight beyond any individual case. Fentanyl, the synthetic opioid responsible for the majority of overdose deaths in the United States in recent years, was seized at a rate of more than 100 pounds across the operation. Law enforcement officials argued Thursday that removal of that quantity from the supply chain has a direct, measurable public safety impact regardless of how individual prosecutions resolve."
+            ],
+            "twoColumnContent": {
+              "left": [
+                "Civil liberties advocates and defense-side legal observers have noted that large-scale federal sweeps of this kind — with arrests in the thousands and charges filed across dozens of jurisdictions simultaneously — carry inherent risks of overcharging, and that the true test of the operation's integrity will come not in the press conference but in the courtroom, case by case, defendant by defendant."
+              ],
+              "rightQuote": {
+                "text": "As reflected in the record number of arrests, seizures, and disruptions across the country, the message sent by Operation Spring Cleaning is deliberate and unequivocal — to the violent gangs operating in our communities: your time is up.",
+                "author": "FBI Honolulu Special Agent in Charge David Porter"
+              }
+            },
+            "conclusion": [
+              "As of June 5, 2026, Operation Spring Cleaning stands as one of the largest coordinated federal law enforcement operations announced in recent years. Whether its legacy is defined by conviction rates and sustained disruption to drug networks — or complicated by legal challenges to the methods used — will be written in federal courtrooms across the country in the months ahead.",
+              "CourtNews will continue to track significant case developments as individual prosecutions move through the federal system. Readers seeking specific case numbers or docket information should visit pacer.gov or contact the U.S. Attorney's office in the relevant district."
+            ]
+          }
+        ]
+      }
     }
+
   ],
 
   "political": [
